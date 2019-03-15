@@ -1,0 +1,117 @@
+{% include head.html %}
+<div class="columns" style="">
+    {% include nav.html %}
+    <div class="column is-6 is-8-tablet is-6-desktop">
+        {% include nav-small.html %}
+        <div class="is-hidden-tablet m-b-2">
+            <img src="/assets/img/profile.png" class="profile">
+            <ul class="is-size-7">
+                <li class="profile-infos"> <span class="has-text-weight-semibold has-text-primary">Dr. Stefan Groth</span></li>
+                <li class="profile-infos">Institut für Sozialanthropologie und Empirische Kulturwissenschaft – Populäre Kulturen</li>
+                <li class="profile-infos">Universität Zürich</li>
+                <li class="profile-infos">Affolternstrasse 56, CH-8050 Zürich</li>
+            </ul>
+            <br />
+            <ul class="is-size-7">
+                <li class="profile-infos"><i class="fas fa-fw fa-phone-volume p-r-2"></i>+41 44 634 92 96</li>
+                <li class="profile-infos"><i class="far fa-fw fa-envelope p-r-2"></i><a class="has-no-link-color" href="mailto:stefan.groth@uzh.ch">E-Mail senden</a></li>
+                <li class="profile-infos"><i class="fa-fw far fa-id-card p-r-2"></i><a href="https://orcid.org/0000-0003-2022-8806" class="has-no-link-color"><abbr title="ORCID is a nonprofit organization helping create a world in which all who participate in research, scholarship and innovation are uniquely identified and connected to their contributions and affiliations, across disciplines, borders, and time.">ORCID:</abbr> 0000-0003-2022-8806</a></li>
+                <li class="profile-infos"><i class="fab fa-fw fa-twitter p-r-2"></i><a href="https://www.twitter.com/stefangroth" class="has-no-link-color">stefangroth</a></li>
+                <li class="profile-infos"><i class="fab fa-fw fa-github p-r-2"></i><a href="https://github.com/sgroth" class="has-no-link-color">sgroth</a></li>
+            </ul>
+        </div>
+        <p class="has-text-grey">
+            <span class="has-text-size-1 has-text-primary has-text-weight-semibold">Dr. Stefan Groth</span> ist Oberassistent am Institut für Sozialanthropologie und Empirische Kulturwissenschaft (ISEK) der Universität Zürich und leitet das Labor Populäre Kulturen. Zurzeit arbeitet er an einem Projekt zu Mitte und Mittelmass als Handlungsorientierung in unterschiedlichen Praxisfeldern. Er hat in Göttingen und Udine Soziologie, Kulturanthropologie / Europäische Ethnologie und Wirtschaft- und Sozialpsychologie studiert. Geforscht und gelehrt hat er in Göttingen als Teil einer interdisziplinären Forschergruppe zu kulturellem Eigentum (2008–2014), als Fellow am Käte Hamburger Kolleg / Centre for Global Cooperation Research (2014–2015) und als Postdoc an der Universität Bonn (2015–2016).</p>
+        <p class="has-text-grey" style="text-indent: 0rem;">Zu seinen Forschungsschwerpunkten gehören normative Dimensionen von Alltagskultur, Methoden der Empirischen Kulturwissenschaft, sprachanalytische Ansätze, politische Anthropologie, Kulturerbe und kulturwissenschaftliche Sportforschung. Sein erstes Buch
+            <a href="/assets/bibliography/Groth_2012aa.html">“Negotiating Tradition: The Pragmatics of International Deliberations on Cultural Property”</a> ist 2012 erschienen und als Open-Access-Version verfügbar.</p>
+        </span>
+  <!--      <div class="columns p-t-2 b-b-1-dotted">
+            <div class="column is-one-fifths is-one-fifths-mobile">
+                <img src="/assets/img/konkurrenz.jpg" class="book">
+            </div>
+            <div class="column is-four-fifths is-four-fifths-mobile is-size-7">
+                <p><b><i class="fas fa-angle-right"></i> Negotiating Tradition, 2012</b><br>
+                    {% reference Groth:2012aa %} {% cite_details Groth:2012aa %}</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+        </div>
+        <div class="columns p-t-1">
+            <div class="column is-one-fifths">
+                <img src="/assets/img/konkurrenz.jpg" class="book">
+            </div>
+            <div class="column is-four-fifths is-size-7">
+                <p><b><i class="fas fa-angle-right"></i> Normative Dimensionen kulturellen Eigentums, 2019</b>
+                    <!--<a download="{{post.entry.key}}.bib" href="data:application/x-bibtex,{{ post.entry.bibtex | uri_escape }}">( <i class="fas fa-angle-down"></i>  BibTeX-Zitation herunterladen )</a><br>
+                    {% reference Groth:2019ar %} {% cite_details Groth:2019ar %}</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.</p>
+            </div>
+        </div>-->
+        <div class="buttons m-t-2 is-hidden-tablet">
+            <a class="button is-small">
+                <span class="icon">
+                    <i class="fas fa-info"></i>
+                </span>
+                <span>Aktuelles:</span>
+            </a> {% for post in site.tags.Aktuelles limit: 20 %}
+            <a class="button is-small is-warning" href="{{ post.url }}">{{ post.aktuelles-title-mobile }}</a> {% endfor %}
+        </div>
+        <div class="notification is-warning acc-warning-container is-hidden-mobile">
+            <p class="title is-7">Aktuelle Ankündigungen</p>
+            {% for post in site.tags.Aktuelles limit: 20 %}
+            <div class="tab">
+                <input id="tab-{{ post.aktuelles-order }}" type="checkbox" name="tabs">
+                <label for="tab-{{ post.aktuelles-order }}">
+                    <span class="has-text-weight-semibold is-hidden-mobile">{{ post.aktuelles-title }}</span>
+                    <span class="has-text-weight-semibold is-size-7 is-hidden-tablet">{{ post.aktuelles-title }}</span>
+                    <span class="is-hidden-touch is-hidden-desktop-only is-hidden-widescreen-only"> &mdash; {{ post.aktuelles-subtitle }}</span><span class="is-hidden-fullhd is-size-7 is-hidden-mobile"> {{ post.aktuelles-subtitle }}</span></label>
+                <div class="tab-content is-size-7">
+                    <p><i class="far fa-calendar-alt p-r-0-5"></i> {{ post.aktuelles-date }} {% if post.aktuelles-location %}<i class="fas fa-map-marker p-r-0-5 p-l-2"></i> {{ post.aktuelles-location }}{% endif %}</p>
+                    <div class="has-text-weight-semibold title is-4">{{ post.title }}</div>
+                    <div class="subtitle is-6">{{ post.subtitle }}</div>
+                    {{ post.aktuelles-description }}
+                    <div class="m-b-2 p-t-1 ">
+                        <span class="buttons">
+                            {% if post.aktuelles-link-1 %}
+                            <a class="button is-warning has-text-weight-semibold is-size-7 has-text-centered" style="border: 1px solid #333" href="{{ post.aktuelles-link-1-url }}"><i class="fas fa-link p-r-0-5"></i> {{ post.aktuelles-link-1 }}</a>
+                            {% endif %}
+                            {% if post.aktuelles-link-2 %}
+                            <a class="button is-warning has-text-weight-semibold is-size-7 has-text-centered" style="border: 1px solid #333" href="{{ post.aktuelles-link-2-url }}"><i class="fas fa-link p-r-0-5"></i> {{ post.aktuelles-link-2 }}</a>
+                            {% endif %}
+                            {% if post.aktuelles-more == true %}
+                            <a class="button is-inverted is-warning has-text-weight-semibold is-size-7 has-text-centered" href="{{ post.url }}">Weiterlesen <i class="fas fa-angle-right p-l-1"></i></a>
+                            {% endif %}
+                        </span>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="is-size-7 is-hidden-tablet b-t-1-dotted p-t-2">
+            {% include currentpubs.html %}
+        </div>
+    </div>
+    <div class="column is-1 is-hidden-mobile"></div>
+    <div class="column is-3 is-hidden-mobile">
+        <img src="/assets/img/profile.png" class="profile">
+        <ul class="is-size-7">
+            <li class="profile-infos"> <span class="has-text-weight-semibold has-text-primary">Dr. Stefan Groth</span></li>
+            <li class="profile-infos">Institut für Sozialanthropologie und Empirische Kulturwissenschaft – Populäre Kulturen</li>
+            <li class="profile-infos">Universität Zürich</li>
+            <li class="profile-infos">Affolternstrasse 56, CH-8050 Zürich</li>
+        </ul>
+        <br />
+        <ul class="is-size-7">
+            <li class="profile-infos"><i class="fas fa-fw fa-phone-volume p-r-2"></i>+41 44 634 92 96</li>
+            <li class="profile-infos"><i class="far fa-fw fa-envelope p-r-2"></i><a class="has-no-link-color" href="mailto:stefan.groth@uzh.ch">E-Mail senden</a></li>
+            <li class="profile-infos"><i class="fa-fw far fa-id-card p-r-2"></i><a href="https://orcid.org/0000-0003-2022-8806" class="has-no-link-color"><abbr title="ORCID is a nonprofit organization helping create a world in which all who participate in research, scholarship and innovation are uniquely identified and connected to their contributions and affiliations, across disciplines, borders, and time.">ORCID:</abbr> 0000-0003-2022-8806</a></li>
+            <li class="profile-infos"><i class="fab fa-fw fa-twitter p-r-2"></i><a href="https://www.twitter.com/stefangroth" class="has-no-link-color">stefangroth</a></li>
+            <li class="profile-infos"><i class="fab fa-fw fa-github p-r-2"></i><a href="https://github.com/sgroth" class="has-no-link-color">sgroth</a></li>
+        </ul>
+    </div>
+</div>
+</div>
+{{ content }}
+{% include footer.html %}

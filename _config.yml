@@ -1,0 +1,150 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Dr. Stefan Groth
+email: info@stefangroth.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Stefan Groth ist Kulturanthropologe und arbeitet an einem Projekt zu Mitte und Mittelmaß. Seine Forschungsschwerpunkte sind: normative Dimensionen von Alltagskultur, sprachanalytische Ansätze, politische Anthropologie, Kulturerbe und kulturwissenschaftliche Sportforschung. Er ist Oberassistent am Institut für Sozialanthropologie und Empirische Kulturwissenschaft (ISEK) der Universität Zürich und leitet das Labor Populäre Kulturen.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.stefangroth.com" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: stefangroth
+github_username:  sgroth
+
+# Build settings
+markdown: kramdown
+
+# Server Config options
+livereload: false     # You no longer need to include --livereload
+incremental: true 
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  footnote_prefix: 'x'
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+  footnote_backlink: "&#x21A9;&#xFE0E;"
+
+# Plugins
+plugins:
+  - jekyll-paginate-v2
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-admin
+  - jemoji
+  - jekyll-pandoc
+  - jekyll-livereload
+  - glynn
+  - jekyll-archives
+  - jekyll_version_plugin
+
+
+# Pagination Settings
+pagination:
+  enabled: true
+  per_page: 20
+  permalink: '/blog/:num/'
+  title: 'Seite :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+
+# Collections
+collections:
+  aktuelles:
+    output: true
+  projekte:
+    output: true
+
+breadcrumbs:
+  root:
+    hide: false  # show breadcrumbs on root/home page
+    image: false # Show image or title text
+
+# jekyll-archives:
+#   enabled:
+#   - categories
+#   layout: archive
+#   permalinks:
+#     category: '/categories/:name/'
+
+# Produces a cleaner folder structure when using categories
+permalink: /blog/:year/:title.html
+
+scholar:
+  style: ./_includes/csl-files/unknown.csl
+  locale: de
+
+  sort_by: year
+  order: descending
+
+# source: ./
+  source: ./_includes/bibliography/
+  bibliography: "*.bib"
+  bibliography_template: "{{reference}}"
+
+  repository: ./assets/repository/
+
+  bibtex_filters:
+    - Latex2
+    - href
+    - latex
+    - Italics
+
+  replace_strings: true
+  join_strings:    true
+  bibtex_quotes : ['"', '"']
+
+  details_dir:    ./assets/bibliography/
+  details_layout: bibtex.html
+  details_link:   " (Details &rarr;)"
+
+  query: "@*"
+
+# YAML Front Matter Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      permalinks: pretty
+
+keep_files: [assets]
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

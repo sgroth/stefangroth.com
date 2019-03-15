@@ -1,0 +1,16 @@
+<div class="column menu is-2 has-text-left is-hidden-touch p-l-2">
+<p class="title is-6 has-text-link "><i class="far fa-angle-right leftdot"></i>&nbsp;Menü</p>
+{% for item in site.data.navigation.main %}
+{% if page.title == item.title %}<div class="has-text-grey-lighter leftdot">&#9679;&nbsp;</div>{% endif %}
+ <span class="title is-6 has-text-weight-normal"><a href="{{ item.url   | relative_url }}" class="{% if page.title == item.title %}{% endif %}">{{ item.title }}</a>
+
+ </span><br/>{% endfor %}
+
+
+{% if page.title == "Publikationen" %}
+<p class="title is-6 has-text-link m-t-2"><i class="far fa-angle-down leftdot"></i>&nbsp;Downloads</p>
+{% for item in site.data.navigation.publikationen %}
+<span class="title is-6 has-text-weight-normal"><a class="" href="{{ item.url   | relative_url }}">{{ item.title }}</a></span><br/>{% endfor %}
+{% endif %}
+
+</div>

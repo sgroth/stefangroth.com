@@ -1,0 +1,107 @@
+# main links
+main:
+  - title: "Startseite"
+    url: "/"
+  - title: "Publikationen"
+    url: "/publikationen/"
+  - title: "CV"
+    url: "/cv/"
+  #- title: "Lehre"
+  #  url: "lehre/"
+  # - title: "Projekte"
+  #  url: "/projekte/"
+  #- title: "Schwerpunkte"
+  #  url: "/schwerpunkte/"
+  #- title: "Kontakt"
+  #  url: "/kontakt/"
+  # - title: "Blog"
+  #   url: "/blog/" 
+  # - title: "About"
+  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
+
+schwerpunkte:
+  - title: Normative Dimensionen der Alltagskultur
+    url: ""
+  - title: Methoden der Europäischen Ethnologie
+    url: ""
+  - title: Sprachanalytische Ansätze
+    url: ""
+  - title: Politische Anthropologie und Organisationsethnographie
+    url: ""
+  - title: Kulturerbe und kulturelles Eigentum
+    url: ""
+  - title: Kulturwissenschaftliche Sportforschung
+    url: ""
+
+publikationen:
+  - title: als PDF
+    url: "https://github.com/sgroth/bibliography/raw/master/pdf/publications.de.pdf"
+    icon: icon-download
+#  - title: als PDF (en)
+#    url: "https://github.com/sgroth/bibliography/raw/master/pdf/publications.en.pdf"
+#    icon: icon-download        
+  - title: auf Github
+    url: "https://github.com/sgroth/bibliography"
+    icon: icon-link
+
+publikationen-quicklinks:
+  - title: Monographien
+    url: "/publikationen/#monographien"    
+  - title: Herausgeberschaften
+    url: "/publikationen/#herausgeberschaften"
+  - title: Sondernummern von Zeitschriften
+    url: "/publikationen/#sondernummern-von-zeitschriften"
+  - title: Peer-Reviewed Papers
+    url: "/publikationen/#peer-reviewed-papers"
+  - title: Zeitschriftenaufsätze
+    url: "/publikationen/#zeitschriftenaufsätze"
+  - title: Aufsätze in Sammelbänden
+    url: "/publikationen/#aufsätze-in-sammelbänden"
+  - title: Miszellen
+    url: "/publikationen/#miszellen-und-graue-literatur"
+  - title: Rezensionen
+    url: "/publikationen/#rezensionen"
+  - title: Vorträge
+    url: "/publikationen/#vorträge"
+#  - title: Eingereichte Beiträge
+#    url: "/publikationen/#eingereichte-beiträge"
+#  - title: Beiträge in Vorbereitung
+#    url: "/publikationen/#beiträge-in-vorbereitung"
+
+cv-quicklinks:
+  - title: Derzeitige Position
+    url: "/cv/#derzeitige-position"
+  - title: Bisherige Tätigkeiten
+    url: "/cv/#bisherige-tätigkeiten"
+  - title: Studium und akademische Abschlüsse
+    url: "/cv/#studium-und-akademische-abschlüsse"
+  - title: Aufenthalte im Ausland
+    url: "/cv/#aufenthalte-im-ausland"
+  - title: Weiterbildungen und Qualifikationen
+    url: "/cv/#weiterbildungen-und-qualifikationen"
+  - title: Forschungsschwerpunkte
+    url: "/cv/#forschungsschwerpunkte"
+  - title: Gremienerfahrung
+    url: "/cv/#gremienerfahrung"
+  - title: Mitgliedschaften
+    url: "/cv/#mitgliedschaften"
+  - title: Gutachtertätigkeiten
+    url: "/cv/#gutachtertätigkeiten"
+  - title: Planung, Organisation und Durchführung von Workshops, Panels, Tagungen
+    url: "/cv/#planung-organisation-und-durchführung-von-workshops-panels-tagungen"
+  - title: Ausstellungen
+    url: "/cv/#ausstellungen"
+
+cv:
+  - title: CV als PDF
+    url: "https://github.com/sgroth/cv-data/raw/master/pdf/cv.web.de.pdf"
+    icon: icon-download
+  - title: CV auf Github
+    url: "https://github.com/sgroth/cv-data/blob/master/cv.web.de.md"
+    icon: icon-link

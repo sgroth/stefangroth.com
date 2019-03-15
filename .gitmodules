@@ -1,0 +1,6 @@
+[submodule "_includes/bibliography"]
+	path = _includes/bibliography
+	url = https://github.com/sgroth/bibliography
+[submodule "_includes/cv"]
+	path = _includes/cv
+	url = https://github.com/sgroth/cv-data

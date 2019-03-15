@@ -1,0 +1,12 @@
+<div class="buttons is-hidden-desktop m-b-2">
+{% for item in site.data.navigation.main %}
+<a class="button {% if page.title != item.title %}is-outlined{% endif %} is-link is-small" href="{{ item.url   | relative_url }}">
+{% if item.title == "Startseite" %}
+<span class="icon">
+  <i class="far fa-bars"></i>
+</span>
+<span>{% endif %}
+{{ item.title }}
+{% if item.title == "Start" %}</span>{% endif %}
+</a>
+{% endfor %}</div>
