@@ -21,4 +21,4 @@ Aus dem Ankündigungstext:
 >   
 > Der Band versammelt Perspektiven aus der Empirischen Kulturwissenschaft und benachbarten Disziplinen, die sich mit gegenwärtigen kollaborativen Prozessen befassen. Im Zentrum steht dabei die Reflexion eigener Arbeitsformen und Erfahrungen.
 
-[^1]: {% reference Groth:2019ae %} {% cite_details Groth:2019ae %}
+[^1]: {% reference Groth2019ae %} {% cite_details Groth2019ae %}

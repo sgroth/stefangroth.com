@@ -1,10 +1,10 @@
 ---
 layout: default
-title:  "Konkurrenz um die Mitte?"
+title: "Konkurrenz um die Mitte?"
 subtitle: "Kompetitive Orientierungen im breitensportlichen Rennradfahren
 "
 author: Stefan Groth
-date: 2019-03-15 06:00:00 +0100
+date: 2019-03-23 15:31:30 +0100
 tags: [Publikationen, Artikel]
 links:
     - title: Verlagsseite
@@ -20,4 +20,4 @@ Im Sammelband ["Auf den Spuren der Konkurrenz. Kultur‐ und sozialwissenschaftl
 > Der Beitrag beleuchtet dafür zunächst einige Aspekte, die mit dieser Orientierung am Mittelmaß einhergehen und diskutiert die Frage, inwieweit hier auch von einem Wettbewerb ums Mittelmaß gesprochen werden kann. Dabei werden in einem ersten Schritt sportspezifische Gradualisierungen von Sieg / Niederlage-Codierungen diskutiert und um eine empirisch-kulturwissenschaftliche Perspektive erweitert, die soziokulturelle Interpretationen und Handlungsmuster berücksichtigt. In einem nächsten Schritt werden Motivpluralisierungen im breitensportlichen Rennradsport zum Thema gemacht, die nicht auf kompetitive Motive beschränkt sind und beispielsweise gesundheitliche oder soziale Funktionen beinhalten. Vor diesem Hintergrund wird der Zusammenhang zwischen expliziten Wettbewerbsformaten und anderen Formen des Sporttreibens sowie der Einfluss von situativen Faktoren und ephemeren Stimuli auf kompetitive Orientierungen in den Blick genommen. Abschließend wird die Konstruktion von Vergleichsdimensionen im Breitensport näher beleuchtet, bei der SportlerInnen sich mit bekannten oder unbekannten Akteuren in Beziehung setzen oder sich in unterschiedlichen Kategorien wie Alters- oder Leistungsklassen verorten. Im Zentrum steht dabei die Frage, inwieweit und wie BreitensportlerInnen nicht nur um die Spitze, sondern auch um ein Mittelmaß konkurrieren.
 {: .abstract}
 
-[^1]: {% reference Groth:2019ak %} {% cite_details Groth:2019ak %}
+[^1]: {% reference Groth2019ak %} {% cite_details Groth2019ak %}

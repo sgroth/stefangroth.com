@@ -35,4 +35,4 @@ Aus dem Klappentext:
 
 > Ordnungen sind in Alltag und Gesellschaft allgegenwärtig. Wie interagieren wir im öffentlichen Raum? Welche Rituale sind in Organisationen ordnend? Wie verschieben sich etwa durch wandernde Wölfe herkömmliche Ordnungskonzepte? Ordnungen treten uns als explizite Regeln und festgeschriebene Gebote ebenso gegenüber wie als subtile Gepflogenheiten und implizite Handlungsmuster. Die empirisch-kulturwissenschaftlichen Beiträge des Bandes zeigen mittels unterschiedlicher analytischer und methodologischer Annäherungen, wie Ordnungen produziert oder transformiert werden, aber auch wo sie sicht- oder unsichtbar sind. 
 
-[^1]: {% reference Groth:2019ac %} {% cite_details Groth:2019ac %}
+[^1]: {% reference Groth2019ac %} {% cite_details Groth2019ac %}

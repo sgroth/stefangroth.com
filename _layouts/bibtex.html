@@ -20,35 +20,30 @@
                 </script>      
 </div>
 
-<p class="title is-3 h3-post"><a href="{{ post.url }}">{{ page.title }}</a></p>
+<p class="title is-3 h3-post "><a class="has-text-primary"href="{{ post.url }}">{{ page.title }}</a></p>
       <p class="subtitle is-5">Detailansicht</p>
 
 <div class="card">
-  <header class="card-header">
-    <span class="card-header-title">Citekey: {{ page.entry.key }}</span><div href="#" class="card-header-icon" aria-label="more options">
-      <span class="icon ">
-        <i class="fas fa-key" aria-hidden="true"></i>
-      </span>
-    </div>
+  <header class="card-header has-background-light">
+    <span class="card-header-title">{{ page.entry.key }}</span>
+    <a href="#" class="card-header-icon has-text-primary" onclick="copyToClipboard('#p1')">
+<span class="p-r-1">Copy to Clipboard</span><span class="icon"><i class="far fa-clipboard"></i> </span></a>
   </header>
   <div class="card-content">
     <div class="content">
-      {% reference page.entry.key %}
+      <p id="p1">{% reference page.entry.key %}</p>
     </div>
-
             {% if page.entry.keywords %}
             <strong>Keywords</strong>
             <p>{{ page.entry.keywords }}</p>
             {% endif %} {% if page.entry.url %}
             <strong>URL</strong>
-            <p>{{ page.entry.url }}</p>
-            {% endif %} {% if page.entry.pdf %}
-            <strong>PDF</strong>
-            <p>{{ page.entry.pdf }}</p>
+            <p><a href="{{ page.entry.url }}">{{ page.entry.url }}</a></p>
             {% endif %} {% if page.entry.note %}
             <strong>Note</strong>
             <p>{{ page.entry.note }}</p>
-            {% endif %} {% if page.entry.abstract %}
+            {% endif %}
+            {% if page.entry.abstract %}
             <strong>Abstract</strong>
             <div class="box has-background-light">{{ page.entry.abstract }}</div>
             {% endif %} {% if page.entry.annote %}
@@ -56,20 +51,23 @@
             <p>{{ page.entry.annote }}</p>
             {% endif %}
 
-
 <strong>BibTeX</strong>
 
-    <div class="box has-background-white-bis has-text-danger is-family-code">
-      <pre class="highlight has-text-link has-background-white-bis">{{ page.entry.bibtex }}</pre>
-    </div>
-
-    <small class="label"><a download="{{page.entry.key}}.bib" href="data:application/x-bibtex,{{ page.entry.bibtex | uri_escape }}">
-<i class="fas fa-download"></i>  Download BibTeX Citation</a></small> 
-
+    
+      <pre ><code class="language-css" style="white-space: pre-wrap;">{{ page.entry.bibtex }}</code></pre>
+  
   </div>
   <footer class="card-footer">
-    <span href="#" class="card-footer-item">{% if page.entry.year %} Jahr:   {{ page.entry.year }}{% endif %}</span>
-    <span href="#" class="card-footer-item">Autor:   {{ page.entry.author }}</span>
+    <span class="card-footer-item">
+<a class="has-text-primary" onclick="copyToClipboard('#p1')">
+<i class="far fa-clipboard icon"></i>Copy to Clipboard</a></span>
+<span class="card-footer-item">
+<a class="has-text-primary" download="{{page.entry.key}}.bib" href="data:application/x-bibtex,{{ page.entry.bibtex | uri_escape }}">
+<i class="fas fa-arrow-down icon"></i>Download BibTeX Citation</a>
+</span>
+{% if page.entry.pdf %}
+<span class="card-footer-item"><a href=" {{ page.entry.pdf | file_url }} " class="has-text-primary"><i class="far fa-file-pdf icon"></i>Download PDF</a></span>
+{% endif %}
   </footer>
 </div>
 
@@ -109,5 +107,14 @@
     });
 })(jQuery);
 </script>
+<script>function copyToClipboard(element) {
+  var $temp = $("<input>");
+  $("body").append($temp);
+  $temp.val($(element).text()).select();
+  document.execCommand("copy");
+  $temp.remove();
+}
+</script>
+
   </body>
 </html>

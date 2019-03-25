@@ -15,4 +15,4 @@ In der aktuellen Ausgabe des [Journals of Ethnology and Folkloristics](http://ww
 
 Ein [PDF des Artikels](http://www.jef.ee/index.php/journal/article/view/272) kann auf den Seiten des JEF heruntergeladen werden.
 
-[^1]: {% reference Groth:2017af %} {% cite_details Groth:2017af %}
+[^1]: {% reference Groth2017af %} {% cite_details Groth2017af %}

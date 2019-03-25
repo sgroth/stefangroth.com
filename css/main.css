@@ -7172,6 +7172,36 @@ abbr {
   font-family: "FontAwesome";
   margin-right: .5em; }
 
+.pdf-l, .copy-l {
+  /*font-family: $family-code;*/
+  color: #8A4D76;
+  font-size: 0.8rem;
+  padding-left: .5em;
+  padding-right: .5em;
+  background-color: white;
+  font-weight: 400;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  border: #8A4D76 1px solid; }
+  .pdf-l:hover, .copy-l:hover {
+    color: white !important;
+    background-color: #8A4D76; }
+
+.copy-l {
+  color: #757763;
+  background-color: white;
+  border: #757763 1px solid; }
+  .copy-l:hover {
+    color: white !important;
+    background-color: #757763; }
+
+/*.pdf-l::before {
+    content: "\f1c1";
+    font-family: "FontAwesome";
+    margin-right: .5em;
+    font-weight: $weight-light;
+}*/
 p {
   margin-bottom: 0.5rem; }
 
@@ -7391,6 +7421,9 @@ a.has-no-link-color {
 
 .m-b-1 {
   margin-bottom: 1rem; }
+
+.m-l-2 {
+  margin-left: 3rem; }
 
 .m-b-2 {
   margin-bottom: 2rem; }

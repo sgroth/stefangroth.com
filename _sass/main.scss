@@ -214,6 +214,44 @@ abbr {
     margin-right: .5em;
 }
 
+.pdf-l {
+    /*font-family: $family-code;*/
+    color: $primary;
+    font-size: $size-7;
+    padding-left: .5em;
+    padding-right: .5em;
+    background-color: $white;
+    font-weight: $weight-normal;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: $primary 1px solid;
+
+    &:hover {
+        color: $white !important;
+        background-color: $primary;
+    }
+}
+
+.copy-l {
+    @extend .pdf-l;
+    color: $grey-dark;
+    background-color: $white;
+    border: $grey-dark 1px solid;
+
+    &:hover {
+        color: $white !important;
+        background-color: $grey-dark;
+    }
+}
+
+/*.pdf-l::before {
+    content: "\f1c1";
+    font-family: "FontAwesome";
+    margin-right: .5em;
+    font-weight: $weight-light;
+}*/
+
 p {
     margin-bottom: 0.5rem;
 }
@@ -483,6 +521,10 @@ a.has-no-link-color {
 
 .m-b-1 {
     margin-bottom: 1rem;
+}
+
+.m-l-2 {
+    margin-left: 3rem;
 }
 
 .m-b-2 {

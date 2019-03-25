@@ -56,7 +56,6 @@ plugins:
   - jekyll-archives
   - jekyll_version_plugin
 
-
 # Pagination Settings
 pagination:
   enabled: true
@@ -99,13 +98,16 @@ scholar:
 # source: ./
   source: ./_includes/bibliography/
   bibliography: "*.bib"
-  bibliography_template: "{{reference}}"
+  bibliography_template: bib
 
   repository: ./assets/repository/
 
+  use_raw_bibtex_entry: true
+  locale: de
+
   bibtex_filters:
     - Latex2
-    - href
+#    - href
     - latex
     - Italics
 

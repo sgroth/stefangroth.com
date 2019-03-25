@@ -36,6 +36,7 @@ group :jekyll_plugins do
    gem 'jekyll_version_plugin'
    gem 'jekyll-algolia'
    gem "rack-protection", "1.5.5"
+
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

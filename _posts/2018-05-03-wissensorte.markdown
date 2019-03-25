@@ -35,4 +35,4 @@ Die Ausstellung ist an der Vernissage sowie Donnerstag bis Freitag ab 13 Uhr und
 * Mittwoch, 18 Uhr, Foodperformance
 * Freitag, 18 Uhr, Beratungsbüro
 
-[^1]: {% reference Groth:2018af %} {% cite_details Groth:2018af %}
+[^1]: {% reference Groth2018af %} {% cite_details Groth2018af %}

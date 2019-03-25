@@ -49,5 +49,5 @@ Eine Special Issue von [Narrative Culture](https://www.wsupress.wayne.edu/journa
 > Political scientists have discovered that most political categories (political authority, democratic legitimacy, identity building) are closely linked with the concept of narrative. We demonstrate the relevance of narrative analysis in politics by analyzing two cases of urban riots (Paris 2005, Baltimore 2015). We propose a micro-oriented perspective that focuses on people’s everyday life experiences and cultural practices of storytelling. The analysis also dissects state narratives, which discredit protests through the language of criminality. Our cases show that sudden violence in urban riots is oftentimes a desperate expression of marginalized voices articulating moral claims of justice, particularly concerning everyday racism.
 {: .abstract}
 
-[^1]: {% reference Groth:2019ab %} {% cite_details Groth:2019ab %}
-[^2]: {% reference Groth:2019aa %} {% cite_details Groth:2019aa %}
+[^1]: {% reference Groth2019ab %} {% cite_details Groth2019ab %}
+[^2]: {% reference Groth2019aa %} {% cite_details Groth2019aa %}
