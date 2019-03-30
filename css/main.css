@@ -5116,7 +5116,7 @@ a.navbar-item,
   .pagination-next:hover,
   .pagination-link:hover {
     border-color: #D0D1CD;
-    color: #363636; }
+    color: #D0D1CD; }
   .pagination-previous:focus,
   .pagination-next:focus,
   .pagination-link:focus {
@@ -5141,8 +5141,8 @@ a.navbar-item,
   white-space: nowrap; }
 
 .pagination-link.is-current {
-  background-color: #FA7C91;
-  border-color: #FA7C91;
+  background-color: #8A4D76;
+  border-color: #8A4D76;
   color: #fff; }
 
 .pagination-ellipsis {
@@ -7063,7 +7063,8 @@ body {
   @media screen and (max-width: 768px) {
     .main {
       padding-right: 1.2rem;
-      padding-left: 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-top: 1.2rem; } }
 
 .header {
   background-color: white;
@@ -7171,6 +7172,22 @@ abbr {
   content: "\f577";
   font-family: "FontAwesome";
   margin-right: .5em; }
+
+@media screen and (max-width: 768px) {
+  .snippet {
+    margin-left: -1.2rem;
+    margin-right: -1.2rem;
+    padding: 0.5rem; } }
+
+.indent-left {
+  text-indent: -2em; }
+  @media screen and (max-width: 768px) {
+    .indent-left {
+      text-indent: 0em;
+      padding-right: 1em; } }
+
+.hbb:hover {
+  color: #7a7a7a !important; }
 
 .pdf-l, .copy-l {
   /*font-family: $family-code;*/
@@ -7440,8 +7457,14 @@ a.has-no-link-color {
 .p-t-1 {
   padding-top: 1em; }
 
+.p-b-1 {
+  padding-bottom: 1em; }
+
 .p-t-2 {
   padding-top: 2em; }
+
+.p-b-2 {
+  padding-bottom: 2em; }
 
 .p-l-1 {
   padding-left: 1em; }
@@ -7464,6 +7487,11 @@ a.has-no-link-color {
 .b-t-1-dotted {
   border-top: 1px dotted #757763; }
 
+.b-t-1-dotted-first {
+  border-top: 1px dotted #757763;
+  margin-bottom: 0rem !important;
+  padding-bottom: .5rem !important; }
+
 .b-b-1-dotted {
   border-bottom: 1px dotted #757763; }
 
@@ -7480,3 +7508,15 @@ a.has-no-link-color {
 a:focus {
   color: #dbdbdb;
   border-bottom: 0px dotted; }
+
+/* Paginator */
+ul.pagination-list {
+  list-style-type: none;
+  list-style-position: outside;
+  margin: 0;
+  padding: 0; }
+
+ul.pagination-list > li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }

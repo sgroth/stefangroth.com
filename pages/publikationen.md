@@ -3,7 +3,6 @@ layout: publikationen
 title: Publikationen
 permalink: /publikationen/
 ---
-
 <h1 class="add-sg">{{ page.title }}</h1>
 
 <div class="buttons m-b-2">{% for item in site.data.navigation.publikationen-quicklinks %}

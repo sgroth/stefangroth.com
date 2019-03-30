@@ -26,8 +26,7 @@ github_username:  sgroth
 markdown: kramdown
 
 # Server Config options
-livereload: false     # You no longer need to include --livereload
-incremental: true 
+incremental: false 
 
 # Markdown Processing
 kramdown:
@@ -59,12 +58,15 @@ plugins:
 # Pagination Settings
 pagination:
   enabled: true
-  per_page: 20
-  permalink: '/blog/:num/'
+  per_page: 5
+  permalink: '/seite/:num/'
   title: 'Seite :num'
   limit: 0
   sort_field: 'date'
   sort_reverse: true
+  trail: 
+    before: 2 # The number of links before the current page
+    after: 2  # The number of links after the current page
 
 # Collections
 collections:
@@ -86,7 +88,7 @@ breadcrumbs:
 #     category: '/categories/:name/'
 
 # Produces a cleaner folder structure when using categories
-permalink: /blog/:year/:title.html
+permalink: /:year/:title.html
 
 scholar:
   style: ./_includes/csl-files/unknown.csl
@@ -107,7 +109,6 @@ scholar:
 
   bibtex_filters:
     - Latex2
-#    - href
     - latex
     - Italics
 
