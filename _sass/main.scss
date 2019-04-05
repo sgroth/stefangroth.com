@@ -43,11 +43,11 @@ $weight-semibold: 500 !default;
 $weight-bold: 700 !default;
 $purple: #8A4D76;
 $pink: #FA7C91;
-$brown: #757763;
+// $brown: #464035;
 $beige-light: #D0D1CD;
 $beige-lighter: #EFF0EB;
 // Update Bulma's global variables
-$grey-dark: $brown;
+$grey-dark: #373D3F;
 $grey-light: $beige-light;
 $primary: $purple;
 $link: $pink;
@@ -201,7 +201,7 @@ abbr {
 .doi {
     @extend .tag;
     font-family: $family-code;
-    color: $brown;
+   // color: $brown;
     font-size: $size-7;
     margin-bottom: -2em;
     padding-bottom: -2em;
@@ -348,8 +348,8 @@ a.taglinks {
 }
 
 blockquote {
-    font-size: $size-6;
-    background-color: $body-background-color !important;
+    font-size: $size-7;
+    background-color: $white-ter !important;
     border: 0 !important;
     padding: 1rem;
     margin-bottom: 0.8rem;

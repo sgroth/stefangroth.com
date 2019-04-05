@@ -8,9 +8,9 @@ permalink: /publikationen/
 <div class="buttons m-b-2">{% for item in site.data.navigation.publikationen-quicklinks %}
 <a class="button is-light is-small" href="{{ item.url   | relative_url }}">{{ item.title }}</a>{% endfor %}</div>
 
-<p class="title is-5 has-text-link" id="beiträge-in-vorbereitung">Beiträge in Vorbereitung <!--({% bibliography_count --query @*[keywords=submitted] %})--></p>
+<p class="title is-5 has-text-link" id="beiträge-in-vorbereitung">Beiträge im Erscheinen und in Vorbereitung <!--({% bibliography_count --query @*[keywords=submitted] %})--></p>
 
-{% bibliography --query @*[keywords ~= notaccepted] %}
+{% bibliography --query @*[keywords~=inpreparation] %}
 
 <!--<p class="title is-5 has-text-link m-t-2" id="beiträge-in-vorbereitung">Beiträge in Vorbereitung({% bibliography_count --query @*[keywords^=inpreparation] %})</p>
 
@@ -18,11 +18,11 @@ permalink: /publikationen/
 
 <p class="title is-5 has-text-link m-t-2" id="monographien">Monografien<!--({% bibliography_count --query @book[keywords!=dev  && keywords!=miszelle && keywords=monography] %})--></p>
 
-{% bibliography --query @book[keywords!=notaccepted  && keywords!=miszelle && keywords=monography] %}
+{% bibliography --query @book[keywords!=notaccepted  && keywords!=miszelle &&  keywords!=inpreparation && keywords=monography] %}
 
 <p class="title is-5 has-text-link m-t-2" id="herausgeberschaften">Herausgeberschaften<!--({% bibliography_count --query @book[keywords!=dev  && keywords!=miszelle && keywords=editedvolume] %})--></p>
 
-{% bibliography --query @*[keywords ^= editedvolume && keywords !~ notaccepted] %}
+{% bibliography --query @*[keywords ^= editedvolume && keywords !~ notaccepted && keywords!~inpreparation] %}
 
 <p class="title is-5 has-text-link m-t-2" id="sondernummern-von-zeitschriften">Sonderausgaben von Zeitschriften<!--({% bibliography_count --query @*[keywords=specialissue] %})--></p>
 
@@ -30,11 +30,11 @@ permalink: /publikationen/
 
 <p class="title is-5 has-text-link m-t-2" id="peer-reviewed-papers">Peer Reviewed Papers<!--({% bibliography_count --query @*[keywords=specialissue] %})-->
 
-{% bibliography --query @article[keywords!~ notaccepted && keywords^=peerreview] %}
+{% bibliography --query @article[keywords!~ notaccepted && keywords^=peerreview && keywords!~inpreparation] %}
 
 <p class="title is-5 has-text-link m-t-2" id="zeitschriftenaufsätze">Zeitschriftenaufsätze<!--({% bibliography_count --query @*[keywords=specialissue] %})-->
 
-{% bibliography --query @article[ keywords!~ peerreview && keywords!~ notaccepted] %}
+{% bibliography --query @article[ keywords!~ peerreview && keywords!~ notaccepted && keywords!~inpreparation] %}
 
 <p class="title is-5 has-text-link m-t-2" id="aufsätze-in-sammelbänden">Aufsätze in Sammelbänden<!--({% bibliography_count --query @*[keywords=specialissue] %})-->
 

@@ -377,7 +377,7 @@ pre {
   font-family: "Roboto Mono"; }
 
 body {
-  color: #757763;
+  color: #373D3F;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5; }
@@ -430,7 +430,7 @@ fieldset {
 pre {
   -webkit-overflow-scrolling: touch;
   background-color: whitesmoke;
-  color: #757763;
+  color: #373D3F;
   font-size: 0.875em;
   overflow-x: auto;
   padding: 1.25rem 1.5rem;
@@ -858,10 +858,10 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   background-color: #363636 !important; }
 
 .has-text-grey-dark {
-  color: #757763 !important; }
+  color: #373D3F !important; }
 
 .has-background-grey-dark {
-  background-color: #757763 !important; }
+  background-color: #373D3F !important; }
 
 .has-text-grey {
   color: #7a7a7a !important; }
@@ -1219,7 +1219,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   background-color: white;
   border-radius: 6px;
   box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
-  color: #757763;
+  color: #373D3F;
   display: block;
   padding: 1.25rem; }
 
@@ -1265,12 +1265,12 @@ a.box:active {
     .button:focus:not(:active), .button.is-focused:not(:active) {
       box-shadow: 0 0 0 0.125em rgba(250, 124, 145, 0.25); }
   .button:active, .button.is-active {
-    border-color: #757763;
+    border-color: #373D3F;
     color: #363636; }
   .button.is-text {
     background-color: transparent;
     border-color: transparent;
-    color: #757763;
+    color: #373D3F;
     text-decoration: underline; }
     .button.is-text:hover, .button.is-text.is-hovered, .button.is-text:focus, .button.is-text.is-focused {
       background-color: whitesmoke;
@@ -2834,7 +2834,7 @@ a.box:active {
 
 .file-cta {
   background-color: whitesmoke;
-  color: #757763; }
+  color: #373D3F; }
 
 .file-name {
   border-color: #dbdbdb;
@@ -3288,11 +3288,11 @@ a.box:active {
   .progress::-webkit-progress-bar {
     background-color: #dbdbdb; }
   .progress::-webkit-progress-value {
-    background-color: #757763; }
+    background-color: #373D3F; }
   .progress::-moz-progress-bar {
-    background-color: #757763; }
+    background-color: #373D3F; }
   .progress::-ms-fill {
-    background-color: #757763;
+    background-color: #373D3F;
     border: none; }
   .progress:indeterminate {
     animation-duration: 1.5s;
@@ -3300,7 +3300,7 @@ a.box:active {
     animation-name: moveIndeterminate;
     animation-timing-function: linear;
     background-color: #dbdbdb;
-    background-image: linear-gradient(to right, #757763 30%, #dbdbdb 30%);
+    background-image: linear-gradient(to right, #373D3F 30%, #dbdbdb 30%);
     background-position: top left;
     background-repeat: no-repeat;
     background-size: 150% 150%; }
@@ -3579,7 +3579,7 @@ a.box:active {
   align-items: center;
   background-color: whitesmoke;
   border-radius: 0px;
-  color: #757763;
+  color: #373D3F;
   display: inline-flex;
   font-size: 0.8rem;
   height: 2em;
@@ -3716,7 +3716,7 @@ a.tag:hover, a.doi:hover {
     font-size: 0.8rem; }
 
 .subtitle {
-  color: #757763;
+  color: #373D3F;
   font-size: 1.25rem;
   font-weight: 400;
   line-height: 1.25; }
@@ -3827,7 +3827,7 @@ a.tag:hover, a.doi:hover {
 .card {
   background-color: white;
   box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
-  color: #757763;
+  color: #373D3F;
   max-width: 100%;
   position: relative; }
 
@@ -3914,7 +3914,7 @@ a.tag:hover, a.doi:hover {
   padding-top: 0.5rem; }
 
 .dropdown-item {
-  color: #757763;
+  color: #373D3F;
   display: block;
   font-size: 0.875rem;
   line-height: 1.5;
@@ -4022,7 +4022,7 @@ button.dropdown-item {
   display: block;
   padding: 0.5em 1em; }
   .list-item:not(a) {
-    color: #757763; }
+    color: #373D3F; }
   .list-item:first-child {
     border-top-left-radius: 4px;
     border-top-right-radius: 4px; }
@@ -4099,7 +4099,7 @@ a.list-item {
   line-height: 1.25; }
   .menu-list a {
     border-radius: 2px;
-    color: #757763;
+    color: #373D3F;
     display: block;
     padding: 0.5em 0.75em; }
     .menu-list a:hover {
@@ -4221,7 +4221,7 @@ a.list-item {
 
 .message-header {
   align-items: center;
-  background-color: #757763;
+  background-color: #373D3F;
   border-radius: 4px 4px 0 0;
   color: #fff;
   display: flex;
@@ -4244,7 +4244,7 @@ a.list-item {
   border-radius: 4px;
   border-style: solid;
   border-width: 0 0 0 4px;
-  color: #757763;
+  color: #373D3F;
   padding: 1.25em 1.5em; }
   .message-body code,
   .message-body pre {
@@ -4781,7 +4781,7 @@ body.has-navbar-fixed-bottom {
   overflow-y: hidden; }
 
 .navbar-burger {
-  color: #757763;
+  color: #373D3F;
   cursor: pointer;
   display: block;
   height: 3.25rem;
@@ -4819,7 +4819,7 @@ body.has-navbar-fixed-bottom {
 
 .navbar-item,
 .navbar-link {
-  color: #757763;
+  color: #373D3F;
   display: block;
   line-height: 1.5;
   padding: 0.5rem 0.75rem;
@@ -5225,11 +5225,11 @@ a.navbar-item,
     margin-bottom: -1px;
     padding: 0.5em; }
     .panel-tabs a.is-active {
-      border-bottom-color: #757763;
+      border-bottom-color: #373D3F;
       color: #363636; }
 
 .panel-list a {
-  color: #757763; }
+  color: #373D3F; }
   .panel-list a:hover {
     color: #FA7C91; }
 
@@ -5288,7 +5288,7 @@ label.panel-block {
     border-bottom-color: #dbdbdb;
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    color: #757763;
+    color: #373D3F;
     display: flex;
     justify-content: center;
     margin-bottom: -1px;
@@ -7052,7 +7052,10 @@ label.panel-block {
       width: 100%; } }
 
 body {
-  font-family: "Roboto"; }
+  font-family: "Roboto";
+  zoom: 1.15;
+  -moz-transform: scale(1.15);
+  -moz-transform-origin: 0 0; }
 
 .footer {
   background-color: #EFF0EB; }
@@ -7102,7 +7105,7 @@ margin-bottom: 1rem !important;
 }*/
 .post-content a {
   border-bottom: 1px dotted #D0D1CD !important;
-  color: #757763 !important;
+  color: #373D3F !important;
   -o-transition: .5s;
   -ms-transition: .5s;
   -moz-transition: .5s;
@@ -7141,7 +7144,7 @@ margin-bottom: 1rem !important;
       max-width: 64px !important; } }
 
 blockquote img {
-  border: 1px #757763 solid !important;
+  border: 1px #373D3F solid !important;
   margin-left: 1.5rem !important;
   margin-top: 0rem !important;
   margin-right: 0rem !important;
@@ -7159,7 +7162,6 @@ abbr {
 
 .doi {
   font-family: "Roboto Mono";
-  color: #757763;
   font-size: 0.8rem;
   margin-bottom: -2em;
   padding-bottom: -2em;
@@ -7206,12 +7208,12 @@ abbr {
     background-color: #8A4D76; }
 
 .copy-l {
-  color: #757763;
+  color: #373D3F;
   background-color: white;
-  border: #757763 1px solid; }
+  border: #373D3F 1px solid; }
   .copy-l:hover {
     color: white !important;
-    background-color: #757763; }
+    background-color: #373D3F; }
 
 /*.pdf-l::before {
     content: "\f1c1";
@@ -7251,7 +7253,7 @@ a.taglinks {
   z-index: 9999;
   display: none;
   opacity: .9;
-  box-shadow: 0px 4px 4px -4px #757763; }
+  box-shadow: 0px 4px 4px -4px #373D3F; }
 
 .navbar-brand {
   background-color: white;
@@ -7277,8 +7279,8 @@ a.taglinks {
   opacity: .8; }
 
 blockquote {
-  font-size: 1rem;
-  background-color: #EFF0EB !important;
+  font-size: 0.8rem;
+  background-color: whitesmoke !important;
   border: 0 !important;
   padding: 1rem;
   margin-bottom: 0.8rem; }
@@ -7351,7 +7353,7 @@ h1.add-sg::before {
   color: #8A4D76 !important; }
 
 .content h3 {
-  color: #757763 !important;
+  color: #373D3F !important;
   font-style: italic; }
 
 .content strong {
@@ -7434,7 +7436,7 @@ input[type=checkbox]:checked + label::after {
   line-height: 1.2rem; }
 
 a.has-no-link-color {
-  color: #757763 !important; }
+  color: #373D3F !important; }
 
 .m-b-1 {
   margin-bottom: 1rem; }
@@ -7485,21 +7487,21 @@ a.has-no-link-color {
   border: 1px solid #999; }
 
 .b-t-1-dotted {
-  border-top: 1px dotted #757763; }
+  border-top: 1px dotted #373D3F; }
 
 .b-t-1-dotted-first {
-  border-top: 1px dotted #757763;
+  border-top: 1px dotted #373D3F;
   margin-bottom: 0rem !important;
   padding-bottom: .5rem !important; }
 
 .b-b-1-dotted {
-  border-bottom: 1px dotted #757763; }
+  border-bottom: 1px dotted #373D3F; }
 
 .b-t-1 {
   border-top: 1px solid #333; }
 
 .menu a {
-  color: #757763;
+  color: #373D3F;
   -webkit-transition: all .35s;
   -o-transition: all .35s;
   transition: all .35s; }

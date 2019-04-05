@@ -17,7 +17,7 @@ pagination:
       <div class="columns has-background-light snippet">
           <div class="column is-3 is-hidden-touch"> </div>
           <div class="column is-9 is-full-touch is-full-tablet p-t-2 p-r-2 p-b-2">
-          <div class="p-b-2"><a href="{{ post.url }}" class="indent-left"><i class="far fa-file-alt has-text-weight-light has-text-black hbb"></i></a><span class="is-size-5 has-text-weight-semibold has-text-black">{{ post.snippet-heading }} </span><span class="is-size-5 has-text-weight-normal has-text-grey-dark">&mdash; {% assign m = post.date | date: "%-m" %}
+          <div class="p-b-2"><a href="{{ post.url }}" class="indent-left"><i class="fas fa-link has-text-weight-light has-text-black hbb"></i></a><span class="is-size-5 has-text-weight-semibold has-text-black">{{ post.snippet-heading }} </span><span class="is-size-5 has-text-weight-normal has-text-grey-dark">&mdash; {% assign m = post.date | date: "%-m" %}
               {{ post.date | date: "%-d." }}
               {% case m %}
               {% when '1' %}Januar
