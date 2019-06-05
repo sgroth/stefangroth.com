@@ -1,14 +1,14 @@
 language: ruby
-rvm:
-  - 2.4.2
+#rvm:
+#  - 2.4.2
 
 install:
   - bundle install
   - gem install jekyll
-  - gem install jekyll-scholar
-  - gem install jekyll-pandoc
-  - gem install jekyll-paginate-v2
-  - gem install jekyll-feed
+#  - gem install jekyll-scholar
+#  - gem install jekyll-pandoc
+#  - gem install jekyll-paginate-v2
+#  - gem install jekyll-feed
 
 branches:
   only:
@@ -18,8 +18,8 @@ cache: bundler
 
 env:
   global:
-    #- JEKYLL_ENV=production
-    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+    - JEKYLL_ENV=production
+    #- NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 
 notifications:
   email:
