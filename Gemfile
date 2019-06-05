@@ -1,4 +1,4 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
@@ -24,17 +24,16 @@ group :jekyll_plugins do
    gem 'glynn'
    gem 'jekyll-paginate-v2'
    gem 'jekyll-sitemap'
-   gem 'jekyll-gist'
+#   gem 'jekyll-gist'
    gem 'jekyll-scholar'
    gem 'html-proofer'
    gem 'jekyll-admin'
-   gem 'jekyll-archives'
-   gem 'jekyll-livereload'
-   gem 'jemoji'
+#   gem 'jekyll-archives'
+#   gem 'jekyll-livereload'
+#   gem 'jemoji'
    gem 'kramdown'
    gem 'jekyll-commonmark'
    gem 'jekyll_version_plugin'
-   gem 'jekyll-algolia'
    gem "rack-protection", "1.5.5"
 
 end
@@ -43,5 +42,5 @@ end
 # gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Performance-booster for watching directories on Windows
-gem "wdm", "~> 0.1.0" if Gem.win_platform?
+# gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
