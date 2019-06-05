@@ -34,7 +34,7 @@ script:
 
 after_success:
   - chmod +x _scripts/deploy.sh
-  - _scripts/deploy.sh
+  - bash ./_scripts/deploy.sh
 
 sudo: false
 addons:
