@@ -1,13 +1,7 @@
 #!/bin/bash
 
-if  [[ $TRAVIS_PULL_REQUEST = "false" ]]
-then
-    ncftp -u "$USERNAME" -p "$PASSWORD" "$HOST"<<EOF
-    rm -rf html/stefangroth.de
-    mkdir html/stefangroth.de
-    quit
-EOF
+sshpass -p "$PWD" ssh "$USERNAME"@"$HOST" rm -rf html/stefangroth.de
 
-    cd _site || exit
-    ncftpput -R -v -u "$USERNAME" -p "$PASSWORD" "$HOST" /html/stefangroth.de .
-fi
+sshpass -p "$PWD" ssh "$USERNAME"@"$HOST" mkdir html/stefangroth.de
+
+sshpass -p "$PWD" scp -v -o User="$USERNAME" -o Port=22 -r _site/* "$HOST":/var/www/web23683373/html/stefangroth.de

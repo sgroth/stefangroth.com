@@ -17,13 +17,6 @@ $primary-invert: $pink-invert;
 */
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i");
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono:400,500&subset=latin-ext");
-@font-face {
-  font-family: "FontAwesome";
-  font-weight: normal;
-  font-display: auto;
-  font-style: normal;
-  src: url("/assets/fa/webfonts/fa-solid-900.woff2") format("woff2"); }
-
 @keyframes spinAround {
   from {
     transform: rotate(0deg); }
@@ -7052,10 +7045,7 @@ label.panel-block {
       width: 100%; } }
 
 body {
-  font-family: "Roboto";
-  zoom: 1.15;
-  -moz-transform: scale(1.15);
-  -moz-transform-origin: 0 0; }
+  font-family: "Roboto"; }
 
 .footer {
   background-color: #EFF0EB; }

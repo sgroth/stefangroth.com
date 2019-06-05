@@ -6,7 +6,7 @@ date: 2018-05-20 10:00:00 +0100
 pagination:
   enabled: true
 ---
-<div class="container is-widescreen main">
+<div class="container main">
   <div class="columns">
     <div class="column is-12 b-t-1-dotted m-t-2 m-b-2"></div>
   </div>
@@ -17,7 +17,7 @@ pagination:
       <div class="columns {% if post.snippet-heading == "Interview" %}has-background-light{% else %}has-background-light{% endif %} snippet">
           <div class="column is-3 is-hidden-touch"> </div>
           <div class="column is-9 is-full-touch is-full-tablet p-t-2 p-r-2 p-b-2">
-          <div class="p-b-2"><a href="{{ post.url }}" class="indent-left"><i class="fas fa-link has-text-weight-light has-text-black hbb"></i></a><span class="is-size-5 has-text-weight-semibold has-text-black">{{ post.snippet-heading }} </span><span class="is-size-5 has-text-weight-normal has-text-grey-dark">&mdash; {% assign m = post.date | date: "%-m" %}
+          <div class="p-b-2"><a href="{{ post.url }}" class="indent-left"><i class="fas fa-angle-right has-text-weight-light has-text-black hbb"></i></a><span class="is-size-5 has-text-weight-semibold has-text-black">{{ post.snippet-heading }} </span><span class="is-size-5 has-text-weight-normal has-text-grey-dark">&mdash; {% assign m = post.date | date: "%-m" %}
               {{ post.date | date: "%-d." }}
               {% case m %}
               {% when '1' %}Januar

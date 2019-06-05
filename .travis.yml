@@ -40,4 +40,4 @@ sudo: false
 addons:
   apt:
     packages:
-      - ncftp
+      - sshpass

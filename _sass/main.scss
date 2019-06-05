@@ -22,14 +22,6 @@ $primary-invert: $pink-invert;
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500&subset=latin-ext');
 
-@font-face {
-    font-family: "FontAwesome";
-    font-weight: normal;
-    font-display: auto;
-    font-style: normal;
-    src: url("/assets/fa/webfonts/fa-solid-900.woff2") format("woff2");
-}
-
 $family-code: 'Roboto Mono';
 $family-monospace: 'Roboto Mono';
 $column-gap: .75rem;

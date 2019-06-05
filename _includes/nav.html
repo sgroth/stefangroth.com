@@ -1,5 +1,5 @@
 <div class="column menu is-2 has-text-left is-hidden-touch p-l-2">
-<p class="title is-6 has-text-link "><i class="far fa-angle-right leftdot"></i>&nbsp;Menü</p>
+<p class="title is-6 has-text-link "><i class="fas fa-angle-right leftdot"></i>&nbsp;Menü</p>
 {% for item in site.data.navigation.main %}
 {% if page.title == item.title %}<div class="has-text-grey-lighter leftdot">&#9679;&nbsp;</div>{% endif %}
  <span class="title is-6 has-text-weight-normal"><a href="{{ item.url   | relative_url }}" class="{% if page.title == item.title %}{% endif %}">{{ item.title }}</a>
