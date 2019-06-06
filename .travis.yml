@@ -33,15 +33,11 @@ script:
   - _scripts/build.sh
 
 deploy:
-  provider: script
-  skip_cleanup: true
+  - provider: script
+    skip_cleanup: true
     script: sshpass -p "$PASSWORD" ssh "$USERNAME"@"$HOST" rm -rf html/stefangroth.de
     on:
       branch: master
-
-# after_success:
-#  - chmod +x _scripts/deploy.sh
-#  - bash ./_scripts/deploy.sh
 
 sudo: false
 addons:
