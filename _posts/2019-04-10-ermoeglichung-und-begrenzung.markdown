@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Neue Publikation: Zwischen Ermöglichung und Begrenzung"
+title:  "Neue Publikation: Zwischen Ermöglichung und Begrenzung"
 subtitle: "Zur subjektiven Plausibilisierung des Mittelmaßes als normative Orientierung"
 author: Stefan Groth
 date: 2019-04-10 08:00 +0100

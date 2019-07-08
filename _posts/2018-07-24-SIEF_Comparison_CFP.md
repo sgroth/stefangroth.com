@@ -13,9 +13,9 @@ aktuelles-link-1-url: https://www.siefhome.org
 aktuelles-link-2: "Vorschlag einreichen"
 aktuelles-link-2-url: https://nomadit.co.uk/sief/sief2019/conferencesuite.php/panels/7109
 aktuelles-more: true
-aktuelles-order: 2
+aktuelles-order: 9
 date: 2018-07-25
-tags: [Aktuelles,Call for Papers]
+tags: [Call for Papers]
 links:
     - title: Vorschlag einreichen
       url: https://nomadit.co.uk/sief/sief2019/conferencesuite.php/panels/7109
