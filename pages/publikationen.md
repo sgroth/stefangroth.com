@@ -8,7 +8,7 @@ permalink: /publikationen/
 <div class="buttons m-b-2">{% for item in site.data.navigation.publikationen-quicklinks %}
 <a class="button is-light is-small" href="{{ item.url   | relative_url }}">{{ item.title }}</a>{% endfor %}</div>
 
-<p class="title is-5 has-text-link" id="beiträge-in-vorbereitung">Beiträge im Erscheinen und in Vorbereitung ({% bibliography_count --query @*[keywords~=inpreparation] %})</p>
+<p class="title is-5 has-text-link" id="beiträge-in-vorbereitung">Eingereichte Beiträge und Beiträge in Arbeit ({% bibliography_count --query @*[keywords~=inpreparation] %})</p>
 
 {% bibliography --query @*[keywords~=inpreparation] %}
 

@@ -517,8 +517,9 @@ label::after {
 }
 
 input[type=checkbox]+label::after {
-    content: "\f107";
-    font-family: "FontAwesome";
+    content: "\f107"; 
+    font-weight: 900;
+    font-family: "Font Awesome\ 5 Free";
 }
 
 input[type=checkbox]:checked+label::after {

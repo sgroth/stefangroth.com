@@ -1,0 +1,33 @@
+I")<h1 class="add-sg">Projekte</h1>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<p><button class="button is-small is-light has-text-weight-semibold">Aktuelle Projekte</button></p>
+
+<h2 id="institutionen"><a href="../">Institutionen</a></h2>
+<p>
+</p>
+
+<h2 id="mitte"><a href=".././projekte/mitte">Mitte</a></h2>
+<p><p>none</p>
+</p>
+
+<h2 id="mittelmaß"><a href="../">Mittelmaß</a></h2>
+<p>
+</p>
+
+<h2 id="rennrad"><a href="../">Rennrad</a></h2>
+<p>
+</p>
+
+<h2 id="sprachanalytische-ansätze"><a href="../">Sprachanalytische Ansätze</a></h2>
+<p>
+</p>
+
+<p><button class="button is-small is-light has-text-weight-semibold">Abgeschlossene Projekte</button></p>
+:ET
