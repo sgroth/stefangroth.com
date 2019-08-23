@@ -25,9 +25,6 @@ github_username:  sgroth
 # Build settings
 markdown: kramdown
 
-# Server Config options
-incremental: false 
-
 # Markdown Processing
 kramdown:
   input: GFM
@@ -78,15 +75,8 @@ breadcrumbs:
     hide: false  # show breadcrumbs on root/home page
     image: false # Show image or title text
 
-# jekyll-archives:
-#   enabled:
-#   - categories
-#   layout: archive
-#   permalinks:
-#     category: '/categories/:name/'
-
 # Produces a cleaner folder structure when using categories
-permalink: /:year/:title.html
+permalink: /:year/:title:output_ext
 
 scholar:
   style: ./_includes/csl-files/unknown.csl
@@ -95,7 +85,6 @@ scholar:
   sort_by: year
   order: descending
 
-# source: ./
   source: ./_includes/bibliography/
   bibliography: "*.bib"
   bibliography_template: bib
@@ -107,6 +96,7 @@ scholar:
 
   bibtex_filters:
     - Latex2
+    - Latex3
     - latex
     - Italics
 
@@ -141,15 +131,3 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/

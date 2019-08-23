@@ -1,6 +1,6 @@
 language: ruby
 rvm:
-  - 2.4.2
+  - 2.6.3
 
 install:
   - bundle install
@@ -19,7 +19,6 @@ cache: bundler
 env:
   global:
     - JEKYLL_ENV=production
-    #- NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 
 notifications:
   email:
@@ -33,15 +32,15 @@ script:
   - _scripts/build.sh
 
 deploy:
-  - provider: script
+  - provider: s3
+    access_key_id: $AWS_ACCESS_KEY_ID
+    secret_access_key: $AWS_SECRET_ACCESS_KEY
+    bucket: "stefangroth.com"
+    region: $AWS_DEFAULT_REGION
     skip_cleanup: true
-    script: sshpass -p "$PASSWORD" ssh "$USERNAME"@"$HOST" rm -rf html/stefangroth.de
+    local_dir: _site
     on:
       branch: master
-
-# after_success:
-#  - chmod +x _scripts/deploy.sh
-#  - bash ./_scripts/deploy.sh
 
 sudo: false
 addons:
