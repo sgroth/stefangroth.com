@@ -90,13 +90,13 @@ scholar:
   bibliography_template: bib
 
   repository: ./assets/repository/
-
-  use_raw_bibtex_entry: true
   locale: de
 
   bibtex_filters:
     - Latex2
     - Latex3
+    - Latex4
+    - Latex5
     - latex
     - Italics
 

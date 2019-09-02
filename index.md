@@ -14,10 +14,10 @@ pagination:
     <div class="column content">
       {% for post in paginator.posts %}
         {% if post.snippet == true %}
-      <div class="columns has-background-light snippet">
+      <div class="columns snippet">
           <div class="column is-3 is-hidden-touch"> </div>
-          <div class="column is-9 is-full-touch is-full-tablet p-t-2 p-r-2 p-b-2">
-          <div class="p-b-2"><a href="{{ post.url }}" class="indent-left"><i class="fas fa-angle-right has-text-black hbb"></i></a><span class="is-size-5 has-text-weight-semibold has-text-black">{{ post.snippet-heading }} </span><span class="is-size-5 has-text-weight-normal has-text-grey-dark">&mdash; {% assign m = post.date | date: "%-m" %}
+          <div class="column is-9 is-full-touch is-full-tablet p-r-2">
+          <div class=""><a href="{{ post.url }}" class="indent-left"><i class="fas fa-angle-right has-text-black hbb"></i></a><span class="is-size-6 has-text-weight-semibold has-text-black">{{ post.snippet-heading }} </span><span class="is-size-6 has-text-weight-normal has-text-grey-dark">&mdash; {% assign m = post.date | date: "%-m" %}
               {{ post.date | date: "%-d." }}
               {% case m %}
               {% when '1' %}Januar
@@ -37,9 +37,10 @@ pagination:
           <span class="is-size-7">{{ post.content }}</span>
         </div>
       </div>
- <div class="columns">
-<div class="column is-12 b-t-1-dotted m-t-1"></div>
-</div>
+<div class="columns" style="">
+                      <div class="column is-12 b-t-1-dotted m-t-2">
+                      </div>
+                    </div>
 {% else %}
         <div class="columns">
           <div class="column is-3 is-hidden-touch"> </div>

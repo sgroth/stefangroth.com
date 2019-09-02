@@ -9,7 +9,7 @@
 // Update the blue shade, used for links
 $blue: #06bcef;
 // Add pink and its invert
-$pink: #ff8080;
+//$pink: #36558F;
 $pink-invert: #fff;
 // Update the sans-serif font family
 $family-sans-serif: "Helvetica", "Arial", sans-serif;
@@ -33,11 +33,12 @@ $weight-normal: 400 !default;
 $weight-medium: 500 !default;
 $weight-semibold: 500 !default;
 $weight-bold: 700 !default;
-$purple: #8A4D76;
-$pink: #FA7C91;
+$purple: #874865;
+$pink: #B75D69;
 // $brown: #464035;
-$beige-light: #D0D1CD;
-$beige-lighter: #EFF0EB;
+$beige-light: #C7D6D5;
+$beige-lighter: #F2F2F2;
+$warning: #FED766;
 // Update Bulma's global variables
 $grey-dark: #373D3F;
 $grey-light: $beige-light;
