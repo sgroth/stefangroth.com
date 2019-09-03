@@ -25,14 +25,13 @@ group :jekyll_plugins do
    gem 'jekyll-paginate-v2'
    gem 'jekyll-sitemap'
    gem 'jekyll-gist'
-   gem 'jekyll-scholar', "6.0.0"
+   gem 'jekyll-scholar'
    gem 'html-proofer'
    gem 'jekyll-archives'
    gem 'jemoji'
    gem 'kramdown'
    gem 'jekyll-commonmark'
    gem 'jekyll_version_plugin'
-   gem "rack-protection", "1.5.5"
 
 end
 

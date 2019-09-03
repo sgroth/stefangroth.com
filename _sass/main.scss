@@ -21,7 +21,6 @@ $primary-invert: $pink-invert;
 // 4. Import the rest of Bulma */
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500&subset=latin-ext');
-
 $family-code: 'Roboto Mono';
 $family-monospace: 'Roboto Mono';
 $column-gap: .75rem;
@@ -33,12 +32,12 @@ $weight-normal: 400 !default;
 $weight-medium: 500 !default;
 $weight-semibold: 500 !default;
 $weight-bold: 700 !default;
-$purple: #874865;
-$pink: #B75D69;
+$purple: #337240;
+$pink: #707d73;
 // $brown: #464035;
-$beige-light: #C7D6D5;
-$beige-lighter: #F2F2F2;
-$warning: #FED766;
+$beige-light: #5E6973;
+$beige-lighter: #DADADA;
+$warning: #d6e2d8;
 // Update Bulma's global variables
 $grey-dark: #373D3F;
 $grey-light: $beige-light;
@@ -51,7 +50,6 @@ $input-shadow: none;
 $pagination-current-background-color: $primary;
 $pagination-current-border-color: $primary;
 $pagination-hover-color: $beige-light;
-
 @import "../node_modules/bulma/sass/utilities/_all.sass";
 @import "../node_modules/bulma/sass/base/_all.sass";
 @import "../node_modules/bulma/sass/elements/_all.sass";
@@ -194,7 +192,7 @@ abbr {
 .doi {
     @extend .tag;
     font-family: $family-code;
-   // color: $brown;
+    // color: $brown;
     font-size: $size-7;
     margin-bottom: -2em;
     padding-bottom: -2em;
@@ -208,7 +206,8 @@ abbr {
 
 .doi::before {
     content: "\f577";
-    font-family: "FontAwesome";
+    font-weight: 900;
+    font-family: "Font Awesome\ 5 Free";
     margin-right: .5em;
 }
 
@@ -222,7 +221,8 @@ abbr {
 
 .indent-left {
     text-indent: -2em;
-        @include mobile {
+
+    @include mobile {
         text-indent: 0em;
         padding-right: 1em;
     }
@@ -264,12 +264,11 @@ abbr {
 }
 
 /*.pdf-l::before {
-    content: "\f1c1";
-    font-family: "FontAwesome";
-    margin-right: .5em;
-    font-weight: $weight-light;
+content: "\f1c1";
+font-family: "FontAwesome";
+margin-right: .5em;
+font-weight: $weight-light;
 }*/
-
 p {
     margin-bottom: 0.5rem;
 }
@@ -518,7 +517,7 @@ label::after {
 }
 
 input[type=checkbox]+label::after {
-    content: "\f107"; 
+    content: "\f107";
     font-weight: 900;
     font-family: "Font Awesome\ 5 Free";
 }
@@ -637,7 +636,7 @@ a:focus {
 ul.pagination-list {
     list-style-type: none;
     list-style-position: outside;
-        margin: 0;
+    margin: 0;
     padding: 0;
 }
 
@@ -646,4 +645,3 @@ ul.pagination-list>li {
     margin: 0;
     padding: 0;
 }
-

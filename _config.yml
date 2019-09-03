@@ -53,14 +53,14 @@ plugins:
 # Pagination Settings
 pagination:
   enabled: true
-  per_page: 5
+  per_page: 8
+  debug: true
   permalink: '/seite/:num/'
   title: 'Seite :num'
   limit: 0
-  sort_field: 'date'
   sort_reverse: true
   trail: 
-    before: 2 # The number of links before the current page
+    before: 1 # The number of links before the current page
     after: 2  # The number of links after the current page
 
 # Collections
@@ -89,7 +89,7 @@ scholar:
   bibliography: "*.bib"
   bibliography_template: bib
 
-  repository: ./assets/repository/
+#  repository: ./assets/repository/
   locale: de
 
   bibtex_filters:
@@ -104,7 +104,7 @@ scholar:
   join_strings:    true
   bibtex_quotes : ['"', '"']
 
-  details_dir:    ./assets/bibliography/
+  details_dir:    ./publications/
   details_layout: bibtex.html
   details_link:   " (Details &rarr;)"
 
@@ -131,3 +131,10 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - assets/fa/sprites
+  - assets/fa/less
+  - assets/fa/metadata
+  - assets/fa/svgs
+  - assets/fa/scss
+  - assets/fa/js
+  - assets/fa/LICENSE.txt

@@ -38,7 +38,7 @@ pagination:
         </div>
       </div>
 <div class="columns" style="">
-                      <div class="column is-12 b-t-1-dotted m-t-2">
+                      <div class="column is-12 b-t-1-dotted">
                       </div>
                     </div>
 {% else %}
@@ -114,10 +114,11 @@ pagination:
   {% else %}
     <a class="pagination-next" disabled>Nächste Seite</a>
   {% endif %}
+
   <ul class="pagination-list">
-    {% if paginator.page_trail %}
-      {% for trail in paginator.page_trail %}
-        <li><a class="pagination-link {% if page.url == trail.path %}is-current{% endif %}" href="{{ trail.path | prepend: site.baseurl }}" title="{{trail.title}}">{{ trail.num }}</a></li>
+    {% if paginator.page_trail %} 
+      {% for trail in paginator.page_trail %} 
+        <li><a class="pagination-link {% if page.url == trail.path %}is-current{% endif %}" href="{{ trail.path }}" title="{{trail.title}}">{{ trail.num }}</a></li>
       {% endfor %}
     {% endif %}</ul>
   </nav>
