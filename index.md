@@ -14,10 +14,10 @@ pagination:
     <div class="column content">
       {% for post in paginator.posts %}
         {% if post.snippet == true %}
-      <div class="columns snippet">
-          <div class="column is-3 is-hidden-touch"> </div>
+      <div class="columns snippet b-b-1-dotted">
+          <div class="column is-3 is-hidden-touch"></div>
           <div class="column is-9 is-full-touch is-full-tablet p-r-2">
-          <div class=""><a href="{{ post.url }}" class="indent-left"><i class="fas fa-angle-right has-text-black hbb"></i></a><span class="is-size-6 has-text-weight-semibold has-text-black">{{ post.snippet-heading }} </span><span class="is-size-6 has-text-weight-normal has-text-grey-dark">&mdash; {% assign m = post.date | date: "%-m" %}
+          <span class="is-size-7 has-text-weight-semibold has-text-black"><a href="{{ post.url }}">{{ post.snippet-heading }} &mdash;</a></span> <span class="is-size-7 has-text-weight-normal has-text-grey-dark">{% assign m = post.date | date: "%-m" %}
               {{ post.date | date: "%-d." }}
               {% case m %}
               {% when '1' %}Januar
@@ -33,14 +33,13 @@ pagination:
               {% when '11' %}November
               {% when '12' %}Dezember
             {% endcase %}
-          {{ post.date | date: "%Y" }}</span></div>
-          <span class="is-size-7">{{ post.content }}</span>
+          {{ post.date | date: "%Y" }}</span><br /><span class="is-size-7">{{ post.content }}</span>
         </div>
       </div>
-<div class="columns" style="">
-                      <div class="column is-12 b-t-1-dotted">
+<!--<div class="columns" style="">
+                      <div class="column is-12">
                       </div>
-                    </div>
+                    </div>-->
 {% else %}
         <div class="columns">
           <div class="column is-3 is-hidden-touch"> </div>
@@ -64,18 +63,12 @@ pagination:
           {{ post.date | date: "%Y" }}</span>
           <p class="title is-3"><a href="{{ post.url }}" class="has-text-primary">{{ post.title }}</a></p>
           <p class="subtitle is-5">{{ post.subtitle }}</p>
-
-
         </div>
       </div>
       <div class="columns">
         <div class="column is-3 is-hidden-touch ">
 <div class="is-size-7 has-text-black">Schlagwörter:<br /><span class="has-text-link">{% for tag in post.tags %}{% if forloop.last == true %}{{ tag }}{% else %}{{ tag }}<br />{% endif %}{% endfor %}</span></div>
 {% if post.links %}<div class="is-size-7 has-text-black"><br />Links:<br />{% for item in post.links %}{% if forloop.last == true %}<a href="{{ item.url }}" class="has-text-primary">{{ item.title }}</a>{% else %}<a href="{{ item.url }}" class="has-text-primary">{{ item.title }}</a><br />{% endif %}{% endfor %}</div>{% endif %}
-
- <!--<p class="book" style="width: 128px">
-                        <img src="/assets/img/ordnungen-book.png">
-                      </p>-->
 
         </div>
                 <div class="column is-9 is-full-touch is-full-tablet content">

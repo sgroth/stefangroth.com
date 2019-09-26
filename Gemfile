@@ -22,7 +22,7 @@ group :jekyll_plugins do
    gem "jekyll-feed"
    gem "jekyll-pandoc"
    gem 'glynn'
-   gem 'jekyll-paginate-v2'
+   gem 'jekyll-paginate-v2', github: 'mmistakes/jekyll-paginate-v2', :branch => 'jekyll-v4'
    gem 'jekyll-sitemap'
    gem 'jekyll-gist'
    gem 'jekyll-scholar'
