@@ -8,7 +8,7 @@ jobs:
     - uses: actions/checkout@master
     - uses: jakejarvis/s3-sync-action@master
       with:
-        args: --acl public-read
+        args: --acl public-read --delete
       env:
         SOURCE_DIR: './_site/'
         AWS_REGION: 'eu-central-1'
