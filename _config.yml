@@ -78,6 +78,11 @@ breadcrumbs:
 # Produces a cleaner folder structure when using categories
 permalink: /:year/:slug:output_ext
 
+slug:
+  encoding: "raw"
+  clean_accents: true
+  sanitize_replacement: "_"
+
 scholar:
   style: ./_includes/csl-files/unknown.csl
   locale: de
