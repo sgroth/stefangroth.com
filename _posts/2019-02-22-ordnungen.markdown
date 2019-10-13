@@ -13,7 +13,7 @@ aktuelles-link-1-url: https://www.verlag-koenigshausen-neumann.de/product_info.p
 aktuelles-link-2: "Inhaltsverzeichnis"
 aktuelles-link-2-url: /assets/pdf/ordnungen-toc.pdf
 aktuelles-more: true
-aktuelles-order: 3
+aktuelles-order: 5
 author: Stefan Groth
 date: 2019-02-22 10:00:00 +0100
 tags: [Aktuelles,Publikationen, Herausgeberschaften]

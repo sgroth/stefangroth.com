@@ -13,7 +13,7 @@ aktuelles-link-1-url: https://www.transcript-verlag.de/978-3-8376-4295-7/zusamme
 aktuelles-link-2: "Leseprobe"
 aktuelles-link-2-url: /assets/pdf/zusammenarbeiten-leseprobe.pdf
 aktuelles-more: true
-aktuelles-order: 1
+aktuelles-order: 3
 author: Stefan Groth
 date: 2019-07-08 08:00:00 +0100
 tags: [Aktuelles, Publikationen, Herausgeberschaften]

@@ -51,6 +51,10 @@ publikationen:
     icon: icon-link
 
 publikationen-quicklinks:
+  - title: Eingereichte Beiträge und Beiträge in Arbeit
+    url: "/publikationen/#beiträge-in-vorbereitung"
+  - title: Zur Publikation angenommene Beiträge und Beiträge im Druck
+    url: "/publikationen/#angenommene-beiträge"
   - title: Monographien
     url: "/publikationen/#monographien"    
   - title: Herausgeberschaften
@@ -69,10 +73,6 @@ publikationen-quicklinks:
     url: "/publikationen/#rezensionen"
   - title: Vorträge
     url: "/publikationen/#vorträge"
-#  - title: Eingereichte Beiträge
-#    url: "/publikationen/#eingereichte-beiträge"
-#  - title: Beiträge in Vorbereitung
-#    url: "/publikationen/#beiträge-in-vorbereitung"
 
 cv-quicklinks:
   - title: Derzeitige Position

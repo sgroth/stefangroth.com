@@ -12,7 +12,7 @@ aktuelles-link-1-url: https://www.wsupress.wayne.edu/journals/detail/narrative-c
 aktuelles-link-2: "Ausgabe auf JSTOR"
 aktuelles-link-2-url: https://www.jstor.org/stable/10.13110/narrcult.6.issue-1
 aktuelles-more: true
-aktuelles-order: 2
+aktuelles-order: 4
 author: Stefan Groth
 date: 2019-03-14 15:00:00 +0100
 tags: [Aktuelles, Publikationen, Peer-Reviewed Papers, Special Issues]
