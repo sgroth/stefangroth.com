@@ -1,0 +1,552 @@
+I"&<h1 class="add-sg">Publikationen</h1>
+
+<div class="tabs">
+  <ul>
+    <li class="is-active" onclick="openTab(event,'category')"><a>Nach Kategorie</a></li>
+    <li onclick="openTab(event,'year')"><a>Nach Jahr</a></li>
+  </ul>
+</div>
+
+<div class="container section">
+    <div id="category" class="content-tab">
+<p class="title is-5 has-text-link" id="beiträge-in-vorbereitung">Eingereichte Beiträge und Beiträge in Arbeit (2)</p>
+
+<ol class="bibliography"><li><span id="Groth2019ar">Groth, Stefan. o. J. <i>Normative Dimensionen kulturellen Eigentums</i>. Bd. 15. Göttingen Studies in Cultural Property. Göttingen: Göttingen University Press. In Vorbereitung (erscheint 12/2019). </span> <a onclick="copyToClipboard('#Groth2019ar')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2019ar.html"> (Details &rarr;)</a></li>
+<li><span id="Groth0000bq">Groth, Stefan. o. J. „Comparison as Reflective and Affective Practice: Orientations Towards the Middle and Everyday Comparisons“. In Vorbereitung (Journal Article). </span> <a onclick="copyToClipboard('#Groth0000bq')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth0000bq.html"> (Details &rarr;)</a></li></ol>
+
+<p class="title is-5 has-text-link m-t-2" id="angenommene-beiträge">Zur Publikation angenommene Beiträge und Beiträge im Druck (7)</p>
+
+<ol class="bibliography"><li><span id="Groth2020ab">Groth, Stefan. 2020. „Kontingente Praxen, Antizipation als Kompetenz“. In <i>Planen, Hoffen, Fürchten: Die Gegenwart der Zukunft im Alltag</i>, herausgegeben von Ruth Eggel, Fabio Freiberg, Andrea Graf, Dagmar Hänel, Victoria Huszka, Ove Sutter, und Kerstin Wolff. Bonner Beiträge zur Alltagskulturforschung. Münster: Waxmann. Zur Publikation angenommen. </span> <a onclick="copyToClipboard('#Groth2020ab')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2020ab.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2019aw">Groth, Stefan. 2019. „Rezension von <i>Andere Urbanitäten: Zur Pluralität des Städtischen</i>, herausgegeben von Brigitta Schmidt-Lauber“. <i>Schweizerisches Archiv für Volkskunde</i>. Zur Publikation angenommen. </span> <a onclick="copyToClipboard('#Groth2019aw')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2019aw.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2019at">Groth, Stefan. o. J. „Prinzipielle Verfügbarkeit und strategische Transparenz: Zur Rolle von Dokumenten aus politischen Prozessen in Forschungsdesigns“. In <i>Forschungsdesign 4.0. Datengenerierung und Wissenstransfer in interdisziplinärer Perspektive</i>, herausgegeben von Martina Schattkowsky und Ira Spieker. Dresden. Im Druck. </span> <a onclick="copyToClipboard('#Groth2019at')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2019at.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2019aq">Groth, Stefan. o. J. „&sbquo;Work-Life-Balance&lsquo;, Entgrenzung und Orientierungen an der Mitte“. In <i>Vernetzt, entgrenzt, prekär? Kulturwissenschaftliche Perspektiven auf Arbeit im Wandel</i>, herausgegeben von Stefan Groth, Sarah May, und Johannes Müske. Bd. 16. Arbeit und Alltag: Beiträge zur ethnografischen Arbeitskulturenforschung. Campus. Im Druck. </span> <a onclick="copyToClipboard('#Groth2019aq')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2019aq.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2019ap">Groth, Stefan, Sarah May, und Johannes Müske. o. J. „Vernetzt, entgrenzt, prekär – Arbeit im Wandel und in gesellschaftlicher Diskussion. Zur Einleitung“. In <i>Vernetzt, entgrenzt, prekär? Kulturwissenschaftliche Perspektiven auf Arbeit im Wandel</i>, herausgegeben von Stefan Groth, Sarah May, und Johannes Müske. Bd. 16. Arbeit und Alltag: Beiträge zur ethnografischen Arbeitskulturenforschung. Campus. Im Druck. </span> <a onclick="copyToClipboard('#Groth2019ap')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2019ap.html"> (Details &rarr;)</a></li>
+<li><span id="Groth0000bs">Groth, Stefan. o. J. „Implicit Ethics: Normative Claims to Culture in Multilateral Negotiations“. <i>Journal of Linguistic Anthropology</i>. Peer Reviewed. Zur Publikation angenommen. </span> <a onclick="copyToClipboard('#Groth0000bs')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth0000bs.html"> (Details &rarr;)</a></li>
+<li><span id="Groth0000br">Groth, Stefan. o. J. „Comparisons as Anticipatory and Relational Practice“. <i>Journal for European Ethnology and Cultural Analysis (JEECA)</i>. Peer Reviewed. Englische Version von &sbquo;Vergleiche als antizipierende und relationale Praxis&lsquo; (2019). Im Druck. </span> <a onclick="copyToClipboard('#Groth0000br')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth0000br.html"> (Details &rarr;)</a></li></ol>
+
+<p class="title is-5 has-text-link m-t-2" id="monographien">Monografien (1)</p>
+
+<ol class="bibliography"><li><span id="Groth2012aa">Groth, Stefan. 2012. <i>Negotiating Tradition: The Pragmatics of International Deliberations on Cultural Property</i>. Bd. 4. Göttingen Studies in Cultural Property. Göttingen: Göttingen University Press. doi:10.4000/books.gup.608. </span> <a onclick="copyToClipboard('#Groth2012aa')" class="copy-l">COPY</a> <a href="https://doi.org/10.4000/books.gup.608" class="pdf-l">PDF</a>
+ 
+<a class="details" href="/publikationen/details/Groth2012aa.html"> (Details &rarr;)</a></li></ol>
+
+<p class="title is-5 has-text-link m-t-2" id="herausgeberschaften">Herausgeberschaften (4)</p>
+
+<ol class="bibliography"><li><span id="Groth2019ac">Groth, Stefan, und Linda Mülli, Hrsg. 2019. <i>Ordnungen in Alltag und Gesellschaft: Empirisch-kulturwissenschaftliche Perspektiven</i>. Würzburg: Königshausen und Neumann. </span> <a onclick="copyToClipboard('#Groth2019ac')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2019ac.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2019ae">Groth, Stefan, und Christian Ritter, Hrsg. 2019. <i>Zusammen arbeiten. Praktiken der Koordination und Kooperation in kollaborativen Prozessen</i>. Kultur und soziale Praxis. Bielefeld: Transcript. </span> <a onclick="copyToClipboard('#Groth2019ae')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2019ae.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2015ai">Groth, Stefan, Regina F. Bendix, und Achim Spiller, Hrsg. 2015. <i>Kultur als Eigentum: Instrumente, Querschnitte und Fallstudien</i>. Bd. 9. Göttinger Studien zu Cultural Property. Göttingen: Göttingen University Press. doi:10.4000/books.gup.528. </span> <a onclick="copyToClipboard('#Groth2015ai')" class="copy-l">COPY</a> <a href="https://books.openedition.org/gup/528" class="pdf-l">PDF</a>
+ 
+<a class="details" href="/publikationen/details/Groth2015ai.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2010ab">Bendix, Regina F., Kilian Bizer, und Stefan Groth, Hrsg. 2010. <i>Die Konstituierung von Cultural Property: Forschungsperspektiven</i>. Bd. 1. Göttingen Studies in Cultural Property. Göttingen: Universitätsverlag Göttingen. doi:10.4000/books.gup.488. Peer reviewed. </span> <a onclick="copyToClipboard('#Groth2010ab')" class="copy-l">COPY</a> <a href="http://doi.org/10.4000/books.gup.488" class="pdf-l">PDF</a>
+ 
+<a class="details" href="/publikationen/details/Groth2010ab.html"> (Details &rarr;)</a></li></ol>
+
+<p class="title is-5 has-text-link m-t-2" id="sondernummern-von-zeitschriften">Sonderausgaben von Zeitschriften (1)</p>
+
+<ol class="bibliography"><li><span id="Groth2019ab">Groth, Stefan, Hrsg. 2019. „Narrative Culture“. Special Issue: Political Narratives / Narrations of the Political. Peer Reviewed. </span> <a onclick="copyToClipboard('#Groth2019ab')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2019ab.html"> (Details &rarr;)</a></li></ol>
+
+<p class="title is-5 has-text-link m-t-2" id="peer-reviewed-papers">Peer Reviewed Papers (9)
+
+<ol class="bibliography"><li><span id="Groth2019aa">Groth, Stefan. 2019. „Political Narratives / Narrations of the Political. An Introduction“. Herausgegeben von Stefan Groth. <i>Narrative Culture</i> 6 (1). Special Issue: Political Narratives / Narrations of the Political: 1–18. doi:10.13110/narrcult.6.1.0001. Peer Reviewed. </span> <a onclick="copyToClipboard('#Groth2019aa')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2019aa.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2019as">Groth, Stefan. 2019. „Vergleiche als antizipierende und relationale Praxis“. <i>Zeitschrift für Volkskunde</i> 115 (2): 238–59. Peer Reviewed. </span> <a onclick="copyToClipboard('#Groth2019as')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2019as.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2019au">Groth, Stefan. 2019. „Optimierung bis zur Mitte. Selbstoptimierung als Konstellation und relationale Subjektivierung“. <i>Österreichische Zeitschrift für Volkskunde</i> 122 (1): 27–54. Peer Reviewed. </span> <a onclick="copyToClipboard('#Groth2019au')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2019au.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2018ab">Groth, Stefan. 2018. „Einfache Formen, komplexe Prozesse. Sprichwörter und Redewendungen in multilateralen Verhandlungen“. Herausgegeben von Silke Meyer. <i>Fabula: Zeitschrift für Erzählforschung</i> 59 (1-2). Special Issue: Narrationsanalyse: 27–49. doi:10.1515/fabula-2018-0003. Peer reviewed. </span> <a onclick="copyToClipboard('#Groth2018ab')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2018ab.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2018ac">Groth, Stefan. 2018. „Entstehungskontext, Materialität und Sprachspezifik. Elemente einer empirisch-kulturwissenschaftlichen Quellenkritik von Dokumenten in politischen Prozessen“. <i>Schweizerisches Archiv für Volkskunde</i> 114 (1): 57–75. https://www.e-periodica.ch/digbib/view?pid=sav-001:2018:114#62. Peer reviewed. </span> <a onclick="copyToClipboard('#Groth2018ac')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2018ac.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2017af">Groth, Stefan, und Yonca Krahn. 2017. „Sensing Athletes: Sensory Dimensions of Recreational Endurance Sports“. <i>Journal of Ethnology and Folkloristics</i> 11 (2): 3–23. doi:10.1515/jef-2017-0011. Peer reviewed. </span> <a onclick="copyToClipboard('#Groth2017af')" class="copy-l">COPY</a> <a href="https://doi.org/10.1515/jef-2017-0011" class="pdf-l">PDF</a>
+ 
+<a class="details" href="/publikationen/details/Groth2017af.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2015ac">Groth, Stefan. 2015. „Common Ground and Missing Links: German Volkskunde and Language“. <i>AJEC: Anthropological Journal of European Cultures</i> 24 (1): 24–41. doi:10.3167/ajec.2015.240103. Peer reviewed. </span> <a onclick="copyToClipboard('#Groth2015ac')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2015ac.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2014aa">Groth, Stefan. 2014. „Quantified Cyclists and Stratified Motives: Explorations into Age-Group Road Cycling as Cultural Performance“. <i>Ethnologia Europaea</i> 44 (1): 38–56. doi:10.16995/ee.1120. Peer reviewed. </span> <a onclick="copyToClipboard('#Groth2014aa')" class="copy-l">COPY</a> <a href="https://ee.openlibhums.org/article/1120/galley/1258/download/" class="pdf-l">PDF</a>
+ 
+<a class="details" href="/publikationen/details/Groth2014aa.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2011aa">Groth, Stefan. 2011. „Perspectives of Differentiation: Negotiating Traditional Knowledge on the International Level“. <i>Journal of Ethnology and Folkloristics</i> 4 (1): 7–24. http://www.jef.ee/index.php/journal/article/view/1. Peer reviewed. </span> <a onclick="copyToClipboard('#Groth2011aa')" class="copy-l">COPY</a> <a href="http://www.jef.ee/index.php/journal/article/view/1/pdf_1" class="pdf-l">PDF</a>
+ 
+<a class="details" href="/publikationen/details/Groth2011aa.html"> (Details &rarr;)</a></li></ol>
+
+<p class="title is-5 has-text-link m-t-2" id="zeitschriftenaufsätze">Zeitschriftenaufsätze (5)
+
+<ol class="bibliography"><li><span id="Groth2019ai">Groth, Stefan, und Johannes Müske. 2019. „Arbeit 4.0? Kulturwissenschaftliche Perspektiven auf Arbeit im Wandel“. <i>AugenBlick. Konstanzer Hefte zur Medienwissenschaft</i> 73: 11–20. </span> <a onclick="copyToClipboard('#Groth2019ai')" class="copy-l">COPY</a> <a href="https://github.com/sgroth/stefangroth.com/raw/master/assets/repository/Groth2019ai.pdf" class="pdf-l">PDF</a>
+ 
+<a class="details" href="/publikationen/details/Groth2019ai.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2016ab">Groth, Stefan. 2016. „EU/Kultur: Zu Flexibilität und Kohärenz des Kulturbegriffes im Rahmen europäischer Kulturpolitik“. <i>Rheinisch-Westfälische Zeitschrift für Volkskunde</i> 61: 227–46. </span> <a onclick="copyToClipboard('#Groth2016ab')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2016ab.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2016ac">Groth, Stefan, und Ove Sutter. 2016. „Kulturelle Repräsentationen von &sbquo;Region&lsquo; in der gouvernementalen und kompetitiven Entwicklung ländlicher Räume“. <i>Rheinisch-Westfälische Zeitschrift für Volkskunde</i> 61: 247–67. </span> <a onclick="copyToClipboard('#Groth2016ac')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2016ac.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2009aa">Groth, Stefan. 2009. „Kulturen im Gespräch: Interview mit Valdimar Hafstein“. <i>Kulturen</i> 2/2009: 40–47. </span> <a onclick="copyToClipboard('#Groth2009aa')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2009aa.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2009ab">Groth, Stefan. 2009. „Tradition und Wert: Die Weltorganisation für Geistiges Eigentum, Cultural Property und die Vorzeitigkeit von Tradition“. <i>Kulturen</i> 2/2009: 33–39. </span> <a onclick="copyToClipboard('#Groth2009ab')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2009ab.html"> (Details &rarr;)</a></li></ol>
+
+<p class="title is-5 has-text-link m-t-2" id="aufsätze-in-sammelbänden">Aufsätze in Sammelbänden (20)
+
+<ol class="bibliography"><li><span id="Groth2019ah">Groth, Stefan. 2019. „Trends als Forschungsthema? Einordnung, Relevanz und Repräsentativität in der europäisch-ethnologischen Themenbegrenzung“. In <i>Wie kann man nur dazu forschen? – Themenpolitik in der Europäischen Ethnologie</i>, herausgegeben von Timo Heimerdinger und Marion Näser-Lather, 149–70. Buchreihe der Österreichischen Zeitschrift für Volkskunde. Wien: Verein für Volkskunde. </span> <a onclick="copyToClipboard('#Groth2019ah')" class="copy-l">COPY</a> <a href="https://www.zora.uzh.ch/id/eprint/162166/1/Groth_2019_Trends_als_Forschungsthema_Themenpolitik.pdf" class="pdf-l">PDF</a>
+ 
+<a class="details" href="/publikationen/details/Groth2019ah.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2019ag">Groth, Stefan. 2019. „Ordnung als Methode und Praxis: Zur Kommunikationsethnografie internationaler Verhandlungen“. In <i>Ordnungen in Alltag und Gesellschaft: Empirisch-kulturwissenschaftliche Perspektiven</i>, herausgegeben von Stefan Groth und Linda Mülli, 297–315. Würzburg: Königshausen und Neumann. </span> <a onclick="copyToClipboard('#Groth2019ag')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2019ag.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2019af">Groth, Stefan, und Christian Ritter. 2019. „Zusammen arbeiten: Modalitäten – Settings – Perspektiven“. In <i>Zusammen arbeiten. Praktiken der Koordination und Kooperation in kollaborativen Prozessen</i>, herausgegeben von Stefan Groth und Christian Ritter, 7–22. Kultur und soziale Praxis. Bielefeld: Transcript. </span> <a onclick="copyToClipboard('#Groth2019af')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2019af.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2019ad">Groth, Stefan. 2019. „Ordnungen in Alltag und Gesellschaft: Konzepte, Methoden und Theorien“. In <i>Ordnungen in Alltag und Gesellschaft: Empirisch-kulturwissenschaftliche Perspektiven</i>, herausgegeben von Stefan Groth und Linda Mülli, 12–36. Würzburg: Königshausen und Neumann. </span> <a onclick="copyToClipboard('#Groth2019ad')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2019ad.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2019ak">Groth, Stefan. 2019. „Wettbewerb ums Mittelmaß? Kompetitive Orientierungen im breitensportlichen Rennradfahren“. In <i>Auf den Spuren der Konkurrenz. Kultur‐ und sozialwissenschaftliche Perspektiven</i>, herausgegeben von Karin Bürkert, Alexander Engel, Timo Heimerdinger, Markus Tauschek, und Tobias Werron, 2:199–219. Freiburger Studien zur Kulturanthropologie. Münster: Waxmann. </span> <a onclick="copyToClipboard('#Groth2019ak')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2019ak.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2019al">Groth, Stefan. 2019. „Zwischen Ermöglichung und Begrenzung: Zur subjektiven Plausibilisierung des Mittelmaßes als normative Orientierung“. In <i>Wirtschaften. Kulturwissenschaftliche Perspektiven</i>, herausgegeben von Karl Braun, Johannes Moser, und Christian Schönholz, 479–87. Marburg: MakuFEE. </span> <a onclick="copyToClipboard('#Groth2019al')" class="copy-l">COPY</a> <a href="https://github.com/sgroth/stefangroth.com/raw/master/assets/repository/Groth2019al.pdf" class="pdf-l">PDF</a>
+ 
+<a class="details" href="/publikationen/details/Groth2019al.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2019am">Groth, Stefan. 2019. „Of Good Averages and Happy Mediums: Orientations towards an Average in Urban Housing“. In <i>The Vulnerable Middle Class? Strategies of Housing in Prospering Cities</i>, herausgegeben von Johannes Moser und Simone Egger, 29:29–48. Münchner ethnographische Schriften. München: utzverlag. </span> <a onclick="copyToClipboard('#Groth2019am')" class="copy-l">COPY</a> <a href="https://github.com/sgroth/stefangroth.com/raw/master/assets/repository/Groth2019am.pdf" class="pdf-l">PDF</a>
+ 
+<a class="details" href="/publikationen/details/Groth2019am.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2018aa">Groth, Stefan. 2018. „&sbquo;Kein sichereres Mittel existirt zur Abwehr von allem Lumpengesindel&lsquo;: Zur Entwicklung von Sicherheits- und Kontrollkonstellationen um 1900“. In <i>Der Alltag der (Un)Sicherheit. Kulturwissenschaftlich-ethnographische Perspektiven auf die Sicherheitsgesellschaft</i>, herausgegeben von Alexandra Schwell und Katharina Eisch-Angus, 36–63. Berlin: Panama Verlag. </span> <a onclick="copyToClipboard('#Groth2018aa')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2018aa.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2017ac">Krahn, Yonca, und Stefan Groth. 2017. „Sport und Sinne: Eine Hinführung“. In <i>Kulturen der Sinne. Zugänge zur Sensualität der sozialen Welt</i>, herausgegeben von Karl Braun, Claus-Marco Dieterich, Thomas Hengartner, und Bernhard Tschofen, 462–67. Würzburg: Königshausen und Neumann. </span> <a onclick="copyToClipboard('#Groth2017ac')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2017ac.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2017ab">Groth, Stefan, und Regina F. Bendix. 2017. „Culture as a Flexible Concept for the Legitimation of Policies in the European Union“. In <i>The Routledge Companion to Cultural Property</i>, herausgegeben von Haidy Geismar und Jane Anderson, 315–38. London: Routledge. Peer Reviewed. </span> <a onclick="copyToClipboard('#Groth2017ab')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2017ab.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2017ad">Groth, Stefan. 2017. „Subjektiver Sinn, objektive Indikatoren? Zum Verhältnis von Wahrnehmung und Vermessung im freizeitsportlichen Rennradsport“. In <i>Kulturen der Sinne. Zugänge zur Sensualität der sozialen Welt</i>, herausgegeben von Karl Braun, Claus-Marco Dieterich, Thomas Hengartner, und Bernhard Tschofen, 481–91. Würzburg: Königshausen und Neumann. </span> <a onclick="copyToClipboard('#Groth2017ad')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2017ad.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2016aa">Groth, Stefan. 2016. „Entextualization as Migration“. In <i>A Multi-Disciplinary Mosaic: Reflections on Global Cooperation and Migration</i>, herausgegeben von Markus Böckenförde, Nadja Krupke, und Philipp Michaelis, 13:24–26. Global Dialogues. Duisburg: Käte Hamburger Kolleg/Centre for Global Cooperation Research. doi:10.14282/2198-0403-GD-13. </span> <a onclick="copyToClipboard('#Groth2016aa')" class="copy-l">COPY</a> <a href="http://www.gcr21.org/fileadmin/website/daten/pdf/Publications/Cooperation_and_Migration_2198-0403-GD-13.pdf" class="pdf-l">PDF</a>
+ 
+<a class="details" href="/publikationen/details/Groth2016aa.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2015ag">Groth, Stefan. 2015. „Situierte Knappheit: Kooperative und normative Dimensionen des Umgangs mit begrenzten Ressourcen“. In <i>Knappheit, Mangel, Überfluss: Kulturwissenschaftliche Positionen zum Umgang mit begrenzten Ressourcen</i>, herausgegeben von Markus Tauschek und Maria Grewe, 57–80. Frankfurt am Main: Campus. </span> <a onclick="copyToClipboard('#Groth2015ag')" class="copy-l">COPY</a> <a href="" class="pdf-l">PDF</a>
+ 
+<a class="details" href="/publikationen/details/Groth2015ag.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2015ah">Groth, Stefan, und Sarah May. 2015. „Von Schutz bis Verwertung: Zielsetzungen und Begründungsmuster von Rechtsinstrumenten im Bereich kulturellen Eigentums“. In <i>Kultur als Eigentum: Instrumente, Querschnitte und Fallstudien</i>, herausgegeben von Stefan Groth, Regina F. Bendix, und Achim Spiller, 99–118. Göttingen Studies in Cultural Property. Göttingen: Göttingen University Press. http://resolver.sub.uni-goettingen.de/purl?isbn-978-3-86395-100-9. </span> <a onclick="copyToClipboard('#Groth2015ah')" class="copy-l">COPY</a> <a href="https://books.openedition.org/gup/541" class="pdf-l">PDF</a>
+ 
+<a class="details" href="/publikationen/details/Groth2015ah.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2015ae">Groth, Stefan, Peter-Tobias Stoll, und Miriam Sanmukri. 2015. „Das zwischenstaatliche Komitee der WIPO zu geistigem Eigentum an traditionellem Wissen, traditionellen kulturellen Ausdrucksformen und genetischen Ressourcen“. In <i>Kultur als Eigentum: Instrumente, Querschnitte und Fallstudien</i>, herausgegeben von Stefan Groth, Regina F. Bendix, und Achim Spiller, 17–29. Göttingen Studies in Cultural Property. Göttingen: Göttingen University Press. http://resolver.sub.uni-goettingen.de/purl?isbn-978-3-86395-100-9. </span> <a onclick="copyToClipboard('#Groth2015ae')" class="copy-l">COPY</a> <a href="https://books.openedition.org/gup/535" class="pdf-l">PDF</a>
+ 
+<a class="details" href="/publikationen/details/Groth2015ae.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2015ab">Groth, Stefan, und Lars Döpking. 2015. „Clustering Justice: Über normative Dimensionen kulturellen Eigentums“. In <i>Kultur als Eigentum: Instrumente, Querschnitte und Fallstudien</i>, herausgegeben von Stefan Groth, Regina F. Bendix, und Achim Spiller, 413–44. Göttingen: Göttingen University Press. http://resolver.sub.uni-goettingen.de/purl?univerlag-isbn-978-3-86395-204-4. </span> <a onclick="copyToClipboard('#Groth2015ab')" class="copy-l">COPY</a> <a href="https://books.openedition.org/gup/556" class="pdf-l">PDF</a>
+ 
+<a class="details" href="/publikationen/details/Groth2015ab.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2015aa">Groth, Stefan. 2015. „Between Society and Culture: Recognition in Cultural Heritage Contexts“. In <i>Between Imagined Communities and Communities of Practice: Participation, Territory and the Making of Heritage</i>, 59–81. Göttingen Studies in Cultural Property. Göttingen: Göttingen University Press. http://resolver.sub.uni-goettingen.de/purl?univerlag-isbn-978-3-86395-205-1. </span> <a onclick="copyToClipboard('#Groth2015aa')" class="copy-l">COPY</a> <a href="https://books.openedition.org/gup/191" class="pdf-l">PDF</a>
+ 
+<a class="details" href="/publikationen/details/Groth2015aa.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2015ad">Groth, Stefan, und Regina F. Bendix. 2015. „Cultural Property: Interdisziplinäre Forschung zu einem dynamischen Feld“. In <i>Kultur als Eigentum: Instrumente, Querschnitte und Fallstudien</i>, herausgegeben von Stefan Groth, Regina F. Bendix, und Achim Spiller, 1–13. Göttingen Studies in Cultural Property. Göttingen: Göttingen University Press. http://resolver.sub.uni-goettingen.de/purl?isbn-978-3-86395-100-9. </span> <a onclick="copyToClipboard('#Groth2015ad')" class="copy-l">COPY</a> <a href="https://books.openedition.org/gup/533" class="pdf-l">PDF</a>
+ 
+<a class="details" href="/publikationen/details/Groth2015ad.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2013aa">Groth, Stefan. 2013. „Allmendgemeinschaften und Cultural Commons in der Diskussion um kulturelles Eigentum“. In <i>Kultur_Kultur. Denken, Forschen, Darstellen. 38. Kongress der Deutschen Gesellschaft für Volkskunde in Tübingen vom 21. bis 24. September 2011</i>, herausgegeben von Reinhard Johler, Christian Marchetti, Bernhard Tschofen, und Carmen Weith, 59–65. Münster: Waxmann. </span> <a onclick="copyToClipboard('#Groth2013aa')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2013aa.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2010aa">Groth, Stefan. 2010. „Perspektiven der Differenzierung: Multiple Ausdeutungen von traditionellem Wissen indigener Gemeinschaften in WIPO-Verhandlungen“. In <i>Die Konstituierung von Cultural Property: Forschungsperspektiven</i>, herausgegeben von Regina F. Bendix, Kilian Bizer, und Stefan Groth, 177–95. Göttingen Studies in Cultural Property. Göttingen: Göttingen University Press. http://resolver.sub.uni-goettingen.de/purl?isbn-978-3-941875-61-6. </span> <a onclick="copyToClipboard('#Groth2010aa')" class="copy-l">COPY</a> <a href="https://books.openedition.org/gup/513" class="pdf-l">PDF</a>
+ 
+<a class="details" href="/publikationen/details/Groth2010aa.html"> (Details &rarr;)</a></li></ol>
+
+<p class="title is-5 has-text-link m-t-2" id="miszellen-und-graue-literatur">Miszellen und graue Literatur (2)</p>
+
+<ol class="bibliography"><li><span id="Groth2018af">Groth, Stefan, Patrick Müller, Anna Suppa, Christian Ritter, Basil Rogger, und Irene Vögeli, Hrsg. 2018. <i>Wissensorte. Ethnografische / künstlerische Erkundungen</i>. Zürich. https://github.com/sgroth/stefangroth.com/raw/master/assets/repository/Groth2018af.pdf. Publikation aus dem Projektseminar Wissensorte – ReVisiting Black Mountain College (Master), HS/FS 2017/2018. Populäre Kulturen, ISEK - Institut für Sozialanthropologie und Empirische Kulturwissenschaft (Kooperationsprojekt mit der Zürcher Hochschule der Künste, ZHdK), Universität Zürich. </span> <a onclick="copyToClipboard('#Groth2018af')" class="copy-l">COPY</a> <a href="https://github.com/sgroth/stefangroth.com/raw/master/assets/repository/Groth2018af.pdf" class="pdf-l">PDF</a>
+ 
+<a class="details" href="/publikationen/details/Groth2018af.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2009aa">Groth, Stefan. 2009. „Kulturen im Gespräch: Interview mit Valdimar Hafstein“. <i>Kulturen</i> 2/2009: 40–47. </span> <a onclick="copyToClipboard('#Groth2009aa')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2009aa.html"> (Details &rarr;)</a></li></ol>
+
+<p class="title is-5 has-text-link m-t-2" id="rezensionen">Rezensionen (10)</p>
+
+<ol class="bibliography"><li><span id="Groth2019aj">Groth, Stefan. 2019. „Rezension von <i>&sbquo;Schließlich sitzen wir alle im selben Boot&lsquo;: Helmut Schmidts politische Sprichwortrhetorik</i> von A. Nolte und W. Mieder“. <i>Fabula: Zeitschrift für Erzählforschung</i>. doi:10.1515/fabula-2019-0013. </span> <a onclick="copyToClipboard('#Groth2019aj')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2019aj.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2019an">Groth, Stefan. 2019. „Rezension von <i>Unterrichten als Beruf. Akteure, Praxen und Ordnungen in der Schulbildung</i> von L. Franken“. <i>Bayerisches Jahrbuch für Volkskunde</i>. http://kbl.badw.de/kbl-digital/rezensionsportal/aktuelle-rezensionen/ansicht/detail/4861.html. </span> <a onclick="copyToClipboard('#Groth2019an')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2019an.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2018ad">Groth, Stefan. 2018. „Rezension von <i>Die Not der Anderen. Kulturwissenschaftliche Perspektiven auf Aushandlungen globaler Armut am Beispiel des Fairen Handels</i> von L. Winterberg“. <i>Rheinisch-Westfälische Zeitschrift für Volkskunde</i>. </span> <a onclick="copyToClipboard('#Groth2018ad')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2018ad.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2017ae">Groth, Stefan. 2017. „Rezension von <i>Humble Theory. Folklore’s Grasp on Social Life</i> von D. Noyes“. <i>Schweizerisches Archiv für Volkskunde</i>. </span> <a onclick="copyToClipboard('#Groth2017ae')" class="copy-l">COPY</a> <a href="https://www.e-periodica.ch/cntmng?pid=sav-001:2017:113::326" class="pdf-l">PDF</a>
+ 
+<a class="details" href="/publikationen/details/Groth2017ae.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2017aa">Groth, Stefan. 2017. „Rezension von <i>UNESCO on the Ground: Local Perspectives on Intangible Cultural Heritage</i>, herausgegeben von M. D. Foster, L. Gilman“. <i>Journal of American Folklore</i>. </span> <a onclick="copyToClipboard('#Groth2017aa')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2017aa.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2016ad">Groth, Stefan. 2016. „Rezension von <i>Fair Trade: Eine global-lokale Geschichte am Beispiel des Kaffees</i> von R. Quaas“. <i>Rheinisch-Westfälische Zeitschrift für Volkskunde</i>. </span> <a onclick="copyToClipboard('#Groth2016ad')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2016ad.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2015af">Groth, Stefan. 2015. „Rezension von <i>Reiseziel: immaterielles Kulturerbe. Ein interdisziplinärer Dialog</i>, herausgegeben von M.-A. Camp, S. Eggmann, B. Taufer“. <i>H-Soz-Kult</i>. http://www.hsozkult.de/publicationreview/id/rezbuecher-24131. </span> <a onclick="copyToClipboard('#Groth2015af')" class="copy-l">COPY</a> <a href="http://hsozkult.geschichte.hu-berlin.de/index.asp?id=24131&amp;view=pdf&amp;pn=rezensionen&amp;type=rezbuecher" class="pdf-l">PDF</a>
+ 
+<a class="details" href="/publikationen/details/Groth2015af.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2014ab">Groth, Stefan. 2014. „Rezension von <i>Treasured Possessions: Indigenous Interventions into Cultural and Intellectual Property</i> von H. Geismar“. <i>Journal of Folklore Research Reviews</i>. http://www.indiana.edu/%7Ejfr/review.php?id=1559. </span> <a onclick="copyToClipboard('#Groth2014ab')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2014ab.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2012ab">Groth, Stefan, und Arnika Peselmann. 2012. „Rezension von <i>Erb.gut? Kulturelles Erbe zwischen Wissenschaft und Gesellschaft</i>, herausgegeben von K. C. Berger, M. Schindler, I. Schneider“. <i>Österreichische Zeitschrift für Volkskunde</i>. </span> <a onclick="copyToClipboard('#Groth2012ab')" class="copy-l">COPY</a> <a href="https://www.volkskundemuseum.at/jart/prj3/volkskundemuseum/data/publikation/1524345943305/1524345943305.pdf" class="pdf-l">PDF</a>
+ 
+<a class="details" href="/publikationen/details/Groth2012ab.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2011ab">Groth, Stefan. 2011. „Rezension von <i>The Anthropology of Moralities</i>, herausgegeben von M. Heintz“. <i>Kulturen</i>. </span> <a onclick="copyToClipboard('#Groth2011ab')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2011ab.html"> (Details &rarr;)</a></li></ol>
+
+<p class="title is-4 has-text-link m-t-2" id="vorträge">Vorträge</p>
+
+<h2 id="2019">2019</h2>
+<ul>
+  <li>“Durchschnitt als Trend: Orientierungen am Mittelmaß im Wohnen”. Tagung: Wohnen jenseits der Normen. Historische und aktuelle Perspektiven, Marburg (4/2019).</li>
+  <li>“Comparison as Reflective and Affective Practice: Orientations Towards the Middle and Everyday Comparisons”. SIEF-Kongress, Santiago de Compostela (4/2019).</li>
+  <li>“Akteure, Praktiken, Atmosphären: Elemente einer regionalen Konstellationsanalyse”. Bewerbungsvortrag auf die W3-Professur für Kulturanthropologie und Europäische Ethnologie mit Schwerpunkt in regionaler Kulturanalyse, Universität Freiburg, Freiburg (2/2019).</li>
+</ul>
+
+<h2 id="2018">2018</h2>
+<ul>
+  <li>“Vergleich als Wissen / Wissensproduktion im Vergleich”. Podiumsdiskussion Wissensalltag / Alltagswissen. Orte, Medien und Praktiken. Perspektiven aus Anthropologie und Kulturwissenschaft im Rahmen des Science Festivals 100 Ways of Thinking, Kunsthalle Zürich, Zürich (10/2018).</li>
+  <li>“Antizipierender Vergleich. Zur zeitlichen Dimensionierung von Vergleichen am Beispiel von Handlungsorientierungen am Mittelmaß”. DGV-Hochschultagung Planen – Hoffen – Befürchten: Zukunft als Gegenstand und Herausforderung der Alltagskulturforschung, Bonn (09/2018).</li>
+  <li>mit Sarah May, Johannes Müske, “Vernetzt, entgrenzt, prekär? Arbeit im Wandel und in gesellschaftlicher Diskussion. Eine Einführung”. Arbeitstagung der dgv-Kommission Arbeitskulturen, Zürich (09/2018).</li>
+  <li>“Wissen, Ort, Vergleich. Praktiken des Wissens als Komparativ und Verortung”. Institut für Kulturanthropologie / Europäische Ethnologie, Universität Göttingen, Göttingen (6/2018).</li>
+  <li>“Schlusskommentar”. Workshop des DFG-Projekts Partizipative Entwicklung ländlicher Regionen: Ländliche Alltagskulturen regieren. Perspektiven der Kulturanalyse politischer Prozesse in ländlichen Regionen, Bonn (6/2018).</li>
+  <li>“Optimierung bis zum Mittelmaß? Sozialkomparative Orientierungen an der Mitte aus alltagskultureller Perspektive”. FRIAS Workshop Selbstoptimierung, Freiburg (6/2018).</li>
+  <li>“Narratologisches Doppel: Text und Kontext in Online-Archiven und Interaktionssituationen”. Forschungsdesign 4.0. Datengenerierung und Wissenstransfer in interdisziplinärer Perspektive, Dresden (4/2018).</li>
+  <li>“Angemessen, maßvoll, ausreichend: Handlungsorientierungen an der „Mitte“ und ihre alltagskulturellen Dimensionen”. Institut für Europäische Ethnologie, Universität Wien, Wien (1/2018).</li>
+</ul>
+
+<h2 id="2017">2017</h2>
+<ul>
+  <li>“Makro-Trends als Forschungsthema? Europäisch-ethnologische Themenbegrenzung am Beispiel der «Mitte»”. Tagung „Wie kann man nur dazu forschen?“ Themenpolitik in der Europäischen Ethnologie, Innsbruck (11/2017).</li>
+  <li>mit Christian Ritter, “Zusammenarbeit(en). Praktiken der Koordination, Kooperation und Repräsentation in kollaborativen Prozessen. Eine Einführung”. Workshop Zusammenarbeit(en). Praktiken der Koordination, Kooperation und Repräsentation in kollaborativen Prozessen, Zürich (10/2017).</li>
+  <li>“Zwischen Ermöglichung und Begrenzung: Zur subjektiven Plausibilisierung des Mittelmaßes als normative Orientierung”. Kongress der Deutschen Gesellschaft für Volkskunde (DGV), Marburg (09/2017).</li>
+  <li>“Institution und Alltag: Kulturanalytische Zugänge zur Alltäglichkeit von Institutionen”. Institut für Sozialanthropologie und Empirische Kulturwissenschaft, Universität Zürich, Zürich (4/2017).</li>
+  <li>“Of “Good Averages” and “Happy Mediums”: Normative Orientations towards an “Average” in Urban Housing”. SIEF-Kongress, Göttingen (3/2017).</li>
+  <li>“Document Analysis as a Black Box: On the Contextualization of Speech Acts in Multilateral Negotiations”. Workshop Micro-Moves in International Institutions, Universität Potsdam, Potsdam (2/2017).</li>
+  <li>mit Alejandro Esguerra, Katja Freistein, “Micro to Macro. On Generalizing from Communicative Approaches Towards International Institutions”. Workshop Micro-Moves in International Institutions, Universität Potsdam, Potsdam (2/2017).</li>
+</ul>
+
+<h2 id="2016">2016</h2>
+<ul>
+  <li>“Ambivalenz, Intention und Kompetenz zwischen Linguistischer Anthropologie und Narrationsanalyse”. Workshop Narrationsanalyse in der Europäischen Ethnologie, Universität Innsbruck, Innsbruck (09/2016).</li>
+  <li>mit Regina F. Bendix, “,Kultur(-Erbe)‘ als flexibles Konzept in EU-Kulturpolitik und Außenbeziehungen”. Institut für Europäische Ethnologie, HU Berlin, Berlin (5/2016).</li>
+</ul>
+
+<h2 id="2015">2015</h2>
+<ul>
+  <li>“Welche Rolle spielt Gerechtigkeit in Verhandlungen um kulturelles Eigentum?”. DIES, Bonn (12/2015).</li>
+  <li>mit Katja Freistein, Alejandro Esguerra, “Observing Micro-Practices, Making Generalizations: A Concept Note”. Workshop Studying Micro-Practices in (International) Institutions: Chances and Limitations of Theory-Building, Duisburg (11/2015).</li>
+  <li>“Kein sichereres Mittel existirt zur Abwehr von allem Lupengesindel‘: Zur Technisierung und Legitimierung von Sicherheits- und Kontrollregimen um 1900”. Tagung „Der Alltag der (Un)Sicherheit. Ethnographisch-kulturwissenschaftliche Perspektiven auf die Sicherheitsgesellschaft“, Graz (11/2015).</li>
+  <li>“Subjektiver Sinn, objektive Indikatoren? Zum Verhältnis von Wahrnehmung und Vermessung im freizeitsportlichen Rennradsport”. Kongress der Deutschen Gesellschaft für Volkskunde (DGV), Zürich (7/2015).</li>
+  <li>“The Pragmatics of Multilateral Negotiations”. Midterm Conference Käte Hamburger Kolleg / Centre for Global Cooperation Research, Duisburg (7/2015).</li>
+  <li>“Recognition and Multiculturalism: German Heritage Discourse in the European Context”. SIEF-Kongress, Zagreb (6/2015).</li>
+  <li>“Culture Concepts and Normative Principles: On the Framing and Justification of Cultural Property in EU-Conventions”. Käte Hamburger Kolleg / Centre for Global Cooperation Research, Duisburg (5/2015).</li>
+  <li>“Kultur als “Soft Power”? Zur Rahmung und Rechtfertigung von Kulturerbe in der Europäischen Union”. Abteilung Kulturanthropologie / Volkskunde, Bonn (5/2015).</li>
+</ul>
+
+<h2 id="2014">2014</h2>
+<ul>
+  <li>“Modalities of Normative Claims to Culture in Multilateral Negotiations”. Käte Hamburger Kolleg / Centre for Global Cooperation Research, Duisburg (11/2014).</li>
+  <li>“Kooperation als Ressource: Zur Produktion kooperativen Alltagshandelns”. Tagung „Zum Umgang mit begrenzten Ressourcen”, Kiel (11/2014).</li>
+  <li>“Producing Stability: On the Pragmatics of Multilateral Negotiations”. WISC, Frankfurt (08/2014).</li>
+  <li>“Normative Forderungen über Kultur als Themenfeld transnationaler Kooperation”. Workshops “Mosaike der Legitimität”, Konstanz (7/2014).</li>
+  <li>“Welche Rolle spielt Gerechtigkeit in Diskussionen um kulturelles Eigentum?”. Vortragsreihe der Interdisziplinären DFG-Forschergruppe zu Cultural Property, Göttingen (1/2014).</li>
+</ul>
+
+<h2 id="2013">2013</h2>
+<ul>
+  <li>“Implicit Ethics: Normative Claims in International Negotiations on Traditional Knowledge”. Working Conference “Justice in Discourse”, Göttingen (4/2013).</li>
+  <li>“Perspectives on Traditonal Knowledge: The Involvement of Indigenous and Local Communities in WIPO’s Committee on Intellectual Property and Traditional Knowledge”. SOGIP Seminar “Les questions de savoirs et de droit dans l’institutionnalisation internationale des autochtones”, Paris (1/2013).</li>
+</ul>
+
+<h2 id="2012">2012</h2>
+<ul>
+  <li>“Sprache und Anerkennung: Die Verortung von Subjekten in Diskursen”. Workshop Subjektbegriffe der Europäischen Ethnologie, Göttingen (12/2012).</li>
+  <li>“Between Society and Culture: The Theory of Recogniton in Cultural Heritage Contexts”. Atelier de Recherche Trinational “Institutions, Territoires et Communautés: Perspectives sur le Patrimoine Culturel Immatériel Translocal, Villa Vigoni (10/2012).</li>
+  <li>“The Indeterminacy of Cultural Heritage and Cultural Property in International Negotiations and Local Configurations”. Workshop Local Vocabularies of Heritage, Évora (2/2012).</li>
+</ul>
+
+<h2 id="2011">2011</h2>
+<ul>
+  <li>“Die Erfindung der Moral: Allmendgemeinschaften und Cultural Commons in der Diskussion um kulturelles Eigentum”. 38. Kongress der Deutschen Gesellschaft für Volkskunde (DGV), Tübingen (09/2011).</li>
+  <li>mit Regina F. Bendix, “Speeding, Stalling, Editing: Maximal Communication for Minimal Results?”. Internationales Symposium der Interdisziplinären DFG-Forschergruppe zu Cultural Property, Göttingen (6/2011).</li>
+  <li>“Scholarship and Policy – Oppositional Perspectives within Interdisciplinary Cooperation”. Internationales Symposium der Interdisziplinären DFG-Forschergruppe zu Cultural Property, Göttingen (6/2011).</li>
+</ul>
+
+<h2 id="2010">2010</h2>
+<ul>
+  <li>“Metapragmatics on the Global Stage: The Multiplicity of Meaning in International Negotiations”. Workshop zur Anthropology of International Institutions: How Ethnography Contributes to Understanding Mechanisms of Global Governance, Paris (6/2010).</li>
+  <li>“Language Ideologies and International Institutions: The Case of the Intergovernmental Committee on Intellectual Property and Traditional Knowledge”. Department of Anthropology, UC Santa Cruz, Santa Cruz (4/2010).</li>
+  <li>“Cultural Property als kulturanthropologisches Forschungsthema”. Institut für Kulturanthropologie / Europäische Ethnologie der Universität Göttingen, Göttingen (1/2010).</li>
+</ul>
+
+<h2 id="2009">2009</h2>
+<ul>
+  <li>“Ideologies in Motion: Language, Power and Performance in International Institutions”. Konferenz der American Anthropological Association (AAA), Philadelphia (12/2009).</li>
+  <li>“On Tradition and the Politics of Difference”. International Symposium on Cultural Property, Interdisciplinary Research Unit on Cultural Property, Göttingen (11/2009).</li>
+  <li>“Negotiating Tradition, Representing Social Structure: Culture, Community, and Language in WIPO’s Committee on Traditional Knowledge and Folklore”. International Summer University “Local Knowledge and Open Borders: Creativity and Heritage”, Tartu University, Tartu (7/2009).</li>
+  <li>“Tradition und Folklore in der Weltorganisation für Geistiges Eigentum (WIPO) – Eine kommunikationsethnographische Perspektive”. Hamburger Gesellschaft für Volkskunde (HGV), Hamburg (5/2009).</li>
+</ul>
+
+<h2 id="2008">2008</h2>
+<ul>
+  <li>mit Regina F. Bendix, “Stalling &amp; Speeding: Ways of Speaking at WIPO’s Intergovernmental Committee on Cultural Property”. Konferenz der European Association of Social Anthropologists (EASA), Ljubljana (08/2008).</li>
+</ul>
+
+
+    &lt;/div&gt;
+    <div id="year" class="content-tab" style="display:none">
+<div class="buttons m-b-2"><a class="button is-warning is-small" href="#2019">2019</a><a class="button is-warning is-small" href="#2018">2018</a><a class="button is-warning is-small" href="#2017">2017</a><a class="button is-warning is-small" href="#2016">2016</a><a class="button is-warning is-small" href="#2015">2015</a><a class="button is-warning is-small" href="#2014">2014</a><a class="button is-warning is-small" href="#2013">2013</a><a class="button is-warning is-small" href="#2012">2012</a><a class="button is-warning is-small" href="#2011">2011</a><a class="button is-warning is-small" href="#2010">2010</a><a class="button is-warning is-small" href="#2009">2009</a></div>
+
+
+<div class="buttons m-b-2">
+<a class="button is-light is-small" href="/publikationen/#beitr%C3%A4ge-in-vorbereitung">Eingereichte Beiträge und Beiträge in Arbeit</a>
+<a class="button is-light is-small" href="/publikationen/#angenommene-beitr%C3%A4ge">Zur Publikation angenommene Beiträge und Beiträge im Druck</a>
+<a class="button is-light is-small" href="/publikationen/#monographien">Monographien</a>
+<a class="button is-light is-small" href="/publikationen/#herausgeberschaften">Herausgeberschaften</a>
+<a class="button is-light is-small" href="/publikationen/#sondernummern-von-zeitschriften">Sondernummern von Zeitschriften</a>
+<a class="button is-light is-small" href="/publikationen/#peer-reviewed-papers">Peer-Reviewed Papers</a>
+<a class="button is-light is-small" href="/publikationen/#zeitschriftenaufs%C3%A4tze">Zeitschriftenaufsätze</a>
+<a class="button is-light is-small" href="/publikationen/#aufs%C3%A4tze-in-sammelb%C3%A4nden">Aufsätze in Sammelbänden</a>
+<a class="button is-light is-small" href="/publikationen/#miszellen-und-graue-literatur">Miszellen</a>
+<a class="button is-light is-small" href="/publikationen/#rezensionen">Rezensionen</a>
+<a class="button is-light is-small" href="/publikationen/#vortr%C3%A4ge">Vorträge</a></div>
+
+<p class="title is-5 has-text-link" id="2019">2019 (17)</p>
+
+<ol class="bibliography"><li><span id="Groth2019aw">Groth, Stefan. 2019. „Rezension von <i>Andere Urbanitäten: Zur Pluralität des Städtischen</i>, herausgegeben von Brigitta Schmidt-Lauber“. <i>Schweizerisches Archiv für Volkskunde</i>. Zur Publikation angenommen. </span> <a onclick="copyToClipboard('#Groth2019aw')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2019aw.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2019aa">Groth, Stefan. 2019. „Political Narratives / Narrations of the Political. An Introduction“. Herausgegeben von Stefan Groth. <i>Narrative Culture</i> 6 (1). Special Issue: Political Narratives / Narrations of the Political: 1–18. doi:10.13110/narrcult.6.1.0001. Peer Reviewed. </span> <a onclick="copyToClipboard('#Groth2019aa')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2019aa.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2019ah">Groth, Stefan. 2019. „Trends als Forschungsthema? Einordnung, Relevanz und Repräsentativität in der europäisch-ethnologischen Themenbegrenzung“. In <i>Wie kann man nur dazu forschen? – Themenpolitik in der Europäischen Ethnologie</i>, herausgegeben von Timo Heimerdinger und Marion Näser-Lather, 149–70. Buchreihe der Österreichischen Zeitschrift für Volkskunde. Wien: Verein für Volkskunde. </span> <a onclick="copyToClipboard('#Groth2019ah')" class="copy-l">COPY</a> <a href="https://www.zora.uzh.ch/id/eprint/162166/1/Groth_2019_Trends_als_Forschungsthema_Themenpolitik.pdf" class="pdf-l">PDF</a>
+ 
+<a class="details" href="/publikationen/details/Groth2019ah.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2019am">Groth, Stefan. 2019. „Of Good Averages and Happy Mediums: Orientations towards an Average in Urban Housing“. In <i>The Vulnerable Middle Class? Strategies of Housing in Prospering Cities</i>, herausgegeben von Johannes Moser und Simone Egger, 29:29–48. Münchner ethnographische Schriften. München: utzverlag. </span> <a onclick="copyToClipboard('#Groth2019am')" class="copy-l">COPY</a> <a href="https://github.com/sgroth/stefangroth.com/raw/master/assets/repository/Groth2019am.pdf" class="pdf-l">PDF</a>
+ 
+<a class="details" href="/publikationen/details/Groth2019am.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2019al">Groth, Stefan. 2019. „Zwischen Ermöglichung und Begrenzung: Zur subjektiven Plausibilisierung des Mittelmaßes als normative Orientierung“. In <i>Wirtschaften. Kulturwissenschaftliche Perspektiven</i>, herausgegeben von Karl Braun, Johannes Moser, und Christian Schönholz, 479–87. Marburg: MakuFEE. </span> <a onclick="copyToClipboard('#Groth2019al')" class="copy-l">COPY</a> <a href="https://github.com/sgroth/stefangroth.com/raw/master/assets/repository/Groth2019al.pdf" class="pdf-l">PDF</a>
+ 
+<a class="details" href="/publikationen/details/Groth2019al.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2019ak">Groth, Stefan. 2019. „Wettbewerb ums Mittelmaß? Kompetitive Orientierungen im breitensportlichen Rennradfahren“. In <i>Auf den Spuren der Konkurrenz. Kultur‐ und sozialwissenschaftliche Perspektiven</i>, herausgegeben von Karin Bürkert, Alexander Engel, Timo Heimerdinger, Markus Tauschek, und Tobias Werron, 2:199–219. Freiburger Studien zur Kulturanthropologie. Münster: Waxmann. </span> <a onclick="copyToClipboard('#Groth2019ak')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2019ak.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2019ad">Groth, Stefan. 2019. „Ordnungen in Alltag und Gesellschaft: Konzepte, Methoden und Theorien“. In <i>Ordnungen in Alltag und Gesellschaft: Empirisch-kulturwissenschaftliche Perspektiven</i>, herausgegeben von Stefan Groth und Linda Mülli, 12–36. Würzburg: Königshausen und Neumann. </span> <a onclick="copyToClipboard('#Groth2019ad')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2019ad.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2019ag">Groth, Stefan. 2019. „Ordnung als Methode und Praxis: Zur Kommunikationsethnografie internationaler Verhandlungen“. In <i>Ordnungen in Alltag und Gesellschaft: Empirisch-kulturwissenschaftliche Perspektiven</i>, herausgegeben von Stefan Groth und Linda Mülli, 297–315. Würzburg: Königshausen und Neumann. </span> <a onclick="copyToClipboard('#Groth2019ag')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2019ag.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2019ac">Groth, Stefan, und Linda Mülli, Hrsg. 2019. <i>Ordnungen in Alltag und Gesellschaft: Empirisch-kulturwissenschaftliche Perspektiven</i>. Würzburg: Königshausen und Neumann. </span> <a onclick="copyToClipboard('#Groth2019ac')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2019ac.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2019ai">Groth, Stefan, und Johannes Müske. 2019. „Arbeit 4.0? Kulturwissenschaftliche Perspektiven auf Arbeit im Wandel“. <i>AugenBlick. Konstanzer Hefte zur Medienwissenschaft</i> 73: 11–20. </span> <a onclick="copyToClipboard('#Groth2019ai')" class="copy-l">COPY</a> <a href="https://github.com/sgroth/stefangroth.com/raw/master/assets/repository/Groth2019ai.pdf" class="pdf-l">PDF</a>
+ 
+<a class="details" href="/publikationen/details/Groth2019ai.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2019af">Groth, Stefan, und Christian Ritter. 2019. „Zusammen arbeiten: Modalitäten – Settings – Perspektiven“. In <i>Zusammen arbeiten. Praktiken der Koordination und Kooperation in kollaborativen Prozessen</i>, herausgegeben von Stefan Groth und Christian Ritter, 7–22. Kultur und soziale Praxis. Bielefeld: Transcript. </span> <a onclick="copyToClipboard('#Groth2019af')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2019af.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2019ae">Groth, Stefan, und Christian Ritter, Hrsg. 2019. <i>Zusammen arbeiten. Praktiken der Koordination und Kooperation in kollaborativen Prozessen</i>. Kultur und soziale Praxis. Bielefeld: Transcript. </span> <a onclick="copyToClipboard('#Groth2019ae')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2019ae.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2019an">Groth, Stefan. 2019. „Rezension von <i>Unterrichten als Beruf. Akteure, Praxen und Ordnungen in der Schulbildung</i> von L. Franken“. <i>Bayerisches Jahrbuch für Volkskunde</i>. http://kbl.badw.de/kbl-digital/rezensionsportal/aktuelle-rezensionen/ansicht/detail/4861.html. </span> <a onclick="copyToClipboard('#Groth2019an')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2019an.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2019aj">Groth, Stefan. 2019. „Rezension von <i>&sbquo;Schließlich sitzen wir alle im selben Boot&lsquo;: Helmut Schmidts politische Sprichwortrhetorik</i> von A. Nolte und W. Mieder“. <i>Fabula: Zeitschrift für Erzählforschung</i>. doi:10.1515/fabula-2019-0013. </span> <a onclick="copyToClipboard('#Groth2019aj')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2019aj.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2019au">Groth, Stefan. 2019. „Optimierung bis zur Mitte. Selbstoptimierung als Konstellation und relationale Subjektivierung“. <i>Österreichische Zeitschrift für Volkskunde</i> 122 (1): 27–54. Peer Reviewed. </span> <a onclick="copyToClipboard('#Groth2019au')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2019au.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2019as">Groth, Stefan. 2019. „Vergleiche als antizipierende und relationale Praxis“. <i>Zeitschrift für Volkskunde</i> 115 (2): 238–59. Peer Reviewed. </span> <a onclick="copyToClipboard('#Groth2019as')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2019as.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2019ab">Groth, Stefan, Hrsg. 2019. „Narrative Culture“. Special Issue: Political Narratives / Narrations of the Political. Peer Reviewed. </span> <a onclick="copyToClipboard('#Groth2019ab')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2019ab.html"> (Details &rarr;)</a></li></ol>
+
+<p class="title is-5 has-text-link" id="2018">2018 (6)</p>
+
+<ol class="bibliography"><li><span id="Groth2018af">Groth, Stefan, Patrick Müller, Anna Suppa, Christian Ritter, Basil Rogger, und Irene Vögeli, Hrsg. 2018. <i>Wissensorte. Ethnografische / künstlerische Erkundungen</i>. Zürich. https://github.com/sgroth/stefangroth.com/raw/master/assets/repository/Groth2018af.pdf. Publikation aus dem Projektseminar Wissensorte – ReVisiting Black Mountain College (Master), HS/FS 2017/2018. Populäre Kulturen, ISEK - Institut für Sozialanthropologie und Empirische Kulturwissenschaft (Kooperationsprojekt mit der Zürcher Hochschule der Künste, ZHdK), Universität Zürich. </span> <a onclick="copyToClipboard('#Groth2018af')" class="copy-l">COPY</a> <a href="https://github.com/sgroth/stefangroth.com/raw/master/assets/repository/Groth2018af.pdf" class="pdf-l">PDF</a>
+ 
+<a class="details" href="/publikationen/details/Groth2018af.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2018ab">Groth, Stefan. 2018. „Einfache Formen, komplexe Prozesse. Sprichwörter und Redewendungen in multilateralen Verhandlungen“. Herausgegeben von Silke Meyer. <i>Fabula: Zeitschrift für Erzählforschung</i> 59 (1-2). Special Issue: Narrationsanalyse: 27–49. doi:10.1515/fabula-2018-0003. Peer reviewed. </span> <a onclick="copyToClipboard('#Groth2018ab')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2018ab.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2018ac">Groth, Stefan. 2018. „Entstehungskontext, Materialität und Sprachspezifik. Elemente einer empirisch-kulturwissenschaftlichen Quellenkritik von Dokumenten in politischen Prozessen“. <i>Schweizerisches Archiv für Volkskunde</i> 114 (1): 57–75. https://www.e-periodica.ch/digbib/view?pid=sav-001:2018:114#62. Peer reviewed. </span> <a onclick="copyToClipboard('#Groth2018ac')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2018ac.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2018aa">Groth, Stefan. 2018. „&sbquo;Kein sichereres Mittel existirt zur Abwehr von allem Lumpengesindel&lsquo;: Zur Entwicklung von Sicherheits- und Kontrollkonstellationen um 1900“. In <i>Der Alltag der (Un)Sicherheit. Kulturwissenschaftlich-ethnographische Perspektiven auf die Sicherheitsgesellschaft</i>, herausgegeben von Alexandra Schwell und Katharina Eisch-Angus, 36–63. Berlin: Panama Verlag. </span> <a onclick="copyToClipboard('#Groth2018aa')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2018aa.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2018ad">Groth, Stefan. 2018. „Rezension von <i>Die Not der Anderen. Kulturwissenschaftliche Perspektiven auf Aushandlungen globaler Armut am Beispiel des Fairen Handels</i> von L. Winterberg“. <i>Rheinisch-Westfälische Zeitschrift für Volkskunde</i>. </span> <a onclick="copyToClipboard('#Groth2018ad')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2018ad.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2018ae">Groth, Stefan. 2018. „Rezension von <i>Dimensionen des Politischen. Ansprüche und Herausforderungen der Empirischen Kulturwissenschaften</i> von J. Rolshoven und I. Schneider“. <i>Schweizerisches Archiv für Volkskunde</i>. </span> <a onclick="copyToClipboard('#Groth2018ae')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2018ae.html"> (Details &rarr;)</a></li></ol>
+
+<p class="title is-5 has-text-link" id="2017">2017 (6)</p>
+
+<ol class="bibliography"><li><span id="Groth2017ab">Groth, Stefan, und Regina F. Bendix. 2017. „Culture as a Flexible Concept for the Legitimation of Policies in the European Union“. In <i>The Routledge Companion to Cultural Property</i>, herausgegeben von Haidy Geismar und Jane Anderson, 315–38. London: Routledge. Peer Reviewed. </span> <a onclick="copyToClipboard('#Groth2017ab')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2017ab.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2017ad">Groth, Stefan. 2017. „Subjektiver Sinn, objektive Indikatoren? Zum Verhältnis von Wahrnehmung und Vermessung im freizeitsportlichen Rennradsport“. In <i>Kulturen der Sinne. Zugänge zur Sensualität der sozialen Welt</i>, herausgegeben von Karl Braun, Claus-Marco Dieterich, Thomas Hengartner, und Bernhard Tschofen, 481–91. Würzburg: Königshausen und Neumann. </span> <a onclick="copyToClipboard('#Groth2017ad')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2017ad.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2017ac">Krahn, Yonca, und Stefan Groth. 2017. „Sport und Sinne: Eine Hinführung“. In <i>Kulturen der Sinne. Zugänge zur Sensualität der sozialen Welt</i>, herausgegeben von Karl Braun, Claus-Marco Dieterich, Thomas Hengartner, und Bernhard Tschofen, 462–67. Würzburg: Königshausen und Neumann. </span> <a onclick="copyToClipboard('#Groth2017ac')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2017ac.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2017aa">Groth, Stefan. 2017. „Rezension von <i>UNESCO on the Ground: Local Perspectives on Intangible Cultural Heritage</i>, herausgegeben von M. D. Foster, L. Gilman“. <i>Journal of American Folklore</i>. </span> <a onclick="copyToClipboard('#Groth2017aa')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2017aa.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2017af">Groth, Stefan, und Yonca Krahn. 2017. „Sensing Athletes: Sensory Dimensions of Recreational Endurance Sports“. <i>Journal of Ethnology and Folkloristics</i> 11 (2): 3–23. doi:10.1515/jef-2017-0011. Peer reviewed. </span> <a onclick="copyToClipboard('#Groth2017af')" class="copy-l">COPY</a> <a href="https://doi.org/10.1515/jef-2017-0011" class="pdf-l">PDF</a>
+ 
+<a class="details" href="/publikationen/details/Groth2017af.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2017ae">Groth, Stefan. 2017. „Rezension von <i>Humble Theory. Folklore’s Grasp on Social Life</i> von D. Noyes“. <i>Schweizerisches Archiv für Volkskunde</i>. </span> <a onclick="copyToClipboard('#Groth2017ae')" class="copy-l">COPY</a> <a href="https://www.e-periodica.ch/cntmng?pid=sav-001:2017:113::326" class="pdf-l">PDF</a>
+ 
+<a class="details" href="/publikationen/details/Groth2017ae.html"> (Details &rarr;)</a></li></ol>
+
+<p class="title is-5 has-text-link" id="2016">2016 (4)</p>
+
+<ol class="bibliography"><li><span id="Groth2016ab">Groth, Stefan. 2016. „EU/Kultur: Zu Flexibilität und Kohärenz des Kulturbegriffes im Rahmen europäischer Kulturpolitik“. <i>Rheinisch-Westfälische Zeitschrift für Volkskunde</i> 61: 227–46. </span> <a onclick="copyToClipboard('#Groth2016ab')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2016ab.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2016ac">Groth, Stefan, und Ove Sutter. 2016. „Kulturelle Repräsentationen von &sbquo;Region&lsquo; in der gouvernementalen und kompetitiven Entwicklung ländlicher Räume“. <i>Rheinisch-Westfälische Zeitschrift für Volkskunde</i> 61: 247–67. </span> <a onclick="copyToClipboard('#Groth2016ac')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2016ac.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2016ad">Groth, Stefan. 2016. „Rezension von <i>Fair Trade: Eine global-lokale Geschichte am Beispiel des Kaffees</i> von R. Quaas“. <i>Rheinisch-Westfälische Zeitschrift für Volkskunde</i>. </span> <a onclick="copyToClipboard('#Groth2016ad')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2016ad.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2016aa">Groth, Stefan. 2016. „Entextualization as Migration“. In <i>A Multi-Disciplinary Mosaic: Reflections on Global Cooperation and Migration</i>, herausgegeben von Markus Böckenförde, Nadja Krupke, und Philipp Michaelis, 13:24–26. Global Dialogues. Duisburg: Käte Hamburger Kolleg/Centre for Global Cooperation Research. doi:10.14282/2198-0403-GD-13. </span> <a onclick="copyToClipboard('#Groth2016aa')" class="copy-l">COPY</a> <a href="http://www.gcr21.org/fileadmin/website/daten/pdf/Publications/Cooperation_and_Migration_2198-0403-GD-13.pdf" class="pdf-l">PDF</a>
+ 
+<a class="details" href="/publikationen/details/Groth2016aa.html"> (Details &rarr;)</a></li></ol>
+
+<p class="title is-5 has-text-link" id="2015">2015 (9)</p>
+
+<ol class="bibliography"><li><span id="Groth2015ag">Groth, Stefan. 2015. „Situierte Knappheit: Kooperative und normative Dimensionen des Umgangs mit begrenzten Ressourcen“. In <i>Knappheit, Mangel, Überfluss: Kulturwissenschaftliche Positionen zum Umgang mit begrenzten Ressourcen</i>, herausgegeben von Markus Tauschek und Maria Grewe, 57–80. Frankfurt am Main: Campus. </span> <a onclick="copyToClipboard('#Groth2015ag')" class="copy-l">COPY</a> <a href="" class="pdf-l">PDF</a>
+ 
+<a class="details" href="/publikationen/details/Groth2015ag.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2015ab">Groth, Stefan, und Lars Döpking. 2015. „Clustering Justice: Über normative Dimensionen kulturellen Eigentums“. In <i>Kultur als Eigentum: Instrumente, Querschnitte und Fallstudien</i>, herausgegeben von Stefan Groth, Regina F. Bendix, und Achim Spiller, 413–44. Göttingen: Göttingen University Press. http://resolver.sub.uni-goettingen.de/purl?univerlag-isbn-978-3-86395-204-4. </span> <a onclick="copyToClipboard('#Groth2015ab')" class="copy-l">COPY</a> <a href="https://books.openedition.org/gup/556" class="pdf-l">PDF</a>
+ 
+<a class="details" href="/publikationen/details/Groth2015ab.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2015ac">Groth, Stefan. 2015. „Common Ground and Missing Links: German Volkskunde and Language“. <i>AJEC: Anthropological Journal of European Cultures</i> 24 (1): 24–41. doi:10.3167/ajec.2015.240103. Peer reviewed. </span> <a onclick="copyToClipboard('#Groth2015ac')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2015ac.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2015ad">Groth, Stefan, und Regina F. Bendix. 2015. „Cultural Property: Interdisziplinäre Forschung zu einem dynamischen Feld“. In <i>Kultur als Eigentum: Instrumente, Querschnitte und Fallstudien</i>, herausgegeben von Stefan Groth, Regina F. Bendix, und Achim Spiller, 1–13. Göttingen Studies in Cultural Property. Göttingen: Göttingen University Press. http://resolver.sub.uni-goettingen.de/purl?isbn-978-3-86395-100-9. </span> <a onclick="copyToClipboard('#Groth2015ad')" class="copy-l">COPY</a> <a href="https://books.openedition.org/gup/533" class="pdf-l">PDF</a>
+ 
+<a class="details" href="/publikationen/details/Groth2015ad.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2015ae">Groth, Stefan, Peter-Tobias Stoll, und Miriam Sanmukri. 2015. „Das zwischenstaatliche Komitee der WIPO zu geistigem Eigentum an traditionellem Wissen, traditionellen kulturellen Ausdrucksformen und genetischen Ressourcen“. In <i>Kultur als Eigentum: Instrumente, Querschnitte und Fallstudien</i>, herausgegeben von Stefan Groth, Regina F. Bendix, und Achim Spiller, 17–29. Göttingen Studies in Cultural Property. Göttingen: Göttingen University Press. http://resolver.sub.uni-goettingen.de/purl?isbn-978-3-86395-100-9. </span> <a onclick="copyToClipboard('#Groth2015ae')" class="copy-l">COPY</a> <a href="https://books.openedition.org/gup/535" class="pdf-l">PDF</a>
+ 
+<a class="details" href="/publikationen/details/Groth2015ae.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2015ai">Groth, Stefan, Regina F. Bendix, und Achim Spiller, Hrsg. 2015. <i>Kultur als Eigentum: Instrumente, Querschnitte und Fallstudien</i>. Bd. 9. Göttinger Studien zu Cultural Property. Göttingen: Göttingen University Press. doi:10.4000/books.gup.528. </span> <a onclick="copyToClipboard('#Groth2015ai')" class="copy-l">COPY</a> <a href="https://books.openedition.org/gup/528" class="pdf-l">PDF</a>
+ 
+<a class="details" href="/publikationen/details/Groth2015ai.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2015ah">Groth, Stefan, und Sarah May. 2015. „Von Schutz bis Verwertung: Zielsetzungen und Begründungsmuster von Rechtsinstrumenten im Bereich kulturellen Eigentums“. In <i>Kultur als Eigentum: Instrumente, Querschnitte und Fallstudien</i>, herausgegeben von Stefan Groth, Regina F. Bendix, und Achim Spiller, 99–118. Göttingen Studies in Cultural Property. Göttingen: Göttingen University Press. http://resolver.sub.uni-goettingen.de/purl?isbn-978-3-86395-100-9. </span> <a onclick="copyToClipboard('#Groth2015ah')" class="copy-l">COPY</a> <a href="https://books.openedition.org/gup/541" class="pdf-l">PDF</a>
+ 
+<a class="details" href="/publikationen/details/Groth2015ah.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2015af">Groth, Stefan. 2015. „Rezension von <i>Reiseziel: immaterielles Kulturerbe. Ein interdisziplinärer Dialog</i>, herausgegeben von M.-A. Camp, S. Eggmann, B. Taufer“. <i>H-Soz-Kult</i>. http://www.hsozkult.de/publicationreview/id/rezbuecher-24131. </span> <a onclick="copyToClipboard('#Groth2015af')" class="copy-l">COPY</a> <a href="http://hsozkult.geschichte.hu-berlin.de/index.asp?id=24131&amp;view=pdf&amp;pn=rezensionen&amp;type=rezbuecher" class="pdf-l">PDF</a>
+ 
+<a class="details" href="/publikationen/details/Groth2015af.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2015aa">Groth, Stefan. 2015. „Between Society and Culture: Recognition in Cultural Heritage Contexts“. In <i>Between Imagined Communities and Communities of Practice: Participation, Territory and the Making of Heritage</i>, 59–81. Göttingen Studies in Cultural Property. Göttingen: Göttingen University Press. http://resolver.sub.uni-goettingen.de/purl?univerlag-isbn-978-3-86395-205-1. </span> <a onclick="copyToClipboard('#Groth2015aa')" class="copy-l">COPY</a> <a href="https://books.openedition.org/gup/191" class="pdf-l">PDF</a>
+ 
+<a class="details" href="/publikationen/details/Groth2015aa.html"> (Details &rarr;)</a></li></ol>
+
+<p class="title is-5 has-text-link" id="2014">2014 (2)</p>
+
+<ol class="bibliography"><li><span id="Groth2014aa">Groth, Stefan. 2014. „Quantified Cyclists and Stratified Motives: Explorations into Age-Group Road Cycling as Cultural Performance“. <i>Ethnologia Europaea</i> 44 (1): 38–56. doi:10.16995/ee.1120. Peer reviewed. </span> <a onclick="copyToClipboard('#Groth2014aa')" class="copy-l">COPY</a> <a href="https://ee.openlibhums.org/article/1120/galley/1258/download/" class="pdf-l">PDF</a>
+ 
+<a class="details" href="/publikationen/details/Groth2014aa.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2014ab">Groth, Stefan. 2014. „Rezension von <i>Treasured Possessions: Indigenous Interventions into Cultural and Intellectual Property</i> von H. Geismar“. <i>Journal of Folklore Research Reviews</i>. http://www.indiana.edu/%7Ejfr/review.php?id=1559. </span> <a onclick="copyToClipboard('#Groth2014ab')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2014ab.html"> (Details &rarr;)</a></li></ol>
+
+<p class="title is-5 has-text-link" id="2013">2013 (1)</p>
+
+<ol class="bibliography"><li><span id="Groth2013aa">Groth, Stefan. 2013. „Allmendgemeinschaften und Cultural Commons in der Diskussion um kulturelles Eigentum“. In <i>Kultur_Kultur. Denken, Forschen, Darstellen. 38. Kongress der Deutschen Gesellschaft für Volkskunde in Tübingen vom 21. bis 24. September 2011</i>, herausgegeben von Reinhard Johler, Christian Marchetti, Bernhard Tschofen, und Carmen Weith, 59–65. Münster: Waxmann. </span> <a onclick="copyToClipboard('#Groth2013aa')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2013aa.html"> (Details &rarr;)</a></li></ol>
+
+<p class="title is-5 has-text-link" id="2012">2012 (2)</p>
+
+<ol class="bibliography"><li><span id="Groth2012aa">Groth, Stefan. 2012. <i>Negotiating Tradition: The Pragmatics of International Deliberations on Cultural Property</i>. Bd. 4. Göttingen Studies in Cultural Property. Göttingen: Göttingen University Press. doi:10.4000/books.gup.608. </span> <a onclick="copyToClipboard('#Groth2012aa')" class="copy-l">COPY</a> <a href="https://doi.org/10.4000/books.gup.608" class="pdf-l">PDF</a>
+ 
+<a class="details" href="/publikationen/details/Groth2012aa.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2012ab">Groth, Stefan, und Arnika Peselmann. 2012. „Rezension von <i>Erb.gut? Kulturelles Erbe zwischen Wissenschaft und Gesellschaft</i>, herausgegeben von K. C. Berger, M. Schindler, I. Schneider“. <i>Österreichische Zeitschrift für Volkskunde</i>. </span> <a onclick="copyToClipboard('#Groth2012ab')" class="copy-l">COPY</a> <a href="https://www.volkskundemuseum.at/jart/prj3/volkskundemuseum/data/publikation/1524345943305/1524345943305.pdf" class="pdf-l">PDF</a>
+ 
+<a class="details" href="/publikationen/details/Groth2012ab.html"> (Details &rarr;)</a></li></ol>
+
+<p class="title is-5 has-text-link" id="2011">2011 (2)</p>
+
+<ol class="bibliography"><li><span id="Groth2011aa">Groth, Stefan. 2011. „Perspectives of Differentiation: Negotiating Traditional Knowledge on the International Level“. <i>Journal of Ethnology and Folkloristics</i> 4 (1): 7–24. http://www.jef.ee/index.php/journal/article/view/1. Peer reviewed. </span> <a onclick="copyToClipboard('#Groth2011aa')" class="copy-l">COPY</a> <a href="http://www.jef.ee/index.php/journal/article/view/1/pdf_1" class="pdf-l">PDF</a>
+ 
+<a class="details" href="/publikationen/details/Groth2011aa.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2011ab">Groth, Stefan. 2011. „Rezension von <i>The Anthropology of Moralities</i>, herausgegeben von M. Heintz“. <i>Kulturen</i>. </span> <a onclick="copyToClipboard('#Groth2011ab')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2011ab.html"> (Details &rarr;)</a></li></ol>
+
+<p class="title is-5 has-text-link" id="2010">2010 (2)</p>
+
+<ol class="bibliography"><li><span id="Groth2010ab">Bendix, Regina F., Kilian Bizer, und Stefan Groth, Hrsg. 2010. <i>Die Konstituierung von Cultural Property: Forschungsperspektiven</i>. Bd. 1. Göttingen Studies in Cultural Property. Göttingen: Universitätsverlag Göttingen. doi:10.4000/books.gup.488. Peer reviewed. </span> <a onclick="copyToClipboard('#Groth2010ab')" class="copy-l">COPY</a> <a href="http://doi.org/10.4000/books.gup.488" class="pdf-l">PDF</a>
+ 
+<a class="details" href="/publikationen/details/Groth2010ab.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2010aa">Groth, Stefan. 2010. „Perspektiven der Differenzierung: Multiple Ausdeutungen von traditionellem Wissen indigener Gemeinschaften in WIPO-Verhandlungen“. In <i>Die Konstituierung von Cultural Property: Forschungsperspektiven</i>, herausgegeben von Regina F. Bendix, Kilian Bizer, und Stefan Groth, 177–95. Göttingen Studies in Cultural Property. Göttingen: Göttingen University Press. http://resolver.sub.uni-goettingen.de/purl?isbn-978-3-941875-61-6. </span> <a onclick="copyToClipboard('#Groth2010aa')" class="copy-l">COPY</a> <a href="https://books.openedition.org/gup/513" class="pdf-l">PDF</a>
+ 
+<a class="details" href="/publikationen/details/Groth2010aa.html"> (Details &rarr;)</a></li></ol>
+
+<p class="title is-5 has-text-link" id="2009">2009 (2)</p>
+
+<ol class="bibliography"><li><span id="Groth2009aa">Groth, Stefan. 2009. „Kulturen im Gespräch: Interview mit Valdimar Hafstein“. <i>Kulturen</i> 2/2009: 40–47. </span> <a onclick="copyToClipboard('#Groth2009aa')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2009aa.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2009ab">Groth, Stefan. 2009. „Tradition und Wert: Die Weltorganisation für Geistiges Eigentum, Cultural Property und die Vorzeitigkeit von Tradition“. <i>Kulturen</i> 2/2009: 33–39. </span> <a onclick="copyToClipboard('#Groth2009ab')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2009ab.html"> (Details &rarr;)</a></li></ol>
+    </div>
+&lt;/div&gt;
+
+
+function openTab(evt, tabName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("content-tab");
+  for (i = 0; i &lt; x.length; i++) {
+      x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tab");
+  for (i = 0; i &lt; x.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" is-active", "");
+  }
+  document.getElementById(tabName).style.display = "block";
+  evt.currentTarget.className += " is-active";
+}
+</p></p></p></div></div>
+:ET
