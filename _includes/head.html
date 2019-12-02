@@ -1,27 +1,16 @@
 <!DOCTYPE html>
 <html lang="de">
-  <head>
-    <meta charset="utf-8">
-    <meta name="robots" content="index, follow">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="https://github.com/sgroth/">
-    <title>{{ page.title | pretty }} - {{ site.title }}</title>
-    <link rel="stylesheet" href="{{ 'css/main.css' | relative_url }}">
-    <link href="{{ 'assets/css/prism.css' | relative_url }}" rel="stylesheet" />
-    <link href="{{ 'assets/fa/css/all.css' | relative_url }}" rel="stylesheet"> 
-
-<script src="{{ 'lib/prism.js' | relative_url }}"></script>
-
-</head>
-<body>
-
-<!--<nav id="menus" class="navbar is-hidden-touch is-hidden-tablet" role="navigation" aria-label="main navigation">
-<div class="navbar-brand container">
-<span class="is-6 has-text-weight-normal navbar-item navbar-item has-text-grey-dark is-size-7-touch"><i class="far fa-bars p-r-1"></i> <span class="is-hidden-touch">Dr. Stefan Groth</span></span>
-{% for item in site.data.navigation.main %}
-<span class="is-6 navbar-item is-size-7-touch"><a href="{{ item.url   | relative_url }}" class="has-no-link-color">{{ item.title }}</a></span>{% endfor %}
-</div>
-</nav>-->
-
-<div class="container is-widescreen header">
+    <head>
+        <meta charset="utf-8">
+        <meta name="robots" content="index, follow">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="https://github.com/sgroth/">
+        <title>{{ page.title | strip_html }} - Stefan Groth</title>
+        <link rel="stylesheet" href="{{ 'css/main.css' | relative_url }}">
+        <link href="{{ 'assets/css/prism.css' | relative_url }}" rel="stylesheet" />
+        <link href="{{ 'assets/fa/css/all.css' | relative_url }}" rel="stylesheet">
+        <script src="{{ 'lib/prism.js' | relative_url }}"></script>
+    </head>
+    <body>
+            <div class="container is-widescreen header">

@@ -2,13 +2,13 @@
 ---
 {% include head.html %}
 <div class="columns" style="">
-    <div class="column menu is-2 has-text-left is-hidden-touch ">
+    <div class="column menu is-2 has-text-left is-hidden-touch">
         <script>
         document.write('<a href="' + document.referrer + '" class="button is-link has-text-weight-semibold is-size-7 has-text-centered"><i class="fas fa-angle-left p-r-2"></i> Zurück</a>');
         </script>
     </div>
     <div class="column is-8 publikationen m-b-3">
-        <div class="buttons is-hidden-desktop  m-b-2">
+        <div class="buttons is-hidden-desktop m-b-2">
             <script>
             document.write('<a href="' + document.referrer + '" class="button is-link has-text-weight-semibold is-size-7 has-text-centered"><i class="fas fa-angle-left p-r-2"></i> Zurück</a>');
             </script>
@@ -20,86 +20,85 @@
                 <span class="card-header-title">{{ page.entry.key }}</span>
                 <a href="#" class="card-header-icon has-text-primary" onclick="copyToClipboard('#p1')">
                     <span class="p-r-1">Copy to Clipboard</span><span class="icon"><i class="far fa-clipboard"></i> </span></a>
-            </header>
-            <div class="card-content">
-                <div class="content">
-                    <p id="p1">{% reference page.entry.key %}</p>
-                </div>
-                {% if page.entry.keywords %}
-                <strong>Keywords</strong>
-                <p>{{ page.entry.keywords }}</p>
-                {% endif %} {% if page.entry.url %}
-                <strong>URL</strong>
-                <p><a href="{{ page.entry.url }}">{{ page.entry.url }}</a></p>
+                </header>
+                <div class="card-content">
+                    <div class="content">
+                        <p id="p1">{% reference page.entry.key %}</p>
+                    </div>
+                    {% if page.entry.keywords %}
+                        <strong>Keywords</strong>
+                        <p>{{ page.entry.keywords }}</p>
+                    {% endif %} {% if page.entry.url %}
+                    <strong>URL</strong>
+                    <p><a href="{{ page.entry.url }}">{{ page.entry.url }}</a></p>
                 {% endif %} {% if page.entry.note %}
                 <strong>Note</strong>
                 <p>{{ page.entry.note }}</p>
-                {% endif %}
-                {% if page.entry.abstract %}
+            {% endif %}
+            {% if page.entry.abstract %}
                 <strong>Abstract</strong>
                 <div class="box has-background-light">{{ page.entry.abstract }}</div>
-                {% endif %} {% if page.entry.annote %}
-                <strong>Annote</strong>
-                <p>{{ page.entry.annote }}</p>
-                {% endif %}
-                <strong>BibTeX</strong>
-                <pre><code class="language-css" style="white-space: pre-wrap;">{{ page.entry.bibtex }}</code></pre>
-            </div>
-            <footer class="card-footer">
-                <span class="card-footer-item">
-                    <a class="has-text-primary" onclick="copyToClipboard('#p1')">
-                        <i class="far fa-clipboard icon"></i>Copy to Clipboard</a></span>
-                <span class="card-footer-item">
-                    <a class="has-text-primary" download="{{page.entry.key}}.bib" href="data:application/x-bibtex,{{ page.entry.bibtex | uri_escape }}">
-                        <i class="fas fa-arrow-down icon"></i>Download BibTeX Citation</a>
-                </span>
-                {% if page.entry.pdf %}
-                <span class="card-footer-item"><a href=" {{ page.entry.pdf | file_url }} " class="has-text-primary"><i class="far fa-file-pdf icon"></i>Download PDF</a></span>
-                {% endif %}
-            </footer>
-        </div>
-    </div>
-    <div class="column is-1">
-    </div>
+            {% endif %} {% if page.entry.annote %}
+            <strong>Annote</strong>
+            <p>{{ page.entry.annote }}</p>
+        {% endif %}
+        <strong>BibTeX</strong>
+    <pre><code class="language-css" style="white-space: pre-wrap;">{{ page.entry.bibtex }}</code></pre>
+</div>
+<footer class="card-footer">
+    <span class="card-footer-item">
+        <a class="has-text-primary" onclick="copyToClipboard('#p1')">
+        <i class="far fa-clipboard icon"></i>Copy to Clipboard</a></span>
+        <span class="card-footer-item">
+            <a class="has-text-primary" download="{{page.entry.key}}.bib" href="data:application/x-bibtex,{{ page.entry.bibtex | uri_escape }}">
+            <i class="fas fa-arrow-down icon"></i>Download BibTeX Citation</a>
+        </span>
+        {% if page.entry.pdf %}
+            <span class="card-footer-item"><a href=" {{ page.entry.pdf | file_url }} " class="has-text-primary"><i class="far fa-file-pdf icon"></i>Download PDF</a></span>
+        {% endif %}
+    </footer>
+</div>
+</div>
+<div class="column is-1">
+</div>
 </div>
 </div>
 <footer class="footer has-text-centered">
-    <div class="container">
-        <div class="columns">
-            <div class="column is-8-desktop is-offset-2-desktop">
-                <p style="margin-top: 1rem;">
-<!--                    <a href="http://bulma.io">
-                        <img src="../assets/img/made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
-                    </a>-->
-                </p>
-            </div>
-        </div>
-    </div>
+<div class="container">
+<div class="columns">
+<div class="column is-8-desktop is-offset-2-desktop">
+    <p style="margin-top: 1rem;">
+        <!--<a href="http://bulma.io">
+            <img src="../assets/img/made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
+        </a>-->
+    </p>
+</div>
+</div>
+</div>
 </footer>
 <script type="text/javascript" src="../../lib/main.js"></script>
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 <script type="text/javascript">
 (function($) {
-    $(document).ready(function() {
-        $(window).scroll(function() {
-            if ($(this).scrollTop() > 350) {
-                $('#menus').fadeIn(500);
-            } else {
-                $('#menus').fadeOut(500);
-            }
-        });
-    });
+$(document).ready(function() {
+$(window).scroll(function() {
+if ($(this).scrollTop() > 350) {
+$('#menus').fadeIn(500);
+} else {
+$('#menus').fadeOut(500);
+}
+});
+});
 })(jQuery);
 </script>
 <script>
 function copyToClipboard(element) {
-    var $temp = $("<input>");
-    $("body").append($temp);
-    $temp.val($(element).text()).select();
-    document.execCommand("copy");
-    $temp.remove();
+var $temp = $("<input>");
+$("body").append($temp);
+$temp.val($(element).text()).select();
+document.execCommand("copy");
+$temp.remove();
 }
 </script>
 </body>
-
 </html>

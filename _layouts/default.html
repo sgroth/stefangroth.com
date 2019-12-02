@@ -3,7 +3,7 @@
   <div class="column menu is-2 has-text-left is-hidden-touch ">
     <p class="title is-6 has-text-link "><i class="far fa-bars p-r-2"></i> Menü</p>
     {% for item in site.data.navigation.main %}
-      <span class="title is-6 has-text-weight-normal"><a href="{{ item.url   | relative_url }}">{{ item.title }}</a></span><br />{% endfor %}
+      <span class="title is-6 has-text-weight-normal"><a href="{{ item.url | relative_url }}">{{ item.title }}</a></span><br />{% endfor %}
     </div>
     <div class="column is-8 content m-b-3">
       <div class="buttons is-hidden-desktop  m-b-2">
@@ -14,7 +14,7 @@
           <span>Menü</span>
         </a>
         {% for item in site.data.navigation.main %}
-          <a class="button is-outlined  is-link is-small" href="{{ item.url   | relative_url }}">{{ item.title }}</a>{% endfor %}
+          <a class="button is-outlined  is-link is-small" href="{{ item.url | relative_url }}">{{ item.title }}</a>{% endfor %}
         </div>
         {% assign m = page.date | date: "%-m" %}
         {{ page.date | date: "%-d." }}
@@ -49,18 +49,10 @@
         </div>
       </div>
     </div>
-    <footer class="footer has-text-centered">
-      <div class="container">
-        <div class="columns">
-          <div class="column is-8-desktop is-offset-2-desktop">
-            <p style="margin-top: 1rem;">
-              <a href="http://bulma.io">
+    <footer class="footer has-text-centered container">
+              <a href="http://bulma.io" style="margin-top: 1rem;">
                 <img src="{{ site.baseurl }}/assets/img/made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
               </a>
-            </p>
-          </div>
-        </div>
-      </div>
     </footer>
     <script type="text/javascript" src="{{ site.baseurl }}/lib/main.js"></script>
     <script src="http://code.jquery.com/jquery-latest.js"></script>

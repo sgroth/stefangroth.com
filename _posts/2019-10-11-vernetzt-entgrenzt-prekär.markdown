@@ -3,21 +3,26 @@ layout: default
 title:  "Neue Publikation: Vernetzt, entgrenzt, prekär?"
 subtitle: "Kulturwissenschaftliche Perspektiven auf Arbeit im Wandel"
 author: Stefan Groth
-date: 2020-10-11 07:20:00 +0100
+date: 2021-10-11 07:20:00 +0100
 aktuelles-title: "Neuerscheinung"
-aktuelles-subtitle: "Vernetzt, entgrenzt, prekär?"
-aktuelles-title-mobile: "Paper im Journal of Linguistic Anthropology"
+aktuelles-subtitle: "Vernetzt, entgrenzt, prekär? (Sammelband)"
+aktuelles-title-mobile: "Neuerscheinung: Vernetzt, entgrenzt, prekär?"
 aktuelles-date: "November 2019"
-aktuelles-description: "Soeben erschienen ist die E-Book-Version des Sammelbandes Zusammen arbeiten, den ich zusammen mit Christian Ritter (Collegium Helveticum) herausgegeben habe. Die Druckversion folgt in Kürze."
-aktuelles-link-1: "Paper auf AnthroSource"
+aktuelles-description: "Im Campus-Verlag ist soeben der Sammelband Vernetzt, entgrenzt, prekär? erschienen, den ich zusammen mit Sarah May und Johannes Müske herausgegeben habe. Der Beitrag geht zurück auf die 18. Arbeitstagung der dgv-Kommission Arbeitskulturen, die vom 13. bis 14. September 2018 in Zürich und Winterthur stattgefunden hat."
+aktuelles-link-1: "Verlagsseite"
 aktuelles-link-1-url: https://anthrosource.onlinelibrary.wiley.com/doi/full/10.1111/jola.12253
-aktuelles-link-2: "Journal auf AnthroSource"
-aktuelles-link-2-url: https://anthrosource.onlinelibrary.wiley.com/journal/15481395
+aktuelles-link-2: "Leseprobe"
+aktuelles-link-2-url: https://anthrosource.onlinelibrary.wiley.com/doi/full/10.1111/jola.12253
 aktuelles-more: true
-aktuelles-order: 1
+aktuelles-order: 2
 tags: [Aktuelles, Publikationen, Herausgeberschaften]
+links:
+    - title: Verlagsseite
+      url: https://www.transcript-verlag.de/978-3-8376-4295-7/zusammen-arbeiten/
+    - title: Leseprobe (PDF)
+      url: /assets/pdf/zusammenarbeiten-leseprobe.pdf
 ---
-![Cover Ordnungen](/assets/img/arbeitskulturen-book.jpg "Cover Vernetzt Entgrenzt Prekär")
+![Cover Ordnungen](/assets/img/arbeitskulturen-book2.jpg "Cover Vernetzt Entgrenzt Prekär")
 Im Campus-Verlag ist soeben der Sammelband "Vernetzt, entgrenzt, prekär?"[^1] erschienen, den ich zusammen mit [Sarah May]() und [Johannes Müske]() herausgegeben habe. Der Beitrag geht zurück auf die [18. Arbeitstagung]() der [dgv-Kommission Arbeitskulturen](), die vom 13. bis 14. September 2018 in Zürich und Winterthur stattgefunden hat.
 
 Neben der Einleitung von Sarah May, Johannes Müske und mir[^2] ist im Band ein Beitrag von mir über "‚Work-Life-Balance‘, Entgrenzung und Orientierungen an der Mitte"[^3] erschienen. 

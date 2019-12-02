@@ -53,7 +53,7 @@ plugins:
 # Pagination Settings
 pagination:
   enabled: true
-  per_page: 10
+  per_page: 15
   debug: true
   permalink: '/seite/:num/'
   title: 'Seite :num'
@@ -76,12 +76,7 @@ breadcrumbs:
     image: false # Show image or title text
 
 # Produces a cleaner folder structure when using categories
-permalink: /:year/:slug:output_ext
-
-slug:
-  encoding: "raw"
-  clean_accents: true
-  sanitize_replacement: "_"
+permalink: /:year/:title:output_ext
 
 scholar:
   style: ./_includes/csl-files/unknown.csl
@@ -128,6 +123,7 @@ keep_files: [assets]
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 exclude:
+  - _projekte
   - Gemfile
   - Gemfile.lock
   - node_modules

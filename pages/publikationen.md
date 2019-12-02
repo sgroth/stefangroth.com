@@ -64,7 +64,7 @@ permalink: /publikationen/
 
 <div id="year" class="tabcontent">
 
-<div class="buttons m-b-2"><a class="button is-warning is-small" href="#2019">2019</a><a class="button is-warning is-small" href="#2018">2018</a><a class="button is-warning is-small" href="#2017">2017</a><a class="button is-warning is-small" href="#2016">2016</a><a class="button is-warning is-small" href="#2015">2015</a><a class="button is-warning is-small" href="#2014">2014</a><a class="button is-warning is-small" href="#2013">2013</a><a class="button is-warning is-small" href="#2012">2012</a><a class="button is-warning is-small" href="#2011">2011</a><a class="button is-warning is-small" href="#2010">2010</a><a class="button is-warning is-small" href="#2009">2009</a></div>
+<div class="buttons m-b-2"><a class="button is-warning is-small"  href="#2019">2019</a><a class="button is-warning is-small" href="#2018">2018</a><a class="button is-warning is-small" href="#2017">2017</a><a class="button is-warning is-small" href="#2016">2016</a><a class="button is-warning is-small" href="#2015">2015</a><a class="button is-warning is-small" href="#2014">2014</a><a class="button is-warning is-small" href="#2013">2013</a><a class="button is-warning is-small" href="#2012">2012</a><a class="button is-warning is-small" href="#2011">2011</a><a class="button is-warning is-small" href="#2010">2010</a><button class="button is-warning is-small" onclick="jump('2009')">2009</button></div>
 
 
 <p class="title is-5 has-text-link" id="2019">2019 ({% bibliography_count --query @*[year=2019] %})</p>
@@ -135,4 +135,10 @@ function openContent(evt, contentName) {
 }
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
+
+function jump(h){
+    var top = document.getElementById(h).offsetTop;
+    window.scrollTo(0, top);
+}
+
 </script>
