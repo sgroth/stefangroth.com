@@ -16,10 +16,10 @@ permalink: /publikationen/
 
 <div id="category" class="tabcontent">
 <div class="buttons m-b-2">{% for item in site.data.navigation.publikationen-quicklinks %}
-<a class="button is-light is-small" href="{{ item.url   | relative_url }}">{{ item.title }}</a>{% endfor %}</div>
-<p class="title is-5 has-text-link" id="beiträge-in-vorbereitung">Eingereichte Beiträge und Beiträge in Arbeit ({% bibliography_count --query @*[keywords~=inpreparation] %})</p>
+<a class="button is-light is-small" href="{{ item.url | relative_url }}">{{ item.title }}</a>{% endfor %}</div>
+<p class="title is-5 has-text-link" id="beiträge-in-vorbereitung">Eingereichte Beiträge und Beiträge in Arbeit ({% bibliography_count --query @*[keywords~=pre] %})</p>
 
-{% bibliography --query @*[keywords~=inpreparation] %}
+{% bibliography --query @*[keywords~=pre] %}
 
 <p class="title is-5 has-text-link m-t-2" id="angenommene-beiträge">Zur Publikation angenommene Beiträge und Beiträge im Druck ({% bibliography_count --query @*[keywords^=inprint] %})</p>
 
@@ -33,17 +33,17 @@ permalink: /publikationen/
 
 {% bibliography --query @*[keywords ^= editedvolume && keywords !~ notaccepted && keywords!~inpreparation && keywords!~submitted && keywords!~inprint] %}
 
-<p class="title is-5 has-text-link m-t-2" id="sondernummern-von-zeitschriften">Sonderausgaben von Zeitschriften ({% bibliography_count --query @periodical[keywords!~inpreparation && keywords!~submitted && keywords!~inprint] %})</p>
+<p class="title is-5 has-text-link m-t-2" id="sondernummern-von-zeitschriften">Sonderausgaben von Zeitschriften ({% bibliography_count --query @periodical[keywords!~pre && keywords!~submitted && keywords!~inprint] %})</p>
 
-{% bibliography --query @periodical[keywords!~inpreparation && keywords!~submitted && keywords!~inprint] %}
+{% bibliography --query @periodical[keywords!~pre && keywords!~submitted && keywords!~inprint] %}
 
-<p class="title is-5 has-text-link m-t-2" id="peer-reviewed-papers">Peer Reviewed Papers ({% bibliography_count --query @article[keywords!~ notaccepted && keywords^=peerreview && keywords!~inpreparation && keywords!~submitted && keywords!~inprint ] %})</p>
+<p class="title is-5 has-text-link m-t-2" id="peer-reviewed-papers">Peer Reviewed Papers ({% bibliography_count --query @article[keywords!~ notaccepted && keywords^=peerreview && keywords!~inpreparation && keywords!~submitted && keywords!~inprint && keywords!~pre ] %})</p>
 
-{% bibliography --query @article[keywords!~ notaccepted && keywords^=peerreview && keywords!~inpreparation && keywords!~submitted && keywords!~inprint] %}
+{% bibliography --query @article[keywords!~ notaccepted && keywords^=peerreview && keywords!~inpreparation && keywords!~submitted && keywords!~inprint && keywords!~pre] %}
 
-<p class="title is-5 has-text-link m-t-2" id="zeitschriftenaufsätze">Zeitschriftenaufsätze ({% bibliography_count --query @article[ keywords!~ peerreview && keywords!~ notaccepted && keywords!~inpreparation && keywords!~submitted && keywords!~inprint] %})</p>
+<p class="title is-5 has-text-link m-t-2" id="zeitschriftenaufsätze">Zeitschriftenaufsätze ({% bibliography_count --query @article[ keywords!~ peerreview && keywords!~ notaccepted && keywords!~inpreparation && keywords!~submitted && keywords!~inprint && keywords!~pre ] %})</p>
 
-{% bibliography --query @article[ keywords!~ peerreview && keywords!~ notaccepted && keywords!~inpreparation && keywords!~submitted && keywords!~inprint] %}
+{% bibliography --query @article[ keywords!~ peerreview && keywords!~ notaccepted && keywords!~inpreparation && keywords!~submitted && keywords!~inprint && keywords!~pre ] %}
 
 <p class="title is-5 has-text-link m-t-2" id="aufsätze-in-sammelbänden">Aufsätze in Sammelbänden ({% bibliography_count --query @incollection[keywords!~ inpreparation && keywords!=miszelle && keywords!=notaccepted && keywords!~submitted && keywords!~inprint] %})</p>
 
