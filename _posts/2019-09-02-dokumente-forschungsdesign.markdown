@@ -8,4 +8,4 @@ tags: [Publikationen, Aufsätze in Sammelbänden]
 snippet: true
 snippet-heading: Publikationshinweis
 ---
-{% reference Groth2019at %} {% cite_details Groth2019at %}
+{% reference Groth2019aq %} {% cite_details Groth2019aq %}
