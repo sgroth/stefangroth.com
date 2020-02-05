@@ -41,7 +41,7 @@ pagination:
                       </div>
                     </div>-->
 {% else %}
-        <div class="columns">
+        <div class="columns p-t-1">
           <div class="column is-3 is-hidden-touch"> </div>
           <div class="column is-9 is-full-touch is-full-tablet">
             <span class="is-size-7 has-text-grey">{% assign m = post.date | date: "%-m" %}

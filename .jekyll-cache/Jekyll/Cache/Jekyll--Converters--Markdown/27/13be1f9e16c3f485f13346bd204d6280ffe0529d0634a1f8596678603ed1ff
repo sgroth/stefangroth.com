@@ -1,12 +1,12 @@
-I"89<h1 class="add-sg">Curriculum Vitae</h1>
+I"�><h1 class="add-sg">Curriculum Vitae</h1>
 
 <div class="buttons m-b-2">
-<a class="button is-light is-small" href="/cv/#derzeitige-position">Derzeitige Position</a>
+<a class="button is-light is-small" href="/cv/#forschungsschwerpunkte">Forschungsschwerpunkte</a>
+<a class="button is-light is-small" href="/cv/#forschungsprojekte">Forschungsprojekte</a>
 <a class="button is-light is-small" href="/cv/#bisherige-t%C3%A4tigkeiten">Bisherige Tätigkeiten</a>
 <a class="button is-light is-small" href="/cv/#studium-und-akademische-abschl%C3%BCsse">Studium und akademische Abschlüsse</a>
 <a class="button is-light is-small" href="/cv/#aufenthalte-im-ausland">Aufenthalte im Ausland</a>
 <a class="button is-light is-small" href="/cv/#weiterbildungen-und-qualifikationen">Weiterbildungen und Qualifikationen</a>
-<a class="button is-light is-small" href="/cv/#forschungsschwerpunkte">Forschungsschwerpunkte</a>
 <a class="button is-light is-small" href="/cv/#gremienerfahrung">Gremienerfahrung</a>
 <a class="button is-light is-small" href="/cv/#mitgliedschaften">Mitgliedschaften</a>
 <a class="button is-light is-small" href="/cv/#gutachtert%C3%A4tigkeiten">Gutachtertätigkeiten</a>
@@ -28,14 +28,32 @@ CH-8050 Zürich</p>
 Telefon: +41 44 634 92 96<br />
 Homepage: https://www.stefangroth.com</p>
 
-<h2 id="derzeitige-position">Derzeitige Position</h2>
+<h2 id="forschungsschwerpunkte">Forschungsschwerpunkte</h2>
 <ul>
-  <li><strong>seit 09/2016</strong><br />
-Oberassistent / Leitung Labor Populäre Kulturen, ISEK – Institut für Sozialanthropologie und Empirische Kulturwissenschaft, Populäre Kulturen, Universität Zürich.</li>
+  <li>Politische Anthropologie und Europäisierungsforschung</li>
+  <li>Narratologie, linguistische Anthropologie und Kommunikationsethnografie</li>
+  <li>Organisationsforschung</li>
+  <li>Methoden der Empirischen Kulturwissenschaft</li>
+  <li>Kulturwissenschaftliche Sportforschung</li>
+  <li>Kulturerbe und kulturelles Eigentum</li>
+</ul>
+
+<h2 id="forschungsprojekte">Forschungsprojekte</h2>
+<ul>
+  <li><strong>seit 2019:</strong> Political Narratives</li>
+  <li><strong>seit 2020:</strong> Europe from Outside and from the Margins: The Production of Europe in Non-European Everyday Contexts and Practices</li>
+  <li><strong>2016–2020:</strong> Mittelmaß als Praxis und Konstellation Orientierungen am Mittelmaß aus empirisch-kulturwissenschaftlicher Perspektive (Habilitationsschrift, eingereicht an der Philosophischen Fakultät der Universität Zürich im November 2019)</li>
+  <li><strong>seit 2013:</strong> Dimensionen des breitensportlichen Rennradfahrens: Empirisch-kulturwissenschaftliche Perspektiven auf Sport und Freizeit</li>
+  <li><strong>seit 2014:</strong> Qualitative Approaches to International Institutions (zusammen mit Katja Freistein, Alejandro Esguerra)</li>
+  <li><strong>2014–2015:</strong> Culture as Resource and Diplomacy: Between Geopolitics and Issues-Based Policy (Post-Doc Fellowship Käte Hamburger Kolleg / Centre for Global Cooperation Research)</li>
+  <li><strong>2011–2014:</strong> The Ethics of / in Negotiating and Regulating Cultural Property (Leitung: Prof. Dr. Regina F. Bendix, DFG-Forschergruppe Cultural Property)</li>
+  <li><strong>2008–2011:</strong> Communication Patterns and Decision-Making about Cultural Property in the International Forum of the World Intellectual Property Organization (Disserationsprojekt, Leitung: Prof. Dr. Regina F. Bendix, DFG-Forschergruppe Cultural Property)</li>
 </ul>
 
 <h2 id="bisherige-tätigkeiten">Bisherige Tätigkeiten</h2>
 <ul>
+  <li><strong>seit 09/2016</strong><br />
+Oberassistent / Leitung Labor Populäre Kulturen, ISEK – Institut für Sozialanthropologie und Empirische Kulturwissenschaft, Populäre Kulturen, Universität Zürich.</li>
   <li><strong>10/2015–08/2016</strong><br />
 Post-Doc, Kulturanthropologie / Volkskunde, Institut für Archäologie und Kulturanthropologie, Universität Bonn.</li>
   <li><strong>2014–2015</strong><br />
@@ -49,9 +67,9 @@ Wissenschaftlicher Mitarbeiter / Doktorand, Institut für Kulturanthropologie / 
 <h2 id="studium-und-akademische-abschlüsse">Studium und akademische Abschlüsse</h2>
 <ul>
   <li><strong>2008–2011</strong><br />
-Dr. phil. in Kulturanthropologie / Europäische Ethnologie, Georg-August-Universität Göttingen (DE). Doktorarbeit: “Negotiating Tradition: The Pragmatics of International Deliberations on Cultural Property” (summa cum laude). Gutachter: Prof. Dr. Regina F. Bendix (Göttingen), Prof. Dr. Donald F. Brenneis (UC Santa Cruz).</li>
+Dr. phil. in Kulturanthropologie / Europäische Ethnologie, Georg-August-Universität Göttingen (DE). Doktorarbeit: “Negotiating Tradition: The Pragmatics of International Deliberations on Cultural Property” (\emph{summa cum laude}). Gutachter: Prof. Dr. Regina F. Bendix (Göttingen), Prof. Dr. Donald F. Brenneis (UC Santa Cruz).</li>
   <li><strong>10/2003–03/2008</strong><br />
-M.A. in Soziologie, Fächer: Soziologie, Kulturanthropologie / Europäische Ethnologie, Wirtschafts- und Sozialpsychologie, Georg-August-Universität Göttingen (DE). Magisterarbeit: “Entwicklung von Open-Source-Software: Soziologische Diskussion einer spezifischen Form von Innovationsnetzwerk” (Sehr gut).</li>
+M.A. in Soziologie, Fächer: Soziologie, Kulturanthropologie / Europäische Ethnologie, Wirtschafts- und Sozialpsychologie, Georg-August-Universität Göttingen (DE). Magisterarbeit: “Entwicklung von Open-Source-Software: Soziologische Diskussion einer spezifischen Form von Innovationsnetzwerk” (\emph{Sehr gut}).</li>
   <li><strong>10/2006–01/2007</strong><br />
 Erasmus-Programm, Fächer: Public Relations, Università degli Studi di Udine (IT).</li>
 </ul>
@@ -85,17 +103,6 @@ Erasmus-Programm, Public Relations, Università degli Studi di Udine, Italien.</
       <li>Beratung von Studierenden (01/2014)</li>
     </ul>
   </li>
-</ul>
-
-<h2 id="forschungsschwerpunkte">Forschungsschwerpunkte</h2>
-<ul>
-  <li>Kommunikationsethnografie und linguistische Anthropologie</li>
-  <li>Europäisierungsforschung</li>
-  <li>Politische Anthropologie und Organisationsethnographie</li>
-  <li>Methoden der Empirischen Kulturwissenschaft</li>
-  <li>Normative Dimensionen der Alltagskultur</li>
-  <li>Kulturwissenschaftliche Sportforschung</li>
-  <li>Kulturerbe und kulturelles Eigentum</li>
 </ul>
 
 <h2 id="gremienerfahrung">Gremienerfahrung</h2>

@@ -45,9 +45,9 @@ permalink: /publikationen/
 
 {% bibliography --query @article[ keywords!~ peerreview && keywords!~ notaccepted && keywords!~inpreparation && keywords!~submitted && keywords!~inprint && keywords!~pre ] %}
 
-<p class="title is-5 has-text-link m-t-2" id="aufsätze-in-sammelbänden">Aufsätze in Sammelbänden ({% bibliography_count --query @incollection[keywords!~ inpreparation && keywords!=miszelle && keywords!=notaccepted && keywords!~submitted && keywords!~inprint] %})</p>
+<p class="title is-5 has-text-link m-t-2" id="aufsätze-in-sammelbänden">Aufsätze in Sammelbänden ({% bibliography_count --query @incollection[keywords!~ inpreparation && keywords!=miszelle && keywords!=notaccepted && keywords!~submitted && keywords!~inprint && keywords!~pre] %})</p>
 
-{% bibliography --query @incollection[keywords!~ inpreparation && keywords!=miszelle && keywords!=notaccepted && keywords!~submitted && keywords!~inprint] %}
+{% bibliography --query @incollection[keywords!~ inpreparation && keywords!=miszelle && keywords!=notaccepted && keywords!~submitted && keywords!~inprint && keywords!~pre] %}
 
 <p class="title is-5 has-text-link m-t-2" id="miszellen-und-graue-literatur">Miszellen und graue Literatur ({% bibliography_count --query @*[keywords=miszelle] %})</p>
 
@@ -64,8 +64,11 @@ permalink: /publikationen/
 
 <div id="year" class="tabcontent">
 
-<div class="buttons m-b-2"><a class="button is-warning is-small"  href="#2019">2019</a><a class="button is-warning is-small" href="#2018">2018</a><a class="button is-warning is-small" href="#2017">2017</a><a class="button is-warning is-small" href="#2016">2016</a><a class="button is-warning is-small" href="#2015">2015</a><a class="button is-warning is-small" href="#2014">2014</a><a class="button is-warning is-small" href="#2013">2013</a><a class="button is-warning is-small" href="#2012">2012</a><a class="button is-warning is-small" href="#2011">2011</a><a class="button is-warning is-small" href="#2010">2010</a><button class="button is-warning is-small" onclick="jump('2009')">2009</button></div>
+<div class="buttons m-b-2"><a class="button is-warning is-small" href="#2020">2020</a><a class="button is-warning is-small" href="#2019">2019</a><a class="button is-warning is-small" href="#2018">2018</a><a class="button is-warning is-small" href="#2017">2017</a><a class="button is-warning is-small" href="#2016">2016</a><a class="button is-warning is-small" href="#2015">2015</a><a class="button is-warning is-small" href="#2014">2014</a><a class="button is-warning is-small" href="#2013">2013</a><a class="button is-warning is-small" href="#2012">2012</a><a class="button is-warning is-small" href="#2011">2011</a><a class="button is-warning is-small" href="#2010">2010</a><button class="button is-warning is-small" onclick="jump('2009')">2009</button></div>
 
+<p class="title is-5 has-text-link" id="2020">2020 ({% bibliography_count --query @*[year=2020] %})</p>
+
+{% bibliography --query @*[year=2020] %}
 
 <p class="title is-5 has-text-link" id="2019">2019 ({% bibliography_count --query @*[year=2019] %})</p>
 

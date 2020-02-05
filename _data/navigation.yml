@@ -69,8 +69,12 @@ publikationen-quicklinks:
     url: "/publikationen/#vorträge"
 
 cv-quicklinks:
-  - title: Derzeitige Position
-    url: "/cv/#derzeitige-position"
+#  - title: Derzeitige Position
+#    url: "/cv/#derzeitige-position"
+  - title: Forschungsschwerpunkte
+    url: "/cv/#forschungsschwerpunkte"
+  - title: Forschungsprojekte
+    url: "/cv/#forschungsprojekte"
   - title: Bisherige Tätigkeiten
     url: "/cv/#bisherige-tätigkeiten"
   - title: Studium und akademische Abschlüsse
@@ -79,8 +83,6 @@ cv-quicklinks:
     url: "/cv/#aufenthalte-im-ausland"
   - title: Weiterbildungen und Qualifikationen
     url: "/cv/#weiterbildungen-und-qualifikationen"
-  - title: Forschungsschwerpunkte
-    url: "/cv/#forschungsschwerpunkte"
   - title: Gremienerfahrung
     url: "/cv/#gremienerfahrung"
   - title: Mitgliedschaften

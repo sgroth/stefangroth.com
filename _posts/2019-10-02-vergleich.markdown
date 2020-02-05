@@ -8,4 +8,4 @@ tags: [Publikationen, Artikel, Peer Reviewed ]
 snippet: true
 snippet-heading: Publikationshinweis
 ---
-{% reference Groth2019as %} {% cite_details Groth2019as %}
+{% reference Groth2019aq %} {% cite_details Groth2019aq %}
