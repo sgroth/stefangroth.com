@@ -21,9 +21,9 @@ permalink: /publikationen/
 
 {% bibliography --query @*[keywords~=pre] %}
 
-<p class="title is-5 has-text-link m-t-2" id="angenommene-beiträge">Zur Publikation angenommene Beiträge und Beiträge im Druck ({% bibliography_count --query @*[keywords^=inprint] %})</p>
+<p class="title is-5 has-text-link m-t-2" id="angenommene-beiträge">Zur Publikation angenommene Beiträge und Beiträge im Druck ({% bibliography_count --query @*[keywords~=inprint] %})</p>
 
-{% bibliography --query @*[keywords^=inprint] %}
+{% bibliography --query @*[keywords~=inprint] %}
 
 <p class="title is-5 has-text-link m-t-2" id="monographien">Monografien ({% bibliography_count --query @book[keywords!=notaccepted  && keywords!=miszelle &&  keywords!=inpreparation && keywords=monography && keywords!~inprint] %})</p>
 

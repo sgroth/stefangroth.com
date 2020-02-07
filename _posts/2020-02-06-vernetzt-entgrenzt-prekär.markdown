@@ -11,12 +11,16 @@ aktuelles-date: "Februar 2020"
 aktuelles-description: "Im Campus-Verlag ist soeben der Sammelband Vernetzt, entgrenzt, prekär? erschienen, den ich zusammen mit Sarah May und Johannes Müske herausgegeben habe. Der Band geht zurück auf die 18. Arbeitstagung der dgv-Kommission Arbeitskulturen, die vom 13. bis 14. September 2018 in Zürich und Winterthur stattgefunden hat."
 aktuelles-link-1: "Verlagsseite"
 aktuelles-link-1-url: https://www.campus.de/buecher-campus-verlag/wissenschaft/kulturwissenschaften/vernetzt_entgrenzt_prekaer-15632.html
+aktuelles-link-2: "Inhaltsverzeichnis"
+aktuelles-link-2-url: /assets/pdf/vernetzt-toc.pdf
 aktuelles-more: true
 aktuelles-order: 1
 tags: [Aktuelles, Publikationen, Herausgeberschaften]
 links:
     - title: Verlagsseite
       url: https://www.campus.de/buecher-campus-verlag/wissenschaft/kulturwissenschaften/vernetzt_entgrenzt_prekaer-15632.html
+    - title: Inhaltsverzeichnis
+      url: /assets/pdf/vernetzt-toc.pdf
 ---
 ![Cover](/assets/img/arbeitskulturen-book.jpg "Cover Vernetzt Entgrenzt Prekär")
 Im Campus-Verlag ist soeben der Sammelband "Vernetzt, entgrenzt, prekär?"[^1] erschienen, den ich zusammen mit [Sarah May](http://www.kaee.uni-freiburg.de/personen/wimi/may) und [Johannes Müske](http://www.kaee.uni-freiburg.de/personen/wimi/mueske) herausgegeben habe. Der Band geht zurück auf die [18. Arbeitstagung](https://stefangroth.com/docs/arbeitskulturen-2018) der [dgv-Kommission Arbeitskulturen](http://www.dgv-arbeitskulturen.de), die vom 13. bis 14. September 2018 in Zürich und Winterthur stattgefunden hat.
