@@ -16,9 +16,9 @@
 title: Dr. Stefan Groth
 email: info@stefangroth.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Stefan Groth ist Kulturanthropologe und arbeitet an einem Projekt zu Mitte und Mittelmaß. Seine Forschungsschwerpunkte sind: normative Dimensionen von Alltagskultur, sprachanalytische Ansätze, politische Anthropologie, Kulturerbe und kulturwissenschaftliche Sportforschung. Er ist Oberassistent am Institut für Sozialanthropologie und Empirische Kulturwissenschaft (ISEK) der Universität Zürich und leitet das Labor Populäre Kulturen.
+  Ich bin Oberassistent am Institut für Sozialanthropologie und Empirische Kulturwissenschaft (ISEK) der Universität Zürich und leite das Labor Populäre Kulturen. Zurzeit arbeite ich insbesondere zu politischen Narrativen sowie zur Produktion Europas in alltäglichen Kontexten außerhalb Europas. Meine Habilitation habe ich über "Mittelmaß als Praxis und Konstellation: Orientierungen am Mittelmaß aus empirisch-kulturwissenschaftlicher Perspektive" geschrieben und Ende 2019 an der Philosophischen Fakultät der Universität Zürich eingereicht. Ich habe in Göttingen und Udine Soziologie, Kulturanthropologie / Europäische Ethnologie und Wirtschaft- und Sozialpsychologie studiert. Geforscht und gelehrt habe ich in Göttingen als Teil einer interdisziplinären Forschergruppe zu kulturellem Eigentum, als Fellow am Käte Hamburger Kolleg / Centre for Global Cooperation Research und als Postdoc an der Universität Bonn.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.stefangroth.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://stefangroth.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: stefangroth
 github_username:  sgroth
 

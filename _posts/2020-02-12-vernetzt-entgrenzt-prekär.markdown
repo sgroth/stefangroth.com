@@ -3,7 +3,7 @@ layout: default
 title:  "Neue Publikation: Vernetzt, entgrenzt, prekär?"
 subtitle: "Kulturwissenschaftliche Perspektiven auf Arbeit im Wandel"
 author: Stefan Groth
-date: 2020-02-11 08:00:00 +0100
+date: 2020-02-12 08:00:00 +0100
 aktuelles-title: "Neuerscheinung"
 aktuelles-subtitle: "Vernetzt, entgrenzt, prekär? (Sammelband)"
 aktuelles-title-mobile: "Neuerscheinung: Vernetzt, entgrenzt, prekär?"
