@@ -2449,21 +2449,39 @@ a.box:active {
   .notification.is-primary {
     background-color: #EA354E;
     color: #fff; }
+    .notification.is-primary.is-light {
+      background-color: #fdedef;
+      color: #d0162f; }
   .notification.is-link {
     background-color: #6D6A75;
     color: #fff; }
+    .notification.is-link.is-light {
+      background-color: #f5f4f5;
+      color: #73707b; }
   .notification.is-info {
     background-color: #3298dc;
     color: #fff; }
+    .notification.is-info.is-light {
+      background-color: #eef6fc;
+      color: #1d72aa; }
   .notification.is-success {
     background-color: #48c774;
     color: #fff; }
+    .notification.is-success.is-light {
+      background-color: #effaf3;
+      color: #257942; }
   .notification.is-warning {
     background-color: #DEDBE0;
     color: rgba(0, 0, 0, 0.7); }
+    .notification.is-warning.is-light {
+      background-color: #f5f4f6;
+      color: #4b444f; }
   .notification.is-danger {
     background-color: #f14668;
     color: #fff; }
+    .notification.is-danger.is-light {
+      background-color: #feecf0;
+      color: #cc0f35; }
 
 .progress {
   -moz-appearance: none;
@@ -4088,7 +4106,6 @@ a.navbar-item,
     color: #6D6A75; }
 
 .navbar-item {
-  display: block;
   flex-grow: 0;
   flex-shrink: 0; }
   .navbar-item img {
@@ -5148,16 +5165,13 @@ label.panel-block {
         .hero.is-danger.is-bold .navbar-menu {
           background-image: linear-gradient(141deg, #fa0a62 0%, #f14668 71%, #f7595f 100%); } }
   .hero.is-small .hero-body {
-    padding-bottom: 1.5rem;
-    padding-top: 1.5rem; }
+    padding: 1.5rem; }
   @media screen and (min-width: 769px), print {
     .hero.is-medium .hero-body {
-      padding-bottom: 9rem;
-      padding-top: 9rem; } }
+      padding: 9rem 1.5rem; } }
   @media screen and (min-width: 769px), print {
     .hero.is-large .hero-body {
-      padding-bottom: 18rem;
-      padding-top: 18rem; } }
+      padding: 18rem 1.5rem; } }
   .hero.is-halfheight .hero-body, .hero.is-fullheight .hero-body, .hero.is-fullheight-with-navbar .hero-body {
     align-items: center;
     display: flex; }

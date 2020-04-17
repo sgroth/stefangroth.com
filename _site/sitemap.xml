@@ -113,6 +113,10 @@
 <lastmod>2020-02-13T06:00:00+01:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/2020/technical-discourse.html</loc>
+<lastmod>2020-04-17T07:00:00+02:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/cv/</loc>
 </url>
 <url>
@@ -585,5 +589,13 @@
 <url>
 <loc>http://localhost:4000/assets/repository/Groth2020ae.pdf</loc>
 <lastmod>2020-02-07T17:22:32+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/assets/repository/Groth2020aq.pdf</loc>
+<lastmod>2020-03-17T09:23:59+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/assets/repository/Groth2020as.pdf</loc>
+<lastmod>2020-04-17T10:29:11+02:00</lastmod>
 </url>
 </urlset>
