@@ -1,4 +1,4 @@
-I"�Y<h1 class="add-sg">Publikationen</h1>
+I"�[<h1 class="add-sg">Publikationen</h1>
 
 <div class="tabs">
   <ul>
@@ -110,7 +110,7 @@
 
 <p class="title is-5 has-text-link m-t-2" id="zeitschriftenaufsätze">Zeitschriftenaufsätze (7)</p>
 
-<ol class="bibliography"><li><span id="Groth2020ar">Groth, Stefan. 2020. „Mitte und Mittelmass: Zwischen privilegierter Gleichheit und kompetitiver Differenz“. <i>SAGW-Bulletin</i> 1. Special Issue Ungleichheit – Inégalité: 45–47. doi:10.5281/zenodo.3716156. </span> <a onclick="copyToClipboard('#Groth2020ar')" class="copy-l">COPY</a> 
+<ol class="bibliography"><li><span id="Groth2020ar">Groth, Stefan. 2020. „Mitte und Mittelmass: Zwischen privilegierter Gleichheit und kompetitiver Differenz“. <i>SAGW-Bulletin</i> 1. Special Issue Ungleichheit – Inégalité: 45–47. doi:10.5281/zenodo.3716156. </span> <a onclick="copyToClipboard('#Groth2020ar')" class="copy-l">COPY</a> <a href="https://github.com/sgroth/stefangroth.com/raw/master/assets/repository/Groth2020ar.pdf" class="pdf-l">PDF</a>
  
 <a class="details" href="/publikationen/details/Groth2020ar.html"> (Details &rarr;)</a></li>
 <li><span id="Groth2020as">Groth, Stefan. 2020. „Technical Discourse and Normative Affirmations: Implicit Justice Claims in Multilateral Negotiations“. <i>Global Cooperation Quarterly</i> 1: 13–14s. https://github.com/sgroth/stefangroth.com/raw/master/assets/repository/Groth2020as.pdf. </span> <a onclick="copyToClipboard('#Groth2020as')" class="copy-l">COPY</a> <a href="https://github.com/sgroth/stefangroth.com/raw/master/assets/repository/Groth2020as.pdf" class="pdf-l">PDF</a>
@@ -161,7 +161,7 @@
 <li><span id="Groth2019af">Groth, Stefan, und Christian Ritter. 2019. „Zusammen arbeiten: Modalitäten – Settings – Perspektiven“. In <i>Zusammen arbeiten. Praktiken der Koordination und Kooperation in kollaborativen Prozessen</i>, herausgegeben von Stefan Groth und Christian Ritter, 7–22. Kultur und soziale Praxis. Bielefeld: Transcript. </span> <a onclick="copyToClipboard('#Groth2019af')" class="copy-l">COPY</a> 
  
 <a class="details" href="/publikationen/details/Groth2019af.html"> (Details &rarr;)</a></li>
-<li><span id="Groth2019as">Groth, Stefan. 2019. „Prinzipielle Verfügbarkeit und strategische Transparenz: Zur Rolle von Dokumenten aus politischen Prozessen in Forschungsdesigns“. In <i>Forschungsdesign 4.0. Datengenerierung und Wissenstransfer in interdisziplinärer Perspektive</i>, herausgegeben von Jens Klingner und Merve Lühr, 1:60–79. ISGV digital. Studien zur Landesgeschichte und Kulturanthropologie. Dresden: Institut für Sächsische Geschichte und Volkskunde. doi:10.25366/2019.08. </span> <a onclick="copyToClipboard('#Groth2019as')" class="copy-l">COPY</a> 
+<li><span id="Groth2019as">Groth, Stefan. 2019. „Prinzipielle Verfügbarkeit und strategische Transparenz: Zur Rolle von Dokumenten aus politischen Prozessen in Forschungsdesigns“. In <i>Forschungsdesign 4.0. Datengenerierung und Wissenstransfer in interdisziplinärer Perspektive</i>, herausgegeben von Jens Klingner und Merve Lühr, 1:60–79. ISGV digital. Studien zur Landesgeschichte und Kulturanthropologie. Dresden: Institut für Sächsische Geschichte und Volkskunde. doi:10.25366/2019.08. </span> <a onclick="copyToClipboard('#Groth2019as')" class="copy-l">COPY</a> <a href="https://slub.qucosa.de/api/qucosa%3A35922/attachment/ATT-1/" class="pdf-l">PDF</a>
  
 <a class="details" href="/publikationen/details/Groth2019as.html"> (Details &rarr;)</a></li>
 <li><span id="Groth2019am">Groth, Stefan. 2019. „Of Good Averages and Happy Mediums: Orientations towards an Average in Urban Housing“. In <i>The Vulnerable Middle Class? Strategies of Housing in Prospering Cities</i>, herausgegeben von Johannes Moser und Simone Egger, 29:29–48. Münchner ethnographische Schriften. München: utzverlag. </span> <a onclick="copyToClipboard('#Groth2019am')" class="copy-l">COPY</a> <a href="https://github.com/sgroth/stefangroth.com/raw/master/assets/repository/Groth2019am.pdf" class="pdf-l">PDF</a>
@@ -221,27 +221,30 @@
 
 <p class="title is-5 has-text-link m-t-2" id="rezensionen">Rezensionen (13)</p>
 
-<ol class="bibliography"><li><span id="Groth2019ap">Groth, Stefan. 2019. „Rezension von <i>Andere Urbanitäten: Zur Pluralität des Städtischen</i>, herausgegeben von B. Schmidt-Lauber“. <i>Schweizerisches Archiv für Volkskunde</i>. </span> <a onclick="copyToClipboard('#Groth2019ap')" class="copy-l">COPY</a> 
+<ol class="bibliography"><li><span id="Groth2020am">Groth, Stefan. 2020. „Rezension von <i>Die professionelle Praxis der Ausbilder. Eine kulturanthropologische Analyse</i>, von A. Bahl“. <i>Bayerisches Jahrbuch für Volkskunde</i>. Im Erscheinen. </span> <a onclick="copyToClipboard('#Groth2020am')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2020am.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2019ap">Groth, Stefan. 2019. „Rezension von <i>Andere Urbanitäten: Zur Pluralität des Städtischen</i>, herausgegeben von B. Schmidt-Lauber“. <i>Schweizerisches Archiv für Volkskunde</i>. </span> <a onclick="copyToClipboard('#Groth2019ap')" class="copy-l">COPY</a> 
  
 <a class="details" href="/publikationen/details/Groth2019ap.html"> (Details &rarr;)</a></li>
-<li><span id="Groth2019aj">Groth, Stefan. 2019. „Rezension von <i>&sbquo;Schließlich sitzen wir alle im selben Boot&lsquo;: Helmut Schmidts politische Sprichwortrhetorik</i> von A. Nolte und W. Mieder“. <i>Fabula: Zeitschrift für Erzählforschung</i>. doi:10.1515/fabula-2019-0013. </span> <a onclick="copyToClipboard('#Groth2019aj')" class="copy-l">COPY</a> 
- 
-<a class="details" href="/publikationen/details/Groth2019aj.html"> (Details &rarr;)</a></li>
 <li><span id="Groth2019an">Groth, Stefan. 2019. „Rezension von <i>Unterrichten als Beruf. Akteure, Praxen und Ordnungen in der Schulbildung</i> von L. Franken“. <i>Bayerisches Jahrbuch für Volkskunde</i>. München: Institut für Volkskunde, Kommission für bayerische Landesgeschichte bei der Bayerischen Akademie der Wissenschaften. http://kbl.badw.de/kbl-digital/rezensionsportal/aktuelle-rezensionen/ansicht/detail/4861.html. </span> <a onclick="copyToClipboard('#Groth2019an')" class="copy-l">COPY</a> 
  
 <a class="details" href="/publikationen/details/Groth2019an.html"> (Details &rarr;)</a></li>
-<li><span id="Groth2018ad">Groth, Stefan. 2018. „Rezension von <i>Die Not der Anderen. Kulturwissenschaftliche Perspektiven auf Aushandlungen globaler Armut am Beispiel des Fairen Handels</i> von L. Winterberg“. <i>Rheinisch"=Westfälische Zeitschrift für Volkskunde</i>. </span> <a onclick="copyToClipboard('#Groth2018ad')" class="copy-l">COPY</a> 
+<li><span id="Groth2019aj">Groth, Stefan. 2019. „Rezension von <i>&sbquo;Schließlich sitzen wir alle im selben Boot&lsquo;: Helmut Schmidts politische Sprichwortrhetorik</i> von A. Nolte und W. Mieder“. <i>Fabula: Zeitschrift für Erzählforschung</i>. doi:10.1515/fabula-2019-0013. </span> <a onclick="copyToClipboard('#Groth2019aj')" class="copy-l">COPY</a> 
  
-<a class="details" href="/publikationen/details/Groth2018ad.html"> (Details &rarr;)</a></li>
+<a class="details" href="/publikationen/details/Groth2019aj.html"> (Details &rarr;)</a></li>
 <li><span id="Groth2018ae">Groth, Stefan. 2018. „Rezension von <i>Dimensionen des Politischen. Ansprüche und Herausforderungen der Empirischen Kulturwissenschaften</i> von J. Rolshoven und I. Schneider“. <i>Schweizerisches Archiv für Volkskunde</i>. </span> <a onclick="copyToClipboard('#Groth2018ae')" class="copy-l">COPY</a> 
  
 <a class="details" href="/publikationen/details/Groth2018ae.html"> (Details &rarr;)</a></li>
-<li><span id="Groth2017aa">Groth, Stefan. 2017. „Rezension von <i>UNESCO on the Ground: Local Perspectives on Intangible Cultural Heritage</i>, herausgegeben von M. D. Foster, L. Gilman“. <i>Journal of American Folklore</i>. </span> <a onclick="copyToClipboard('#Groth2017aa')" class="copy-l">COPY</a> 
+<li><span id="Groth2018ad">Groth, Stefan. 2018. „Rezension von <i>Die Not der Anderen. Kulturwissenschaftliche Perspektiven auf Aushandlungen globaler Armut am Beispiel des Fairen Handels</i> von L. Winterberg“. <i>Rheinisch"=Westfälische Zeitschrift für Volkskunde</i>. </span> <a onclick="copyToClipboard('#Groth2018ad')" class="copy-l">COPY</a> 
  
-<a class="details" href="/publikationen/details/Groth2017aa.html"> (Details &rarr;)</a></li>
+<a class="details" href="/publikationen/details/Groth2018ad.html"> (Details &rarr;)</a></li>
 <li><span id="Groth2017ae">Groth, Stefan. 2017. „Rezension von <i>Humble Theory. Folklore’s Grasp on Social Life</i> von D. Noyes“. <i>Schweizerisches Archiv für Volkskunde</i>. </span> <a onclick="copyToClipboard('#Groth2017ae')" class="copy-l">COPY</a> <a href="https://www.e-periodica.ch/cntmng?pid=sav-001:2017:113::326" class="pdf-l">PDF</a>
  
 <a class="details" href="/publikationen/details/Groth2017ae.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2017aa">Groth, Stefan. 2017. „Rezension von <i>UNESCO on the Ground: Local Perspectives on Intangible Cultural Heritage</i>, herausgegeben von M. D. Foster, L. Gilman“. <i>Journal of American Folklore</i>. </span> <a onclick="copyToClipboard('#Groth2017aa')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2017aa.html"> (Details &rarr;)</a></li>
 <li><span id="Groth2016ad">Groth, Stefan. 2016. „Rezension von <i>Fair Trade: Eine global-lokale Geschichte am Beispiel des Kaffees</i> von R. Quaas“. <i>Rheinisch"=Westfälische Zeitschrift für Volkskunde</i>. </span> <a onclick="copyToClipboard('#Groth2016ad')" class="copy-l">COPY</a> 
  
 <a class="details" href="/publikationen/details/Groth2016ad.html"> (Details &rarr;)</a></li>
@@ -256,20 +259,15 @@
 <a class="details" href="/publikationen/details/Groth2012ab.html"> (Details &rarr;)</a></li>
 <li><span id="Groth2011ab">Groth, Stefan. 2011. „Rezension von <i>The Anthropology of Moralities</i>, herausgegeben von M. Heintz“. <i>Kulturen</i>. </span> <a onclick="copyToClipboard('#Groth2011ab')" class="copy-l">COPY</a> 
  
-<a class="details" href="/publikationen/details/Groth2011ab.html"> (Details &rarr;)</a></li>
-<li><span id="Groth2020am">Groth, Stefan. o. J. „Rezension von <i>Die professionelle Praxis der Ausbilder. Eine kulturanthropologische Analyse</i>, von A. Bahl“. <i>Bayerisches Jahrbuch für Volkskunde</i>. Im Erscheinen. </span> <a onclick="copyToClipboard('#Groth2020am')" class="copy-l">COPY</a> 
- 
-<a class="details" href="/publikationen/details/Groth2020am.html"> (Details &rarr;)</a></li></ol>
+<a class="details" href="/publikationen/details/Groth2011ab.html"> (Details &rarr;)</a></li></ol>
 
 <p class="title is-4 has-text-link m-t-2" id="vorträge">Vorträge</p>
 
 <h2 id="2020">2020</h2>
 <ul>
   <li>Anstehend: “Contesting ‘Truthiness’ and ‘Stickiness’: Narratological Approaches to Fact Checking, Counter-Narratives and Political Activism in Germany”. EASA-Kongress, Panel ‘Resisting Populism: Memes, Extreme Speech, and the Aesthetics of Affect and Defiance’, Lissabon (7/2020).</li>
-  <li>Anstehend: “Kontext und politisches Erzählen”. Tagung Politisches Erzählen. Narrative, Genres, Strategien (dgv-Kommission Erzählforschung), Freiburg (09/2020).</li>
   <li>Anstehend: “Selbstoptimierung als relationale Subjektivierung”. Tagung Optimierung des Selbst (Graduiertenkolleg Ethnographien des Selbst in der Gegenwart), Mainz (09/2020).</li>
   <li>Anstehend: “Of ‘Truthiness’ and ‘Stickiness.’ Narratological Approaches to Plausibility and Communicabilty in Digital Truth-Making”. Tagung Digital Truth-Making (dgv-Kommission Digitization in Everyday Life), Berlin (10/2020).</li>
-  <li>Anstehend: “Alltag als Konstante der Erfahrung?”. Workshop: Erfahrung: Konzeptionen und Standortbestimmungen eines Schlüsselbegriffs der Europäischen Ethnologie, Kiel (11/2020).</li>
 </ul>
 
 <h2 id="2019">2019</h2>
@@ -376,11 +374,11 @@
 
 <div class="buttons m-b-2"><a class="button is-warning is-small" href="#2020">2020</a><a class="button is-warning is-small" href="#2019">2019</a><a class="button is-warning is-small" href="#2018">2018</a><a class="button is-warning is-small" href="#2017">2017</a><a class="button is-warning is-small" href="#2016">2016</a><a class="button is-warning is-small" href="#2015">2015</a><a class="button is-warning is-small" href="#2014">2014</a><a class="button is-warning is-small" href="#2013">2013</a><a class="button is-warning is-small" href="#2012">2012</a><a class="button is-warning is-small" href="#2011">2011</a><a class="button is-warning is-small" href="#2010">2010</a><button class="button is-warning is-small" onclick="jump('2009')">2009</button></div>
 
-<p class="title is-5 has-text-link" id="2020">2020 (12)</p>
+<p class="title is-5 has-text-link" id="2020">2020 (13)</p>
 
-<ol class="bibliography"><li><span id="Groth2020ak">Groth, Stefan, Hrsg. 2020. <i>Sprache und Cultural Citizenship</i>. Zürich: Institut für Sozialanthropologie und Empirische Kulturwissenschaft – Populäre Kulturen. Im Erscheinen. </span> <a onclick="copyToClipboard('#Groth2020ak')" class="copy-l">COPY</a> 
+<ol class="bibliography"><li><span id="Groth2020am">Groth, Stefan. 2020. „Rezension von <i>Die professionelle Praxis der Ausbilder. Eine kulturanthropologische Analyse</i>, von A. Bahl“. <i>Bayerisches Jahrbuch für Volkskunde</i>. Im Erscheinen. </span> <a onclick="copyToClipboard('#Groth2020am')" class="copy-l">COPY</a> 
  
-<a class="details" href="/publikationen/details/Groth2020ak.html"> (Details &rarr;)</a></li>
+<a class="details" href="/publikationen/details/Groth2020am.html"> (Details &rarr;)</a></li>
 <li><span id="Groth2020ad">Groth, Stefan, Sarah May, und Johannes Müske. 2020. „Arbeit im Wandel und in gesellschaftlicher Diskussion“. In <i>Vernetzt, entgrenzt, prekär? Kulturwissenschaftliche Perspektiven auf Arbeit im Wandel</i>, herausgegeben von Stefan Groth, Sarah May, und Johannes Müske, 17:9–24. Arbeit und Alltag: Beiträge zur ethnografischen Arbeitskulturenforschung. Campus. </span> <a onclick="copyToClipboard('#Groth2020ad')" class="copy-l">COPY</a> 
  
 <a class="details" href="/publikationen/details/Groth2020ad.html"> (Details &rarr;)</a></li>
@@ -390,7 +388,7 @@
 <li><span id="Groth2020aq">Groth, Stefan. 2020. „Nicht ohne Zynismus – Sind aller guten Dinge wirklich drei?“ <i>UZH Magazin</i> 1: 8. https://github.com/sgroth/stefangroth.com/raw/master/assets/repository/Groth2020aq.pdf. </span> <a onclick="copyToClipboard('#Groth2020aq')" class="copy-l">COPY</a> <a href="https://github.com/sgroth/stefangroth.com/raw/master/assets/repository/Groth2020aq.pdf" class="pdf-l">PDF</a>
  
 <a class="details" href="/publikationen/details/Groth2020aq.html"> (Details &rarr;)</a></li>
-<li><span id="Groth2020ar">Groth, Stefan. 2020. „Mitte und Mittelmass: Zwischen privilegierter Gleichheit und kompetitiver Differenz“. <i>SAGW-Bulletin</i> 1. Special Issue Ungleichheit – Inégalité: 45–47. doi:10.5281/zenodo.3716156. </span> <a onclick="copyToClipboard('#Groth2020ar')" class="copy-l">COPY</a> 
+<li><span id="Groth2020ar">Groth, Stefan. 2020. „Mitte und Mittelmass: Zwischen privilegierter Gleichheit und kompetitiver Differenz“. <i>SAGW-Bulletin</i> 1. Special Issue Ungleichheit – Inégalité: 45–47. doi:10.5281/zenodo.3716156. </span> <a onclick="copyToClipboard('#Groth2020ar')" class="copy-l">COPY</a> <a href="https://github.com/sgroth/stefangroth.com/raw/master/assets/repository/Groth2020ar.pdf" class="pdf-l">PDF</a>
  
 <a class="details" href="/publikationen/details/Groth2020ar.html"> (Details &rarr;)</a></li>
 <li><span id="Groth2020as">Groth, Stefan. 2020. „Technical Discourse and Normative Affirmations: Implicit Justice Claims in Multilateral Negotiations“. <i>Global Cooperation Quarterly</i> 1: 13–14s. https://github.com/sgroth/stefangroth.com/raw/master/assets/repository/Groth2020as.pdf. </span> <a onclick="copyToClipboard('#Groth2020as')" class="copy-l">COPY</a> <a href="https://github.com/sgroth/stefangroth.com/raw/master/assets/repository/Groth2020as.pdf" class="pdf-l">PDF</a>
@@ -411,13 +409,16 @@
 <li><span id="Groth2020ag">Groth, Stefan. 2020. „Introduction: Comparison as Social and Cultural Practice“. Herausgegeben von Stefan Groth. <i>Cultural Analysis</i>. Special Issue: Comparison as Social and Cultural Practice. Im Erscheinen. </span> <a onclick="copyToClipboard('#Groth2020ag')" class="copy-l">COPY</a> 
  
 <a class="details" href="/publikationen/details/Groth2020ag.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2020ak">Groth, Stefan, Hrsg. 2020. <i>Sprache und Cultural Citizenship</i>. Zürich: Institut für Sozialanthropologie und Empirische Kulturwissenschaft – Populäre Kulturen. Im Erscheinen. </span> <a onclick="copyToClipboard('#Groth2020ak')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2020ak.html"> (Details &rarr;)</a></li>
 <li><span id="Groth2020ac">Groth, Stefan, Sarah May, und Johannes Müske, Hrsg. 2020. <i>Vernetzt, entgrenzt, prekär? Kulturwissenschaftliche Perspektiven auf Arbeit im Wandel</i>. Bd. 17. Arbeit und Alltag: Beiträge zur ethnografischen Arbeitskulturenforschung. Campus. </span> <a onclick="copyToClipboard('#Groth2020ac')" class="copy-l">COPY</a> 
  
 <a class="details" href="/publikationen/details/Groth2020ac.html"> (Details &rarr;)</a></li></ol>
 
 <p class="title is-5 has-text-link" id="2019">2019 (19)</p>
 
-<ol class="bibliography"><li><span id="Groth2019as">Groth, Stefan. 2019. „Prinzipielle Verfügbarkeit und strategische Transparenz: Zur Rolle von Dokumenten aus politischen Prozessen in Forschungsdesigns“. In <i>Forschungsdesign 4.0. Datengenerierung und Wissenstransfer in interdisziplinärer Perspektive</i>, herausgegeben von Jens Klingner und Merve Lühr, 1:60–79. ISGV digital. Studien zur Landesgeschichte und Kulturanthropologie. Dresden: Institut für Sächsische Geschichte und Volkskunde. doi:10.25366/2019.08. </span> <a onclick="copyToClipboard('#Groth2019as')" class="copy-l">COPY</a> 
+<ol class="bibliography"><li><span id="Groth2019as">Groth, Stefan. 2019. „Prinzipielle Verfügbarkeit und strategische Transparenz: Zur Rolle von Dokumenten aus politischen Prozessen in Forschungsdesigns“. In <i>Forschungsdesign 4.0. Datengenerierung und Wissenstransfer in interdisziplinärer Perspektive</i>, herausgegeben von Jens Klingner und Merve Lühr, 1:60–79. ISGV digital. Studien zur Landesgeschichte und Kulturanthropologie. Dresden: Institut für Sächsische Geschichte und Volkskunde. doi:10.25366/2019.08. </span> <a onclick="copyToClipboard('#Groth2019as')" class="copy-l">COPY</a> <a href="https://slub.qucosa.de/api/qucosa%3A35922/attachment/ATT-1/" class="pdf-l">PDF</a>
  
 <a class="details" href="/publikationen/details/Groth2019as.html"> (Details &rarr;)</a></li>
 <li><span id="Groth2019ab">Groth, Stefan, Hrsg. 2019. „Narrative Culture“. Special Issue: Political Narratives / Narrations of the Political. Peer Reviewed. </span> <a onclick="copyToClipboard('#Groth2019ab')" class="copy-l">COPY</a> 
