@@ -121,6 +121,10 @@
 <lastmod>2020-04-24T08:00:00+02:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/2020/jeeca.html</loc>
+<lastmod>2020-06-23T07:00:00+02:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/cv/</loc>
 </url>
 <url>
@@ -581,6 +585,10 @@
 <url>
 <loc>http://localhost:4000/assets/repository/Groth2019as.pdf</loc>
 <lastmod>2020-02-25T10:16:30+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/assets/repository/Groth2019at.pdf</loc>
+<lastmod>2020-06-23T12:18:38+02:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/assets/repository/Groth2020ac.pdf</loc>

@@ -140,6 +140,19 @@ margin-bottom: 1rem !important;
     }
 }
 
+.content .full {
+    @extend .image;
+    @extend .is-fullwidth;
+    max-width: none;
+    float: none;
+    margin-left: 0rem;
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 1rem;
+    border-left: 0px $white solid;
+    border-bottom: 0px $white solid;
+}
+
 .content img {
     @extend .image;
     margin-left: 1.5rem;

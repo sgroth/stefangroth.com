@@ -1,0 +1,11 @@
+---
+layout: default
+title: "Neue Publikation: Comparisons as Anticipatory and Relational Practice"
+subtitle: "Journal for European Ethnology and Cultural Analysis (JEECA)"
+author: Stefan Groth
+date: 2020-06-23 06:00 +0100
+tags: [Publikationen, Artikel]
+snippet: true
+snippet-heading: Publikationshinweis
+---
+{% reference Groth2019at %} {% cite_details Groth2019at %}

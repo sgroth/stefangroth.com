@@ -12,7 +12,7 @@ aktuelles-link-1-url: https://anthrosource.onlinelibrary.wiley.com/doi/full/10.1
 aktuelles-link-2: "Journal auf AnthroSource"
 aktuelles-link-2-url: https://anthrosource.onlinelibrary.wiley.com/journal/15481395
 aktuelles-more: true
-aktuelles-order: 2
+aktuelles-order: 3
 author: Stefan Groth
 date: 2019-12-01 08:00:00 +0100
 tags: [Aktuelles, Publikationen, Artikel, Peer Reviewed]

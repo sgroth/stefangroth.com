@@ -127,68 +127,84 @@ $primary-invert: $pink-invert;
   position: relative;
   width: 1em; }
 
-.is-overlay, .image.is-square img, .content img.is-square img, .book img.is-square img, .is-square.profile img,
+.is-overlay, .image.is-square img, .content .is-square.full img, .content img.is-square img, .book img.is-square img, .is-square.profile img,
 .image.is-square .has-ratio,
+.content .is-square.full .has-ratio,
 .content img.is-square .has-ratio,
 .book img.is-square .has-ratio,
-.is-square.profile .has-ratio, .image.is-1by1 img, .content img.is-1by1 img, .book img.is-1by1 img, .is-1by1.profile img,
+.is-square.profile .has-ratio, .image.is-1by1 img, .content .is-1by1.full img, .content img.is-1by1 img, .book img.is-1by1 img, .is-1by1.profile img,
 .image.is-1by1 .has-ratio,
+.content .is-1by1.full .has-ratio,
 .content img.is-1by1 .has-ratio,
 .book img.is-1by1 .has-ratio,
-.is-1by1.profile .has-ratio, .image.is-5by4 img, .content img.is-5by4 img, .book img.is-5by4 img, .is-5by4.profile img,
+.is-1by1.profile .has-ratio, .image.is-5by4 img, .content .is-5by4.full img, .content img.is-5by4 img, .book img.is-5by4 img, .is-5by4.profile img,
 .image.is-5by4 .has-ratio,
+.content .is-5by4.full .has-ratio,
 .content img.is-5by4 .has-ratio,
 .book img.is-5by4 .has-ratio,
-.is-5by4.profile .has-ratio, .image.is-4by3 img, .content img.is-4by3 img, .book img.is-4by3 img, .is-4by3.profile img,
+.is-5by4.profile .has-ratio, .image.is-4by3 img, .content .is-4by3.full img, .content img.is-4by3 img, .book img.is-4by3 img, .is-4by3.profile img,
 .image.is-4by3 .has-ratio,
+.content .is-4by3.full .has-ratio,
 .content img.is-4by3 .has-ratio,
 .book img.is-4by3 .has-ratio,
-.is-4by3.profile .has-ratio, .image.is-3by2 img, .content img.is-3by2 img, .book img.is-3by2 img, .is-3by2.profile img,
+.is-4by3.profile .has-ratio, .image.is-3by2 img, .content .is-3by2.full img, .content img.is-3by2 img, .book img.is-3by2 img, .is-3by2.profile img,
 .image.is-3by2 .has-ratio,
+.content .is-3by2.full .has-ratio,
 .content img.is-3by2 .has-ratio,
 .book img.is-3by2 .has-ratio,
-.is-3by2.profile .has-ratio, .image.is-5by3 img, .content img.is-5by3 img, .book img.is-5by3 img, .is-5by3.profile img,
+.is-3by2.profile .has-ratio, .image.is-5by3 img, .content .is-5by3.full img, .content img.is-5by3 img, .book img.is-5by3 img, .is-5by3.profile img,
 .image.is-5by3 .has-ratio,
+.content .is-5by3.full .has-ratio,
 .content img.is-5by3 .has-ratio,
 .book img.is-5by3 .has-ratio,
-.is-5by3.profile .has-ratio, .image.is-16by9 img, .content img.is-16by9 img, .book img.is-16by9 img, .is-16by9.profile img,
+.is-5by3.profile .has-ratio, .image.is-16by9 img, .content .is-16by9.full img, .content img.is-16by9 img, .book img.is-16by9 img, .is-16by9.profile img,
 .image.is-16by9 .has-ratio,
+.content .is-16by9.full .has-ratio,
 .content img.is-16by9 .has-ratio,
 .book img.is-16by9 .has-ratio,
-.is-16by9.profile .has-ratio, .image.is-2by1 img, .content img.is-2by1 img, .book img.is-2by1 img, .is-2by1.profile img,
+.is-16by9.profile .has-ratio, .image.is-2by1 img, .content .is-2by1.full img, .content img.is-2by1 img, .book img.is-2by1 img, .is-2by1.profile img,
 .image.is-2by1 .has-ratio,
+.content .is-2by1.full .has-ratio,
 .content img.is-2by1 .has-ratio,
 .book img.is-2by1 .has-ratio,
-.is-2by1.profile .has-ratio, .image.is-3by1 img, .content img.is-3by1 img, .book img.is-3by1 img, .is-3by1.profile img,
+.is-2by1.profile .has-ratio, .image.is-3by1 img, .content .is-3by1.full img, .content img.is-3by1 img, .book img.is-3by1 img, .is-3by1.profile img,
 .image.is-3by1 .has-ratio,
+.content .is-3by1.full .has-ratio,
 .content img.is-3by1 .has-ratio,
 .book img.is-3by1 .has-ratio,
-.is-3by1.profile .has-ratio, .image.is-4by5 img, .content img.is-4by5 img, .book img.is-4by5 img, .is-4by5.profile img,
+.is-3by1.profile .has-ratio, .image.is-4by5 img, .content .is-4by5.full img, .content img.is-4by5 img, .book img.is-4by5 img, .is-4by5.profile img,
 .image.is-4by5 .has-ratio,
+.content .is-4by5.full .has-ratio,
 .content img.is-4by5 .has-ratio,
 .book img.is-4by5 .has-ratio,
-.is-4by5.profile .has-ratio, .image.is-3by4 img, .content img.is-3by4 img, .book img.is-3by4 img, .is-3by4.profile img,
+.is-4by5.profile .has-ratio, .image.is-3by4 img, .content .is-3by4.full img, .content img.is-3by4 img, .book img.is-3by4 img, .is-3by4.profile img,
 .image.is-3by4 .has-ratio,
+.content .is-3by4.full .has-ratio,
 .content img.is-3by4 .has-ratio,
 .book img.is-3by4 .has-ratio,
-.is-3by4.profile .has-ratio, .image.is-2by3 img, .content img.is-2by3 img, .book img.is-2by3 img, .is-2by3.profile img,
+.is-3by4.profile .has-ratio, .image.is-2by3 img, .content .is-2by3.full img, .content img.is-2by3 img, .book img.is-2by3 img, .is-2by3.profile img,
 .image.is-2by3 .has-ratio,
+.content .is-2by3.full .has-ratio,
 .content img.is-2by3 .has-ratio,
 .book img.is-2by3 .has-ratio,
-.is-2by3.profile .has-ratio, .image.is-3by5 img, .content img.is-3by5 img, .book img.is-3by5 img, .is-3by5.profile img,
+.is-2by3.profile .has-ratio, .image.is-3by5 img, .content .is-3by5.full img, .content img.is-3by5 img, .book img.is-3by5 img, .is-3by5.profile img,
 .image.is-3by5 .has-ratio,
+.content .is-3by5.full .has-ratio,
 .content img.is-3by5 .has-ratio,
 .book img.is-3by5 .has-ratio,
-.is-3by5.profile .has-ratio, .image.is-9by16 img, .content img.is-9by16 img, .book img.is-9by16 img, .is-9by16.profile img,
+.is-3by5.profile .has-ratio, .image.is-9by16 img, .content .is-9by16.full img, .content img.is-9by16 img, .book img.is-9by16 img, .is-9by16.profile img,
 .image.is-9by16 .has-ratio,
+.content .is-9by16.full .has-ratio,
 .content img.is-9by16 .has-ratio,
 .book img.is-9by16 .has-ratio,
-.is-9by16.profile .has-ratio, .image.is-1by2 img, .content img.is-1by2 img, .book img.is-1by2 img, .is-1by2.profile img,
+.is-9by16.profile .has-ratio, .image.is-1by2 img, .content .is-1by2.full img, .content img.is-1by2 img, .book img.is-1by2 img, .is-1by2.profile img,
 .image.is-1by2 .has-ratio,
+.content .is-1by2.full .has-ratio,
 .content img.is-1by2 .has-ratio,
 .book img.is-1by2 .has-ratio,
-.is-1by2.profile .has-ratio, .image.is-1by3 img, .content img.is-1by3 img, .book img.is-1by3 img, .is-1by3.profile img,
+.is-1by2.profile .has-ratio, .image.is-1by3 img, .content .is-1by3.full img, .content img.is-1by3 img, .book img.is-1by3 img, .is-1by3.profile img,
 .image.is-1by3 .has-ratio,
+.content .is-1by3.full .has-ratio,
 .content img.is-1by3 .has-ratio,
 .book img.is-1by3 .has-ratio,
 .is-1by3.profile .has-ratio, .modal, .modal-background, .hero-video {
@@ -2023,7 +2039,7 @@ a.box:active {
     border-color: #dbdbdb;
     box-shadow: none;
     opacity: 0.5; }
-  .button.is-fullwidth {
+  .button.is-fullwidth, .content .button.full {
     display: flex;
     width: 100%; }
   .button.is-loading {
@@ -2281,133 +2297,149 @@ a.box:active {
     height: 3rem;
     width: 3rem; }
 
-.image, .content img, .book img, .profile {
+.image, .content .full, .content img, .book img, .profile {
   display: block;
   position: relative; }
-  .image img, .content img img, .book img img, .profile img {
+  .image img, .content .full img, .content img img, .book img img, .profile img {
     display: block;
     height: auto;
     width: 100%; }
-    .image img.is-rounded, .content img img.is-rounded, .book img img.is-rounded, .profile img.is-rounded {
+    .image img.is-rounded, .content .full img.is-rounded, .content img img.is-rounded, .book img img.is-rounded, .profile img.is-rounded {
       border-radius: 290486px; }
-  .image.is-fullwidth, .content img.is-fullwidth, .book img.is-fullwidth, .is-fullwidth.profile {
+  .image.is-fullwidth, .content .full, .content img.is-fullwidth, .book img.is-fullwidth, .is-fullwidth.profile {
     width: 100%; }
-  .image.is-square img, .content img.is-square img, .book img.is-square img, .is-square.profile img,
+  .image.is-square img, .content .is-square.full img, .content img.is-square img, .book img.is-square img, .is-square.profile img,
   .image.is-square .has-ratio,
+  .content .is-square.full .has-ratio,
   .content img.is-square .has-ratio,
   .book img.is-square .has-ratio,
-  .is-square.profile .has-ratio, .image.is-1by1 img, .content img.is-1by1 img, .book img.is-1by1 img, .is-1by1.profile img,
+  .is-square.profile .has-ratio, .image.is-1by1 img, .content .is-1by1.full img, .content img.is-1by1 img, .book img.is-1by1 img, .is-1by1.profile img,
   .image.is-1by1 .has-ratio,
+  .content .is-1by1.full .has-ratio,
   .content img.is-1by1 .has-ratio,
   .book img.is-1by1 .has-ratio,
-  .is-1by1.profile .has-ratio, .image.is-5by4 img, .content img.is-5by4 img, .book img.is-5by4 img, .is-5by4.profile img,
+  .is-1by1.profile .has-ratio, .image.is-5by4 img, .content .is-5by4.full img, .content img.is-5by4 img, .book img.is-5by4 img, .is-5by4.profile img,
   .image.is-5by4 .has-ratio,
+  .content .is-5by4.full .has-ratio,
   .content img.is-5by4 .has-ratio,
   .book img.is-5by4 .has-ratio,
-  .is-5by4.profile .has-ratio, .image.is-4by3 img, .content img.is-4by3 img, .book img.is-4by3 img, .is-4by3.profile img,
+  .is-5by4.profile .has-ratio, .image.is-4by3 img, .content .is-4by3.full img, .content img.is-4by3 img, .book img.is-4by3 img, .is-4by3.profile img,
   .image.is-4by3 .has-ratio,
+  .content .is-4by3.full .has-ratio,
   .content img.is-4by3 .has-ratio,
   .book img.is-4by3 .has-ratio,
-  .is-4by3.profile .has-ratio, .image.is-3by2 img, .content img.is-3by2 img, .book img.is-3by2 img, .is-3by2.profile img,
+  .is-4by3.profile .has-ratio, .image.is-3by2 img, .content .is-3by2.full img, .content img.is-3by2 img, .book img.is-3by2 img, .is-3by2.profile img,
   .image.is-3by2 .has-ratio,
+  .content .is-3by2.full .has-ratio,
   .content img.is-3by2 .has-ratio,
   .book img.is-3by2 .has-ratio,
-  .is-3by2.profile .has-ratio, .image.is-5by3 img, .content img.is-5by3 img, .book img.is-5by3 img, .is-5by3.profile img,
+  .is-3by2.profile .has-ratio, .image.is-5by3 img, .content .is-5by3.full img, .content img.is-5by3 img, .book img.is-5by3 img, .is-5by3.profile img,
   .image.is-5by3 .has-ratio,
+  .content .is-5by3.full .has-ratio,
   .content img.is-5by3 .has-ratio,
   .book img.is-5by3 .has-ratio,
-  .is-5by3.profile .has-ratio, .image.is-16by9 img, .content img.is-16by9 img, .book img.is-16by9 img, .is-16by9.profile img,
+  .is-5by3.profile .has-ratio, .image.is-16by9 img, .content .is-16by9.full img, .content img.is-16by9 img, .book img.is-16by9 img, .is-16by9.profile img,
   .image.is-16by9 .has-ratio,
+  .content .is-16by9.full .has-ratio,
   .content img.is-16by9 .has-ratio,
   .book img.is-16by9 .has-ratio,
-  .is-16by9.profile .has-ratio, .image.is-2by1 img, .content img.is-2by1 img, .book img.is-2by1 img, .is-2by1.profile img,
+  .is-16by9.profile .has-ratio, .image.is-2by1 img, .content .is-2by1.full img, .content img.is-2by1 img, .book img.is-2by1 img, .is-2by1.profile img,
   .image.is-2by1 .has-ratio,
+  .content .is-2by1.full .has-ratio,
   .content img.is-2by1 .has-ratio,
   .book img.is-2by1 .has-ratio,
-  .is-2by1.profile .has-ratio, .image.is-3by1 img, .content img.is-3by1 img, .book img.is-3by1 img, .is-3by1.profile img,
+  .is-2by1.profile .has-ratio, .image.is-3by1 img, .content .is-3by1.full img, .content img.is-3by1 img, .book img.is-3by1 img, .is-3by1.profile img,
   .image.is-3by1 .has-ratio,
+  .content .is-3by1.full .has-ratio,
   .content img.is-3by1 .has-ratio,
   .book img.is-3by1 .has-ratio,
-  .is-3by1.profile .has-ratio, .image.is-4by5 img, .content img.is-4by5 img, .book img.is-4by5 img, .is-4by5.profile img,
+  .is-3by1.profile .has-ratio, .image.is-4by5 img, .content .is-4by5.full img, .content img.is-4by5 img, .book img.is-4by5 img, .is-4by5.profile img,
   .image.is-4by5 .has-ratio,
+  .content .is-4by5.full .has-ratio,
   .content img.is-4by5 .has-ratio,
   .book img.is-4by5 .has-ratio,
-  .is-4by5.profile .has-ratio, .image.is-3by4 img, .content img.is-3by4 img, .book img.is-3by4 img, .is-3by4.profile img,
+  .is-4by5.profile .has-ratio, .image.is-3by4 img, .content .is-3by4.full img, .content img.is-3by4 img, .book img.is-3by4 img, .is-3by4.profile img,
   .image.is-3by4 .has-ratio,
+  .content .is-3by4.full .has-ratio,
   .content img.is-3by4 .has-ratio,
   .book img.is-3by4 .has-ratio,
-  .is-3by4.profile .has-ratio, .image.is-2by3 img, .content img.is-2by3 img, .book img.is-2by3 img, .is-2by3.profile img,
+  .is-3by4.profile .has-ratio, .image.is-2by3 img, .content .is-2by3.full img, .content img.is-2by3 img, .book img.is-2by3 img, .is-2by3.profile img,
   .image.is-2by3 .has-ratio,
+  .content .is-2by3.full .has-ratio,
   .content img.is-2by3 .has-ratio,
   .book img.is-2by3 .has-ratio,
-  .is-2by3.profile .has-ratio, .image.is-3by5 img, .content img.is-3by5 img, .book img.is-3by5 img, .is-3by5.profile img,
+  .is-2by3.profile .has-ratio, .image.is-3by5 img, .content .is-3by5.full img, .content img.is-3by5 img, .book img.is-3by5 img, .is-3by5.profile img,
   .image.is-3by5 .has-ratio,
+  .content .is-3by5.full .has-ratio,
   .content img.is-3by5 .has-ratio,
   .book img.is-3by5 .has-ratio,
-  .is-3by5.profile .has-ratio, .image.is-9by16 img, .content img.is-9by16 img, .book img.is-9by16 img, .is-9by16.profile img,
+  .is-3by5.profile .has-ratio, .image.is-9by16 img, .content .is-9by16.full img, .content img.is-9by16 img, .book img.is-9by16 img, .is-9by16.profile img,
   .image.is-9by16 .has-ratio,
+  .content .is-9by16.full .has-ratio,
   .content img.is-9by16 .has-ratio,
   .book img.is-9by16 .has-ratio,
-  .is-9by16.profile .has-ratio, .image.is-1by2 img, .content img.is-1by2 img, .book img.is-1by2 img, .is-1by2.profile img,
+  .is-9by16.profile .has-ratio, .image.is-1by2 img, .content .is-1by2.full img, .content img.is-1by2 img, .book img.is-1by2 img, .is-1by2.profile img,
   .image.is-1by2 .has-ratio,
+  .content .is-1by2.full .has-ratio,
   .content img.is-1by2 .has-ratio,
   .book img.is-1by2 .has-ratio,
-  .is-1by2.profile .has-ratio, .image.is-1by3 img, .content img.is-1by3 img, .book img.is-1by3 img, .is-1by3.profile img,
+  .is-1by2.profile .has-ratio, .image.is-1by3 img, .content .is-1by3.full img, .content img.is-1by3 img, .book img.is-1by3 img, .is-1by3.profile img,
   .image.is-1by3 .has-ratio,
+  .content .is-1by3.full .has-ratio,
   .content img.is-1by3 .has-ratio,
   .book img.is-1by3 .has-ratio,
   .is-1by3.profile .has-ratio {
     height: 100%;
     width: 100%; }
-  .image.is-square, .content img.is-square, .book img.is-square, .is-square.profile, .image.is-1by1, .content img.is-1by1, .book img.is-1by1, .is-1by1.profile {
+  .image.is-square, .content .is-square.full, .content img.is-square, .book img.is-square, .is-square.profile, .image.is-1by1, .content .is-1by1.full, .content img.is-1by1, .book img.is-1by1, .is-1by1.profile {
     padding-top: 100%; }
-  .image.is-5by4, .content img.is-5by4, .book img.is-5by4, .is-5by4.profile {
+  .image.is-5by4, .content .is-5by4.full, .content img.is-5by4, .book img.is-5by4, .is-5by4.profile {
     padding-top: 80%; }
-  .image.is-4by3, .content img.is-4by3, .book img.is-4by3, .is-4by3.profile {
+  .image.is-4by3, .content .is-4by3.full, .content img.is-4by3, .book img.is-4by3, .is-4by3.profile {
     padding-top: 75%; }
-  .image.is-3by2, .content img.is-3by2, .book img.is-3by2, .is-3by2.profile {
+  .image.is-3by2, .content .is-3by2.full, .content img.is-3by2, .book img.is-3by2, .is-3by2.profile {
     padding-top: 66.6666%; }
-  .image.is-5by3, .content img.is-5by3, .book img.is-5by3, .is-5by3.profile {
+  .image.is-5by3, .content .is-5by3.full, .content img.is-5by3, .book img.is-5by3, .is-5by3.profile {
     padding-top: 60%; }
-  .image.is-16by9, .content img.is-16by9, .book img.is-16by9, .is-16by9.profile {
+  .image.is-16by9, .content .is-16by9.full, .content img.is-16by9, .book img.is-16by9, .is-16by9.profile {
     padding-top: 56.25%; }
-  .image.is-2by1, .content img.is-2by1, .book img.is-2by1, .is-2by1.profile {
+  .image.is-2by1, .content .is-2by1.full, .content img.is-2by1, .book img.is-2by1, .is-2by1.profile {
     padding-top: 50%; }
-  .image.is-3by1, .content img.is-3by1, .book img.is-3by1, .is-3by1.profile {
+  .image.is-3by1, .content .is-3by1.full, .content img.is-3by1, .book img.is-3by1, .is-3by1.profile {
     padding-top: 33.3333%; }
-  .image.is-4by5, .content img.is-4by5, .book img.is-4by5, .is-4by5.profile {
+  .image.is-4by5, .content .is-4by5.full, .content img.is-4by5, .book img.is-4by5, .is-4by5.profile {
     padding-top: 125%; }
-  .image.is-3by4, .content img.is-3by4, .book img.is-3by4, .is-3by4.profile {
+  .image.is-3by4, .content .is-3by4.full, .content img.is-3by4, .book img.is-3by4, .is-3by4.profile {
     padding-top: 133.3333%; }
-  .image.is-2by3, .content img.is-2by3, .book img.is-2by3, .is-2by3.profile {
+  .image.is-2by3, .content .is-2by3.full, .content img.is-2by3, .book img.is-2by3, .is-2by3.profile {
     padding-top: 150%; }
-  .image.is-3by5, .content img.is-3by5, .book img.is-3by5, .is-3by5.profile {
+  .image.is-3by5, .content .is-3by5.full, .content img.is-3by5, .book img.is-3by5, .is-3by5.profile {
     padding-top: 166.6666%; }
-  .image.is-9by16, .content img.is-9by16, .book img.is-9by16, .is-9by16.profile {
+  .image.is-9by16, .content .is-9by16.full, .content img.is-9by16, .book img.is-9by16, .is-9by16.profile {
     padding-top: 177.7777%; }
-  .image.is-1by2, .content img.is-1by2, .book img.is-1by2, .is-1by2.profile {
+  .image.is-1by2, .content .is-1by2.full, .content img.is-1by2, .book img.is-1by2, .is-1by2.profile {
     padding-top: 200%; }
-  .image.is-1by3, .content img.is-1by3, .book img.is-1by3, .is-1by3.profile {
+  .image.is-1by3, .content .is-1by3.full, .content img.is-1by3, .book img.is-1by3, .is-1by3.profile {
     padding-top: 300%; }
-  .image.is-16x16, .content img.is-16x16, .book img.is-16x16, .is-16x16.profile {
+  .image.is-16x16, .content .is-16x16.full, .content img.is-16x16, .book img.is-16x16, .is-16x16.profile {
     height: 16px;
     width: 16px; }
-  .image.is-24x24, .content img.is-24x24, .book img.is-24x24, .is-24x24.profile {
+  .image.is-24x24, .content .is-24x24.full, .content img.is-24x24, .book img.is-24x24, .is-24x24.profile {
     height: 24px;
     width: 24px; }
-  .image.is-32x32, .content img.is-32x32, .book img.is-32x32, .is-32x32.profile {
+  .image.is-32x32, .content .is-32x32.full, .content img.is-32x32, .book img.is-32x32, .is-32x32.profile {
     height: 32px;
     width: 32px; }
-  .image.is-48x48, .content img.is-48x48, .book img.is-48x48, .is-48x48.profile {
+  .image.is-48x48, .content .is-48x48.full, .content img.is-48x48, .book img.is-48x48, .is-48x48.profile {
     height: 48px;
     width: 48px; }
-  .image.is-64x64, .content img.is-64x64, .book img.is-64x64, .is-64x64.profile {
+  .image.is-64x64, .content .is-64x64.full, .content img.is-64x64, .book img.is-64x64, .is-64x64.profile {
     height: 64px;
     width: 64px; }
-  .image.is-96x96, .content img.is-96x96, .book img.is-96x96, .is-96x96.profile {
+  .image.is-96x96, .content .is-96x96.full, .content img.is-96x96, .book img.is-96x96, .is-96x96.profile {
     height: 96px;
     width: 96px; }
-  .image.is-128x128, .content img.is-128x128, .book img.is-128x128, .is-128x128.profile {
+  .image.is-128x128, .content .is-128x128.full, .content img.is-128x128, .book img.is-128x128, .is-128x128.profile {
     height: 128px;
     width: 128px; }
 
@@ -2718,7 +2750,7 @@ a.box:active {
   .table.is-bordered tr:last-child td,
   .table.is-bordered tr:last-child th {
     border-bottom-width: 1px; }
-  .table.is-fullwidth {
+  .table.is-fullwidth, .content .table.full {
     width: 100%; }
   .table.is-hoverable tbody tr:not(.is-selected):hover {
     background-color: #fafafa; }
@@ -4672,7 +4704,7 @@ label.panel-block {
     background-color: white;
     border-color: #dbdbdb;
     border-bottom-color: transparent !important; }
-  .tabs.is-fullwidth li {
+  .tabs.is-fullwidth li, .content .tabs.full li {
     flex-grow: 1;
     flex-shrink: 0; }
   .tabs.is-toggle a {
@@ -6482,6 +6514,16 @@ margin-bottom: 1rem !important;
   transition: .5s; }
   .post-content a:hover {
     color: #EA354E !important; }
+
+.content .full {
+  max-width: none;
+  float: none;
+  margin-left: 0rem;
+  margin-top: 0rem;
+  margin-right: 0rem;
+  margin-bottom: 1rem;
+  border-left: 0px white solid;
+  border-bottom: 0px white solid; }
 
 .content img {
   margin-left: 1.5rem;

@@ -16,7 +16,7 @@ aktuelles-more: true
 aktuelles-order: 5
 author: Stefan Groth
 date: 2019-02-22 10:00:00 +0100
-tags: [Aktuelles,Publikationen, Herausgeberschaften]
+tags: [Publikationen, Herausgeberschaften]
 links:
     - title: Verlagsseite
       url: https://www.verlag-koenigshausen-neumann.de/product_info.php/info/p9012_Ordnung-in-Alltag-und-Gesellschaft--Empirisch-kulturwissenschaftliche-Perspektiven.html

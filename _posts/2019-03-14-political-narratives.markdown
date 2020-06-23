@@ -15,7 +15,7 @@ aktuelles-more: true
 aktuelles-order: 4
 author: Stefan Groth
 date: 2019-03-14 15:00:00 +0100
-tags: [Aktuelles, Publikationen, Peer-Reviewed Papers, Special Issues]
+tags: [Publikationen, Peer-Reviewed Papers, Special Issues]
 links:
     - title: Journal Homepage
       url: https://www.wsupress.wayne.edu/journals/detail/narrative-culture
