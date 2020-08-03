@@ -1,4 +1,4 @@
-I"j<h1 class="add-sg">Publikationen</h1>
+I"`f<h1 class="add-sg">Publikationen</h1>
 
 <div class="tabs">
   <ul>
@@ -25,7 +25,7 @@
 <ol class="bibliography"><li><span id="Groth2021aa">Groth, Stefan. 2021. „Durchschnitt als Trend: Orientierungen am Mittelmaß im Wohnen“. <i>Hessische Blätter für Volkskunde</i>. In Vorbereitung für eine Sonderausgabe über <i>Wohnen jenseits der Normen. Historische und aktuelle Perspektive</i>, herausgegeben von Manfred Seifert. </span> <a onclick="copyToClipboard('#Groth2021aa')" class="copy-l">COPY</a> 
  
 <a class="details" href="/publikationen/details/Groth2021aa.html"> (Details &rarr;)</a></li>
-<li><span id="Groth0000aa">Esguerra, Alejandro, Katja Freistein, und Stefan Groth. 2020. „International Organizations and Their Communicative Practices: How the Everyday Helps Us Understand Multilateral Sites and Processes“. In Vorbereitung. </span> <a onclick="copyToClipboard('#Groth0000aa')" class="copy-l">COPY</a> 
+<li><span id="Groth0000aa">Esguerra, Alejandro, Katja Freistein, und Stefan Groth. o. J. „International Organizations and Their Communicative Practices: How the Everyday Helps Us Understand Multilateral Sites and Processes“. In Vorbereitung. </span> <a onclick="copyToClipboard('#Groth0000aa')" class="copy-l">COPY</a> 
  
 <a class="details" href="/publikationen/details/Groth0000aa.html"> (Details &rarr;)</a></li></ol>
 
@@ -230,7 +230,7 @@
 <li><span id="Groth2020ak">Groth, Stefan. 2020. „Rezension von <i>Curated Stories: The Uses and Abuses of Storytelling</i>, von S. Fernandes“. <i>Fabula: Zeitschrift für Erzählforschung</i>. Zur Publikation angenommen. </span> <a onclick="copyToClipboard('#Groth2020ak')" class="copy-l">COPY</a> 
  
 <a class="details" href="/publikationen/details/Groth2020ak.html"> (Details &rarr;)</a></li>
-<li><span id="Groth2020aj">Groth, Stefan. 2020. „Rezension von <i>Die professionelle Praxis der Ausbilder. Eine kulturanthropologische Analyse</i>, von A. Bahl“. <i>Bayerisches Jahrbuch für Volkskunde</i>. München: Institut für Volkskunde, Kommission für bayerische Landesgeschichte bei der Bayerischen Akademie der Wissenschaften. http://kbl.badw.de/kbl-digital/rezensionsportal/aktuelle-rezensionen/ansicht/detail/4861.html. Im Erscheinen. </span> <a onclick="copyToClipboard('#Groth2020aj')" class="copy-l">COPY</a> 
+<li><span id="Groth2020aj">Groth, Stefan. 2020. „Rezension von <i>Die professionelle Praxis der Ausbilder. Eine kulturanthropologische Analyse</i>, von A. Bahl“. <i>Bayerisches Jahrbuch für Volkskunde</i>. München: Institut für Volkskunde, Kommission für bayerische Landesgeschichte bei der Bayerischen Akademie der Wissenschaften. https://www.kbl.badw.de/kbl-digital/rezensionsportal/aktuelle-rezensionen/ansicht/detail/4979.html. </span> <a onclick="copyToClipboard('#Groth2020aj')" class="copy-l">COPY</a> 
  
 <a class="details" href="/publikationen/details/Groth2020aj.html"> (Details &rarr;)</a></li>
 <li><span id="Groth2019aj">Groth, Stefan. 2019. „Rezension von <i>&sbquo;Schließlich sitzen wir alle im selben Boot&lsquo;: Helmut Schmidts politische Sprichwortrhetorik</i> von A. Nolte und W. Mieder“. <i>Fabula: Zeitschrift für Erzählforschung</i>. doi:10.1515/fabula-2019-0013. </span> <a onclick="copyToClipboard('#Groth2019aj')" class="copy-l">COPY</a> 
@@ -274,8 +274,6 @@
 
 <h2 id="2020">2020</h2>
 <ul>
-  <li>Anstehend: “Contesting ‘Truthiness’ and ‘Stickiness’: Narratological Approaches to Fact Checking, Counter-Narratives and Political Activism in Germany”. EASA-Kongress, Panel ‘Resisting Populism: Memes, Extreme Speech, and the Aesthetics of Affect and Defiance’, Lissabon (7/2020).</li>
-  <li>Anstehend: “Selbstoptimierung als relationale Subjektivierung”. Tagung Optimierung des Selbst (Graduiertenkolleg Ethnographien des Selbst in der Gegenwart), Mainz (09/2020).</li>
   <li>Anstehend: “Of ‘Truthiness’ and ‘Stickiness.’ Narratological Approaches to Plausibility and Communicabilty in Digital Truth-Making”. Tagung Digital Truth-Making (dgv-Kommission Digitization in Everyday Life), Berlin (10/2020).</li>
   <li>Anstehend: “Alltag als Konstante der Erfahrung?”. Workshop: Erfahrung: Konzeptionen und Standortbestimmungen eines Schlüsselbegriffs der Europäischen Ethnologie, Kiel (11/2020).</li>
 </ul>
@@ -384,11 +382,11 @@
 
 <div class="buttons m-b-2"><a class="button is-warning is-small" href="#2020">2020</a><a class="button is-warning is-small" href="#2019">2019</a><a class="button is-warning is-small" href="#2018">2018</a><a class="button is-warning is-small" href="#2017">2017</a><a class="button is-warning is-small" href="#2016">2016</a><a class="button is-warning is-small" href="#2015">2015</a><a class="button is-warning is-small" href="#2014">2014</a><a class="button is-warning is-small" href="#2013">2013</a><a class="button is-warning is-small" href="#2012">2012</a><a class="button is-warning is-small" href="#2011">2011</a><a class="button is-warning is-small" href="#2010">2010</a><button class="button is-warning is-small" onclick="jump('2009')">2009</button></div>
 
-<p class="title is-5 has-text-link" id="2020">2020 (16)</p>
+<p class="title is-5 has-text-link" id="2020">2020 (15)</p>
 
-<ol class="bibliography"><li><span id="Groth0000aa">Esguerra, Alejandro, Katja Freistein, und Stefan Groth. 2020. „International Organizations and Their Communicative Practices: How the Everyday Helps Us Understand Multilateral Sites and Processes“. In Vorbereitung. </span> <a onclick="copyToClipboard('#Groth0000aa')" class="copy-l">COPY</a> 
+<ol class="bibliography"><li><span id="Groth2020al">Groth, Stefan. 2020. „Rezension von <i>Self-Tracking: Vermessungspraktiken im Kontext von Quantified Self und Diabetes</i>, von L. Wiedemann“. <i>Zeitschrift für Volkskunde</i>. Zur Publikation angenommen. </span> <a onclick="copyToClipboard('#Groth2020al')" class="copy-l">COPY</a> 
  
-<a class="details" href="/publikationen/details/Groth0000aa.html"> (Details &rarr;)</a></li>
+<a class="details" href="/publikationen/details/Groth2020al.html"> (Details &rarr;)</a></li>
 <li><span id="Groth2020ad">Groth, Stefan, Sarah May, und Johannes Müske. 2020. „Arbeit im Wandel und in gesellschaftlicher Diskussion“. In <i>Vernetzt, entgrenzt, prekär? Kulturwissenschaftliche Perspektiven auf Arbeit im Wandel</i>, herausgegeben von Stefan Groth, Sarah May, und Johannes Müske, 17:9–24. Arbeit und Alltag: Beiträge zur ethnografischen Arbeitskulturenforschung. Campus. </span> <a onclick="copyToClipboard('#Groth2020ad')" class="copy-l">COPY</a> 
  
 <a class="details" href="/publikationen/details/Groth2020ad.html"> (Details &rarr;)</a></li>
@@ -404,12 +402,12 @@
 <li><span id="Groth2020as">Groth, Stefan. 2020. „Technical Discourse and Normative Affirmations: Implicit Justice Claims in Multilateral Negotiations“. <i>Global Cooperation Quarterly</i> 1: 13–14s. https://github.com/sgroth/stefangroth.com/raw/master/assets/repository/Groth2020as.pdf. </span> <a onclick="copyToClipboard('#Groth2020as')" class="copy-l">COPY</a> <a href="https://github.com/sgroth/stefangroth.com/raw/master/assets/repository/Groth2020as.pdf" class="pdf-l">PDF</a>
  
 <a class="details" href="/publikationen/details/Groth2020as.html"> (Details &rarr;)</a></li>
-<li><span id="Groth2020ab">Groth, Stefan. 2020. „Kontingente Praxen, Antizipation als Kompetenz“. In <i>Planen, Hoffen, Fürchten: Die Gegenwart der Zukunft im Alltag</i>, herausgegeben von Ruth Eggel, Fabio Freiberg, Andrea Graf, Dagmar Hänel, Victoria Huszka, Ove Sutter, und Kerstin Wolff. Bonner Beiträge zur Alltagskulturforschung. Münster: Waxmann. Im Druck. </span> <a onclick="copyToClipboard('#Groth2020ab')" class="copy-l">COPY</a> 
- 
-<a class="details" href="/publikationen/details/Groth2020ab.html"> (Details &rarr;)</a></li>
 <li><span id="Groth2020aa">Groth, Stefan, Hrsg. 2020. „Cultural Analysis“. Special Issue: Comparison as Social and Cultural Practice. Peer Reviewed. Im Erscheinen. </span> <a onclick="copyToClipboard('#Groth2020aa')" class="copy-l">COPY</a> 
  
 <a class="details" href="/publikationen/details/Groth2020aa.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2020ab">Groth, Stefan. 2020. „Kontingente Praxen, Antizipation als Kompetenz“. In <i>Planen, Hoffen, Fürchten: Die Gegenwart der Zukunft im Alltag</i>, herausgegeben von Ruth Eggel, Fabio Freiberg, Andrea Graf, Dagmar Hänel, Victoria Huszka, Ove Sutter, und Kerstin Wolff. Bonner Beiträge zur Alltagskulturforschung. Münster: Waxmann. Im Druck. </span> <a onclick="copyToClipboard('#Groth2020ab')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2020ab.html"> (Details &rarr;)</a></li>
 <li><span id="Groth2020af">Groth, Stefan. 2020. „Comparison as Reflective and Affective Practice: Orientations Towards the Middle in Recreational Road Cycling“. Herausgegeben von Stefan Groth. <i>Cultural Analysis</i>. Special Issue: Comparison as Social and Cultural Practice. Peer Reviewed. Im Erscheinen. </span> <a onclick="copyToClipboard('#Groth2020af')" class="copy-l">COPY</a> 
  
 <a class="details" href="/publikationen/details/Groth2020af.html"> (Details &rarr;)</a></li>
@@ -422,15 +420,12 @@
 <li><span id="Groth2020ai">Groth, Stefan. 2020. „Sprechen als gesellschaftliche Teilhabe. Zur Verknüpfung von Sprache und Citizenship“. In <i>Sprache und Cultural Citizenship</i>, herausgegeben von Stefan Groth. Zürich: Institut für Sozialanthropologie und Empirische Kulturwissenschaft – Populäre Kulturen. Im Erscheinen. </span> <a onclick="copyToClipboard('#Groth2020ai')" class="copy-l">COPY</a> 
  
 <a class="details" href="/publikationen/details/Groth2020ai.html"> (Details &rarr;)</a></li>
-<li><span id="Groth2020aj">Groth, Stefan. 2020. „Rezension von <i>Die professionelle Praxis der Ausbilder. Eine kulturanthropologische Analyse</i>, von A. Bahl“. <i>Bayerisches Jahrbuch für Volkskunde</i>. München: Institut für Volkskunde, Kommission für bayerische Landesgeschichte bei der Bayerischen Akademie der Wissenschaften. http://kbl.badw.de/kbl-digital/rezensionsportal/aktuelle-rezensionen/ansicht/detail/4861.html. Im Erscheinen. </span> <a onclick="copyToClipboard('#Groth2020aj')" class="copy-l">COPY</a> 
+<li><span id="Groth2020aj">Groth, Stefan. 2020. „Rezension von <i>Die professionelle Praxis der Ausbilder. Eine kulturanthropologische Analyse</i>, von A. Bahl“. <i>Bayerisches Jahrbuch für Volkskunde</i>. München: Institut für Volkskunde, Kommission für bayerische Landesgeschichte bei der Bayerischen Akademie der Wissenschaften. https://www.kbl.badw.de/kbl-digital/rezensionsportal/aktuelle-rezensionen/ansicht/detail/4979.html. </span> <a onclick="copyToClipboard('#Groth2020aj')" class="copy-l">COPY</a> 
  
 <a class="details" href="/publikationen/details/Groth2020aj.html"> (Details &rarr;)</a></li>
 <li><span id="Groth2020ak">Groth, Stefan. 2020. „Rezension von <i>Curated Stories: The Uses and Abuses of Storytelling</i>, von S. Fernandes“. <i>Fabula: Zeitschrift für Erzählforschung</i>. Zur Publikation angenommen. </span> <a onclick="copyToClipboard('#Groth2020ak')" class="copy-l">COPY</a> 
  
 <a class="details" href="/publikationen/details/Groth2020ak.html"> (Details &rarr;)</a></li>
-<li><span id="Groth2020al">Groth, Stefan. 2020. „Rezension von <i>Self-Tracking: Vermessungspraktiken im Kontext von Quantified Self und Diabetes</i>, von L. Wiedemann“. <i>Zeitschrift für Volkskunde</i>. Zur Publikation angenommen. </span> <a onclick="copyToClipboard('#Groth2020al')" class="copy-l">COPY</a> 
- 
-<a class="details" href="/publikationen/details/Groth2020al.html"> (Details &rarr;)</a></li>
 <li><span id="Groth2020ac">Groth, Stefan, Sarah May, und Johannes Müske, Hrsg. 2020. <i>Vernetzt, entgrenzt, prekär? Kulturwissenschaftliche Perspektiven auf Arbeit im Wandel</i>. Bd. 17. Arbeit und Alltag: Beiträge zur ethnografischen Arbeitskulturenforschung. Campus. </span> <a onclick="copyToClipboard('#Groth2020ac')" class="copy-l">COPY</a> 
  
 <a class="details" href="/publikationen/details/Groth2020ac.html"> (Details &rarr;)</a></li></ol>
