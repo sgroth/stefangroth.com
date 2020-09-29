@@ -3,20 +3,9 @@ layout: default
 title:  "Neue Publikation: Zusammen arbeiten"
 subtitle: "Praktiken der Koordination und Kooperation in kollaborativen Prozessen"
 sidebarimage: "zusammenarbeiten-book.jpg"
-aktuelles-title: "Neuerscheinung"
-aktuelles-subtitle: "Zusammen arbeiten (Sammelband)"
-aktuelles-title-mobile: "Neuerscheinung: Zusammen arbeiten"
-aktuelles-date: "Juli 2019"
-aktuelles-description: "Soeben erschienen ist die E-Book-Version des Sammelbandes Zusammen arbeiten, den ich zusammen mit Christian Ritter (Collegium Helveticum) herausgegeben habe. Die Druckversion folgt in Kürze."
-aktuelles-link-1: "Verlagsseite"
-aktuelles-link-1-url: https://www.transcript-verlag.de/978-3-8376-4295-7/zusammen-arbeiten/
-aktuelles-link-2: "Leseprobe"
-aktuelles-link-2-url: /assets/pdf/zusammenarbeiten-leseprobe.pdf
-aktuelles-more: true
-aktuelles-order: 3
 author: Stefan Groth
 date: 2019-07-08 08:00:00 +0100
-tags: [Aktuelles, Publikationen, Herausgeberschaften]
+tags: [Publikationen, Herausgeberschaften]
 links:
     - title: Verlagsseite
       url: https://www.transcript-verlag.de/978-3-8376-4295-7/zusammen-arbeiten/

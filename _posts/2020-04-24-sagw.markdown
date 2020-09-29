@@ -20,4 +20,4 @@ links:
 > Ce qui est compris par la moyenne, individuellement ou dans des domaines spécifiques, est susceptible d’évoluer et résulte des réalités du contexte en question. La compréhension de la classe moyenne dépend des niveaux d’expérience et de carrière individuels, ainsi que de l’évolution du marché du travail et de l’entreprise. Le revenu qui est positivement considéré comme « moyen » aujourd’hui peut soudainement être trop bas demain. Par conséquent, la moyenne est une constante mise en corrélation. En tant que différence compétitive, une valeur moyenne marque la limite inférieure, en tant qu’égalité privilégiée elle représente un équilibre entre vie professionnelle et vie privée; en même temps elle est un moyen de justifier sa propre position qui n’est que moyenne – et en fin de compte, la tentative d’être dans la moyenne produit toujours simultanément de l’égalité et de l’inégalité.
 {: .abstract}
 
-[^1]: {% reference Groth2020ar %} {% cite_details Groth2020ar %}
+[^1]: {% reference Groth2020ao %} {% cite_details Groth2020ao %}

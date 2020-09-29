@@ -14,7 +14,7 @@ aktuelles-link-1-url: https://www.campus.de/buecher-campus-verlag/wissenschaft/k
 aktuelles-link-2: "Inhaltsverzeichnis und Leseprobe"
 aktuelles-link-2-url: /assets/pdf/vernetzt-leseprobe.pdf
 aktuelles-more: true
-aktuelles-order: 2
+aktuelles-order: 3
 tags: [Aktuelles, Publikationen, Herausgeberschaften]
 links:
     - title: Verlagsseite

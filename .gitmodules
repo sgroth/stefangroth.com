@@ -4,3 +4,6 @@
 [submodule "_includes/cv"]
 	path = _includes/cv
 	url = https://github.com/sgroth/cv-data
+[submodule "_includes/teaching"]
+	path = _includes/teaching
+	url = https://github.com/sgroth/teaching
