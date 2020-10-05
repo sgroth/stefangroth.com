@@ -1,0 +1,11 @@
+---
+layout: default
+title: "Neue Publikation: Rezension von Im Dorf vor der Stadt: Die Baugenossenschaft Neubühl, 1929–2000, von E. La Roche"
+subtitle: "Schweizerisches Archiv für Volkskunde"
+author: Stefan Groth
+date: 2020-09-30 06:00 +0100
+tags: [Publikationen, Rezension]
+snippet: true
+snippet-heading: Publikationshinweis
+---
+{% reference Groth2020am %} {% cite_details Groth2020am %}
