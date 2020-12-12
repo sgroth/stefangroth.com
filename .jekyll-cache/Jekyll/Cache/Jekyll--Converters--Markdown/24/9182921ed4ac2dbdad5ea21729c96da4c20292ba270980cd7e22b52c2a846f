@@ -1,100 +1,4 @@
-<!DOCTYPE html>
-<html lang="de">
-    <head>
-        <meta charset="utf-8">
-        <meta name="robots" content="index, follow">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="author" content="https://github.com/sgroth/">
-        <title>CV - Stefan Groth</title>
-        <link rel="stylesheet" href="/css/main.css">
-        <link href="/assets/css/prism.css" rel="stylesheet" />
-        <link href="/assets/fa/css/all.css" rel="stylesheet">
-        <script src="/lib/prism.js"></script>
-    </head>
-    <body>
-            <div class="container is-widescreen header">
-
-
-<div class="columns" style="">
-
-<div class="column menu is-2 has-text-left is-hidden-touch p-l-2">
-<p class="title is-6 has-text-link "><i class="fas fa-angle-right leftdot"></i>&nbsp;Menü</p>
-
-
- <span class="title is-6 has-text-weight-normal"><a href="/" class="">Startseite</a>
-
- </span><br/>
-
- <span class="title is-6 has-text-weight-normal"><a href="/publikationen/" class="">Publikationen</a>
-
- </span><br/>
-<div class="has-text-grey-lighter leftdot">&#9679;&nbsp;</div>
- <span class="title is-6 has-text-weight-normal"><a href="/cv/" class="">CV</a>
-
- </span><br/>
-
- <span class="title is-6 has-text-weight-normal"><a href="/lehre/" class="">Lehre</a>
-
- </span><br/>
-
-
-
-
-</div>
-
-
-<div class="column is-8 is-full-touch m-b-3">
-
-<div class="buttons is-hidden-desktop m-b-2">
-
-<a class="button is-outlined is-link is-small" href="/">
-
-<span class="icon">
-  <i class="far fa-bars"></i>
-</span>
-<span>
-Startseite
-
-</a>
-
-<a class="button is-outlined is-link is-small" href="/publikationen/">
-
-Publikationen
-
-</a>
-
-<a class="button  is-link is-small" href="/cv/">
-
-CV
-
-</a>
-
-<a class="button is-outlined is-link is-small" href="/lehre/">
-
-Lehre
-
-</a>
-</div>
-
-
-<div class="content">
-    <h1 class="add-sg">Curriculum Vitae</h1>
-
-<div class="buttons m-b-2">
-<a class="button is-light is-small" href="/cv/#forschungsschwerpunkte">Forschungsschwerpunkte</a>
-<a class="button is-light is-small" href="/cv/#forschungsprojekte">Forschungsprojekte</a>
-<a class="button is-light is-small" href="/cv/#bisherige-t%C3%A4tigkeiten">Bisherige Tätigkeiten</a>
-<a class="button is-light is-small" href="/cv/#studium-und-akademische-abschl%C3%BCsse">Studium und akademische Abschlüsse</a>
-<a class="button is-light is-small" href="/cv/#aufenthalte-im-ausland">Aufenthalte im Ausland</a>
-<a class="button is-light is-small" href="/cv/#weiterbildungen-und-qualifikationen">Weiterbildungen und Qualifikationen</a>
-<a class="button is-light is-small" href="/cv/#gremienerfahrung">Gremienerfahrung</a>
-<a class="button is-light is-small" href="/cv/#mitgliedschaften">Mitgliedschaften</a>
-<a class="button is-light is-small" href="/cv/#gutachtert%C3%A4tigkeiten">Gutachtertätigkeiten</a>
-<a class="button is-light is-small" href="/cv/#planung-organisation-und-durchf%C3%BChrung-von-workshops-panels-tagungen">Planung, Organisation und Durchführung von Workshops, Panels, Tagungen</a>
-<a class="button is-light is-small" href="/cv/#ausstellungen">Ausstellungen</a></div>
-
-<!-- Curriculum Vitae Stefan Groth – https://www.stefangroth.com -->
+I"�<<!-- Curriculum Vitae Stefan Groth – https://www.stefangroth.com -->
 
 <h1 id="curriculum-vitae">Curriculum Vitae</h1>
 <p>Dr. phil. Stefan Groth<br />
@@ -217,9 +121,8 @@ Erasmus-Programm, Public Relations, Università degli Studi di Udine, Italien.</
 <ul>
   <li>Leitung Labor Populäre Kulturen, Institut für Sozialanthropologie und Empirische Kulturwissenschaft, Universität Zürich (Konzeption und Durchführung, Fellow-Programm, Nachwuchsförderung, Organisation von Tagungen und In-House-Workshops, Vorträgen, Podiumsdiskussionen, Lesungen).</li>
   <li>Organisation von Panels bei Fachkonferenzen (Deutsche Gesellschaft für Volkskunde, Société Internationale d’Ethnologie et de Folklore).</li>
-  <li>Anstehend: Zusammen mit Dr. Sarah May und Dr. Johannes Müske: Morality as Organizational Practice. 19th Workshop of the Section Cultures of Work of the German Association of Cultural Anthropology and Folklore Studies (dgv), Freiburg, November 2021.</li>
+  <li>Anstehend: Zusammen mit Dr. Sarah May und Dr. Johannes Müske: Morality as Organizational Practice. 19th Workshop of the Section Cultures of Work of the German Association of Cultural Anthropology and Folklore Studies (dgv), Freiburg,22.–23. April 2021.</li>
   <li>Anstehend: Zusammen mit Anna Weichselbraun, Ph.D.: Panel Sprechen und Zeitlichkeit, dgv-Kongress 2021, Regensburg, 20.-23. September 2021.</li>
-  <li>Zusammen mit Dr. Sarah May, Arbeitstreffen dgv-Kommission Arbeitskulturen, 27. November 2020.</li>
   <li>Zusammen mit Dr. Christine Hämmerling und Prof. Dr. Silke Meyer: Workshop Moralische Ökonomie(n) – Kosten und Nutzen. 21.-22. Mai 2019, Labor Populäre Kulturen, ISEK, Universität Zürich.</li>
   <li>Zusammen mit Prof. Dr. Markus Tauschek: Panel Comparison as Reflective and Affective Practice: Orientations Towards the Middle and Everyday Comparisons, SIEF-Kongress 2019, Santiago de Compostela, Spanien, 14-17. April 2019.</li>
   <li>Podiumsdiskussion Wissensalltag / Alltagswissen. Orte, Medien und Praktiken. Perspektiven aus Anthropologie und Kulturwissenschaft. Im Rahmen des Science Festivals 100 Ways of Thinking, Kunsthalle Zürich, 18. Oktober 2018.</li>
@@ -241,47 +144,4 @@ Erasmus-Programm, Public Relations, Università degli Studi di Udine, Italien.</
   <li>Wissensorte. Ethnografische / künstlerische Erkundungen (05/2018, Zürcher Hochschule der Künste). Ausstellung aus dem Projektseminar Wissensorte (Kooperationsprojekt zwischen ISEK – Populäre Kulturen mit der Zürcher Hochschule der Künste).</li>
 </ul>
 
-
-</div>    
-</div>
-<div class="column is-1">
-</div>
-
-</div>
-</div>
-
-<footer class="footer has-text-centered container">
-<a href="http://bulma.io" style="margin-top: 1rem;">
-                <img src="/assets/img/made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
-              </a>
-</footer>
-
-<script type="text/javascript" src="/lib/main.js"></script>
-<script src="http://code.jquery.com/jquery-latest.js"></script>
-<script>
-function copyToClipboard(element) {
-    var $temp = $("<input>");
-    $("body").append($temp);
-    $temp.val($(element).text()).select();
-    document.execCommand("copy");
-    $temp.remove();
-}
-</script>
-
-<script type="text/javascript">
-(function($) {
-    $(document).ready(function() {
-        $(window).scroll(function() {
-            if ($(this).scrollTop() > 350) {
-                $('#menus').fadeIn(500);
-            } else {
-                $('#menus').fadeOut(500);
-            }
-        });
-    });
-})(jQuery);
-</script>
-
-</body>
-</html>
-
+:ET
