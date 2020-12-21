@@ -8,4 +8,4 @@ tags: [Publikationen, Artikel]
 snippet: true
 snippet-heading: Publikationshinweis
 ---
-{% reference Groth2020an %} {% cite_details Groth2020an %}
+{% reference Groth2020ah %} {% cite_details Groth2020ah %}

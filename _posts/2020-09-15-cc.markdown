@@ -3,7 +3,7 @@ layout: default
 title:  "Neue Publikation: Sprache und Cultural Citizenship"
 subtitle: "Sonderband der Reihe Werkstücke (ISEK Populäre Kulturen)"
 author: Stefan Groth
-date: 2020-12-20 08:00:00 +0100
+date: 2021-12-20 08:00:00 +0100
 tags: [Publikationen, Herausgeberschaften]
 links:
     - title: Download (PDF)
@@ -16,7 +16,7 @@ Sich an gesellschaftlichen Prozessen zu beteiligen und teilzuhaben setzt in viel
 
 Die 21 Essays in diesem Band[^1] (darunter ein Überblicksbeitrag von mir[^2]) beschäftigen sich mit den unterschiedlichen Zusammenhängen von Sprache und gesellschaftlicher Teilhabe. Sie sind das Ergebnis eines Seminars am Institut für Sozialanthropologie und Empirische Kulturwissenschaft der Universität Zürich, an dem neben Bachelor-Studierenden der Populären Kulturen auch Studierende des Masters Kulturpublizistik der Zürcher Hochschule der Künste teilnahmen.
 
-Das Seminar und die Publikation situieren sich im Kontext des Forschungsnetzwerks Cultural Citizenship, an dem nebst ISEK und ZHdK auch das Departement Angewandte Linguistik der ZHAW beteiligt ist. Die Publikation, ein Sonderband in der [Reihe Werkstücke](https://www.isek.uzh.ch/de/populärekulturen/publikationen/studpublikationen/werkstuecke.html), ist nun zuerst als [E-Book erschienen](link), die Printausgabe folgt Anfang 2021.
+Das Seminar und die Publikation situieren sich im Kontext des Forschungsnetzwerks Cultural Citizenship, an dem nebst ISEK und ZHdK auch das Departement Angewandte Linguistik der ZHAW beteiligt ist. Die Publikation, ein Sonderband in der [Reihe Werkstücke](https://www.isek.uzh.ch/de/populärekulturen/publikationen/studpublikationen/werkstuecke.html), ist nun zuerst als [E-Book erschienen](link), die Printausgabe folgt in Kürze.
 
-[^1]: {% reference Groth2020ah %} {% cite_details Groth2020ah %}
-[^2]: {% reference Groth2020ai %} {% cite_details Groth2020ai %}
+[^1]: {% reference Groth2021ac %} {% cite_details Groth2021ac %}
+[^2]: {% reference Groth2021ad %} {% cite_details Groth2021ad %}

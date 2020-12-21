@@ -1,9 +1,9 @@
 ---
 layout: default
 title: "Kontingente Praxen, Antizipation als Kompetenz"
-subtitle: "Sammelband"
+subtitle: "Sammelbandbeitrag"
 author: Stefan Groth
-date: 2020-12-20 06:00 +0100
+date: 2020-12-21 06:00 +0100
 tags: [Publikationen, Aufsätze in Sammelbänden]
 links:
     - title: Band beim Waxmann-Verlag
@@ -13,6 +13,6 @@ links:
 
 Aus dem Klappentext:
 
-> In den letzten Jahren wird der Begriff Zukunft in den Kultur- und Sozialwissenschaften zunehmend diskutiert und geschärft. Aus Sicht einer historisch und ethnografisch forschenden Alltagskulturwissenschaft ist zu fragen, wie Zukunft sich in der praktischen Gestaltung vergangener und gegenwärtiger alltäglicher Lebenswelten, in alltagsweltlichen und populärkulturellen Narrationen und Imaginationen, sowie in der Gestaltung von und Interaktion mit materiellen Artefakten formierte und formiert. Die hier vorgestellten Beiträge aus der Forschung wurden auf der Hochschultagung der Deutschen Gesellschaft für Volkskunde 2018 in Bonn erstmalig vorgestellt und in diesem Band um eine Einführung ergänzt.
+> In den letzten Jahren wird der Begriff Zukunft in den Kultur- und Sozialwissenschaften zunehmend diskutiert und geschärft. Aus Sicht einer historisch und ethnografisch forschenden Alltagskulturwissenschaft ist zu fragen, wie Zukunft sich in der praktischen Gestaltung vergangener und gegenwärtiger alltäglicher Lebenswelten, in alltagsweltlichen und populärkulturellen Narrationen und Imaginationen sowie in der Gestaltung von und Interaktion mit materiellen Artefakten formierte und formiert. Die Autor*innen dieses Bandes nehmen sich der Frage entlang ihrer Forschungen zu unterschiedlichen Themen wie Dystopien im Protest, der Stadtentwicklung, Imaginationen zukünftiger Esskulturen, ›Preppern‹ und Utopie-Festivals oder auch dem Umgang mit Zukunft nach der Haft an.
 
-[^1]: {% reference Groth2020ab %} {% cite_details Groth2020ab %}
+[^1]: {% reference Groth2021ab %} {% cite_details Groth2021ab %}
