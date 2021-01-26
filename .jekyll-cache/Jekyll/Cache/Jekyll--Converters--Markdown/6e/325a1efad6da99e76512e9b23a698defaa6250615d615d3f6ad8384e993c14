@@ -1,85 +1,4 @@
-<!DOCTYPE html>
-<html lang="de">
-    <head>
-        <meta charset="utf-8">
-        <meta name="robots" content="index, follow">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="author" content="https://github.com/sgroth/">
-        <title>Publikationen - Stefan Groth</title>
-        <link rel="stylesheet" href="/css/main.css">
-        <link href="/assets/css/prism.css" rel="stylesheet" />
-        <link href="/assets/fa/css/all.css" rel="stylesheet">
-        <script src="/lib/prism.js"></script>
-    </head>
-    <body>
-            <div class="container is-widescreen header">
-
-<div class="columns">
-    <div class="column menu is-2 has-text-left is-hidden-touch p-l-2">
-<p class="title is-6 has-text-link "><i class="fas fa-angle-right leftdot"></i>&nbsp;Menü</p>
-
-
- <span class="title is-6 has-text-weight-normal"><a href="/" class="">Startseite</a>
-
- </span><br/>
-<div class="has-text-grey-lighter leftdot">&#9679;&nbsp;</div>
- <span class="title is-6 has-text-weight-normal"><a href="/publikationen/" class="">Publikationen</a>
-
- </span><br/>
-
- <span class="title is-6 has-text-weight-normal"><a href="/cv/" class="">CV</a>
-
- </span><br/>
-
- <span class="title is-6 has-text-weight-normal"><a href="/lehre/" class="">Lehre</a>
-
- </span><br/>
-
-
-
-<p class="title is-6 has-text-link m-t-2"><i class="fas fa-angle-down leftdot"></i>&nbsp;Downloads</p>
-
-<span class="title is-6 has-text-weight-normal"><a class="" href="https://github.com/sgroth/bibliography/raw/master/pdf/publications.de.pdf">als PDF</a></span><br/>
-<span class="title is-6 has-text-weight-normal"><a class="" href="https://github.com/sgroth/bibliography">auf Github</a></span><br/>
-
-
-</div>
-
-    <div class="column is-8 is-full-touch m-b-3">
-        <div class="buttons is-hidden-desktop m-b-2">
-
-<a class="button is-outlined is-link is-small" href="/">
-
-<span class="icon">
-  <i class="far fa-bars"></i>
-</span>
-<span>
-Startseite
-
-</a>
-
-<a class="button  is-link is-small" href="/publikationen/">
-
-Publikationen
-
-</a>
-
-<a class="button is-outlined is-link is-small" href="/cv/">
-
-CV
-
-</a>
-
-<a class="button is-outlined is-link is-small" href="/lehre/">
-
-Lehre
-
-</a>
-</div>
-
-        <div class="content">
-            <h1 class="add-sg">Publikationen</h1>
+I"�j<h1 class="add-sg">Publikationen</h1>
 
 <div class="tabs">
   <ul>
@@ -101,23 +20,20 @@ Lehre
 <a class="button is-light is-small" href="/publikationen/#miszellen-und-graue-literatur">Miszellen</a>
 <a class="button is-light is-small" href="/publikationen/#rezensionen">Rezensionen</a>
 <a class="button is-light is-small" href="/publikationen/#vortr%C3%A4ge">Vorträge</a></div>
-<p class="title is-5 has-text-link" id="beiträge-in-vorbereitung">Eingereichte Beiträge und Beiträge in Arbeit (5)</p>
+<p class="title is-5 has-text-link" id="beiträge-in-vorbereitung">Eingereichte Beiträge und Beiträge in Arbeit (4)</p>
 
 <ol class="bibliography"><li><span id="Groth2021aa">Groth, Stefan. 2021. „Ästhetik, Nachhaltigkeit, Begrenzung: Anmerkungen zu normativen Dimensionen des kleinen Wohnens“. <i>Hessische Blätter für Volkskunde</i>. Zur Publikation angenommen für eine Sonderausgabe über <i>Wohnen jenseits der Normen. Historische und aktuelle Perspektive</i>, herausgegeben von Manfred Seifert. </span> <a onclick="copyToClipboard('#Groth2021aa')" class="copy-l">COPY</a> 
  
 <a class="details" href="/publikationen/details/Groth2021aa.html"> (Details &rarr;)</a></li>
-<li><span id="Groth2021ae">Groth, Stefan. 2021. „Code und Kommunikabilität“. <i>Kuckuck. Notizen zur Alltagskultur</i>. In Vorbereitung. </span> <a onclick="copyToClipboard('#Groth2021ae')" class="copy-l">COPY</a> 
+<li><span id="Groth2021ac">Groth, Stefan, Hrsg. 2021. <i>Sprache und Cultural Citizenship</i>. Zürich: Institut für Sozialanthropologie und Empirische Kulturwissenschaft – Populäre Kulturen. </span> <a onclick="copyToClipboard('#Groth2021ac')" class="copy-l">COPY</a> 
  
-<a class="details" href="/publikationen/details/Groth2021ae.html"> (Details &rarr;)</a></li>
-<li><span id="Groth2021ag">Groth, Stefan. 2021. <i>Normative Dimensionen kulturellen Eigentums</i>. Bd. 16. Göttingen Studies in Cultural Property. Göttingen: Göttingen University Press. In Vorbereitung. </span> <a onclick="copyToClipboard('#Groth2021ag')" class="copy-l">COPY</a> 
+<a class="details" href="/publikationen/details/Groth2021ac.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2021ad">Groth, Stefan. 2021. „Sprechen als gesellschaftliche Teilhabe. Zur Verknüpfung von Sprache und Citizenship“. In <i>Sprache und Cultural Citizenship</i>, herausgegeben von Stefan Groth, 10–23. Zürich: Institut für Sozialanthropologie und Empirische Kulturwissenschaft – Populäre Kulturen. </span> <a onclick="copyToClipboard('#Groth2021ad')" class="copy-l">COPY</a> 
  
-<a class="details" href="/publikationen/details/Groth2021ag.html"> (Details &rarr;)</a></li>
+<a class="details" href="/publikationen/details/Groth2021ad.html"> (Details &rarr;)</a></li>
 <li><span id="Groth0000aa">Esguerra, Alejandro, Katja Freistein, und Stefan Groth. o. J. „International Organizations and Their Communicative Practices: How the Everyday Helps Us Understand Multilateral Sites and Processes“. Zur Publikation eingereicht. </span> <a onclick="copyToClipboard('#Groth0000aa')" class="copy-l">COPY</a> 
  
-<a class="details" href="/publikationen/details/Groth0000aa.html"> (Details &rarr;)</a></li>
-<li><span id="Groth0000ab">Groth, Stefan. o. J. „Contesting Truthiness and Stickiness: Narratological Approaches to the Aesthetics of Fact Checking, Counter-Narratives and Political Activism in Germany“. In Vorbereitung für eine Special Issue zu Resisting Populism: Memes, Extreme Speech, and the Aesthetics of Affect and Defiance. </span> <a onclick="copyToClipboard('#Groth0000ab')" class="copy-l">COPY</a> 
- 
-<a class="details" href="/publikationen/details/Groth0000ab.html"> (Details &rarr;)</a></li></ol>
+<a class="details" href="/publikationen/details/Groth0000aa.html"> (Details &rarr;)</a></li></ol>
 
 <!--<p class="title is-5 has-text-link m-t-2" id="angenommene-beiträge">Zur Publikation angenommene Beiträge und Beiträge im Druck (0)</p>
 
@@ -131,7 +47,7 @@ Lehre
 
 <p class="title is-5 has-text-link m-t-2" id="herausgeberschaften">Herausgeberschaften (6)</p>
 
-<ol class="bibliography"><li><span id="Groth2021ac">Groth, Stefan, Hrsg. 2021. <i>Sprache und Cultural Citizenship</i>. Zürich: Institut für Sozialanthropologie und Empirische Kulturwissenschaft – Populäre Kulturen. https://github.com/sgroth/stefangroth.com/raw/master/assets/repository/Groth2021ac.pdf. </span> <a onclick="copyToClipboard('#Groth2021ac')" class="copy-l">COPY</a> 
+<ol class="bibliography"><li><span id="Groth2021ac">Groth, Stefan, Hrsg. 2021. <i>Sprache und Cultural Citizenship</i>. Zürich: Institut für Sozialanthropologie und Empirische Kulturwissenschaft – Populäre Kulturen. </span> <a onclick="copyToClipboard('#Groth2021ac')" class="copy-l">COPY</a> 
  
 <a class="details" href="/publikationen/details/Groth2021ac.html"> (Details &rarr;)</a></li>
 <li><span id="Groth2020ac">Groth, Stefan, Sarah May, und Johannes Müske, Hrsg. 2020. <i>Vernetzt, entgrenzt, prekär? Kulturwissenschaftliche Perspektiven auf Arbeit im Wandel</i>. Bd. 17. Arbeit und Alltag: Beiträge zur ethnografischen Arbeitskulturenforschung. Campus. </span> <a onclick="copyToClipboard('#Groth2020ac')" class="copy-l">COPY</a> 
@@ -222,20 +138,20 @@ Lehre
  
 <a class="details" href="/publikationen/details/Groth2009ab.html"> (Details &rarr;)</a></li></ol>
 
-<p class="title is-5 has-text-link m-t-2" id="aufsätze-in-sammelbänden">Aufsätze in Sammelbänden (25)</p>
+<p class="title is-5 has-text-link m-t-2" id="aufsätze-in-sammelbänden">Aufsätze in Sammelbänden (24)</p>
 
-<ol class="bibliography"><li><span id="Groth2021ad">Groth, Stefan. 2021. „Sprechen als gesellschaftliche Teilhabe. Zur Verknüpfung von Sprache und Citizenship“. In <i>Sprache und Cultural Citizenship</i>, herausgegeben von Stefan Groth, 10–37. Zürich: Institut für Sozialanthropologie und Empirische Kulturwissenschaft – Populäre Kulturen. https://github.com/sgroth/stefangroth.com/raw/master/assets/repository/Groth2021ad.pdf. </span> <a onclick="copyToClipboard('#Groth2021ad')" class="copy-l">COPY</a> 
- 
-<a class="details" href="/publikationen/details/Groth2021ad.html"> (Details &rarr;)</a></li>
-<li><span id="Groth2021ab">Groth, Stefan. 2021. „Kontingente Praxen, Antizipation als Kompetenz“. In <i>Planen, Hoffen, Fürchten: Die Gegenwart der Zukunft im Alltag</i>, herausgegeben von Ruth Dorothea Eggel, Fabio Freiberg, Andrea Graf, Dagmar Hänel, Victoria Huszka, Ove Sutter, und Kerstin Wolff, 13:203–16. Bonner Beiträge zur Alltagskulturforschung. Münster: Waxmann. </span> <a onclick="copyToClipboard('#Groth2021ab')" class="copy-l">COPY</a> 
+<ol class="bibliography"><li><span id="Groth2021ab">Groth, Stefan. 2021. „Kontingente Praxen, Antizipation als Kompetenz“. In <i>Planen, Hoffen, Fürchten: Die Gegenwart der Zukunft im Alltag</i>, herausgegeben von Ruth Dorothea Eggel, Fabio Freiberg, Andrea Graf, Dagmar Hänel, Victoria Huszka, Ove Sutter, und Kerstin Wolff, 13:203–16. Bonner Beiträge zur Alltagskulturforschung. Münster: Waxmann. </span> <a onclick="copyToClipboard('#Groth2021ab')" class="copy-l">COPY</a> 
  
 <a class="details" href="/publikationen/details/Groth2021ab.html"> (Details &rarr;)</a></li>
-<li><span id="Groth2020ad">Groth, Stefan, Sarah May, und Johannes Müske. 2020. „Arbeit im Wandel und in gesellschaftlicher Diskussion“. In <i>Vernetzt, entgrenzt, prekär? Kulturwissenschaftliche Perspektiven auf Arbeit im Wandel</i>, herausgegeben von Stefan Groth, Sarah May, und Johannes Müske, 17:9–24. Arbeit und Alltag: Beiträge zur ethnografischen Arbeitskulturenforschung. Campus. </span> <a onclick="copyToClipboard('#Groth2020ad')" class="copy-l">COPY</a> 
- 
-<a class="details" href="/publikationen/details/Groth2020ad.html"> (Details &rarr;)</a></li>
 <li><span id="Groth2020ae">Groth, Stefan. 2020. „&sbquo;Work-Life-Balance&lsquo;, Entgrenzung und Orientierungen an der Mitte“. In <i>Vernetzt, entgrenzt, prekär? Kulturwissenschaftliche Perspektiven auf Arbeit im Wandel</i>, herausgegeben von Stefan Groth, Sarah May, und Johannes Müske, 17:205–25. Arbeit und Alltag: Beiträge zur ethnografischen Arbeitskulturenforschung. Campus. </span> <a onclick="copyToClipboard('#Groth2020ae')" class="copy-l">COPY</a> 
  
 <a class="details" href="/publikationen/details/Groth2020ae.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2020ad">Groth, Stefan, Sarah May, und Johannes Müske. 2020. „Arbeit im Wandel und in gesellschaftlicher Diskussion“. In <i>Vernetzt, entgrenzt, prekär? Kulturwissenschaftliche Perspektiven auf Arbeit im Wandel</i>, herausgegeben von Stefan Groth, Sarah May, und Johannes Müske, 17:9–24. Arbeit und Alltag: Beiträge zur ethnografischen Arbeitskulturenforschung. Campus. </span> <a onclick="copyToClipboard('#Groth2020ad')" class="copy-l">COPY</a> 
+ 
+<a class="details" href="/publikationen/details/Groth2020ad.html"> (Details &rarr;)</a></li>
+<li><span id="Groth2019al">Groth, Stefan. 2019. „Zwischen Ermöglichung und Begrenzung: Zur subjektiven Plausibilisierung des Mittelmaßes als normative Orientierung“. In <i>Wirtschaften. Kulturwissenschaftliche Perspektiven</i>, herausgegeben von Karl Braun, Johannes Moser, und Christian Schönholz, 479–87. Marburg: MakuFEE. </span> <a onclick="copyToClipboard('#Groth2019al')" class="copy-l">COPY</a> <a href="https://github.com/sgroth/stefangroth.com/raw/master/assets/repository/Groth2019al.pdf" class="pdf-l">PDF</a>
+ 
+<a class="details" href="/publikationen/details/Groth2019al.html"> (Details &rarr;)</a></li>
 <li><span id="Groth2019ak">Groth, Stefan. 2019. „Wettbewerb ums Mittelmaß? Kompetitive Orientierungen im breitensportlichen Rennradfahren“. In <i>Auf den Spuren der Konkurrenz. Kultur‐ und sozialwissenschaftliche Perspektiven</i>, herausgegeben von Karin Bürkert, Alexander Engel, Timo Heimerdinger, Markus Tauschek, und Tobias Werron, 2:199–219. Freiburger Studien zur Kulturanthropologie. Münster: Waxmann. </span> <a onclick="copyToClipboard('#Groth2019ak')" class="copy-l">COPY</a> 
  
 <a class="details" href="/publikationen/details/Groth2019ak.html"> (Details &rarr;)</a></li>
@@ -257,9 +173,6 @@ Lehre
 <li><span id="Groth2019am">Groth, Stefan. 2019. „Of Good Averages and Happy Mediums: Orientations towards an Average in Urban Housing“. In <i>The Vulnerable Middle Class? Strategies of Housing in Prospering Cities</i>, herausgegeben von Johannes Moser und Simone Egger, 29:29–48. Münchner ethnographische Schriften. München: utzverlag. </span> <a onclick="copyToClipboard('#Groth2019am')" class="copy-l">COPY</a> <a href="https://github.com/sgroth/stefangroth.com/raw/master/assets/repository/Groth2019am.pdf" class="pdf-l">PDF</a>
  
 <a class="details" href="/publikationen/details/Groth2019am.html"> (Details &rarr;)</a></li>
-<li><span id="Groth2019al">Groth, Stefan. 2019. „Zwischen Ermöglichung und Begrenzung: Zur subjektiven Plausibilisierung des Mittelmaßes als normative Orientierung“. In <i>Wirtschaften. Kulturwissenschaftliche Perspektiven</i>, herausgegeben von Karl Braun, Johannes Moser, und Christian Schönholz, 479–87. Marburg: MakuFEE. </span> <a onclick="copyToClipboard('#Groth2019al')" class="copy-l">COPY</a> <a href="https://github.com/sgroth/stefangroth.com/raw/master/assets/repository/Groth2019al.pdf" class="pdf-l">PDF</a>
- 
-<a class="details" href="/publikationen/details/Groth2019al.html"> (Details &rarr;)</a></li>
 <li><span id="Groth2018aa">Groth, Stefan. 2018. „&sbquo;Kein sichereres Mittel existirt zur Abwehr von allem Lumpengesindel&lsquo;: Zur Entwicklung von Sicherheits- und Kontrollkonstellationen um 1900“. In <i>Der Alltag der (Un)Sicherheit. Kulturwissenschaftlich-ethnographische Perspektiven auf die Sicherheitsgesellschaft</i>, herausgegeben von Alexandra Schwell und Katharina Eisch-Angus, 36–63. Berlin: Panama Verlag. </span> <a onclick="copyToClipboard('#Groth2018aa')" class="copy-l">COPY</a> 
  
 <a class="details" href="/publikationen/details/Groth2018aa.html"> (Details &rarr;)</a></li>
@@ -485,7 +398,7 @@ Lehre
 
 <div class="buttons m-b-2"><a class="button is-warning is-small" href="#2021">2021</a><a class="button is-warning is-small" href="#2020">2020</a><a class="button is-warning is-small" href="#2019">2019</a><a class="button is-warning is-small" href="#2018">2018</a><a class="button is-warning is-small" href="#2017">2017</a><a class="button is-warning is-small" href="#2016">2016</a><a class="button is-warning is-small" href="#2015">2015</a><a class="button is-warning is-small" href="#2014">2014</a><a class="button is-warning is-small" href="#2013">2013</a><a class="button is-warning is-small" href="#2012">2012</a><a class="button is-warning is-small" href="#2011">2011</a><a class="button is-warning is-small" href="#2010">2010</a><button class="button is-warning is-small" onclick="jump('2009')">2009</button></div>
 
-<p class="title is-5 has-text-link" id="2021">2021 (6)</p>
+<p class="title is-5 has-text-link" id="2021">2021 (4)</p>
 
 <ol class="bibliography"><li><span id="Groth2021aa">Groth, Stefan. 2021. „Ästhetik, Nachhaltigkeit, Begrenzung: Anmerkungen zu normativen Dimensionen des kleinen Wohnens“. <i>Hessische Blätter für Volkskunde</i>. Zur Publikation angenommen für eine Sonderausgabe über <i>Wohnen jenseits der Normen. Historische und aktuelle Perspektive</i>, herausgegeben von Manfred Seifert. </span> <a onclick="copyToClipboard('#Groth2021aa')" class="copy-l">COPY</a> 
  
@@ -493,18 +406,12 @@ Lehre
 <li><span id="Groth2021ab">Groth, Stefan. 2021. „Kontingente Praxen, Antizipation als Kompetenz“. In <i>Planen, Hoffen, Fürchten: Die Gegenwart der Zukunft im Alltag</i>, herausgegeben von Ruth Dorothea Eggel, Fabio Freiberg, Andrea Graf, Dagmar Hänel, Victoria Huszka, Ove Sutter, und Kerstin Wolff, 13:203–16. Bonner Beiträge zur Alltagskulturforschung. Münster: Waxmann. </span> <a onclick="copyToClipboard('#Groth2021ab')" class="copy-l">COPY</a> 
  
 <a class="details" href="/publikationen/details/Groth2021ab.html"> (Details &rarr;)</a></li>
-<li><span id="Groth2021ac">Groth, Stefan, Hrsg. 2021. <i>Sprache und Cultural Citizenship</i>. Zürich: Institut für Sozialanthropologie und Empirische Kulturwissenschaft – Populäre Kulturen. https://github.com/sgroth/stefangroth.com/raw/master/assets/repository/Groth2021ac.pdf. </span> <a onclick="copyToClipboard('#Groth2021ac')" class="copy-l">COPY</a> 
+<li><span id="Groth2021ac">Groth, Stefan, Hrsg. 2021. <i>Sprache und Cultural Citizenship</i>. Zürich: Institut für Sozialanthropologie und Empirische Kulturwissenschaft – Populäre Kulturen. </span> <a onclick="copyToClipboard('#Groth2021ac')" class="copy-l">COPY</a> 
  
 <a class="details" href="/publikationen/details/Groth2021ac.html"> (Details &rarr;)</a></li>
-<li><span id="Groth2021ad">Groth, Stefan. 2021. „Sprechen als gesellschaftliche Teilhabe. Zur Verknüpfung von Sprache und Citizenship“. In <i>Sprache und Cultural Citizenship</i>, herausgegeben von Stefan Groth, 10–37. Zürich: Institut für Sozialanthropologie und Empirische Kulturwissenschaft – Populäre Kulturen. https://github.com/sgroth/stefangroth.com/raw/master/assets/repository/Groth2021ad.pdf. </span> <a onclick="copyToClipboard('#Groth2021ad')" class="copy-l">COPY</a> 
+<li><span id="Groth2021ad">Groth, Stefan. 2021. „Sprechen als gesellschaftliche Teilhabe. Zur Verknüpfung von Sprache und Citizenship“. In <i>Sprache und Cultural Citizenship</i>, herausgegeben von Stefan Groth, 10–23. Zürich: Institut für Sozialanthropologie und Empirische Kulturwissenschaft – Populäre Kulturen. </span> <a onclick="copyToClipboard('#Groth2021ad')" class="copy-l">COPY</a> 
  
-<a class="details" href="/publikationen/details/Groth2021ad.html"> (Details &rarr;)</a></li>
-<li><span id="Groth2021ae">Groth, Stefan. 2021. „Code und Kommunikabilität“. <i>Kuckuck. Notizen zur Alltagskultur</i>. In Vorbereitung. </span> <a onclick="copyToClipboard('#Groth2021ae')" class="copy-l">COPY</a> 
- 
-<a class="details" href="/publikationen/details/Groth2021ae.html"> (Details &rarr;)</a></li>
-<li><span id="Groth2021ag">Groth, Stefan. 2021. <i>Normative Dimensionen kulturellen Eigentums</i>. Bd. 16. Göttingen Studies in Cultural Property. Göttingen: Göttingen University Press. In Vorbereitung. </span> <a onclick="copyToClipboard('#Groth2021ag')" class="copy-l">COPY</a> 
- 
-<a class="details" href="/publikationen/details/Groth2021ag.html"> (Details &rarr;)</a></li></ol>
+<a class="details" href="/publikationen/details/Groth2021ad.html"> (Details &rarr;)</a></li></ol>
 
 <p class="title is-5 has-text-link" id="2020">2020 (14)</p>
 
@@ -781,44 +688,4 @@ function jump(h){
 
 </script>
 
-
-        </div>
-    </div>
-    <div class="column is-1"></div>
-</div>
-</div>
-<footer class="footer has-text-centered container">
-<a href="http://bulma.io" style="margin-top: 1rem;">
-                <img src="/assets/img/made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
-              </a>
-</footer>
-
-<script type="text/javascript" src="/lib/main.js"></script>
-<script src="http://code.jquery.com/jquery-latest.js"></script>
-<script>
-function copyToClipboard(element) {
-    var $temp = $("<input>");
-    $("body").append($temp);
-    $temp.val($(element).text()).select();
-    document.execCommand("copy");
-    $temp.remove();
-}
-</script>
-
-<script type="text/javascript">
-(function($) {
-    $(document).ready(function() {
-        $(window).scroll(function() {
-            if ($(this).scrollTop() > 350) {
-                $('#menus').fadeIn(500);
-            } else {
-                $('#menus').fadeOut(500);
-            }
-        });
-    });
-})(jQuery);
-</script>
-
-</body>
-</html>
-
+:ET
