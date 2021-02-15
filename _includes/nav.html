@@ -4,8 +4,13 @@
 {% if page.title == item.title %}<div class="has-text-grey-lighter leftdot">&#9679;&nbsp;</div>{% endif %}
  <span class="title is-6 has-text-weight-normal"><a href="{{ item.url   | relative_url }}" class="{% if page.title == item.title %}{% endif %}">{{ item.title }}</a>
 
- </span><br/>{% endfor %}
+</span><br/>{% endfor %}
 
+<!--
+<p class="title is-6 has-text-link m-t-2"><i class="fas fa-angle-right leftdot"></i>&nbsp;Projekte</p>
+{% for item in site.data.navigation.projekte %}
+<span class="title is-6 has-text-weight-normal"><a class="" href="{{ item.url   | relative_url }}">{{ item.title }}</a></span><br/>{% endfor %}
+-->
 
 {% if page.title == "Publikationen" %}
 <p class="title is-6 has-text-link m-t-2"><i class="fas fa-angle-down leftdot"></i>&nbsp;Downloads</p>

@@ -4,12 +4,16 @@ main:
   url: "/"
 - title: "Publikationen"
   url: "/publikationen/"
-#- title: "Projekte"
-#  url: "/projekte/"
 - title: "CV"
   url: "/cv/"
 - title: "Lehre"
   url: "lehre/"
+
+projekte:
+- title: "EUDICON"
+  url: "/projekte/eudicon/"
+- title: "POLNAR"
+  url: "/projekte/polnar/"
 
 schwerpunkte:
 - title: Normative Dimensionen der Alltagskultur

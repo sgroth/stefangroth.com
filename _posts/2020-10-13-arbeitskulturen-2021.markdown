@@ -2,20 +2,9 @@
 layout: default
 title:  "CfP: Morality as Organizational Practice"
 subtitle: "19th Workshop of the Section “Cultures of Work” of the German Association of Cultural Anthropology and Folklore Studies (dgv), 22.–23. April 2021, Freiburg"
-aktuelles-title: "Call for Papers"
-aktuelles-subtitle: "Morality as Organizational Practice (Workshop)"
-aktuelles-title-mobile: "CfP: Morality as Organizational Practice (Workshop)"
-aktuelles-date: "April 2021"
-aktuelles-description: "The workshop has been postponed until November 2021. A new call for papers will be circulated in February 2021."
-aktuelles-link-1: "Website Call/Workshop"
-aktuelles-link-1-url: https://organization.dgv-arbeitskulturen.de
-aktuelles-link-2: "Call as PDF"
-aktuelles-link-2-url: http://organization.dgv-arbeitskulturen.de/wp-content/uploads/2020/10/cfp-morality-as-organizational-practice.pdf
-aktuelles-more: true
-aktuelles-order: 1
 permalink: "docs/arbeitskulturen-2021-call"
 date:   2020-10-13 08:00:00 +0100
-tags: [Aktuelles,DGV,Arbeitskulturen,Call for Papers,Workshop]
+tags: [DGV,Arbeitskulturen,Call for Papers,Workshop]
 links:
     - title: Website Workshop & Call
       url: https://organization.dgv-arbeitskulturen.de
