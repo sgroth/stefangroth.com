@@ -1,91 +1,4 @@
-<!DOCTYPE html>
-<html lang="de">
-    <head>
-        <meta charset="utf-8">
-        <meta name="robots" content="index, follow">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="author" content="https://github.com/sgroth/">
-        <title>Publikationen - Stefan Groth</title>
-        <link rel="stylesheet" href="/css/main.css">
-        <link href="/assets/css/prism.css" rel="stylesheet" />
-        <link href="/assets/fa/css/all.css" rel="stylesheet">
-        <script src="/lib/prism.js"></script>
-    </head>
-    <body>
-            <div class="container is-widescreen header">
-
-<div class="columns">
-    <div class="column menu is-2 has-text-left is-hidden-touch p-l-2">
-<p class="title is-6 has-text-link "><i class="fas fa-angle-right leftdot"></i>&nbsp;Menü</p>
-
-
- <span class="title is-6 has-text-weight-normal"><a href="/" class="">Startseite</a>
-
-</span><br/>
-<div class="has-text-grey-lighter leftdot">&#9679;&nbsp;</div>
- <span class="title is-6 has-text-weight-normal"><a href="/publikationen/" class="">Publikationen</a>
-
-</span><br/>
-
- <span class="title is-6 has-text-weight-normal"><a href="/cv/" class="">CV</a>
-
-</span><br/>
-
- <span class="title is-6 has-text-weight-normal"><a href="/lehre/" class="">Lehre</a>
-
-</span><br/>
-
-<!--
-<p class="title is-6 has-text-link m-t-2"><i class="fas fa-angle-right leftdot"></i>&nbsp;Projekte</p>
-
-<span class="title is-6 has-text-weight-normal"><a class="" href="/projekte/eudicon/">EUDICON</a></span><br/>
-<span class="title is-6 has-text-weight-normal"><a class="" href="/projekte/polnar/">POLNAR</a></span><br/>
--->
-
-
-<p class="title is-6 has-text-link m-t-2"><i class="fas fa-angle-down leftdot"></i>&nbsp;Downloads</p>
-
-<span class="title is-6 has-text-weight-normal"><a class="" href="https://github.com/sgroth/bibliography/raw/master/pdf/publications.de.pdf">als PDF</a></span><br/>
-<span class="title is-6 has-text-weight-normal"><a class="" href="https://github.com/sgroth/bibliography">auf Github</a></span><br/>
-
-
-</div>
-
-    <div class="column is-8 is-full-touch m-b-3">
-        <div class="buttons is-hidden-desktop m-b-2">
-
-<a class="button is-outlined is-link is-small" href="/">
-
-<span class="icon">
-  <i class="far fa-bars"></i>
-</span>
-<span>
-Startseite
-
-</a>
-
-<a class="button  is-link is-small" href="/publikationen/">
-
-Publikationen
-
-</a>
-
-<a class="button is-outlined is-link is-small" href="/cv/">
-
-CV
-
-</a>
-
-<a class="button is-outlined is-link is-small" href="/lehre/">
-
-Lehre
-
-</a>
-</div>
-
-        <div class="content">
-            <h1 class="add-sg">Publikationen</h1>
+I"l<h1 class="add-sg">Publikationen</h1>
 
 <div class="tabs">
   <ul>
@@ -367,9 +280,8 @@ Lehre
 
 <h2 id="2021">2021</h2>
 <ul>
-  <li>“Selbstoptimierung als relationale Subjektivierung”. Tagung Optimierung des Selbst (Graduiertenkolleg Ethnographien des Selbst in der Gegenwart), Mainz (3/2021).</li>
+  <li>Anstehend: “Selbstoptimierung als relationale Subjektivierung”. Tagung Optimierung des Selbst (Graduiertenkolleg Ethnographien des Selbst in der Gegenwart), Mainz (3/2021).</li>
   <li>Anstehend: “Entangled Pasts, Dissonant Heritages: Heritage as Strategic Resource in EU External Relations”. SIEF-Kongress, Helsinki (6/2021).</li>
-  <li>“Kontext und politisches Erzählen (Keynote)”. Tagung Politisches Erzählen. Narrative, Genres, Strategien (dgv-Kommission Erzählforschung), Freiburg (08/2021).</li>
   <li>Anstehend: “Zeitlichkeit und Aussensicht – Zeitebenen der Konstruktion Europas durch außereuropäische Akteure”. dgv-Kongress, Regensburg (09/2021).</li>
 </ul>
 
@@ -470,7 +382,7 @@ Lehre
 <ul>
   <li>“Ideologies in Motion: Language, Power and Performance in International Institutions”. Konferenz der American Anthropological Association (AAA), Philadelphia (12/2009).</li>
   <li>“On Tradition and the Politics of Difference”. International Symposium on Cultural Property, Interdisciplinary Research Unit on Cultural Property, Göttingen (11/2009).</li>
-  <li>“Negotiating Tradition, Representing Social Structure: Culture, Community, and Language in WIPO’s Committee on Traditional Knowledge and Folklore”. International Summer University Local Knowledge and Open Borders: Creativity and Heritage, Tartu University, Tartu (7/2009).</li>
+  <li>“Negotiating Tradition, Representing Social Structure: Culture, Community, and Language in WIPO’s Committee on Traditional Knowledge and Folklore”. International Summer University “Local Knowledge and Open Borders: Creativity and Heritage”, Tartu University, Tartu (7/2009).</li>
   <li>“Tradition und Folklore in der Weltorganisation für Geistiges Eigentum (WIPO) – Eine kommunikationsethnographische Perspektive”. Hamburger Gesellschaft für Volkskunde (HGV), Hamburg (5/2009).</li>
 </ul>
 
@@ -779,44 +691,4 @@ function jump(h){
 
 </script>
 
-
-        </div>
-    </div>
-    <div class="column is-1"></div>
-</div>
-</div>
-<footer class="footer has-text-centered container">
-<a href="http://bulma.io" style="margin-top: 1rem;">
-                <img src="/assets/img/made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
-              </a>
-</footer>
-
-<script type="text/javascript" src="/lib/main.js"></script>
-<script src="http://code.jquery.com/jquery-latest.js"></script>
-<script>
-function copyToClipboard(element) {
-    var $temp = $("<input>");
-    $("body").append($temp);
-    $temp.val($(element).text()).select();
-    document.execCommand("copy");
-    $temp.remove();
-}
-</script>
-
-<script type="text/javascript">
-(function($) {
-    $(document).ready(function() {
-        $(window).scroll(function() {
-            if ($(this).scrollTop() > 350) {
-                $('#menus').fadeIn(500);
-            } else {
-                $('#menus').fadeOut(500);
-            }
-        });
-    });
-})(jQuery);
-</script>
-
-</body>
-</html>
-
+:ET
