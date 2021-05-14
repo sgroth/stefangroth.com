@@ -1,8 +1,23 @@
-I"1><!-- Curriculum Vitae Stefan Groth – https://www.stefangroth.com -->
+I"7C<h1 class="add-sg">Curriculum Vitae</h1>
+
+<div class="buttons m-b-2">
+<a class="button is-light is-small" href="/cv/#forschungsschwerpunkte">Forschungsschwerpunkte</a>
+<a class="button is-light is-small" href="/cv/#forschungsprojekte">Forschungsprojekte</a>
+<a class="button is-light is-small" href="/cv/#bisherige-t%C3%A4tigkeiten">Bisherige Tätigkeiten</a>
+<a class="button is-light is-small" href="/cv/#studium-und-akademische-abschl%C3%BCsse">Studium und akademische Abschlüsse</a>
+<a class="button is-light is-small" href="/cv/#aufenthalte-im-ausland">Aufenthalte im Ausland</a>
+<a class="button is-light is-small" href="/cv/#weiterbildungen-und-qualifikationen">Weiterbildungen und Qualifikationen</a>
+<a class="button is-light is-small" href="/cv/#gremienerfahrung">Gremienerfahrung</a>
+<a class="button is-light is-small" href="/cv/#mitgliedschaften">Mitgliedschaften</a>
+<a class="button is-light is-small" href="/cv/#gutachtert%C3%A4tigkeiten">Gutachtertätigkeiten</a>
+<a class="button is-light is-small" href="/cv/#planung-organisation-und-durchf%C3%BChrung-von-workshops-panels-tagungen">Planung, Organisation und Durchführung von Workshops, Panels, Tagungen</a>
+<a class="button is-light is-small" href="/cv/#ausstellungen">Ausstellungen</a></div>
+
+<!-- Curriculum Vitae Stefan Groth – https://www.stefangroth.com -->
 
 <h1 id="curriculum-vitae">Curriculum Vitae</h1>
 <p>PD Dr. phil. Stefan Groth<br />
-Privatdozent / Leitung Labor Populäre Kulturen<br />
+Privatdozent / Oberassistent / Leitung Labor Populäre Kulturen<br />
 ISEK – Institut für Sozialanthropologie und Empirische Kulturwissenschaft<br />
 Populäre Kulturen<br />
 Universität Zürich<br />
@@ -15,17 +30,17 @@ Homepage: https://www.stefangroth.com</p>
 
 <h2 id="forschungsschwerpunkte">Forschungsschwerpunkte</h2>
 <ul>
-  <li>Kulturerbe und kulturelles Eigentum</li>
   <li>Politische Anthropologie und Europäisierungsforschung</li>
   <li>Narratologie, linguistische Anthropologie und Kommunikationsethnografie</li>
-  <li>Organisationsforschung</li>
+  <li>Kulturerbe und kulturelles Eigentum</li>
   <li>Methoden der Empirischen Kulturwissenschaft</li>
   <li>Kulturwissenschaftliche Sportforschung</li>
+  <li>Organisationsforschung</li>
 </ul>
 
 <h2 id="forschungsprojekte">Forschungsprojekte</h2>
 <ul>
-  <li><strong>seit 2020:</strong> Europe from Outside and from the Margins: The Production of Europe in Non-European Everyday Contexts and Practices</li>
+  <li><strong>seit 2021:</strong> Europe from Outside and from the Margins: The Everyday Production of Europe in Borderlands and Non-European Contexts</li>
   <li><strong>seit 2019:</strong> Populäre Narrative des Politischen</li>
   <li><strong>2016–2020:</strong> Mittelmaß als Praxis und Konstellation Orientierungen am Mittelmaß aus empirisch-kulturwissenschaftlicher Perspektive (Habilitationsprojekt)</li>
   <li><strong>seit 2013:</strong> Dimensionen des breitensportlichen Rennradfahrens: Empirisch-kulturwissenschaftliche Perspektiven auf Sport und Freizeit</li>
@@ -95,7 +110,7 @@ Erasmus-Programm, Public Relations, Università degli Studi di Udine, Italien.</
 <h2 id="gremienerfahrung">Gremienerfahrung</h2>
 <ul>
   <li>Mitarbeit in diversen universitäten, fakultären und institutsübergreifenden Arbeitsgruppen an der Universität Zürich (z. B. AG Sozialwissenschaften an der Phil. Fakultät / Studiengangsentwicklung, AG Methodenpool Qualitative Methoden an der UZH) (seit 2016)</li>
-  <li>Mitverantwortlicher für das Forschungsnetzwerk Cultural Citizenship. Kooperationsprojekt zwischen dem ISEK – Populäre Kulturen (Universität Zürich), dem Departement Kulturanalysen und Vermittlung (Zürcher Hochschule der Künste) und dem Departement Angewandte Linguistik (Zürcher Hochschule für Angewandte Wissenschaften) (seit 2018)</li>
+  <li>Mitverantwortlicher für das Forschungsnetzwerk Cultural Citizenship. Kooperationsprojekt zwischen dem ISEK – Populäre Kulturen (Universität Zürich), dem Departement Kulturanalysen und Vermittlung (Zürcher Hochschule der Künste) und dem Departement Angewandte Linguistik (Zürcher Hochschule für Angewandte Wissenschaften) (2018–2021)</li>
   <li>Sprecher der Kommission Arbeitskulturen in der Deutschen Gesellschaft für Volkskunde, zusammen mit Irene Götz (München), Sarah May (Freiburg), Johannes Müske (Zürich) und Manfred Seifert (Marburg) (seit 2017)</li>
   <li>Delegierter des Mittelbaus in der Kommission für Forschung und Nachwuchsförderung, Philosophische Fakultät der Universität Zürich (2017–2020)</li>
   <li><a href="https://networks.h-net.org/h-folk">H-Folk-Netzwerk, Editor</a> (2013–2019)</li>
