@@ -5,16 +5,15 @@ permalink: /publikationen/
 ---
 <h1 class="add-sg">{{ page.title }}</h1>
 
-
-<div class="tabs">
+<!--<div class="tabs">
   <ul>
     <li class="tablinks" onclick="openContent(event, 'category')" id="defaultOpen"><a>Nach Kategorie</a></li>
     <li class="tablinks" onclick="openContent(event, 'year')"><a>Nach Jahr</a></li>
   </ul>
 </div>
+-->
 
-
-<div id="category" class="tabcontent">
+<!--<div id="category" class="tabcontent">-->
 <div class="buttons m-b-2">{% for item in site.data.navigation.publikationen-quicklinks %}
 <a class="button is-light is-small" href="{{ item.url | relative_url }}">{{ item.title }}</a>{% endfor %}</div>
 <p class="title is-5 has-text-link" id="beiträge-in-vorbereitung">Eingereichte Beiträge und Beiträge in Arbeit ({% bibliography_count --query @*[keywords~=pre] %})</p>
@@ -53,7 +52,7 @@ permalink: /publikationen/
 
 {% bibliography --query @*[keywords=miszelle] %}
 
-<p class="title is-5 has-text-link m-t-2" id="rezensionen">Rezensionen ({% bibliography_count --query @review[keywords!=dev && keywords!~inprint] %})</p>
+<p class="title is-5 has-text-link m-t-2" id="rezensionen">Rezensionen ({% bibliography_count --query @review[keywords!=pre && keywords!~inprint] %})</p>
 
 {% bibliography --query @review[keywords!=dev && keywords!~inprint] %}
 
@@ -62,6 +61,7 @@ permalink: /publikationen/
 {{ presentations | markdownify }}
 </div>
 
+<!--
 <div id="year" class="tabcontent">
 
 <div class="buttons m-b-2"><a class="button is-warning is-small" href="#2021" goto="year">2021</a><a class="button is-warning is-small" href="#2020">2020</a><a class="button is-warning is-small" href="#2019">2019</a><a class="button is-warning is-small" href="#2018">2018</a><a class="button is-warning is-small" href="#2017">2017</a><a class="button is-warning is-small" href="#2016">2016</a><a class="button is-warning is-small" href="#2015">2015</a><a class="button is-warning is-small" href="#2014">2014</a><a class="button is-warning is-small" href="#2013">2013</a><a class="button is-warning is-small" href="#2012">2012</a><a class="button is-warning is-small" href="#2011">2011</a><a class="button is-warning is-small" href="#2010">2010</a><button class="button is-warning is-small" href="2009" goto="year">2009</button></div>
@@ -148,4 +148,4 @@ function jump(h){
     window.scrollTo(0, top);
 }
 
-</script>
+</script>-->
