@@ -1,0 +1,11 @@
+---
+layout: default
+title: "Neue Publikation: Ästhetik, Nachhaltigkeit, Begrenzung: Anmerkungen zu normativen Dimensionen des kleinen Wohnens"
+subtitle: "Hessische Blätter für Volks- und Kulturforschung 56"
+author: Stefan Groth
+date: 2022-08-05 06:00 +0100
+tags: [Publikationen, Artikel]
+snippet: true
+snippet-heading: Publikationshinweis
+---
+{% reference Groth2021aa %} {% cite_details Groth2021aa %}

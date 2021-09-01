@@ -41,9 +41,9 @@ permalink: /publications/
 
 {% bibliography --query @*[keywords=miszelle] %}
 
-<p class="title is-5 has-text-link m-t-2" id="rezensionen">Reviews ({% bibliography_count --query @review[keywords!=dev && keywords!~inprint] %})</p>
+<p class="title is-5 has-text-link m-t-2" id="rezensionen">Reviews ({% bibliography_count --query @review[keywords!=pre] %})</p>
 
-{% bibliography --query @review[keywords!=dev && keywords!~inprint] %}
+{% bibliography --query @review[keywords!=pre] %}
 
 <p class="title is-4 has-text-link m-t-2" id="vorträge">Presentations</p>
 {% capture presentations %}{% include cv/presentations.md %}{% endcapture %}

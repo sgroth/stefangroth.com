@@ -15,7 +15,7 @@ aktuelles-more: true
 aktuelles-order: 1
 permalink: "docs/arbeitskulturen-2021-call"
 date:   2021-02-01 08:00:00 +0100
-tags: [Aktuelles,DGV,Arbeitskulturen,Call for Papers,Workshop]
+tags: [DGV,Arbeitskulturen,Call for Papers,Workshop]
 links:
     - title: Website Workshop & Call
       url: https://organization.dgv-arbeitskulturen.de

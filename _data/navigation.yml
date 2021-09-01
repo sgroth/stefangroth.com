@@ -6,14 +6,8 @@ main:
   url: "/publikationen/"
 - title: "CV"
   url: "/cv/"
-- title: "Lehre"
-  url: "lehre/"
-
-projekte:
-- title: "EUDICON"
-  url: "/projekte/eudicon/"
-- title: "POLNAR"
-  url: "/projekte/polnar/"
+#- title: "Lehre"
+#  url: "lehre/"
 
 schwerpunkte:
 - title: Normative Dimensionen der Alltagskultur
@@ -40,10 +34,8 @@ publikationen:
 publikationen-quicklinks:
 - title: Eingereichte Beiträge und Beiträge in Arbeit
   url: "/publikationen/#beiträge-in-vorbereitung"
-- title: Zur Publikation angenommene Beiträge und Beiträge im Druck
-  url: "/publikationen/#angenommene-beiträge"
 - title: Monographien
-  url: "/publikationen/#monographien"    
+  url: "/publikationen/#monographien"
 - title: Herausgeberschaften
   url: "/publikationen/#herausgeberschaften"
 - title: Sondernummern von Zeitschriften
