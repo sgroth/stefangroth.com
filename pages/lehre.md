@@ -6,7 +6,7 @@ permalink: /lehre/
 
 <p class="title is-3 has-text-primary ">Stefan Groth – {{ page.title }}</p>
 
-Übersicht über aktuelle Lehrveranstaltungen (Links führen zu Seminarübersichten auf Github).
+Übersicht über gehaltene und aktuelle Lehrveranstaltungen.
 
-{% capture my_include %}{% include teaching/overview.md %}{% endcapture %}
-{{ my_include | markdownify }}
+{% capture teaching %}{% include cv/teaching.md %}{% endcapture %}
+{{ teaching | markdownify }}

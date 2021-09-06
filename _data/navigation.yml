@@ -6,8 +6,8 @@ main:
   url: "/publikationen/"
 - title: "CV"
   url: "/cv/"
-#- title: "Lehre"
-#  url: "lehre/"
+- title: "Lehre"
+  url: "lehre/"
 
 schwerpunkte:
 - title: Normative Dimensionen der Alltagskultur
