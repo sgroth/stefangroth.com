@@ -23,9 +23,9 @@ email: judo_00_dogleg@icloud.com
 description: >- # this means to ignore newlines until "baseurl:"
   Personal homepage
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://stefangroth.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: stefangroth
-github_username:  sgroth
+github_username: sgroth
 
 # Build settings
 theme: just-the-docs

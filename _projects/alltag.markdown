@@ -9,7 +9,7 @@ parent: Projects
 end_date: false
 finished: false
 is_recent: true
-permalink: /everday/
+permalink: /everyday/
 published: true
 ---
 <div class="projekte">
