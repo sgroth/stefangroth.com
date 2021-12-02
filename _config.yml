@@ -7,79 +7,61 @@
 #
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Dr. Stefan Groth
-email: info@stefangroth.com
+
+title: Stefan Groth
+email: judo_00_dogleg@icloud.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Ich bin Oberassistent am Institut für Sozialanthropologie und Empirische Kulturwissenschaft (ISEK) der Universität Zürich und leite das Labor Populäre Kulturen. Zurzeit arbeite ich insbesondere zu politischen Narrativen sowie zur Produktion Europas in alltäglichen Kontexten außerhalb Europas. Meine Habilitation habe ich über "Mittelmaß als Praxis und Konstellation: Orientierungen am Mittelmaß aus empirisch-kulturwissenschaftlicher Perspektive" geschrieben und Ende 2019 an der Philosophischen Fakultät der Universität Zürich eingereicht. Ich habe in Göttingen und Udine Soziologie, Kulturanthropologie / Europäische Ethnologie und Wirtschaft- und Sozialpsychologie studiert. Geforscht und gelehrt habe ich in Göttingen als Teil einer interdisziplinären Forschergruppe zu kulturellem Eigentum, als Fellow am Käte Hamburger Kolleg / Centre for Global Cooperation Research und als Postdoc an der Universität Bonn.
+  Personal homepage
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://stefangroth.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: stefangroth
 github_username:  sgroth
 
 # Build settings
-markdown: kramdown
-
-# Markdown Processing
-kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  footnote_prefix: 'x'
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
-  footnote_backlink: "&#x21A9;&#xFE0E;"
-
-# Plugins
+theme: just-the-docs
+color_scheme: stefangroth
 plugins:
-  - jekyll-paginate-v2
-  - jekyll-sitemap
-  - jekyll-gist
   - jekyll-feed
-  - jemoji
-  - jekyll-pandoc
-  - glynn
-  - jekyll-archives
-  - jekyll_version_plugin
 
-# Pagination Settings
-pagination:
-  enabled: true
-  per_page: 15
-  debug: true
-  permalink: '/seite/:num/'
-  title: 'Seite :num'
-  limit: 0
-  sort_reverse: true
-  trail: 
-    before: 2 # The number of links before the current page
-    after: 2  # The number of links after the current page
-
-# Collections
+# Define Jekyll collections
 collections:
-  aktuelles:
+  projects:
+    permalink: "/:collection/:path/"
     output: true
-  projekte:
+  alltag:
+    permalink: "/:collection/:path/"
     output: true
 
-breadcrumbs:
-  root:
-    hide: false  # show breadcrumbs on root/home page
-    image: false # Show image or title text
-
-# Produces a cleaner folder structure when using categories
-permalink: /:year/:title:output_ext
+stefangroth:
+  # Define which collections are used in just-the-docs
+  collections:
+    # Reference the "docs" collection
+    projects:
+      # Give the collection a name
+      name: Projects
+      # Exclude the collection from the navigation
+      # Supports true or false (default)
+      nav_exclude: false
+      # Exclude the collection from the search
+      # Supports true or false (default)
+      search_exclude: false
+    alltag:
+      name: Alltag (Buchprojekt)
+      nav_exclude: true
+      search_exclude: false
 
 scholar:
-  style: ./_includes/csl-files/unknown.csl
+  style: ./_includes/bibliography/csl/unknown.csl
   locale: de
 
   sort_by: year
@@ -87,10 +69,6 @@ scholar:
 
   source: ./_includes/bibliography/
   bibliography: "*.bib"
-  bibliography_template: bib
-
-#  repository: ./assets/repository/
-  locale: de
 
   bibtex_filters:
     - Latex2
@@ -99,42 +77,23 @@ scholar:
     - Latex5
     - latex
     - Italics
-
-  replace_strings: true
-  join_strings:    true
-  bibtex_quotes : ['"', '"']
-
-  details_dir:    ./publikationen/details/
-  details_layout: bibtex.html
-  details_link:   " (Details &rarr;)"
-
-  query: "@*"
-
-# YAML Front Matter Defaults
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: "default"
-
-keep_files: [assets]
-
+    
 # Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
 exclude:
-  - _projekte
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
   - Gemfile
   - Gemfile.lock
-  - node_modules
+  - node_modules/
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-  - assets/fa/sprites
-  - assets/fa/less
-  - assets/fa/metadata
-  - assets/fa/svgs
-  - assets/fa/scss
-  - assets/fa/js
-  - assets/fa/LICENSE.txt

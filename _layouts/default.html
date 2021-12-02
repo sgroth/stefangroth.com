@@ -1,73 +1,211 @@
+---
+layout: table_wrappers
+---
+
+<!DOCTYPE html>
+
+<html lang="{{ site.lang | default: 'de-DE' }}">
 {% include head.html %}
-<div class="columns" style="">
-  <div class="column menu is-2 has-text-left is-hidden-touch ">
-    <p class="title is-6 has-text-link "><i class="fas fa-angle-right leftdot"></i> Menü</p>
-    {% for item in site.data.navigation.main %}
-      <span class="title is-6 has-text-weight-normal"><a href="{{ item.url | relative_url }}">{{ item.title }}</a></span><br />{% endfor %}
+<link href="/assets/fontawesome/css/all.css" rel="stylesheet" />
+<style>
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
+</style>
+<body>
+  <meta charset="utf-8"/>
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="svg-link" viewBox="0 0 24 24">
+      <title>Link</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+        <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+      </svg>
+    </symbol>
+    <symbol id="svg-search" viewBox="0 0 24 24">
+      <title>Search</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+        <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+    </symbol>
+    <symbol id="svg-menu" viewBox="0 0 24 24">
+      <title>Menu</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+        <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+      </svg>
+    </symbol>
+    <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+      <title>Expand</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+        <polyline points="9 18 15 12 9 6"></polyline>
+      </svg>
+    </symbol>
+    <symbol id="svg-doc" viewBox="0 0 24 24">
+      <title>Document</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+        <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+      </svg>
+    </symbol>
+  </svg>
+
+  <div class="side-bar">
+    <div class="site-header">
+      
+      <a href="#" id="menu-button" class="site-button">
+        <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+      </a>
     </div>
-    <div class="column is-8 content m-b-3">
-      <div class="buttons is-hidden-desktop  m-b-2">
-        <a class="button is-link is-small">
-          <span class="icon">
-            <i class="far fa-bars"></i>
-          </span>
-          <span>Menü</span>
-        </a>
-        {% for item in site.data.navigation.main %}
-          <a class="button is-outlined  is-link is-small" href="{{ item.url | relative_url }}">{{ item.title }}</a>{% endfor %}
-        </div>
-        {% assign m = page.date | date: "%-m" %}
-        {{ page.date | date: "%-d." }}
-        {% case m %}
-        {% when '1' %}Januar
-        {% when '2' %}Februar
-        {% when '3' %}März
-        {% when '4' %}April
-        {% when '5' %}Mai
-        {% when '6' %}Juni
-        {% when '7' %}Juli
-        {% when '8' %}August
-        {% when '9' %}September
-        {% when '10' %}Oktober
-        {% when '11' %}November
-        {% when '12' %}Dezember
-      {% endcase %}
-      {{ page.date | date: "%Y" }} 
-      <p class="title is-3"><a href="{{ post.url }}">{{ page.title }}</a></p>
-      <p class="subtitle is-5">{{ page.subtitle }}</p>
-      <div class="tags">
-        {% for tag in page.tags %}
-          <span class="tag is-link">
-            <span class="icon"><i class="fas fa-tag fa-sm"></i></span>{{ tag }}</span><br />{% endfor %} {% for item in page.links %}
-            <a class="tag is-primary" href="{{ item.url }}">
-              <span class="icon"><i class="fas fa-link fa-sm"></i></span>{{ item.title }}</a>
-            {% endfor %}
+    <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav lh-default">
+      {% if site.just_the_docs.collections %}
+        {% assign collections_size = site.just_the_docs.collections | size %}
+        {% for collection_entry in site.just_the_docs.collections %}
+          {% assign collection_key = collection_entry[0] %}
+          {% assign collection_value = collection_entry[1] %}
+          {% assign collection = site[collection_key] %}
+          {% if collection_value.nav_exclude != true %}
+            {% if collections_size > 1 %}
+              <div class="nav-category">{{ collection_value.name }}</div>
+            {% endif %}
+            {% include nav.html pages=collection %}
+          {% endif %}
+        {% endfor %}
+      {% else %}
+        {% include nav.html pages=site.html_pages %}
+      {% endif %}
+    </nav>
+    <footer class="site-footer mb-5">
+<i class="fas fa-at pr-2"></i><a href="mailto:judo_00_dogleg@icloud.com">Send email</a><br/>
+<i class="fab fa-orcid pr-2"></i><a href="https://orcid.org/0000-0003-2022-8806">0000-0003-2022-8806</a><br/>
+<i class="fab fa-twitter pr-2"></i><a href="https://www.twitter.com/stefangroth">stefangroth</a><br/>
+<i class="fab fa-github pr-2"></i><a href="https://github.com/sgroth">sgroth</a><br/>
+<i class="fas fa-fingerprint pr-2"></i><a href="/impressum/">Impressum</a></footer>
+  </div>
+  <div class="main" id="top">
+    <div id="main-header" class="main-header">
+<a href="{{ '/' | absolute_url }}" class="site-title lh-tight text-grey-dk-000 fw-300">{% include title.html %}</a>
+      {% if site.search_enabled != false %}
+        <div class="search">
+          <div class="search-input-wrap">
+            <input type="text" id="search-input" class="search-input fs-6 fw-300" tabindex="0" placeholder="      Search" aria-label="Search" autocomplete="off">
+            <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
           </div>
+          <div id="search-results" class="search-results"></div>
+        </div>
+      {% endif %}
+      {% include header_custom.html %}
+      {% if site.aux_links %}
+        <nav aria-label="Auxiliary" class="aux-nav">
+          <ul class="aux-nav-list">
+            {% for link in site.aux_links %}
+              <li class="aux-nav-list-item">
+                <a href="{{ link.last }}" class="site-button"
+                  {% if site.aux_links_new_tab %}
+                  target="_blank" rel="noopener noreferrer"
+                  {% endif %}
+                >
+                  {{ link.first }}
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </nav>
+      {% endif %}
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      {% unless page.url == "/" %}
+        {% if page.parent %}
+          {%- for node in pages_list -%}
+            {%- if node.parent == nil -%}
+              {%- if page.parent == node.title or page.grand_parent == node.title -%}
+                {%- assign first_level_url = node.url | absolute_url -%}
+              {%- endif -%}
+              {%- if node.has_children -%}
+                {%- assign children_list = pages_list | where: "parent", node.title -%}
+                {%- for child in children_list -%}
+                  {%- if page.url == child.url or page.parent == child.title -%}
+                    {%- assign second_level_url = child.url | absolute_url -%}
+                  {%- endif -%}
+                {%- endfor -%}
+              {%- endif -%}
+            {%- endif -%}
+          {%- endfor -%}
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list">
+              {% if page.grand_parent %}
+                <li class="breadcrumb-nav-list-item"><a href="{{ first_level_url }}">{{ page.grand_parent }}</a></li>
+                <li class="breadcrumb-nav-list-item"><a href="{{ second_level_url }}">{{ page.parent }}</a></li>
+              {% else %}
+                <li class="breadcrumb-nav-list-item"><a href="{{ first_level_url }}">{{ page.parent }}</a></li>
+              {% endif %}
+              <li class="breadcrumb-nav-list-item"><span>{{ page.title }}</span></li>
+            </ol>
+          </nav>
+        {% endif %}
+      {% endunless %}
+      <div id="main-content" class="main-content" role="main">
+        {% if site.heading_anchors != false %}
+          {% include vendor/anchor_headings.html html=content beforeHeading="true" anchorBody="<svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><use xlink:href=\"#svg-link\"></use></svg>" anchorClass="anchor-heading" anchorAttrs="aria-labelledby=\"%html_id%\"" %}
+        {% else %}
           {{ content }}
-        </div>
-        <div class="column is-1">
-        </div>
+        {% endif %}
+
+        {% if page.has_children == true and page.has_toc != false %}
+          <hr>
+          <h2 class="text-delta">Inhaltsverzeichnis</h2>
+          <ol>
+            {%- assign children_list = pages_list | where: "parent", page.title | where: "grand_parent", page.parent -%}
+            {% for child in children_list %}
+              <li>
+                <a href="{{ child.url | absolute_url }}">{{ child.title }}</a>{% if child.summary %} - {{ child.summary }}{% endif %}
+              </li>
+            {% endfor %}
+          </ol>
+        {% endif %}
+
+        {% capture footer_custom %}
+          {%- include footer_custom.html -%}
+        {% endcapture %}
+        {% if footer_custom != "" or site.last_edit_timestamp or site.gh_edit_link %}
+          <hr>
+          <footer>
+            {% if site.back_to_top %}
+              <p><a href="#top" id="back-to-top">{{ site.back_to_top_text }}</a></p>
+            {% endif %}
+
+            {{ footer_custom }}
+
+            {% if site.last_edit_timestamp or site.gh_edit_link %}
+              <div class="d-flex mt-2">
+                {% if site.last_edit_timestamp and site.last_edit_time_format and page.last_modified_date %}
+                  <p class="text-small text-grey-dk-000 mb-0 mr-2">
+                    Page last modified: <span class="d-inline-block">{{ page.last_modified_date | date: site.last_edit_time_format }}</span>.
+                  </p>
+                {% endif %}
+                {% if
+                  site.gh_edit_link and
+                  site.gh_edit_link_text and
+                  site.gh_edit_repository and
+                  site.gh_edit_branch and
+                  site.gh_edit_view_mode
+                %}
+                  <p class="text-small text-grey-dk-000 mb-0">
+                    <a href="{{ site.gh_edit_repository }}/{{ site.gh_edit_view_mode }}/{{ site.gh_edit_branch }}{% if site.gh_edit_source %}/{{ site.gh_edit_source }}{% endif %}/{{ page.path }}" id="edit-this-page">{{ site.gh_edit_link_text }}</a>
+                  </p>
+                {% endif %}
+              </div>
+            {% endif %}
+          </footer>
+        {% endif %}
+
       </div>
     </div>
-    <footer class="footer has-text-centered container">
-              <a href="http://bulma.io" style="margin-top: 1rem;">
-                <img src="{{ site.baseurl }}/assets/img/made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
-              </a>
-    </footer>
-    <script type="text/javascript" src="{{ site.baseurl }}/lib/main.js"></script>
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <script type="text/javascript">
-    (function($) {
-    $(document).ready(function() {
-    $(window).scroll(function() {
-    if ($(this).scrollTop() > 350) {
-    $('#menus').fadeIn(500);
-    } else {
-    $('#menus').fadeOut(500);
-    }
-    });
-    });
-    })(jQuery);
-    </script>
-  </body>
+
+    {% if site.search_enabled != false %}
+      {% if site.search.button %}
+        <a href="#" id="search-button" class="search-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-search"></use></svg>
+        </a>
+      {% endif %}
+
+      <div class="search-overlay"></div>
+    {% endif %}
+  </div>
+</body>
 </html>

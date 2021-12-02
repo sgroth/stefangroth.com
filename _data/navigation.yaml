@@ -1,0 +1,112 @@
+# main links
+main:
+- title: "Startseite"
+  url: "/"
+- title: "Publikationen"
+  url: "/publikationen/"
+- title: "CV"
+  url: "/cv/"
+- title: "Lehre"
+  url: "lehre/"
+
+schwerpunkte:
+- title: Normative Dimensionen der Alltagskultur
+  url: ""
+- title: Methoden der Europäischen Ethnologie
+  url: ""
+- title: Sprachanalytische Ansätze
+  url: ""
+- title: Politische Anthropologie und Organisationsethnographie
+  url: ""
+- title: Kulturerbe und kulturelles Eigentum
+  url: ""
+- title: Kulturwissenschaftliche Sportforschung
+  url: ""
+
+publikationen:
+- title: als PDF
+  url: "https://github.com/sgroth/bibliography/raw/master/pdf/publications.de.pdf"
+  icon: icon-download
+- title: auf Github
+  url: "https://github.com/sgroth/bibliography"
+  icon: icon-link
+
+publications-quicklinks:
+- title: "Submitted for Publication"
+  url: "/publikationen/#beiträge-in-vorbereitung"
+- title: Monographs
+  url: "/publikationen/#monographien"
+- title: "Edited Volumes"
+  url: "/publikationen/#herausgeberschaften"
+- title: "Special Issues"
+  url: "/publikationen/#sondernummern-von-zeitschriften"
+- title: "Peer-Reviewed Papers"
+  url: "/publikationen/#peer-reviewed-papers"
+- title: "Journal Articles"
+  url: "/publikationen/#zeitschriftenaufsätze"
+- title: Articles in Edited Volumes
+  url: "/publikationen/#aufsätze-in-sammelbänden"
+- title: "Miscellaneous"
+  url: "/publikationen/#miszellen-und-graue-literatur"
+- title: "Reviews"
+  url: "/publikationen/#rezensionen"
+- title: "Invited Talks"
+  url: "/publikationen/#vorträge"
+
+publikationen-quicklinks:
+- title: Eingereichte Beiträge und Beiträge in Arbeit
+  url: "/publikationen/#beiträge-in-vorbereitung"
+- title: Monographien
+  url: "/publikationen/#monographien"
+- title: Herausgeberschaften
+  url: "/publikationen/#herausgeberschaften"
+- title: Sondernummern von Zeitschriften
+  url: "/publikationen/#sondernummern-von-zeitschriften"
+- title: Peer-Reviewed Papers
+  url: "/publikationen/#peer-reviewed-papers"
+- title: Zeitschriftenaufsätze
+  url: "/publikationen/#zeitschriftenaufsätze"
+- title: Aufsätze in Sammelbänden
+  url: "/publikationen/#aufsätze-in-sammelbänden"
+- title: Miszellen
+  url: "/publikationen/#miszellen-und-graue-literatur"
+- title: Rezensionen
+  url: "/publikationen/#rezensionen"
+- title: Vorträge
+  url: "/publikationen/#vorträge"
+
+cv-quicklinks:
+#- title: Derzeitige Position
+#  url: "/cv/#derzeitige-position"
+- title: "Research Interests"
+  url: "/cv/#research-interests"
+- title: "Research Projects"
+  url: "/cv/#research-projects"
+- title: "Positions Held"
+  url: "/cv/#positions-held"
+- title: "Education"
+  url: "/cv/#education"
+- title: "Stays Abroad"
+  url: "/cv/#stays-abroad"
+- title: "Further Training and Qualifications"
+  url: "/cv/#further-training-and-qualifications"
+- title: "Work in Committees"
+  url: "/cv/#work-in-committees"
+- title: "Memberships"
+  url: "/cv/#memberships"
+- title: "Teaching Activities"
+  url: "/cv/#teaching-activities"
+- title: "Reviewer for"
+  url: "/cv/#reviewer-for"
+- title: "Organizational Activities"
+  url: "/cv/#organizational-activities"
+- title: "Expositions"
+  url: "/cv/#expositions"
+
+cv:
+- title: CV als PDF
+  url: "https://github.com/sgroth/cv-data/raw/master/pdf/cv.web.de.pdf"
+  icon: icon-download
+- title: CV auf Github
+  url: "https://github.com/sgroth/cv-data/blob/master/cv.web.de.md"
+  icon: icon-link

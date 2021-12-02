@@ -1,9 +1,0 @@
----
-layout: default
-title:  "Senior Fellow at the Centre for Global Cooperation Research"
-subtitle: "University Duisburg-Essen"
-author: Stefan Groth
-date: 2021-11-01 08:00:00 +0100
-tags: [Persönlich]
----
-Starting November 2021, I am Senior Fellow at the [Centre for Global Cooperation Research](https://www.gcr21.org). I will be working on a project on "Everyday Narratives of (De-)Legitimation: How Stories about Migration Policies and Expert Regimes are told in Everyday Contexts."

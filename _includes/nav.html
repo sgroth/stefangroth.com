@@ -1,21 +1,70 @@
-<div class="column menu is-2 has-text-left is-hidden-touch p-l-2">
-<p class="title is-6 has-text-link "><i class="fas fa-angle-right leftdot"></i>&nbsp;Menü</p>
-{% for item in site.data.navigation.main %}
-{% if page.title == item.title %}<div class="has-text-grey-lighter leftdot">&#9679;&nbsp;</div>{% endif %}
- <span class="title is-6 has-text-weight-normal"><a href="{{ item.url   | relative_url }}" class="{% if page.title == item.title %}{% endif %}">{{ item.title }}</a>
+<ul class="nav-list">
+  {%- assign titled_pages = include.pages
+        | where_exp:"item", "item.title != nil" -%}
 
-</span><br/>{% endfor %}
+  {%- comment -%}
+    The values of `title` and `nav_order` can be numbers or strings.
+    Jekyll gives build failures when sorting on mixtures of different types,
+    so numbers and strings need to be sorted separately.
 
-<!--
-<p class="title is-6 has-text-link m-t-2"><i class="fas fa-angle-right leftdot"></i>&nbsp;Projekte</p>
-{% for item in site.data.navigation.projekte %}
-<span class="title is-6 has-text-weight-normal"><a class="" href="{{ item.url   | relative_url }}">{{ item.title }}</a></span><br/>{% endfor %}
--->
+    Here, numbers are sorted by their values, and come before all strings.
+    An omitted `nav_order` value is equivalent to the page's `title` value
+    (except that a numerical `title` value is treated as a string).
 
-{% if page.title == "Publikationen" %}
-<p class="title is-6 has-text-link m-t-2"><i class="fas fa-angle-down leftdot"></i>&nbsp;Downloads</p>
-{% for item in site.data.navigation.publikationen %}
-<span class="title is-6 has-text-weight-normal"><a class="" href="{{ item.url   | relative_url }}">{{ item.title }}</a></span><br/>{% endfor %}
-{% endif %}
+    The case-sensitivity of string sorting is determined by `site.nav_sort`.
+  {%- endcomment -%}
+  
+  {%- assign string_ordered_pages = titled_pages
+        | where_exp:"item", "item.nav_order == nil" -%}
+  {%- assign nav_ordered_pages = titled_pages
+        | where_exp:"item", "item.nav_order != nil"  -%}
 
-</div>
+  {%- comment -%}
+    The nav_ordered_pages have to be added to number_ordered_pages and
+    string_ordered_pages, depending on the nav_order value.
+    The first character of the jsonify result is `"` only for strings.
+  {%- endcomment -%}
+  {%- assign nav_ordered_groups = nav_ordered_pages
+        | group_by_exp:"item", "item.nav_order | jsonify | slice: 0" -%}
+  {%- assign number_ordered_pages = "" | split:"X" -%}
+  {%- for group in nav_ordered_groups -%}
+    {%- if group.name == '"' -%}
+      {%- assign string_ordered_pages = string_ordered_pages | concat: group.items -%}
+    {%- else -%}
+      {%- assign number_ordered_pages = number_ordered_pages | concat: group.items -%}
+    {%- endif -%}
+  {%- endfor -%}
+  
+  {%- assign sorted_number_ordered_pages = number_ordered_pages | sort:"nav_order" -%}
+  
+  {%- comment -%}
+    The string_ordered_pages have to be sorted by nav_order, and otherwise title
+    (where appending the empty string to a numeric title converts it to a string).
+    After grouping them by those values, the groups are sorted, then the items
+    of each group are concatenated.
+  {%- endcomment -%}
+  {%- assign string_ordered_groups = string_ordered_pages
+        | group_by_exp:"item", "item.nav_order | default: item.title | append:''" -%}
+  {%- if site.nav_sort == 'case_insensitive' -%}
+    {%- assign sorted_string_ordered_groups = string_ordered_groups | sort_natural:"name" -%}
+  {%- else -%}
+    {%- assign sorted_string_ordered_groups = string_ordered_groups | sort:"name" -%}
+  {%- endif -%}
+  {%- assign sorted_string_ordered_pages = "" | split:"X" -%}
+  {%- for group in sorted_string_ordered_groups -%}
+    {%- assign sorted_string_ordered_pages = sorted_string_ordered_pages | concat: group.items -%}
+  {%- endfor -%}
+
+  {%- assign pages_list = sorted_number_ordered_pages | concat: sorted_string_ordered_pages -%}
+  
+  {%- for node in pages_list -%}
+    {%- if node.parent == nil -%}
+      {%- unless node.nav_exclude -%}
+      <li class="nav-list-item{% if page.url == node.url or page.parent == node.title or page.grand_parent == node.title %} active{% endif %}">
+        <a href="{{ node.url | absolute_url }}" class="nav-list-link{% if page.url == node.url %} active{% endif %}">{{ node.title }}</a>
+      
+      </li>
+      {%- endunless -%}
+    {%- endif -%}
+  {%- endfor -%}
+</ul>

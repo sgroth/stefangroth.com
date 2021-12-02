@@ -1,4 +1,5 @@
 require 'jekyll/scholar'
+
 require 'uri'
 
 module MarkdownFilter

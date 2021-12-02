@@ -1,0 +1,16 @@
+---
+layout: page
+title: "Culture as Resource and Diplomacy: Between Geopolitics and Issues-Based Policy"
+long_title: "Culture as Resource and Diplomacy: Between Geopolitics and Issues-Based Policy (Post-Doc Fellowship Käte Hamburger Kolleg / Centre for Global Cooperation Research)"
+projekt_details: "Post-Doc Fellowship Käte Hamburger Kolleg / Centre for Global Cooperation Research"
+parent: Projects
+years: "2014-2015"
+finished: true
+is_recent: false
+---
+<div class="projekte">
+<h1>{{ page.title }}</h1>
+<h2>{{ page.projekt_details }}</h2>
+
+<strong>Project description follows.</strong>
+</div>

@@ -1,0 +1,18 @@
+---
+layout: page
+title: "Everyday Narratives of (De-)Legitimation"
+long_title: "Everyday Narratives of (De-)Legitimation: How Stories about Migration Policies and Expert Regimes are told in Everyday Contexts (Senior Fellowship Käte Hamburger Kolleg / Centre for Global Cooperation Research)"
+projekt_details: "How Stories about Migration Policies and Expert Regimes are told in Everyday Contexts"
+projekt_annote: "Senior Fellowship Käte Hamburger Kolleg / Centre for Global Cooperation Research"
+parent: Projects
+years: "2021-2023"
+end_date: true
+finished: false
+is_recent: true
+---
+<div class="projekte">
+<h1>{{ page.title }}</h1>
+<h2>{{ page.projekt_details }}</h2>
+
+<strong>Project description follows.</strong>
+</div>
