@@ -61,7 +61,7 @@
     {%- if node.parent == nil -%}
       {%- unless node.nav_exclude -%}
       <li class="nav-list-item{% if page.url == node.url or page.parent == node.title or page.grand_parent == node.title %} active{% endif %}">
-        <a href="{{ node.url | absolute_url }}" class="nav-list-link{% if page.url == node.url %} active{% endif %}">{{ node.title }}</a>
+        <a href="{{ site.url }}{{ node.url }}" class="nav-list-link{% if page.url == node.url %} active{% endif %}">{{ node.title }}</a>
       
       </li>
       {%- endunless -%}

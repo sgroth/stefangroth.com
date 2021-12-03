@@ -1,4 +1,5 @@
-I"�<p class="fs-6 fw-400 mb-8 lh-default"><span class="text-blue-200">PD Dr. Stefan Groth</span> – I am Senior Research Fellow at the <a class="about-links" href="https://www.gcr21.org"><span style="display: inline-block;"><i class="fas fa-arrow-right fa-xs text-grey-lt-300 pr-2"></i>Centre</span> for Global Cooperation Research</a> and Privatdozent at the <a class="about-links" href="https://www.isek.uzh.ch/de/populärekulturen.html"><span style="display: inline-block;"><i class="fas fa-arrow-right fa-xs text-grey-lt-300 pr-2"></i>Department</span> of Social Anthropology and Cultural Studies</a>, Zurich University. Currently, I am mainly working on <a class="about-links" href="/projects/political_narratives/"><span style="display: inline-block;"><i class="fas fa-arrow-right fa-xs text-grey-lt-300 pr-2"></i>political</span> narratives</a> and on the <a class="about-links" href="/projects/eu-margins/"><span style="display: inline-block;"><i class="fas fa-arrow-right fa-xs text-grey-lt-300 pr-2"></i>production</span> of Europe in everyday contexts within and outside of Europe</a>.</p>
+I"
+<p class="fs-6 fw-400 mb-8 lh-default"><span class="text-blue-200">PD Dr. Stefan Groth</span> – I am Senior Research Fellow at the <a class="about-links" href="https://www.gcr21.org"><span style="display: inline-block;"><i class="fas fa-arrow-right fa-xs text-grey-lt-300 pr-2"></i>Centre</span> for Global Cooperation Research</a> and Privatdozent at the <a class="about-links" href="https://www.isek.uzh.ch/de/populärekulturen.html"><span style="display: inline-block;"><i class="fas fa-arrow-right fa-xs text-grey-lt-300 pr-2"></i>Department</span> of Social Anthropology and Cultural Studies</a>, Zurich University. Currently, I am mainly working on <a class="about-links" href="http://localhost:4000/projects/political_narratives/"><span style="display: inline-block;"><i class="fas fa-arrow-right fa-xs text-grey-lt-300 pr-2"></i>political</span> narratives</a> and on the <a class="about-links" href="http://localhost:4000/projects/eu-margins/"><span style="display: inline-block;"><i class="fas fa-arrow-right fa-xs text-grey-lt-300 pr-2"></i>production</span> of Europe in everyday contexts within and outside of Europe</a>.</p>
 
 <hr />
 <h3 class="text-blue-200" id="current-projects">Current Projects</h3>
@@ -7,7 +8,7 @@
 
 
 
-  <li><span class="fa-li"><i class="fas fa-arrow-right fa-sm"></i></span><a href="/projects/political_narratives/">Popular Narratives of the Political</a>  (Research Focus)</li>
+  <li><span class="fa-li"><i class="fas fa-arrow-right fa-sm"></i></span><a href="http://localhost:4000/projects/political_narratives/">Popular Narratives of the Political</a>  (Research Focus)</li>
   
 
 
@@ -15,19 +16,19 @@
 
 
 
-  <li><span class="fa-li"><i class="fas fa-arrow-right fa-sm"></i></span><a href="/projects/eu-margins/">Europe from Outside and from the Margins</a>: The Everyday Production of Europe in Borderlands and Non-European Contexts  (Research Focus)</li>
+  <li><span class="fa-li"><i class="fas fa-arrow-right fa-sm"></i></span><a href="http://localhost:4000/projects/eu-margins/">Europe from Outside and from the Margins</a>: The Everyday Production of Europe in Borderlands and Non-European Contexts  (Research Focus)</li>
   
 
 
 
 
-  <li><span class="fa-li"><i class="fas fa-arrow-right fa-sm"></i></span><a href="/projects/gcr21-2021/">Everyday Narratives of (De-)Legitimation</a>: How Stories about Migration Policies and Expert Regimes are told in Everyday Contexts  (Senior Fellowship Käte Hamburger Kolleg / Centre for Global Cooperation Research)</li>
+  <li><span class="fa-li"><i class="fas fa-arrow-right fa-sm"></i></span><a href="http://localhost:4000/projects/gcr21-2021/">Everyday Narratives of (De-)Legitimation</a>: How Stories about Migration Policies and Expert Regimes are told in Everyday Contexts  (Senior Fellowship Käte Hamburger Kolleg / Centre for Global Cooperation Research)</li>
   
 
 
 
 
-  <li><span class="fa-li"><i class="fas fa-arrow-right fa-sm"></i></span><a href="/everyday/">The Everyday: Perspectives from Empirical Cultural Studies</a>: Book Project  (Book Project)</li>
+  <li><span class="fa-li"><i class="fas fa-arrow-right fa-sm"></i></span><a href="http://localhost:4000/everyday/">The Everyday: Perspectives from Empirical Cultural Studies</a>: Book Project  (Book Project)</li>
   
 
 </ul>

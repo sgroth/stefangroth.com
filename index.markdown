@@ -5,7 +5,7 @@ title: Home
 layout: home
 nav_order: 1
 ---
-<span class="text-blue-200">PD Dr. Stefan Groth</span> -- I am Senior Research Fellow at the <a class="about-links" href="https://www.gcr21.org"><span style="display: inline-block;"><i class="fas fa-arrow-right fa-xs text-grey-lt-300 pr-2"></i>Centre</span> for Global Cooperation Research</a> and Privatdozent at the <a class="about-links" href="https://www.isek.uzh.ch/de/populärekulturen.html"><span style="display: inline-block;"><i class="fas fa-arrow-right fa-xs text-grey-lt-300 pr-2"></i>Department</span> of Social Anthropology and Cultural Studies</a>, Zurich University. Currently, I am mainly working on <a class="about-links" href="/projects/political_narratives/"><span style="display: inline-block;"><i class="fas fa-arrow-right fa-xs text-grey-lt-300 pr-2"></i>political</span> narratives</a> and on the <a class="about-links" href="/projects/eu-margins/"><span style="display: inline-block;"><i class="fas fa-arrow-right fa-xs text-grey-lt-300 pr-2"></i>production</span> of Europe in everyday contexts within and outside of Europe</a>. 
+<span class="text-blue-200">PD Dr. Stefan Groth</span> -- I am Senior Research Fellow at the <a class="about-links" href="https://www.gcr21.org"><span style="display: inline-block;"><i class="fas fa-arrow-right fa-xs text-grey-lt-300 pr-2"></i>Centre</span> for Global Cooperation Research</a> and Privatdozent at the <a class="about-links" href="https://www.isek.uzh.ch/de/populärekulturen.html"><span style="display: inline-block;"><i class="fas fa-arrow-right fa-xs text-grey-lt-300 pr-2"></i>Department</span> of Social Anthropology and Cultural Studies</a>, Zurich University. Currently, I am mainly working on <a class="about-links" href="{{ site.url }}/projects/political_narratives/"><span style="display: inline-block;"><i class="fas fa-arrow-right fa-xs text-grey-lt-300 pr-2"></i>political</span> narratives</a> and on the <a class="about-links" href="{{ site.url }}/projects/eu-margins/"><span style="display: inline-block;"><i class="fas fa-arrow-right fa-xs text-grey-lt-300 pr-2"></i>production</span> of Europe in everyday contexts within and outside of Europe</a>. 
 {: .fs-6 .fw-400 .mb-8 .lh-default}
 
 ---
@@ -16,7 +16,7 @@ nav_order: 1
 {% assign sorted = site.projects | sort: 'recent_order' %}
 {% for projekt in sorted %}
 {% if projekt.is_recent == true %}
-  <li><span class="fa-li"><i class="fas fa-arrow-right fa-sm"></i></span><a href="{{ projekt.url }}">{{ projekt.title }}</a>{% if projekt.projekt_details %}: {{ projekt.projekt_details }}{% endif %} {% if projekt.projekt_annote %} ({{ projekt.projekt_annote }}){% endif %}</li>
+  <li><span class="fa-li"><i class="fas fa-arrow-right fa-sm"></i></span><a href="{{ site.url }}{{ projekt.url }}">{{ projekt.title }}</a>{% if projekt.projekt_details %}: {{ projekt.projekt_details }}{% endif %} {% if projekt.projekt_annote %} ({{ projekt.projekt_annote }}){% endif %}</li>
   {% endif %}
 {% endfor %}
 </ul>
