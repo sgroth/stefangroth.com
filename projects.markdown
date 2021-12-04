@@ -13,7 +13,7 @@ has_toc: false
 {% assign sorted = site.projects | sort: 'years' | reverse %}
 {% for projekt in sorted %}
 {% if projekt.finished == false %}
-  <li>{% if projekt.end_date == false %}Since {% endif %}{{ projekt.years }}: <a href="{{ projekt.url }}">{{ projekt.long_title }}</a></li>
+  <li>{% if projekt.end_date == false %}Since {% endif %}{{ projekt.years }}: <a href="{{ projekt.url | prepend: site.baseurl | prepend: site.url }}">{{ projekt.long_title }}</a></li>
   {% endif %}
 {% endfor %}
 </ul>
@@ -23,7 +23,7 @@ has_toc: false
 {% assign sorted = site.projects | sort: 'years' | reverse %}
 {% for projekt in sorted %}
 {% if projekt.finished == true %}
-  <li>{{ projekt.years }}: <a href="{{ projekt.url }}">{{ projekt.long_title }}</a></li>
+  <li>{{ projekt.years }}: <a href="{{ projekt.url | prepend: site.baseurl | prepend: site.url }}">{{ projekt.long_title }}</a></li>
   {% endif %}
 {% endfor %}
 </ul>

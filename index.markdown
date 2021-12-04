@@ -16,7 +16,7 @@ nav_order: 1
 {% assign sorted = site.projects | sort: 'recent_order' %}
 {% for projekt in sorted %}
 {% if projekt.is_recent == true %}
-  <li><span class="fa-li"><i class="fas fa-arrow-right fa-sm"></i></span><a href="{{ site.url }}{{ projekt.url }}">{{ projekt.title }}</a>{% if projekt.projekt_details %}: {{ projekt.projekt_details }}{% endif %} {% if projekt.projekt_annote %} ({{ projekt.projekt_annote }}){% endif %}</li>
+  <li><span class="fa-li"><i class="fas fa-arrow-right fa-sm"></i></span><a href="{{ projekt.url | prepend: site.baseurl | prepend: site.url}}">{{ projekt.title }}</a>{% if projekt.projekt_details %}: {{ projekt.projekt_details }}{% endif %} {% if projekt.projekt_annote %} ({{ projekt.projekt_annote }}){% endif %}</li>
   {% endif %}
 {% endfor %}
 </ul>
