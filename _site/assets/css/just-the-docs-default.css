@@ -1548,8 +1548,6 @@ a { white-space: normal !important; }
 
 .site-footer { color: #264caf; }
 
-@media screen and (max-width: 740px) { .site-footer { position: fixed; bottom: 1rem; background-color: #fff; } }
-
 @media screen and (min-width: 720px) { .side-bar, .main { padding-top: 6rem; } .site-header { border-bottom: 0px; } .main-header { border-bottom: 0px; } .main { padding-left: 5rem; } .main-content .anchor-heading { left: -2rem !important; } .side-bar { padding-right: 5rem; } .site-title-l { display: none; } }
 
 @media screen and (max-width: 720px) { .site-title-r { display: none; } }

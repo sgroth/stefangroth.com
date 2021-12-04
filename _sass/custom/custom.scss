@@ -16,12 +16,6 @@ a {
 
 .site-footer {
     color: $blue-200;
-
-    @media screen and (max-width: 740px) {
-        position: fixed;
-        bottom: 1rem;
-        background-color: #fff;
-    }
 }
 
 @media screen and (min-width:720px) {
