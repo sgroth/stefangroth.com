@@ -1,167 +1,188 @@
 body {
-  font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 h3 {
-  color:  $blue-200;
+    color: $blue-200;
 }
 
 a {
-  white-space: normal !important;
+    white-space: normal !important;
 }
 
 #curriculum-vitae {
-  display: none !important; }
-  
+    display: none !important;
+}
+
 .site-footer {
     color: $blue-200;
 
     @media screen and (max-width: 740px) {
-        position: static;
+        position: fixed;
+        bottom: 1rem;
+        background-color: #fff;
     }
 }
-.side-bar, .main {
-  padding-top: 6rem;
+
+@media screen and (min-width:720px) {
+
+    .side-bar,
+    .main {
+        padding-top: 6rem;
+    }
+
+    .site-header {
+        border-bottom: 0px;
+    }
+
+    .main-header {
+        border-bottom: 0px;
+    }
+
+    .main {
+        padding-left: 5rem;
+    }
+
+    .main-content .anchor-heading {
+        left: -2rem !important;
+    }
+
+    .side-bar {
+        padding-right: 5rem;
+    }
+
+    .site-title-l {
+      display: none;
+    }
 }
 
-.site-header {
-  border-bottom: 0px;
-}
-
-.main-header {
-  border-bottom: 0px;
-}
-
-.main {
-  padding-left: 5rem;
-}
-
-.main-content .anchor-heading {
-  left: -2rem !important;
-}
-
-.side-bar {
-  padding-right: 5rem;
+@media screen and (max-width:720px) {
+    .site-title-r {
+      display: none;
+    }
 }
 
 .site-title {
-  color: $link-color;
+    color: $link-color;
 }
 
 .site-title:hover {
-  background: none;
+    background: none;
 }
 
-.nav-list .nav-list-item .nav-list-link:hover, .nav-list .nav-list-item .nav-list-link.active {
-  background: none;  
+.nav-list .nav-list-item .nav-list-link:hover,
+.nav-list .nav-list-item .nav-list-link.active {
+    background: none;
 }
 
 .nav-list .nav-list-item .nav-list-link:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 .nav-list .nav-list-item {
     @include fs-5;
 }
 
-.cv h1, .lehre h1, .projekte h1 {
-  @include fs-6;
-  color: $link-color;
-  font-weight: 400;
-  padding-bottom: 1rem;
+.cv h1,
+.lehre h1,
+.projekte h1 {
+    @include fs-6;
+    color: $link-color;
+    font-weight: 400;
+    padding-bottom: 1rem;
 }
 
 .projekte h2 {
-  margin-top: -.5rem;
-  @include fs-5;
-  color: $grey-dk-200;
-  font-weight: 400;
-  padding-bottom: 1rem;
+    margin-top: -.5rem;
+    @include fs-5;
+    color: $grey-dk-200;
+    font-weight: 400;
+    padding-bottom: 1rem;
 }
 
 .lehre h2 {
-  @include fs-5;
-  color: $link-color;
-  font-weight: 500;
-  margin-bottom: -1rem;
+    @include fs-5;
+    color: $link-color;
+    font-weight: 500;
+    margin-bottom: -1rem;
 }
 
 .lehre h3 {
-  @include fs-4;
-  color: $grey-dk-200;
-  font-weight: 400;
+    @include fs-4;
+    color: $grey-dk-200;
+    font-weight: 400;
 }
 
 .cv h2 {
-  @include fs-5;
-  color: $link-color;
-  font-weight: 400;
+    @include fs-5;
+    color: $link-color;
+    font-weight: 400;
 }
 
 .about-links {
-  word-break: normal;
-  white-space: normal !important;
-  text-decoration: none;
-  color: $grey-dk-100;
-  border-bottom: 1px dotted $grey-lt-300;
-  transition: color 0.5s ease;
+    word-break: normal;
+    white-space: normal !important;
+    text-decoration: none;
+    color: $grey-dk-100;
+    border-bottom: 1px dotted $grey-lt-300;
+    transition: color 0.5s ease;
 }
 
 .about-links:hover {
-  color: $blue-100;
-  border-bottom: 1px dotted $blue-100;
+    color: $blue-100;
+    border-bottom: 1px dotted $blue-100;
 }
 
 .aktuelle-projekte {
-  padding-left: 0em !important;
-  margin-left: 0em !important;
+    padding-left: 0em !important;
+    margin-left: 0em !important;
 }
 
 .aktuelle-projekte a {
-  color: $blue-200 !important;
-  white-space: normal !important;
-  background-image: none !important;
-  border-bottom: 1px dotted $grey-lt-200;
-  transition: color 0.5s ease;
+    color: $blue-200 !important;
+    white-space: normal !important;
+    background-image: none !important;
+    border-bottom: 1px dotted $grey-lt-200;
+    transition: color 0.5s ease;
 }
 
 .aktuelle-projekte a:hover {
-  color: $blue-000 !important;
-  border-bottom: 1px dotted $blue-000;
-  text-decoration: none !important;
+    color: $blue-000 !important;
+    border-bottom: 1px dotted $blue-000;
+    text-decoration: none !important;
 }
 
 .aktuelle-projekte li::before {
-  margin-left: 0em !important;
-  content: none !important;
+    margin-left: 0em !important;
+    content: none !important;
 }
 
 .aktuelles {
-  color: $red-200 !important;
-  padding-left: 0em !important;
-  margin-left: 0em !important;
+    color: $red-200 !important;
+    padding-left: 0em !important;
+    margin-left: 0em !important;
 }
 
 .aktuelles a {
-  color: $red-200 !important;
-  white-space: normal !important;
-  background-image: none !important;
-  border-bottom: 1px dotted $grey-lt-200;
-  transition: color 0.5s ease;
+    color: $red-200 !important;
+    white-space: normal !important;
+    background-image: none !important;
+    border-bottom: 1px dotted $grey-lt-200;
+    transition: color 0.5s ease;
 }
 
 .aktuelles a:hover {
-  color: $red-000 !important;
-  border-bottom: 1px dotted $red-000;
-  text-decoration: none !important;
+    color: $red-000 !important;
+    border-bottom: 1px dotted $red-000;
+    text-decoration: none !important;
 }
 
 .aktuelles li::before {
-  margin-left: 0em !important;
-  content: none !important;
+    margin-left: 0em !important;
+    content: none !important;
 }
 
 .fa-li {
-  margin-left: -0.5em !important;
-  padding-right: 0em !important;
+    margin-left: -0.5em !important;
+    padding-right: 0em !important;
 }

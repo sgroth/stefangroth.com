@@ -33,6 +33,8 @@ color_scheme: stefangroth
 plugins:
   - jekyll-feed
 
+search_enabled: false
+
 # Define Jekyll collections
 collections:
   projects:
