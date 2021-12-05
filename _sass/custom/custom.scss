@@ -18,7 +18,7 @@ a {
     color: $blue-200;
 }
 
-@media screen and (min-width:720px) {
+@media screen and (min-width:1000px) {
 
     .side-bar,
     .main {
@@ -46,13 +46,13 @@ a {
     }
 
     .site-title-l {
-      display: none;
+        display: none;
     }
 }
 
-@media screen and (max-width:720px) {
+@media screen and (max-width:999px) {
     .site-title-r {
-      display: none;
+        display: none;
     }
 }
 
@@ -77,37 +77,34 @@ a {
     @include fs-5;
 }
 
-.cv h1,
-.lehre h1,
-.projekte h1 {
+.cv {
+    margin-bottom: 3rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.cv h1 {
     @include fs-6;
     color: $link-color;
     font-weight: 400;
     padding-bottom: 1rem;
 }
 
-.projekte h2 {
-    margin-top: -.5rem;
-    @include fs-5;
-    color: $grey-dk-200;
-    font-weight: 400;
-    padding-bottom: 1rem;
-}
-
-.lehre h2 {
+.cv h2 {
     @include fs-5;
     color: $link-color;
     font-weight: 500;
-    margin-bottom: -1rem;
 }
 
-.lehre h3 {
+.cv h3 {
     @include fs-4;
     color: $grey-dk-200;
     font-weight: 400;
 }
 
-.cv h2 {
+.subtitle {
+    margin-top: -.5rem;
+    padding-bottom: 1rem;
     @include fs-5;
     color: $link-color;
     font-weight: 400;
@@ -174,6 +171,24 @@ a {
 .aktuelles li::before {
     margin-left: 0em !important;
     content: none !important;
+}
+
+.bibliography {
+    /* These are technically the same, but use both */
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+
+    -ms-word-break: break-all;
+    /* This is the dangerous one in WebKit, as it breaks things wherever */
+    word-break: break-all;
+    /* Instead use this non-standard one: */
+    word-break: break-word;
+
+    /* Adds a hyphen where the word breaks, if supported (No Blink) */
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
 }
 
 .fa-li {

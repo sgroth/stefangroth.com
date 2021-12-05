@@ -1548,9 +1548,9 @@ a { white-space: normal !important; }
 
 .site-footer { color: #264caf; }
 
-@media screen and (min-width: 720px) { .side-bar, .main { padding-top: 6rem; } .site-header { border-bottom: 0px; } .main-header { border-bottom: 0px; } .main { padding-left: 5rem; } .main-content .anchor-heading { left: -2rem !important; } .side-bar { padding-right: 5rem; } .site-title-l { display: none; } }
+@media screen and (min-width: 1000px) { .side-bar, .main { padding-top: 6rem; } .site-header { border-bottom: 0px; } .main-header { border-bottom: 0px; } .main { padding-left: 5rem; } .main-content .anchor-heading { left: -2rem !important; } .side-bar { padding-right: 5rem; } .site-title-l { display: none; } }
 
-@media screen and (max-width: 720px) { .site-title-r { display: none; } }
+@media screen and (max-width: 999px) { .site-title-r { display: none; } }
 
 .site-title { color: #7253ed; }
 
@@ -1564,25 +1564,23 @@ a { white-space: normal !important; }
 
 @media (min-width: 31.25rem) { .nav-list .nav-list-item { font-size: 18px !important; } }
 
-.cv h1, .lehre h1, .projekte h1 { font-size: 18px !important; color: #7253ed; font-weight: 400; padding-bottom: 1rem; }
+.cv { margin-bottom: 3rem; padding-bottom: 1rem; border-bottom: 1px solid #f1f1f1; }
 
-@media (min-width: 31.25rem) { .cv h1, .lehre h1, .projekte h1 { font-size: 24px !important; line-height: 1.25; } }
+.cv h1 { font-size: 18px !important; color: #7253ed; font-weight: 400; padding-bottom: 1rem; }
 
-.projekte h2 { margin-top: -.5rem; font-size: 16px !important; color: #44434d; font-weight: 400; padding-bottom: 1rem; }
+@media (min-width: 31.25rem) { .cv h1 { font-size: 24px !important; line-height: 1.25; } }
 
-@media (min-width: 31.25rem) { .projekte h2 { font-size: 18px !important; } }
-
-.lehre h2 { font-size: 16px !important; color: #7253ed; font-weight: 500; margin-bottom: -1rem; }
-
-@media (min-width: 31.25rem) { .lehre h2 { font-size: 18px !important; } }
-
-.lehre h3 { font-size: 14px !important; color: #44434d; font-weight: 400; }
-
-@media (min-width: 31.25rem) { .lehre h3 { font-size: 16px !important; } }
-
-.cv h2 { font-size: 16px !important; color: #7253ed; font-weight: 400; }
+.cv h2 { font-size: 16px !important; color: #7253ed; font-weight: 500; }
 
 @media (min-width: 31.25rem) { .cv h2 { font-size: 18px !important; } }
+
+.cv h3 { font-size: 14px !important; color: #44434d; font-weight: 400; }
+
+@media (min-width: 31.25rem) { .cv h3 { font-size: 16px !important; } }
+
+.subtitle { margin-top: -.5rem; padding-bottom: 1rem; font-size: 16px !important; color: #7253ed; font-weight: 400; }
+
+@media (min-width: 31.25rem) { .subtitle { font-size: 18px !important; } }
 
 .about-links { word-break: normal; white-space: normal !important; text-decoration: none; color: #5c5962; border-bottom: 1px dotted #e6e1e8; transition: color 0.5s ease; }
 
@@ -1603,6 +1601,8 @@ a { white-space: normal !important; }
 .aktuelles a:hover { color: #f77e7e !important; border-bottom: 1px dotted #f77e7e; text-decoration: none !important; }
 
 .aktuelles li::before { margin-left: 0em !important; content: none !important; }
+
+.bibliography { /* These are technically the same, but use both */ overflow-wrap: break-word; word-wrap: break-word; -ms-word-break: break-all; /* This is the dangerous one in WebKit, as it breaks things wherever */ word-break: break-all; /* Instead use this non-standard one: */ word-break: break-word; /* Adds a hyphen where the word breaks, if supported (No Blink) */ -ms-hyphens: auto; -moz-hyphens: auto; -webkit-hyphens: auto; hyphens: auto; }
 
 .fa-li { margin-left: -0.5em !important; padding-right: 0em !important; }
 

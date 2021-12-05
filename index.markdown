@@ -2,7 +2,7 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 title: Home
-layout: home
+layout: cv
 nav_order: 1
 ---
 <span class="text-blue-200">PD Dr. Stefan Groth</span> -- I am Senior Research Fellow at the <a class="about-links" href="https://www.gcr21.org"><span style="display: inline-block;"><i class="fas fa-arrow-right fa-xs text-grey-lt-300 pr-2"></i>Centre</span> for Global Cooperation Research</a> and Privatdozent at the <a class="about-links" href="https://www.isek.uzh.ch/de/populärekulturen.html"><span style="display: inline-block;"><i class="fas fa-arrow-right fa-xs text-grey-lt-300 pr-2"></i>Department</span> of Social Anthropology and Cultural Studies</a>, Zurich University. Currently, I am mainly working on <a class="about-links" href="{{ site.url }}/projects/political_narratives/"><span style="display: inline-block;"><i class="fas fa-arrow-right fa-xs text-grey-lt-300 pr-2"></i>political</span> narratives</a> and on the <a class="about-links" href="{{ site.url }}/projects/eu-margins/"><span style="display: inline-block;"><i class="fas fa-arrow-right fa-xs text-grey-lt-300 pr-2"></i>production</span> of Europe in everyday contexts within and outside of Europe</a>. 
@@ -10,7 +10,7 @@ nav_order: 1
 
 ---
 ### Current Projects
-{: .text-blue-200 }
+{: .text-blue-200 .fw-500 }
 
 <ul class="fa-ul aktuelle-projekte">
 {% assign sorted = site.projects | sort: 'recent_order' %}
@@ -23,12 +23,11 @@ nav_order: 1
 
 ---
 ### News
-{: .text-red-200 }
+{: .text-red-200 .fw-500 }
 <ul class="fa-ul aktuelles">
 <li><span class="fa-li"><i class="fas fa-arrow-right fa-sm"></i></span>29.09.2021 &#8212; Senior Fellow at the Centre for Global Cooperation Research<br/>Starting November 2021, I am Senior Fellow at the Centre for Global Cooperation Research. I will be working on a project on “Everyday Narratives of (De-)Legitimation: How Stories about Migration Policies and Expert Regimes are told in Everyday Contexts.”</li>
 </ul>
 
----
 
 <!--Meine Habilitation habe ich über "Mittelmaß als Praxis und Konstellation: Orientierungen am Mittelmaß aus empirisch-kulturwissenschaftlicher Perspektive" verfasst, 2021 erfolgte die Ernennung zum Privatdozenten an der Philosophischen Fakultät der Universität Zürich. Ich habe in Göttingen und Udine Soziologie, Kulturanthropologie / Europäische Ethnologie und Wirtschaft- und Sozialpsychologie studiert. Geforscht und gelehrt habe ich in Göttingen als Teil einer interdisziplinären Forschergruppe zu kulturellem Eigentum, als Fellow am Käte Hamburger Kolleg / Centre for Global Cooperation Research und als Postdoc an der Universität Bonn.
 {: .fs-5 .mt-8}

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: cv
 title: "Europe from Outside and from the Margins"
 long_title: "Europe from Outside and from the Margins: The Everyday Production of Europe in Borderlands and Non-European Contexts (Research Focus)"
 projekt_details: "The Everyday Production of Europe in Borderlands and Non-European Contexts"
@@ -10,9 +10,7 @@ end_date: false
 finished: false
 is_recent: true
 ---
-<div class="projekte">
 <h1>{{ page.title }}</h1>
-<h2>{{ page.projekt_details }}</h2>
+<div class="subtitle">{{ page.projekt_details }}</div>
 
 <strong>Project description follows.</strong>
-</div>

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: cv
 title: "The Everyday: Perspectives from Empirical Cultural Studies"
 long_title: "The Everyday: Perspectives from Empirical Cultural Studies (Book Project)"
 projekt_details: "Book Project"
@@ -12,12 +12,10 @@ is_recent: true
 permalink: /everyday/
 published: true
 ---
-<div class="projekte">
 <h1>{{ page.title }}</h1>
-<h2>{{ page.projekt_details }}</h2>
+<div class="subtitle">{{ page.projekt_details }}</div>
 
 Project description follows.
-</div>
 
 <!--
 <h3 class="text-delta">Table of Contents</h3>

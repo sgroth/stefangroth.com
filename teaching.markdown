@@ -1,10 +1,9 @@
 ---
-layout: page
+layout: cv
 title: Teaching
 permalink: /teaching/
 nav_order: 5
 ---
-<div class="lehre">
 <h1>Teaching</h1>
 Current and past courses
 
@@ -18,4 +17,3 @@ Current and past courses
 
 {% capture my_include %}{% include teaching/teaching.en.md %}{% endcapture %}
 {{ my_include | markdownify }}
-</div>
