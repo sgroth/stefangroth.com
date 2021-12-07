@@ -57,6 +57,6 @@ nav_order: 3
 {% bibliography --query @review[keywords!=pre] %}
 
 ## Presentations
-Invited talks, talks at conferences and workshops, comments as discussant, and public job talks (translation of German titles is work in progress).
+Invited talks, talks at conferences and workshops, comments as discussant, podium contributions, and public job talks (translation of German titles is work in progress).
 {% capture presentations %}{% include cv/presentations.md %}{% endcapture %}
 {{ presentations | markdownify }}

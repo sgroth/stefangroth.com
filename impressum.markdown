@@ -1,6 +1,7 @@
 ---
 layout: cv
 title: "Impressum"
+permalink: "/impressum/"
 nav_exclude: true
 ---
 

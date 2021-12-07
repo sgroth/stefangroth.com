@@ -86,26 +86,26 @@
     "doc": "Impressum",
     "title": "Impressum",
     "content": " ",
-    "url": "https://stefangroth.com/impressum.html",
-    "relUrl": "/impressum.html"
+    "url": "https://stefangroth.com/impressum/",
+    "relUrl": "/impressum/"
   },"15": {
     "doc": "Impressum",
     "title": "Angaben gem&auml;&szlig; &sect; 5 TMG",
     "content": "Stefan Groth Meister-Gerhard-Stra&szlig;e 2 50674 K&ouml;ln . ",
-    "url": "https://stefangroth.com/impressum.html",
-    "relUrl": "/impressum.html"
+    "url": "https://stefangroth.com/impressum/",
+    "relUrl": "/impressum/"
   },"16": {
     "doc": "Impressum",
     "title": "Kontakt",
     "content": "Telefon: +49 179 77040 58 E-Mail: judo_00_dogleg@icloud.com . ",
-    "url": "https://stefangroth.com/impressum.html",
-    "relUrl": "/impressum.html"
+    "url": "https://stefangroth.com/impressum/",
+    "relUrl": "/impressum/"
   },"17": {
     "doc": "Impressum",
     "title": "Redaktionell verantwortlich",
     "content": "Stefan Groth, Meister-Gerhard-Stra&szlig;e 2, 50674 K&ouml;ln . Quelle: https://www.e-recht24.de/impressum-generator.html . ",
-    "url": "https://stefangroth.com/impressum.html",
-    "relUrl": "/impressum.html"
+    "url": "https://stefangroth.com/impressum/",
+    "relUrl": "/impressum/"
   },"18": {
     "doc": "Home",
     "title": "Home",
@@ -199,7 +199,7 @@
   },"33": {
     "doc": "Publications",
     "title": "Presentations",
-    "content": "Invited talks, talks at conferences and workshops, comments as discussant, and public job talks (translation of German titles is work in progress). ",
+    "content": "Invited talks, talks at conferences and workshops, comments as discussant, podium contributions, and public job talks (translation of German titles is work in progress). ",
     "url": "https://stefangroth.com/publications/#presentations",
     "relUrl": "/publications/#presentations"
   },"34": {
