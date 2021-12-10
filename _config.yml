@@ -64,13 +64,13 @@ stefangroth:
 
 scholar:
   style: ./_includes/bibliography/csl/unknown.csl
-  locale: de
+  locale: en
 
   sort_by: year
   order: descending
 
   source: ./_includes/bibliography/
-  bibliography: "*.bib"
+  bibliography: "*.en.bib"
 
   bibtex_filters:
     - Latex2
