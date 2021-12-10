@@ -14,6 +14,10 @@ a {
     display: none !important;
 }
 
+.icon:hover {
+    color: $red-200 !important;
+}
+
 .site-footer {
     color: $blue-200;
 }

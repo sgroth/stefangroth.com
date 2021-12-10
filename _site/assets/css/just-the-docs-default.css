@@ -1546,6 +1546,8 @@ a { white-space: normal !important; }
 
 #curriculum-vitae { display: none !important; }
 
+.icon:hover { color: #e94c4c !important; }
+
 .site-footer { color: #264caf; }
 
 @media screen and (min-width: 1000px) { .side-bar, .main { padding-top: 6rem; } .site-header { border-bottom: 0px; } .main-header { border-bottom: 0px; } .main { padding-left: 5rem; } .main-content .anchor-heading { left: -2rem !important; } .side-bar { padding-right: 5rem; } .site-title-l { display: none; } }
