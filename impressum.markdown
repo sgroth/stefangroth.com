@@ -20,3 +20,5 @@ E-Mail: judo_00_dogleg@icloud.com</p>
 <p>Stefan Groth, Meister-Gerhard-Stra&szlig;e 2, 50674 K&ouml;ln</p>
 
 <p>Quelle: <a href="https://www.e-recht24.de/impressum-generator.html">https://www.e-recht24.de/impressum-generator.html</a></p>
+
+<p>Konzeption und Text:<br /><a href="https://www.scriberie.de">Scriberie. Atelier für Text.<br />https://www.scriberie.de</a></p>
