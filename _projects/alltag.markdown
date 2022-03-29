@@ -3,7 +3,6 @@ layout: cv
 title: "The Everyday: Perspectives from Empirical Cultural Studies"
 long_title: "The Everyday: Perspectives from Empirical Cultural Studies (Book Project)"
 projekt_details: "Book Project"
-projekt_annote: "Book Project"
 years: 2021
 parent: Projects
 end_date: false
