@@ -14,7 +14,7 @@ Meister-Gerhard-Stra&szlig;e 2<br />
 
 <h2>Kontakt</h2>
 <p>Telefon: +49 179 77040 58<br />
-E-Mail: judo_00_dogleg@icloud.com</p>
+E-Mail: stefan@stefangroth.com</p>
 
 <h2>Redaktionell verantwortlich</h2>
 <p>Stefan Groth, Meister-Gerhard-Stra&szlig;e 2, 50674 K&ouml;ln</p>

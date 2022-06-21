@@ -6,15 +6,16 @@ nav_order: 3
 ---
 <h1>Publications</h1>
 <div class="fs-3 mb-5 mt-5">
-<a class="btn btn-outline" href="#submitted-for-publication--publications-in-preparation-12">Submitted for Publication ({% bibliography_count --query @*[keywords~=pre] %})</a> 
+<a class="btn btn-outline" href="#submitted-for-publication--publications-in-preparation-7">Submitted Publications and Publications in Preparation ({% bibliography_count --query @*[keywords~=pre] %})</a> 
+<a class="btn btn-outline" href="#accepted-for-publication--publications-in-print-3">Accepted Publications and Publicatons in Print ({% bibliography_count --query @*[keywords~=accepted] %})</a> 
 <a class="btn btn-outline" href="#monographs-1">Monographs ({% bibliography_count --query @book[keywords!=notaccepted  && keywords!=miszelle &&  keywords!=inpreparation && keywords=monography && keywords!~inprint] %})</a> 
 <a class="btn btn-outline" href="#edited-volumes-6">Edited Volumes ({% bibliography_count --query @*[keywords ^= editedvolume && keywords !~ notaccepted && keywords!~inpreparation && keywords!~submitted && keywords!~inprint] %})</a> 
 <a class="btn btn-outline" href="#special-issues-2">Special Issues ({% bibliography_count --query @periodical[keywords!~pre && keywords!~submitted && keywords!~inprint] %})</a> 
 <a class="btn btn-outline" href="#peer-reviewed-papers-12">Peer Reviewed Papers ({% bibliography_count --query @article[keywords!~ notaccepted && keywords^=peerreview && keywords!~inpreparation && keywords!~submitted && keywords!~inprint && keywords!~pre ] %})</a> 
 <a class="btn btn-outline" href="#journal-articles-9">Journal Articles ({% bibliography_count --query @article[ keywords!~ peerreview && keywords!~ notaccepted && keywords!~ miszelle && keywords!~inpreparation && keywords!~submitted && keywords!~inprint && keywords!~pre ] %})</a> 
-<a class="btn btn-outline" href="#contributions-to-edited-volumes-25">Contributions to Edited Volumes ({% bibliography_count --query @incollection[keywords!~ inpreparation && keywords!=miszelle && keywords!=notaccepted && keywords!~submitted && keywords!~inprint && keywords!~pre] %})</a> 
+<a class="btn btn-outline" href="#contributions-to-edited-volumes-28">Contributions to Edited Volumes ({% bibliography_count --query @incollection[keywords!~ inpreparation && keywords!=miszelle && keywords!=notaccepted && keywords!~submitted && keywords!~inprint && keywords!~pre] %})</a> 
 <a class="btn btn-outline" href="#miscellaneous-3">Miscellaneous ({% bibliography_count --query @*[keywords=miszelle] %})</a> 
-<a class="btn btn-outline" href="#reviews-17">Reviews ({% bibliography_count --query @review[keywords!=pre] %})</a> 
+<a class="btn btn-outline" href="#reviews-20">Reviews ({% bibliography_count --query @review[keywords!=pre] %})</a> 
 <a class="btn btn-outline" href="#presentations">Presentations</a> 
 
 <!--	{% for item in site.data.navigation.publications-quicklinks %}
@@ -23,6 +24,10 @@ nav_order: 3
 ## Submitted for Publication / Publications in Preparation ({% bibliography_count --query @*[keywords~=pre] %})
 
 {% bibliography --query @*[keywords~=pre] %}
+
+## Accepted for Publication / Publications in Print ({% bibliography_count --query @*[keywords~=accepted] %})
+
+{% bibliography --query @*[keywords~=accepted] %}
 
 ## Monographs ({% bibliography_count --query @book[keywords!=notaccepted  && keywords!=miszelle &&  keywords!=inpreparation && keywords=monography && keywords!~inprint] %})
 
