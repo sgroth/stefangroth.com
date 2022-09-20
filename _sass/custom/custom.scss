@@ -69,8 +69,14 @@ a {
 }
 
 .nav-list .nav-list-item .nav-list-link:hover,
-.nav-list .nav-list-item .nav-list-link.active {
+.nav-list .nav-list-item {
     background: none;
+    font-weight: 300 !important;
+}
+
+.nav-list-link.active {
+    font-weight: 500 !important;
+    background: none !important;
 }
 
 .nav-list .nav-list-item .nav-list-link:hover {
