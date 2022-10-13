@@ -12,7 +12,7 @@ nav_order: 3
 <a class="btn btn-outline" href="#edited-volumes-{% bibliography_count --query @*[keywords ^= editedvolume && keywords !~ notaccepted && keywords!~inpreparation && keywords!~submitted && keywords!~inprint] %}">Edited Volumes ({% bibliography_count --query @*[keywords ^= editedvolume && keywords !~ notaccepted && keywords!~inpreparation && keywords!~submitted && keywords!~inprint] %})</a> 
 <a class="btn btn-outline" href="#special-issues-{% bibliography_count --query @periodical[keywords!~pre && keywords!~submitted && keywords!~inprint] %}">Special Issues ({% bibliography_count --query @periodical[keywords!~pre && keywords!~submitted && keywords!~inprint] %})</a> 
 <a class="btn btn-outline" href="#peer-reviewed-papers-12">Peer Reviewed Papers ({% bibliography_count --query @article[keywords!~ notaccepted && keywords^=peerreview && keywords!~inpreparation && keywords!~submitted && keywords!~inprint && keywords!~pre ] %})</a> 
-<a class="btn btn-outline" href="#journal-articles-{% bibliography_count --query @article[ keywords!~ peerreview && keywords!~ notaccepted && keywords!~ miszelle && keywords!~inpreparation && keywords!~submitted && keywords!~inprint && keywords!~pre ] %}">Journal Articles ({% bibliography_count --query @article[ keywords!~ peerreview && keywords!~ notaccepted && keywords!~ miszelle && keywords!~inpreparation && keywords!~submitted && keywords!~inprint && keywords!~pre ] %})</a> 
+<a class="btn btn-outline" href="#journal-articles-{% bibliography_count --query @article[ keywords!~ peerreview && keywords!~ notaccepted && keywords!~ miszelle && keywords!~inpreparation && keywords!~submitted && keywords!~inprint && keywords!~pre && keywords!~accepted] %}">Journal Articles ({% bibliography_count --query @article[ keywords!~ peerreview && keywords!~ notaccepted && keywords!~ miszelle && keywords!~inpreparation && keywords!~submitted && keywords!~inprint && keywords!~pre && keywords!~accepted] %})</a> 
 <a class="btn btn-outline" href="#contributions-to-edited-volumes-{% bibliography_count --query @incollection[keywords!~ inpreparation && keywords!=miszelle && keywords!=notaccepted && keywords!~submitted && keywords!~inprint && keywords!~pre] %}">Contributions to Edited Volumes ({% bibliography_count --query @incollection[keywords!~ inpreparation && keywords!=miszelle && keywords!=notaccepted && keywords!~submitted && keywords!~inprint && keywords!~pre] %})</a> 
 <a class="btn btn-outline" href="#miscellaneous-{% bibliography_count --query @*[keywords=miszelle] %}">Miscellaneous ({% bibliography_count --query @*[keywords=miszelle] %})</a> 
 <a class="btn btn-outline" href="#reviews-{% bibliography_count --query @review[keywords!=pre] %}">Reviews ({% bibliography_count --query @review[keywords!=pre] %})</a> 
@@ -45,9 +45,9 @@ nav_order: 3
 
 {% bibliography --query @article[keywords!~ notaccepted && keywords^=peerreview && keywords!~inpreparation && keywords!~submitted && keywords!~inprint && keywords!~pre] %}
 
-## Journal Articles ({% bibliography_count --query @article[ keywords!~ peerreview && keywords!~ notaccepted && keywords!~ miszelle && keywords!~inpreparation && keywords!~submitted && keywords!~inprint && keywords!~pre ] %})
+## Journal Articles ({% bibliography_count --query @article[ keywords!~ peerreview && keywords!~ notaccepted && keywords!~ miszelle && keywords!~inpreparation && keywords!~submitted && keywords!~inprint && keywords!~pre && keywords!~accepted] %})
 
-{% bibliography --query @article[ keywords!~ peerreview && keywords!~ notaccepted && keywords!~inpreparation && keywords!~ miszelle && keywords!~submitted && keywords!~inprint && keywords!~pre ] %}
+{% bibliography --query @article[ keywords!~ peerreview && keywords!~ notaccepted && keywords!~inpreparation && keywords!~ miszelle && keywords!~submitted && keywords!~inprint && keywords!~pre && keywords!~accepted] %}
 
 ## Contributions to Edited Volumes ({% bibliography_count --query @incollection[keywords!~ inpreparation && keywords!=miszelle && keywords!=notaccepted && keywords!~submitted && keywords!~inprint && keywords!~pre] %})
 

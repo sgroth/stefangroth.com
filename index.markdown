@@ -25,7 +25,8 @@ nav_order: 1
 ### News
 {: .text-red-200 .fw-500 }
 <ul class="fa-ul aktuelles">
-<li><span class="fa-li"><i class="fas fa-arrow-right fa-sm"></i></span>29.03.2022 &#8212; Visiting Professor University of Tübingen<br/>From April to October, I will be Visiting Professor at the Ludwig-Uhland-Institute for Empirical Cultural Studies, University of Tübingen.</li>
+<li><span class="fa-li"><i class="fas fa-arrow-right fa-sm"></i></span>13.10.2022 &#8212; Im Blog "Décodage" der Schweizerische Akademie der Geistes- und Sozialwissenschaften ist von mir ein Beitrag über die <a href="https://www.sagw.ch/sagw/aktuell/blog/details/news/aesthetik-des-mittelstandes-reduktion-im-wohnen-als-distinktion">"Ästhetik des Mittelstandes?"</a> erschienen.</li>
+<li><span class="fa-li"><i class="fas fa-arrow-right fa-sm"></i></span>11.10.2022 &#8212; Im Sammelband <a href="https://www.transcript-verlag.de/978-3-8376-6134-7/optimierung-des-selbst/?number=978-3-8394-6134-1">"Optimierung des Selbst" (transcript)</a> ist von mir ein Beitrag über "Selbstoptimierung und Navigational Capacity" erschienen. Der Band ist als Open Access-Version verfügbar.</li>
 <li><span class="fa-li"><i class="fas fa-arrow-right fa-sm"></i></span>29.09.2021 &#8212; Senior Fellow at the Centre for Global Cooperation Research<br/>Starting November 2021, I am Senior Fellow at the Centre for Global Cooperation Research. I will be working on a project on “Everyday Narratives of (De-)Legitimation: How Stories about Migration Policies and Expert Regimes are told in Everyday Contexts.”</li>
 </ul>
 
