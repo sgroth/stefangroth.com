@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Stefan Groth
+title: PD Dr. Stefan Groth
 email: judo_00_dogleg@icloud.com
 description: >- # this means to ignore newlines until "baseurl:"
   Personal homepage
@@ -63,7 +63,7 @@ stefangroth:
       search_exclude: false
 
 scholar:
-  style: ./_includes/bibliography/csl/unknown.csl
+  style: ./_includes/bibliography/csl/chicago-notitlecase.csl
   locale: en
 
   sort_by: year
