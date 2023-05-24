@@ -70,7 +70,7 @@ scholar:
   order: descending
 
   source: ./_includes/bibliography/
-  bibliography: "*.en.bib"
+  bibliography: "sgroth-bibliography.bib"
 
   bibtex_filters:
     - Latex2
