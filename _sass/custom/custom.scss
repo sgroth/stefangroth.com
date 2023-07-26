@@ -18,8 +18,9 @@ a {
     color: $red-200 !important;
 }
 
-.site-footer {
-    color: $blue-200;
+.site-footer, .site-footer a {
+    color: $grey-lt-100;
+    background-color: $blue-300;
 }
 
 @media screen and (min-width:1000px) {
@@ -47,6 +48,7 @@ a {
 
     .side-bar {
         padding-right: 5rem;
+        background-color: $blue-300;
     }
 
     .site-title-l {
@@ -74,17 +76,24 @@ a {
     font-weight: 300 !important;
 }
 
+.nav-list-link {
+    color: $grey-lt-100;
+}
+
 .nav-list-link.active {
     font-weight: 500 !important;
     background: none !important;
+    color: $grey-lt-200;
 }
 
 .nav-list .nav-list-item .nav-list-link:hover {
     text-decoration: underline;
+    color: $grey-lt-300;
 }
 
 .nav-list .nav-list-item {
     @include fs-5;
+    color: $grey-lt-100;
 }
 
 .cv {
@@ -159,13 +168,13 @@ a {
 }
 
 .aktuelles {
-    color: $red-200 !important;
+    color: $blue-200 !important;
     padding-left: 0em !important;
     margin-left: 0em !important;
 }
 
 .aktuelles a {
-    color: $red-200 !important;
+    color: $blue-300 !important;
     white-space: normal !important;
     background-image: none !important;
     border-bottom: 1px dotted $grey-lt-200;
@@ -173,8 +182,8 @@ a {
 }
 
 .aktuelles a:hover {
-    color: $red-000 !important;
-    border-bottom: 1px dotted $red-000;
+    color: $blue-000 !important;
+    border-bottom: 1px dotted $blue-300;
     text-decoration: none !important;
 }
 
