@@ -1,13 +1,18 @@
 body {
     font-family: 'Overpass', sans-serif;
+    background-color: $blue-300;
+    color: $grey-lt-100;
 }
 
 h3 {
-    color: $blue-200;
+    color: $red-100;
 }
 
 a {
     white-space: normal !important;
+    color: $grey-lt-100 !important;
+    text-decoration: none !important;
+    text-decoration-color: $blue-100 !important;
 }
 
 #curriculum-vitae {
@@ -18,15 +23,35 @@ a {
     color: $red-200 !important;
 }
 
+.site-nav {
+    background-color: $blue-300 !important;
+}
+
+.site-button {
+        background-color: $blue-300 !important;
+}
 .site-footer, .site-footer a {
     color: $grey-lt-100;
     background-color: $blue-300;
+}
+
+.site-title {
+    background-color: $blue-300 !important;
+}
+
+.site-title a {
+ 
+}
+
+.side-bar {
+    border: 0 !important;
 }
 
 @media screen and (min-width:1000px) {
 
     .side-bar,
     .main {
+        background-color: $blue-300;
         padding-top: 6rem;
     }
 
@@ -63,7 +88,7 @@ a {
 }
 
 .site-title {
-    color: $link-color;
+    color: $grey-lt-100;
 }
 
 .site-title:hover {
@@ -88,7 +113,7 @@ a {
 
 .nav-list .nav-list-item .nav-list-link:hover {
     text-decoration: underline;
-    color: $grey-lt-300;
+    color: $red-300;
 }
 
 .nav-list .nav-list-item {
@@ -96,28 +121,32 @@ a {
     color: $grey-lt-100;
 }
 
+hr {
+    background-color: $blue-200 !important;
+}
+
 .cv {
     margin-bottom: 3rem;
     padding-bottom: 1rem;
-    border-bottom: 1px solid #f1f1f1;
+    border-bottom: 1px solid $blue-200;
 }
 
 .cv h1 {
     @include fs-6;
-    color: $link-color;
+    color: $red-100;
     font-weight: 400;
     padding-bottom: 1rem;
 }
 
 .cv h2 {
     @include fs-5;
-    color: $link-color;
+    color: $red-100;
     font-weight: 500;
 }
 
 .cv h3 {
     @include fs-4;
-    color: $grey-dk-200;
+    color: $grey-lt-200;
     font-weight: 400;
 }
 
@@ -168,21 +197,21 @@ a {
 }
 
 .aktuelles {
-    color: $blue-200 !important;
+    color: $grey-lt-200 !important;
     padding-left: 0em !important;
     margin-left: 0em !important;
 }
 
 .aktuelles a {
-    color: $blue-300 !important;
+    color: $red-100 !important;
     white-space: normal !important;
     background-image: none !important;
-    border-bottom: 1px dotted $grey-lt-200;
+    border-bottom: 0px dotted $grey-lt-200;
     transition: color 0.5s ease;
 }
 
 .aktuelles a:hover {
-    color: $blue-000 !important;
+    color: $red-300 !important;
     border-bottom: 1px dotted $blue-300;
     text-decoration: none !important;
 }

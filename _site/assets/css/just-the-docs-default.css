@@ -7291,14 +7291,19 @@ div.opaque {
 
 body {
   font-family: "Overpass", sans-serif;
+  background-color: #183385;
+  color: #eeebee;
 }
 
 h3 {
-  color: #264caf;
+  color: #f96e65;
 }
 
 a {
   white-space: normal !important;
+  color: #eeebee !important;
+  text-decoration: none !important;
+  text-decoration-color: #2869e6 !important;
 }
 
 #curriculum-vitae {
@@ -7309,14 +7314,31 @@ a {
   color: #e94c4c !important;
 }
 
+.site-nav {
+  background-color: #183385 !important;
+}
+
+.site-button {
+  background-color: #183385 !important;
+}
+
 .site-footer, .site-footer a {
   color: #eeebee;
   background-color: #183385;
 }
 
+.site-title {
+  background-color: #183385 !important;
+}
+
+.side-bar {
+  border: 0 !important;
+}
+
 @media screen and (min-width: 1000px) {
   .side-bar,
   .main {
+    background-color: #183385;
     padding-top: 6rem;
   }
   .site-header {
@@ -7345,7 +7367,7 @@ a {
   }
 }
 .site-title {
-  color: #264caf;
+  color: #eeebee;
 }
 
 .site-title:hover {
@@ -7370,7 +7392,7 @@ a {
 
 .nav-list .nav-list-item .nav-list-link:hover {
   text-decoration: underline;
-  color: #e6e1e8;
+  color: #dd2e2e;
 }
 
 .nav-list .nav-list-item {
@@ -7383,15 +7405,19 @@ a {
   }
 }
 
+hr {
+  background-color: #264caf !important;
+}
+
 .cv {
   margin-bottom: 3rem;
   padding-bottom: 1rem;
-  border-bottom: 1px solid #f1f1f1;
+  border-bottom: 1px solid #264caf;
 }
 
 .cv h1 {
   font-size: 1.125rem !important;
-  color: #264caf;
+  color: #f96e65;
   font-weight: 400;
   padding-bottom: 1rem;
 }
@@ -7404,7 +7430,7 @@ a {
 
 .cv h2 {
   font-size: 1rem !important;
-  color: #264caf;
+  color: #f96e65;
   font-weight: 500;
 }
 @media (min-width: 31.25rem) {
@@ -7415,7 +7441,7 @@ a {
 
 .cv h3 {
   font-size: 0.875rem !important;
-  color: #44434d;
+  color: #ecebed;
   font-weight: 400;
 }
 @media (min-width: 31.25rem) {
@@ -7476,21 +7502,21 @@ a {
 }
 
 .aktuelles {
-  color: #264caf !important;
+  color: #ecebed !important;
   padding-left: 0em !important;
   margin-left: 0em !important;
 }
 
 .aktuelles a {
-  color: #183385 !important;
+  color: #f96e65 !important;
   white-space: normal !important;
   background-image: none !important;
-  border-bottom: 1px dotted #ecebed;
+  border-bottom: 0px dotted #ecebed;
   transition: color 0.5s ease;
 }
 
 .aktuelles a:hover {
-  color: #2c84fa !important;
+  color: #dd2e2e !important;
   border-bottom: 1px dotted #183385;
   text-decoration: none !important;
 }

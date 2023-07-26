@@ -1,11 +1,11 @@
 ---
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-title: Home
+title: Stefan Groth
 layout: cv
 nav_order: 1
 ---
-Ich bin <span class="text-blue-200">Berater für politische Kommunikation</span> bei <a class="about-links" href="https://www.neueshandeln.de"><span style="display: inline-block;"><i class="fas fa-arrow-right fa-xs text-grey-lt-300 pr-2"></i>neues handeln</span></a> und Privatdozent für <a class="about-links" href="https://www.isek.uzh.ch/de/populärekulturen.html"><span style="display: inline-block;"><i class="fas fa-arrow-right fa-xs text-grey-lt-300 pr-2"></i>Empirische </span> Kulturwissenschaft</a> an der Universität Zürich. <!--Currently, I am mainly working on <a class="about-links" href="{{ site.url }}/projects/political_narratives/"><span style="display: inline-block;"><i class="fas fa-arrow-right fa-xs text-grey-lt-300 pr-2"></i>political</span> narratives</a> and on the <a class="about-links" href="{{ site.url }}/projects/eu-margins/"><span style="display: inline-block;"><i class="fas fa-arrow-right fa-xs text-grey-lt-300 pr-2"></i>production</span> of Europe in everyday contexts within and outside of Europe</a>.--> 
+Ich bin <span class="text-red-100">Berater für politische Kommunikation</span> bei <a class="about-links" href="https://www.neueshandeln.de"><span style="display: inline-block;"><i class="fas fa-arrow-right fa-xs text-grey-lt-300 pr-2"></i>neues handeln</span></a> und <span class="text-red-100">Privatdozent</span> für <a class="about-links" href="https://www.isek.uzh.ch/de/populärekulturen.html"><span style="display: inline-block;"><i class="fas fa-arrow-right fa-xs text-grey-lt-300 pr-2"></i>Empirische </span> Kulturwissenschaft</a> an der Universität Zürich. <!--Currently, I am mainly working on <a class="about-links" href="{{ site.url }}/projects/political_narratives/"><span style="display: inline-block;"><i class="fas fa-arrow-right fa-xs text-grey-lt-300 pr-2"></i>political</span> narratives</a> and on the <a class="about-links" href="{{ site.url }}/projects/eu-margins/"><span style="display: inline-block;"><i class="fas fa-arrow-right fa-xs text-grey-lt-300 pr-2"></i>production</span> of Europe in everyday contexts within and outside of Europe</a>.--> 
 {: .fs-6 .fw-400 .mb-8 .lh-default}
 
 <img src="assets/img/profile.jpg" />
@@ -24,7 +24,7 @@ Ich bin <span class="text-blue-200">Berater für politische Kommunikation</span>
 
 ---
 ### News
-{: .text-blue-200 .fw-500 }
+{: .text-red-100 .fw-500 }
 <ul class="fa-ul aktuelles">
 <li><span class="fa-li"><i class="fas fa-arrow-right fa-sm"></i></span>07/2023 &#8212; Neu erschienen: <a href="https://www.researchgate.net/publication/371904841_Populare_Narrative_des_Politischen_Euroskeptizismus_aus_Sicht_der_Empirischen_Kulturwissenschaft">Populäre Narrative des Politischen: Euroskeptizismus aus Sicht der Empirischen Kulturwissenschaft"</a> – meine Antrittsvorlesung als PD an der 
 Universität Zürich im Schweizerischen Archiv für Volkskunde.</li>

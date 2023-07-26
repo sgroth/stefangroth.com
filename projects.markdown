@@ -3,6 +3,7 @@ layout: cv
 title: Projects
 permalink: /projects/
 nav_order: 4
+published: false
 has_children: true
 has_toc: false
 ---
