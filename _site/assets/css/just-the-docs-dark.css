@@ -7570,6 +7570,10 @@ a {
   text-decoration-color: #2869e6 !important;
 }
 
+.lead {
+  margin-bottom: 8rem;
+}
+
 #curriculum-vitae {
   display: none !important;
 }
@@ -7673,6 +7677,11 @@ hr {
   background-color: #264caf !important;
 }
 
+.start {
+  margin-bottom: 3rem;
+  padding-bottom: 1rem;
+}
+
 .cv {
   margin-bottom: 3rem;
   padding-bottom: 1rem;
@@ -7680,10 +7689,9 @@ hr {
 }
 
 .cv h1 {
-  font-size: 1.125rem !important;
   color: #f96e65;
-  font-weight: 400;
-  padding-bottom: 1rem;
+  font-size: 1.125rem !important;
+  margin-bottom: 2rem;
 }
 @media (min-width: 31.25rem) {
   .cv h1 {
@@ -7727,18 +7735,21 @@ hr {
   }
 }
 
+.about {
+  margin-bottom: 3rem !important;
+  color: #eeebee;
+}
+
 .about-links {
+  color: #f96e65 !important;
   word-break: normal;
   white-space: normal !important;
   text-decoration: none;
-  color: #5c5962;
-  border-bottom: 1px dotted #e6e1e8;
   transition: color 0.5s ease;
 }
 
 .about-links:hover {
-  color: #2869e6;
-  border-bottom: 1px dotted #2869e6;
+  color: #2869e6 !important;
 }
 
 .aktuelle-projekte {
@@ -7780,7 +7791,7 @@ hr {
 }
 
 .aktuelles a:hover {
-  color: #dd2e2e !important;
+  color: #2869e6 !important;
   border-bottom: 1px dotted #183385;
   text-decoration: none !important;
 }

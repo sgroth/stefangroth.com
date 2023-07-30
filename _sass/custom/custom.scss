@@ -15,6 +15,10 @@ a {
     text-decoration-color: $blue-100 !important;
 }
 
+.lead {
+    margin-bottom: 8rem;
+}
+
 #curriculum-vitae {
     display: none !important;
 }
@@ -125,6 +129,11 @@ hr {
     background-color: $blue-200 !important;
 }
 
+.start {
+    margin-bottom: 3rem;
+    padding-bottom: 1rem;
+}
+
 .cv {
     margin-bottom: 3rem;
     padding-bottom: 1rem;
@@ -132,10 +141,9 @@ hr {
 }
 
 .cv h1 {
-    @include fs-6;
     color: $red-100;
-    font-weight: 400;
-    padding-bottom: 1rem;
+    @include fs-6;
+    margin-bottom: 2rem;
 }
 
 .cv h2 {
@@ -158,18 +166,21 @@ hr {
     font-weight: 400;
 }
 
+.about {
+    margin-bottom: 3rem !important;
+    color: $grey-lt-100;
+}
+
 .about-links {
+    color: $red-100 !important;
     word-break: normal;
     white-space: normal !important;
     text-decoration: none;
-    color: $grey-dk-100;
-    border-bottom: 1px dotted $grey-lt-300;
     transition: color 0.5s ease;
 }
 
 .about-links:hover {
-    color: $blue-100;
-    border-bottom: 1px dotted $blue-100;
+    color: $blue-100 !important;
 }
 
 .aktuelle-projekte {
@@ -211,7 +222,7 @@ hr {
 }
 
 .aktuelles a:hover {
-    color: $red-300 !important;
+    color: $blue-100 !important;
     border-bottom: 1px dotted $blue-300;
     text-decoration: none !important;
 }
