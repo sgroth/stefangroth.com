@@ -8,6 +8,10 @@ h3 {
     color: $red-100;
 }
 
+h1, h2 {
+    color: #fff;
+}
+
 a {
     white-space: normal !important;
     color: $grey-lt-100 !important;
@@ -16,7 +20,8 @@ a {
 }
 
 .lead {
-    margin-bottom: 8rem;
+    margin-bottom: 2rem;
+    @include fs-6;
 }
 
 #curriculum-vitae {
@@ -230,6 +235,10 @@ hr {
 .aktuelles li::before {
     margin-left: 0em !important;
     content: none !important;
+}
+
+.blog {
+    @include fs-5;
 }
 
 .bibliography {

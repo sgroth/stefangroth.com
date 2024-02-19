@@ -7563,6 +7563,10 @@ h3 {
   color: #f96e65;
 }
 
+h1, h2 {
+  color: #fff;
+}
+
 a {
   white-space: normal !important;
   color: #eeebee !important;
@@ -7571,7 +7575,14 @@ a {
 }
 
 .lead {
-  margin-bottom: 8rem;
+  margin-bottom: 2rem;
+  font-size: 1.125rem !important;
+}
+@media (min-width: 31.25rem) {
+  .lead {
+    font-size: 1.5rem !important;
+    line-height: 1.25;
+  }
 }
 
 #curriculum-vitae {
@@ -7799,6 +7810,15 @@ hr {
 .aktuelles li::before {
   margin-left: 0em !important;
   content: none !important;
+}
+
+.blog {
+  font-size: 1rem !important;
+}
+@media (min-width: 31.25rem) {
+  .blog {
+    font-size: 1.125rem !important;
+  }
 }
 
 .bibliography {

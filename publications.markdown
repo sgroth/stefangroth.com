@@ -6,7 +6,7 @@ nav_order: 3
 ---
 <h1>Publications</h1>
 <div class="fs-3 mb-5 mt-5">
-<a class="btn btn-outline" href="#submitted-for-publication--publications-in-preparation-{% bibliography_count --query @*[keywords~=pre] %}">Submitted Publications and Publications in Preparation ({% bibliography_count --query @*[keywords~=pre] %})</a> 
+<!--<a class="btn btn-outline" href="#submitted-for-publication--publications-in-preparation-{% bibliography_count --query @*[keywords~=pre] %}">Submitted Publications and Publications in Preparation ({% bibliography_count --query @*[keywords~=pre] %})</a> -->
 <a class="btn btn-outline" href="#accepted-for-publication--publications-in-print-{% bibliography_count --query @*[keywords~=accepted] %}">Accepted Publications and Publications in Print ({% bibliography_count --query @*[keywords~=accepted] %})</a> 
 <a class="btn btn-outline" href="#monographs-{% bibliography_count --query @book[keywords!=notaccepted  && keywords!=miszelle &&  keywords!=inpreparation && keywords=monography && keywords!~inprint] %}">Monographs ({% bibliography_count --query @book[keywords!=notaccepted  && keywords!=miszelle &&  keywords!=inpreparation && keywords=monography && keywords!~inprint] %})</a> 
 <a class="btn btn-outline" href="#edited-volumes-{% bibliography_count --query @*[keywords ^= editedvolume && keywords !~ notaccepted && keywords!~inpreparation && keywords!~submitted && keywords!~inprint] %}">Edited Volumes ({% bibliography_count --query @*[keywords ^= editedvolume && keywords !~ notaccepted && keywords!~inpreparation && keywords!~submitted && keywords!~inprint] %})</a> 
@@ -21,9 +21,10 @@ nav_order: 3
 <!--	{% for item in site.data.navigation.publications-quicklinks %}
 <a class="btn btn-outline" href="{{ item.url | relative_url }}">{{ item.title }}</a>{% endfor %}--></div>
 
+<!--
 ## Submitted for Publication / Publications in Preparation ({% bibliography_count --query @*[keywords~=pre] %})
 
-{% bibliography --query @*[keywords~=pre] %}
+{% bibliography --query @*[keywords~=pre] %} -->
 
 ## Accepted for Publication / Publications in Print ({% bibliography_count --query @*[keywords~=accepted] %})
 
