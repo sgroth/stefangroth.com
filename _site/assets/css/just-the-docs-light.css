@@ -7291,21 +7291,21 @@ div.opaque {
 
 body {
   font-family: "Overpass", sans-serif;
-  background-color: #183385;
-  color: #eeebee;
+  background-color: #f5f6fa;
+  color: #5c5962;
 }
 
 h3 {
-  color: #f96e65;
+  color: #e94c4c;
 }
 
-h1, h2 {
+h1 {
   color: #fff;
 }
 
 a {
   white-space: normal !important;
-  color: #eeebee !important;
+  color: #5c5962 !important;
   text-decoration: none !important;
   text-decoration-color: #2869e6 !important;
 }
@@ -7330,20 +7330,25 @@ a {
 }
 
 .site-nav {
-  background-color: #183385 !important;
+  background-color: #f5f6fa !important;
 }
 
 .site-button {
-  background-color: #183385 !important;
+  background-color: #f5f6fa !important;
 }
 
 .site-footer, .site-footer a {
-  color: #eeebee;
-  background-color: #183385;
+  color: #5c5962;
+  background-color: #f5f6fa;
 }
 
 .site-title {
-  background-color: #183385 !important;
+  background-color: #f5f6fa !important;
+  color: #dd2e2e !important;
+}
+
+.site-title a {
+  color: #dd2e2e !important;
 }
 
 .side-bar {
@@ -7353,7 +7358,7 @@ a {
 @media screen and (min-width: 1000px) {
   .side-bar,
   .main {
-    background-color: #183385;
+    background-color: #f5f6fa;
     padding-top: 6rem;
   }
   .site-header {
@@ -7370,7 +7375,7 @@ a {
   }
   .side-bar {
     padding-right: 5rem;
-    background-color: #183385;
+    background-color: #f5f6fa;
   }
   .site-title-l {
     display: none;
@@ -7382,7 +7387,8 @@ a {
   }
 }
 .site-title {
-  color: #eeebee;
+  color: #dd2e2e !important;
+  font-weight: 500 !important;
 }
 
 .site-title:hover {
@@ -7396,7 +7402,7 @@ a {
 }
 
 .nav-list-link {
-  color: #eeebee;
+  color: #5c5962;
 }
 
 .nav-list-link.active {
@@ -7412,7 +7418,7 @@ a {
 
 .nav-list .nav-list-item {
   font-size: 1rem !important;
-  color: #eeebee;
+  color: #f5f6fa;
 }
 @media (min-width: 31.25rem) {
   .nav-list .nav-list-item {
@@ -7421,7 +7427,7 @@ a {
 }
 
 hr {
-  background-color: #264caf !important;
+  background-color: #183385 !important;
 }
 
 .start {
@@ -7432,11 +7438,11 @@ hr {
 .cv {
   margin-bottom: 3rem;
   padding-bottom: 1rem;
-  border-bottom: 1px solid #264caf;
+  border-bottom: 0px solid #183385;
 }
 
 .cv h1 {
-  color: #f96e65;
+  color: #e94c4c;
   font-size: 1.125rem !important;
   margin-bottom: 2rem;
 }
@@ -7449,7 +7455,7 @@ hr {
 
 .cv h2 {
   font-size: 1rem !important;
-  color: #f96e65;
+  color: #e94c4c;
   font-weight: 500;
 }
 @media (min-width: 31.25rem) {
@@ -7460,7 +7466,7 @@ hr {
 
 .cv h3 {
   font-size: 0.875rem !important;
-  color: #ecebed;
+  color: #44434d;
   font-weight: 400;
 }
 @media (min-width: 31.25rem) {
@@ -7484,19 +7490,20 @@ hr {
 
 .about {
   margin-bottom: 3rem !important;
-  color: #eeebee;
+  color: #5c5962 !important;
 }
 
 .about-links {
-  color: #f96e65 !important;
+  color: #dd2e2e !important;
   word-break: normal;
+  font-weight: 500;
   white-space: normal !important;
   text-decoration: none;
   transition: color 0.5s ease;
 }
 
 .about-links:hover {
-  color: #2869e6 !important;
+  color: #f77e7e !important;
 }
 
 .aktuelle-projekte {
@@ -7505,7 +7512,7 @@ hr {
 }
 
 .aktuelle-projekte a {
-  color: #264caf !important;
+  color: #183385 !important;
   white-space: normal !important;
   background-image: none !important;
   border-bottom: 1px dotted #ecebed;
@@ -7524,13 +7531,13 @@ hr {
 }
 
 .aktuelles {
-  color: #ecebed !important;
+  color: #44434d !important;
   padding-left: 0em !important;
   margin-left: 0em !important;
 }
 
 .aktuelles a {
-  color: #f96e65 !important;
+  color: #dd2e2e !important;
   white-space: normal !important;
   background-image: none !important;
   border-bottom: 0px dotted #ecebed;
@@ -7538,7 +7545,7 @@ hr {
 }
 
 .aktuelles a:hover {
-  color: #2869e6 !important;
+  color: #f96e65 !important;
   border-bottom: 1px dotted #183385;
   text-decoration: none !important;
 }
@@ -7546,15 +7553,6 @@ hr {
 .aktuelles li::before {
   margin-left: 0em !important;
   content: none !important;
-}
-
-.blog {
-  font-size: 1rem !important;
-}
-@media (min-width: 31.25rem) {
-  .blog {
-    font-size: 1.125rem !important;
-  }
 }
 
 .bibliography {

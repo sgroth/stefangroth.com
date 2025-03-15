@@ -1,20 +1,20 @@
 body {
     font-family: 'Overpass', sans-serif;
-    background-color: $blue-300;
-    color: $grey-lt-100;
+    background-color: $grey-lt-000;
+    color: $grey-dk-100;
 }
 
 h3 {
-    color: $red-100;
+    color: $red-200;
 }
 
-h1, h2 {
+h1 {
     color: #fff;
 }
 
 a {
     white-space: normal !important;
-    color: $grey-lt-100 !important;
+    color: $grey-dk-100 !important;
     text-decoration: none !important;
     text-decoration-color: $blue-100 !important;
 }
@@ -33,23 +33,24 @@ a {
 }
 
 .site-nav {
-    background-color: $blue-300 !important;
+    background-color: $grey-lt-000 !important;
 }
 
 .site-button {
-        background-color: $blue-300 !important;
+        background-color: $grey-lt-000 !important;
 }
 .site-footer, .site-footer a {
-    color: $grey-lt-100;
-    background-color: $blue-300;
+    color: $grey-dk-100;
+    background-color: $grey-lt-000;
 }
 
 .site-title {
-    background-color: $blue-300 !important;
+    background-color: $grey-lt-000 !important;
+    color: $red-300 !important; 
 }
 
 .site-title a {
- 
+    color: $red-300 !important;
 }
 
 .side-bar {
@@ -60,7 +61,7 @@ a {
 
     .side-bar,
     .main {
-        background-color: $blue-300;
+        background-color: $grey-lt-000;
         padding-top: 6rem;
     }
 
@@ -82,7 +83,7 @@ a {
 
     .side-bar {
         padding-right: 5rem;
-        background-color: $blue-300;
+        background-color: $grey-lt-000;
     }
 
     .site-title-l {
@@ -97,7 +98,8 @@ a {
 }
 
 .site-title {
-    color: $grey-lt-100;
+    color: $red-300 !important;
+    font-weight: 500 !important;
 }
 
 .site-title:hover {
@@ -111,7 +113,7 @@ a {
 }
 
 .nav-list-link {
-    color: $grey-lt-100;
+    color: $grey-dk-100;
 }
 
 .nav-list-link.active {
@@ -127,11 +129,11 @@ a {
 
 .nav-list .nav-list-item {
     @include fs-5;
-    color: $grey-lt-100;
+    color: $grey-lt-000;
 }
 
 hr {
-    background-color: $blue-200 !important;
+    background-color: $blue-300 !important;
 }
 
 .start {
@@ -142,24 +144,24 @@ hr {
 .cv {
     margin-bottom: 3rem;
     padding-bottom: 1rem;
-    border-bottom: 1px solid $blue-200;
+    border-bottom: 0px solid $blue-300;
 }
 
 .cv h1 {
-    color: $red-100;
+    color: $red-200;
     @include fs-6;
     margin-bottom: 2rem;
 }
 
 .cv h2 {
     @include fs-5;
-    color: $red-100;
+    color: $red-200;
     font-weight: 500;
 }
 
 .cv h3 {
     @include fs-4;
-    color: $grey-lt-200;
+    color: $grey-dk-200;
     font-weight: 400;
 }
 
@@ -173,19 +175,20 @@ hr {
 
 .about {
     margin-bottom: 3rem !important;
-    color: $grey-lt-100;
+    color: $grey-dk-100 !important;
 }
 
 .about-links {
-    color: $red-100 !important;
+    color: $red-300 !important;
     word-break: normal;
+    font-weight: 500;
     white-space: normal !important;
     text-decoration: none;
     transition: color 0.5s ease;
 }
 
 .about-links:hover {
-    color: $blue-100 !important;
+    color: $red-000 !important;
 }
 
 .aktuelle-projekte {
@@ -194,7 +197,7 @@ hr {
 }
 
 .aktuelle-projekte a {
-    color: $blue-200 !important;
+    color: $blue-300 !important;
     white-space: normal !important;
     background-image: none !important;
     border-bottom: 1px dotted $grey-lt-200;
@@ -213,13 +216,13 @@ hr {
 }
 
 .aktuelles {
-    color: $grey-lt-200 !important;
+    color: $grey-dk-200 !important;
     padding-left: 0em !important;
     margin-left: 0em !important;
 }
 
 .aktuelles a {
-    color: $red-100 !important;
+    color: $red-300 !important;
     white-space: normal !important;
     background-image: none !important;
     border-bottom: 0px dotted $grey-lt-200;
@@ -227,7 +230,7 @@ hr {
 }
 
 .aktuelles a:hover {
-    color: $blue-100 !important;
+    color: $red-100 !important;
     border-bottom: 1px dotted $blue-300;
     text-decoration: none !important;
 }
@@ -237,9 +240,7 @@ hr {
     content: none !important;
 }
 
-.blog {
-    @include fs-5;
-}
+.kontext {}
 
 .bibliography {
     /* These are technically the same, but use both */

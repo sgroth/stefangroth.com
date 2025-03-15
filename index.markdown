@@ -5,32 +5,32 @@ title: Stefan Groth
 layout: start
 nav_order: 1
 ---
-<h1 class="about display-2">Ich bin <span class="">Berater für politische Kommunikation</span> bei <a class="about-links" href="https://www.neueshandeln.de"><span style="display: inline-block;"><i class="fas fa-arrow-right fa-xs pr-2"></i>neues handeln</span></a> und <span class="">Privatdozent</span> für <a class="about-links" href="https://www.isek.uzh.ch/de/populärekulturen.html"><span style="display: inline-block;"><i class="fas fa-arrow-right fa-xs pr-2"></i>Empirische </span> Kulturwissenschaft</a> an der Universität Zürich.</h1>
+<!--<h1 class="about display-2">Ich arbeite bei der <a class="about-links" href="https://www.arbeitsagentur.de"><span style="display: inline-block;"><i class="fas fa-arrow-right fa-xs pr-2"></i>Bundesagentur für Arbeit</span></a> und bin <span class="">Privatdozent</span> für <a class="about-links" href="https://www.isek.uzh.ch/de/populärekulturen.html"><span style="display: inline-block;"><i class="fas fa-arrow-right fa-xs pr-2"></i>Empirische </span> Kulturwissenschaft</a> an der Universität Zürich.</h1>-->
 
-<img src="assets/img/profile.jpg" />
+<!--<img src="assets/img/profile.jpg" />-->
 
-<!--### Current Projects
-{: .text-blue-200 .fw-500 }
+### Aktuelles
+{: .text-red-300 .fw-500 }
+<ul class="fa-ul aktuelles">
+  <li><span class="fa-li"><i class="fas fa-arrow-right fa-sm"></i></span>10/2024 &#8212; Neu erschienen: <a href="https://academic.oup.com/isp/advance-article-abstract/doi/10.1093/isp/ekae019/7848745">Studying Narratives in International Relations</a> (International Studies Perspectives)</li>
+  <li><span class="fa-li"><i class="fas fa-arrow-right fa-sm"></i></span>12/2023 &#8212; Neu erschienen: <a href="https://ee.openlibhums.org/article/id/8844/">"Truthy" and "Sticky" Narratives of Euroscepticism: Narratological Approaches to Appropriateness in Digital Contexts</a> (Ethnologia Europaea).</li>
+</ul>
+
+### Ausgewählte Publikationen
+{: .text-blue-300 .fw-500 }
 
 <ul class="fa-ul aktuelle-projekte">
-{% assign sorted = site.projects | sort: 'recent_order' %}
+  <li><span class="fa-li"><i class="fas fa-arrow-right fa-sm"></i></span><a href="https://www.waxmann.com/waxmann-buecher/?no_cache=1&tx_p2waxmann_pi2%5Bbuch%5D=BUC128823&tx_p2waxmann_pi2%5Baction%5D=show&tx_p2waxmann_pi2%5Bcontroller%5D=Buch&cHash=4fbc8ffd2ac3ac75d512133fce98be75">Moral in Arbeitskontexten:</a> May, Sarah, Stefan Groth, und Johannes Müske, Hrsg. 2023. Morality as Organizational Practice: Negotiating, Performing, and Navigating Moral Standards in Contexts of Work (Waxmann).</li>
+  <li><span class="fa-li"><i class="fas fa-arrow-right fa-sm"></i></span><a href="https://www.campus.de/buecher-campus-verlag/wissenschaft/kulturwissenschaften/vernetzt_entgrenzt_prekaer-15632.html?srsltid=AfmBOopjZiU96nFJi-u0uQyjygu4fgKsDl1zck2r_mWP060mZVEOI4fp">Arbeit im Wandel I:</a> Groth, Stefan, Sarah May, und Johannes Müske, Hrsg. 2020. Vernetzt, entgrenzt, prekär? Kulturwissenschaftliche Perspektiven auf Arbeit im Wandel (Campus).</li>
+  <li><span class="fa-li"><i class="fas fa-arrow-right fa-sm"></i></span><a href="https://mediarep.org/server/api/core/bitstreams/ad64665f-5d97-494e-ac26-4a1f7a7cbc33/content">Arbeit im Wandel II:</a> Groth, Stefan, und Johannes Müske. 2019. „Arbeit 4.0? Kulturwissenschaftliche Perspektiven auf Arbeit im Wandel“. AugenBlick. Konstanzer Hefte zur Medienwissenschaft 73: 11–20.</li>
+  
+<!--{% assign sorted = site.projects | sort: 'recent_order' %}
 {% for projekt in sorted %}
 {% if projekt.is_recent == true %}
   <li><span class="fa-li"><i class="fas fa-arrow-right fa-sm"></i></span><a href="{{ projekt.url | prepend: site.baseurl | prepend: site.url}}">{{ projekt.title }}</a>{% if projekt.projekt_details %}: {{ projekt.projekt_details }}{% endif %} {% if projekt.projekt_annote %} ({{ projekt.projekt_annote }}){% endif %}</li>
   {% endif %}
-{% endfor %}
-</ul>-->
-
-
-### Aktuelles
-{: .text-red-100 .fw-500 }
-<ul class="fa-ul aktuelles">
-<li><span class="fa-li"><i class="fas fa-arrow-right fa-sm"></i></span>12/2023 &#8212; Neu erschienen: <a href="https://ee.openlibhums.org/article/id/8844/">"Truthy" and "Sticky" Narratives of Euroscepticism: Narratological Approaches to Appropriateness in Digital Contexts</a> (Ethnologia Europaea).</li>
-<li><span class="fa-li"><i class="fas fa-arrow-right fa-sm"></i></span>12/2023 &#8212; Neu erschienen: <a href="https://www.waxmann.com/waxmann-buecher/?no_cache=1&tx_p2waxmann_pi2%5Bbuch%5D=BUC128823&tx_p2waxmann_pi2%5Baction%5D=show&tx_p2waxmann_pi2%5Bcontroller%5D=Buch&cHash=4fbc8ffd2ac3ac75d512133fce98be75">Morality as Organizational Practice</a> (Sammelband).</li>
-<li><span class="fa-li"><i class="fas fa-arrow-right fa-sm"></i></span>07/2023 &#8212; Neu erschienen: <a href="https://www.researchgate.net/publication/371904841_Populare_Narrative_des_Politischen_Euroskeptizismus_aus_Sicht_der_Empirischen_Kulturwissenschaft">Populäre Narrative des Politischen: Euroskeptizismus aus Sicht der Empirischen Kulturwissenschaft"</a> – meine Antrittsvorlesung als Privatdozent an der 
-Universität Zürich im Schweizerischen Archiv für Volkskunde.</li>
+{% endfor %}-->
 </ul>
-
 
 <!--Meine Habilitation habe ich über "Mittelmaß als Praxis und Konstellation: Orientierungen am Mittelmaß aus empirisch-kulturwissenschaftlicher Perspektive" verfasst, 2021 erfolgte die Ernennung zum Privatdozenten an der Philosophischen Fakultät der Universität Zürich. Ich habe in Göttingen und Udine Soziologie, Kulturanthropologie / Europäische Ethnologie und Wirtschaft- und Sozialpsychologie studiert. Geforscht und gelehrt habe ich in Göttingen als Teil einer interdisziplinären Forschergruppe zu kulturellem Eigentum, als Fellow am Käte Hamburger Kolleg / Centre for Global Cooperation Research und als Postdoc an der Universität Bonn.
 {: .fs-5 .mt-8}

@@ -64,7 +64,7 @@ stefangroth:
 
 scholar:
   style: ./_includes/bibliography/csl/chicago-notitlecase.csl
-  locale: en
+  locale: de
 
   sort_by: year
   order: descending

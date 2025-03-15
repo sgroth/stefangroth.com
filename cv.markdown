@@ -3,6 +3,7 @@ layout: cv
 title: Curriculum Vitae
 permalink: /cv/
 nav_order: 2
+published: false
 ---
 <h1>Curriculum Vitae</h1>
 
