@@ -7619,6 +7619,15 @@ a {
   border: 0 !important;
 }
 
+.main-header {
+  border-bottom: 0px !important;
+  background: #f5f6fa !important;
+}
+
+.site-header {
+  border-bottom: 0px !important;
+}
+
 @media screen and (min-width: 1000px) {
   .side-bar,
   .main {
@@ -7630,6 +7639,7 @@ a {
   }
   .main-header {
     border-bottom: 0px;
+    background: #f5f6fa !important;
   }
   .main {
     padding-left: 5rem;

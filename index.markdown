@@ -5,13 +5,14 @@ title: Stefan Groth
 layout: start
 nav_order: 1
 ---
-<!--<h1 class="about display-2">Ich arbeite bei der <a class="about-links" href="https://www.arbeitsagentur.de"><span style="display: inline-block;"><i class="fas fa-arrow-right fa-xs pr-2"></i>Bundesagentur für Arbeit</span></a> und bin <span class="">Privatdozent</span> für <a class="about-links" href="https://www.isek.uzh.ch/de/populärekulturen.html"><span style="display: inline-block;"><i class="fas fa-arrow-right fa-xs pr-2"></i>Empirische </span> Kulturwissenschaft</a> an der Universität Zürich.</h1>-->
+<h1 class="about display-2">Ich arbeite bei der <a class="about-links" href="https://www.arbeitsagentur.de"><span style="display: inline-block;"><i class="fas fa-arrow-right fa-xs pr-2"></i>Bundesagentur für Arbeit</span></a> und bin <span class="">Privatdozent</span> für <a class="about-links" href="https://www.isek.uzh.ch/de/populärekulturen.html"><span style="display: inline-block;"><i class="fas fa-arrow-right fa-xs pr-2"></i>Empirische </span> Kulturwissenschaft</a> an der Universität Zürich.</h1>
 
-<!--<img src="assets/img/profile.jpg" />-->
+<!--<img src="assets/img/profile.jpg"/>  -->
 
 ### Aktuelles
 {: .text-red-300 .fw-500 }
 <ul class="fa-ul aktuelles">
+  <li><span class="fa-li"><i class="fas fa-arrow-right fa-sm"></i></span>Seit April 2025 arbeite ich als Management-Trainee bei der Regionaldirektion NRW der <a href="https://www.arbeitsagentur.de"><span style="display: inline-block;"><i class="fas fa-arrow-right fa-xs pl-1 pr-1"></i>Bundesagentur für Arbeit</span></a>.</li>
   <li><span class="fa-li"><i class="fas fa-arrow-right fa-sm"></i></span>10/2024 &#8212; Neu erschienen: <a href="https://academic.oup.com/isp/advance-article-abstract/doi/10.1093/isp/ekae019/7848745">Studying Narratives in International Relations</a> (International Studies Perspectives)</li>
   <li><span class="fa-li"><i class="fas fa-arrow-right fa-sm"></i></span>12/2023 &#8212; Neu erschienen: <a href="https://ee.openlibhums.org/article/id/8844/">"Truthy" and "Sticky" Narratives of Euroscepticism: Narratological Approaches to Appropriateness in Digital Contexts</a> (Ethnologia Europaea).</li>
 </ul>

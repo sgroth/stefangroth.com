@@ -57,6 +57,15 @@ a {
     border: 0 !important;
 }
 
+.main-header {
+    border-bottom: 0px !important;
+    background: $grey-lt-000 !important;
+  }
+
+.site-header {
+        border-bottom: 0px !important;
+    }
+
 @media screen and (min-width:1000px) {
 
     .side-bar,
@@ -71,6 +80,7 @@ a {
 
     .main-header {
         border-bottom: 0px;
+        background: $grey-lt-000 !important;
     }
 
     .main {
